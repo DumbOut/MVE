@@ -143,13 +143,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -362,13 +362,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -580,13 +580,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -798,13 +798,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -1016,13 +1016,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -1234,13 +1234,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -1565,13 +1565,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -1784,13 +1784,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -2003,13 +2003,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -2222,13 +2222,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -2441,13 +2441,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -2660,13 +2660,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -2879,13 +2879,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -3102,13 +3102,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -3320,13 +3320,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -3538,13 +3538,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -3756,13 +3756,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -3974,13 +3974,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -4192,13 +4192,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -4410,13 +4410,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -4628,13 +4628,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -4846,13 +4846,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -5069,13 +5069,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -5287,13 +5287,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 
@@ -5505,13 +5505,13 @@
 				"upgrade": 32000,
 
 				;;minimum population possible in this settlement
-				"min pop": 3200,
+				"min pop": 1800,
 
 				;;maximum population before overcrowding
-				"max pop": 296000,
+				"max pop": 496000,
 
 				;;above this population, each extra pop counts double for squalour
-				"squalour pop": 64000,
+				"squalour pop": 104000,
 			},
 		},
 

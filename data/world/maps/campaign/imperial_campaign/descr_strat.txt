@@ -8786,7 +8786,7 @@ relative 	Ameinias Iolaides, 	Caleope Antigonides,	end
 
 ;-------------- 4$c - Ptolemaic Egypt ---------------
 faction	egypt, religious_caesar
-denari	11100
+denari	9800
 ;--------- 4$c.a - Lower Egypt ----------
 settlement
 {
@@ -16360,7 +16360,7 @@ relative 	Cadeyrn Gabali, 	Boudecea,	end
 
 ;-------------- 4$i - Germans ---------------
 faction	germans, balanced_mao
-denari	5000
+denari	4100
 settlement
 {
 	level large_town
@@ -16393,7 +16393,7 @@ settlement
 	region Sesudata_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator germans
 	building
@@ -18102,9 +18102,8 @@ relative 	Zipoetes, 	Serapia,		Partatua,	Belnirari,	Devnet,	Palacus,	end
 relative 	Partatua, 	Afina,		Ziaelas,	Hestia,	end
 relative 	Belnirari, 	Branka,		Madyes,	Ara,	end
 
-
 faction	spain, fortified_mao
-denari	5000
+denari	4000
 settlement
 {
 	level large_town
@@ -18155,7 +18154,7 @@ settlement
 	region Moron_R
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator spain
 	building
@@ -18224,9 +18223,8 @@ relative 	Caraunios Igaeditani, 	Esselta,		Ambon Igaeditani,	end
 relative 	Gentza Meidubrigensi, 	Barita,	end
 relative 	Kemen Elbocori, 	Huctia,	end
 
-
 faction	thrace, sailor_napoleon
-denari	5000
+denari	4400
 settlement
 {
 	level large_town
@@ -18835,22 +18833,21 @@ relative 	Lutgardis Reudigni, 	Eponina,	end
 
 faction	vandals, germanic_passive
 dead_until_resurrected
-denari	6000
-
+denari	500
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;           DANYMOK FACTIONS             ;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	nabataea, fortified_napoleon
-denari	6800
+denari	9710
 settlement
 {
 	level city
 	region Sinai
 
 	year_founded 0
-	population 4800
+	population 4850
 	plan_set default_set
 	faction_creator nabataea
 	building
@@ -18875,6 +18872,14 @@ settlement
 	}
 	building
 	{
+		type temple_of_healing temple_of_healing_pantheon
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
 		type hinterland_farms farms
 	}
 	building
@@ -18893,11 +18898,27 @@ settlement
 	faction_creator nabataea
 	building
 	{
-		type core_building governors_house
+		type core_building governors_villa
 	}
 	building
 	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type temple_of_healing temple_of_healing_pantheon
+	}
+	building
+	{
+		type equestrian stables
 	}
 	building
 	{
@@ -18906,20 +18927,36 @@ settlement
 }
 settlement
 {
-	level town
+	level large_town
 	region Aila_R
 
 	year_founded 0
-	population 900
+	population 1000
 	plan_set default_set
 	faction_creator nabataea
 	building
 	{
-		type core_building governors_house
+		type core_building governors_villa
 	}
 	building
 	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type temple_of_healing temple_of_healing_pantheon
+	}
+	building
+	{
+		type equestrian stables
 	}
 	building
 	{
@@ -18932,10 +18969,14 @@ settlement
 	region LeukeKome_R
 
 	year_founded 0
-	population 600
+	population 400
 	plan_set default_set
 	faction_creator nabataea
 	garrisoned_army
+	unit	arab levy		exp 0 armour 0 weapon_lvl 0
+	unit	arab levy		exp 0 armour 0 weapon_lvl 0
+	unit	arab levy		exp 0 armour 0 weapon_lvl 0
+	unit	arab levy		exp 0 armour 0 weapon_lvl 0
 	unit	arab levy		exp 0 armour 0 weapon_lvl 0
 	unit	east slinger		exp 0 armour 0 weapon_lvl 0
 	building
@@ -18949,7 +18990,7 @@ settlement
 	region Tabawa_R
 
 	year_founded 0
-	population 1610
+	population 1600
 	plan_set default_set
 	faction_creator nabataea
 	building
@@ -18983,10 +19024,15 @@ settlement
 	region Eboda_R
 
 	year_founded 0
-	population 570
+	population 500
 	plan_set default_set
 	faction_creator nabataea
 	garrisoned_army
+	unit	arab levy		exp 0 armour 0 weapon_lvl 0
+	unit	arab levy		exp 0 armour 0 weapon_lvl 0
+	unit	arab levy		exp 0 armour 0 weapon_lvl 0
+	unit	arab levy		exp 0 armour 0 weapon_lvl 0
+	unit	arab levy		exp 0 armour 0 weapon_lvl 0
 	unit	arab levy		exp 0 armour 0 weapon_lvl 0
 	unit	east slinger		exp 0 armour 0 weapon_lvl 0
 	building
@@ -19001,29 +19047,69 @@ settlement
 
 ;	Petra
 character	Aretas, named character, leader, age 47, , x 455, y 210, portrait_index 052
-traits GoodCommander 2 , NaturalMilitarySkill 2 , PublicFaith 2 , GoodAdministrator 3
+traits GoodCommander 5 , Warlord 4 , GoodDefender 3 , NaturalMilitarySkill 4 , PublicFaith 2 , GoodAdministrator 3
 ancillaries merchant
 army
-unit		nabataean generals cavalry		exp 4 armour 0 weapon_lvl 1
+unit		nabataean generals cavalry		exp 9 armour 3 weapon_lvl 3
+unit		nabataean generals cavalry		exp 9 armour 3 weapon_lvl 3
+unit		nabataean generals cavalry		exp 9 armour 3 weapon_lvl 3
+unit		east clibinarii cataphract	exp 3 armour 0 weapon_lvl 0
+unit		east clibinarii cataphract	exp 3 armour 0 weapon_lvl 0
+unit		east clibinarii cataphract	exp 3 armour 0 weapon_lvl 0
+unit		east clibinarii cataphract	exp 3 armour 0 weapon_lvl 0
 unit		eastern levy cavalry		exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 3 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
 unit		arab levy					exp 0 armour 0 weapon_lvl 0
 unit		arab levy					exp 0 armour 0 weapon_lvl 0
 
 ;	Tabawa
 character	Yada, named character, heir, age 27, , x 466, y 189
-traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 1 , GoodCavalryGeneral 1
-ancillaries galloper
+traits GoodCommander 5 , Warlord 4 , GoodDefender 3 , NaturalMilitarySkill 4 , PublicFaith 2 , GoodAdministrator 3 , GoodCavalryGeneral 2
+ancillaries galloper, bodyguard
 army
-unit		nabataean generals cavalry		exp 1 armour 0 weapon_lvl 0
-unit		east clibinarii cataphract	exp 0 armour 0 weapon_lvl 0
+unit		nabataean generals cavalry		exp 9 armour 3 weapon_lvl 3
+unit		east clibinarii cataphract	exp 3 armour 0 weapon_lvl 0
+unit		east clibinarii cataphract	exp 3 armour 0 weapon_lvl 0
+unit		east clibinarii cataphract	exp 3 armour 0 weapon_lvl 0
+unit		east clibinarii cataphract	exp 3 armour 0 weapon_lvl 0
+unit		east clibinarii cataphract	exp 3 armour 0 weapon_lvl 0
 unit		desert raider				exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 3 armour 0 weapon_lvl 0
+unit		arab levy					exp 3 armour 0 weapon_lvl 0
+unit		arab levy					exp 3 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
 
 ;	Aila
 character	Obodas, named character, age 24, , x 450, y 200
-traits PublicFaith 1
-ancillaries desert_scout
+traits GoodCommander 5 , Warlord 4 , GoodDefender 3 , NaturalMilitarySkill 4 , PublicFaith 2 , GoodAdministrator 3 , GoodCavalryGeneral 2
+ancillaries desert_scout, shieldbearer
 army
-unit		nabataean generals cavalry		exp 1 armour 0 weapon_lvl 0
+unit		nabataean generals cavalry		exp 9 armour 3 weapon_lvl 3
+unit		nabataean generals cavalry		exp 5 armour 2 weapon_lvl 3
+unit		east clibinarii cataphract	exp 3 armour 0 weapon_lvl 0
+unit		east clibinarii cataphract	exp 3 armour 0 weapon_lvl 0
+unit		east clibinarii cataphract	exp 3 armour 0 weapon_lvl 0
+unit		arab levy					exp 3 armour 0 weapon_lvl 0
+unit		arab levy					exp 3 armour 0 weapon_lvl 0
+unit		arab levy					exp 3 armour 0 weapon_lvl 0
+unit		arab levy					exp 3 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
 unit		arab levy					exp 0 armour 0 weapon_lvl 0
 unit		arab levy					exp 0 armour 0 weapon_lvl 0
 unit		east slinger				exp 0 armour 0 weapon_lvl 0
@@ -19031,15 +19117,24 @@ unit		east slinger				exp 0 armour 0 weapon_lvl 0
 
 ;	Bostra
 character	Murthid, named character, age 23, , x 462, y 236
-traits NaturalMilitarySkill 1 , PublicFaith 1 , GoodAdministrator 1
+traits GoodCommander 5 , Warlord 4 , GoodDefender 3 , NaturalMilitarySkill 4 , PublicFaith 2 , GoodAdministrator 3 , GoodCavalryGeneral 2
+ancillaries desert_scout, shieldbearer
 army
+unit		nabataean generals cavalry		exp 9 armour 3 weapon_lvl 3
 unit		nabataean generals cavalry		exp 1 armour 0 weapon_lvl 0
+unit		east clibinarii cataphract	exp 1 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
+unit		arab levy					exp 0 armour 0 weapon_lvl 0
 unit		arab levy					exp 0 armour 0 weapon_lvl 0
 unit		arab levy					exp 0 armour 0 weapon_lvl 0
 
 ;	outside Petra
 character	Nasir, diplomat, age 30, , x 458, y 210
-traits GoodDiplomat 3
+traits GoodDiplomat 4
 
 ;	outside Petra
 character	Sumyafa, spy, age 20, , x 456, y 213
@@ -19058,10 +19153,9 @@ relative 	Yada,		Hullah,		Hababah,		end
 relative 	Obodas,		Aglaurus,		Massinissa,		end
 
 
-
 ;	Sparta (not Acarnania)
 faction	acarnania, balanced_smith
-denari	9310
+denari	9300
 settlement
 {
 	level city
@@ -19110,7 +19204,7 @@ settlement
 	region Kythera_R
 
 	year_founded 0
-	population 600
+	population 570
 	plan_set default_set
 	faction_creator acarnania
 	building
@@ -19141,7 +19235,7 @@ settlement
 	region Zarax_R
 
 	year_founded 0
-	population 330
+	population 320
 	plan_set default_set
 	faction_creator acarnania
 	building
@@ -19208,6 +19302,7 @@ settlement
 	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
 	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
 	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
+	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -19240,6 +19335,8 @@ settlement
 	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
 	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
 	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
+	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
+	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -19256,7 +19353,7 @@ settlement
 
 ;	Crete
 character	Areus Agides, named character, leader, age 48, , x 318, y 277
-traits GoodCommander 5 , NaturalMilitarySkill 4 , StrategicSkill 2 , GoodDefender 5 , Austere 2 , Intelligent 2 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , StrategicSkill 3 , GoodDefender 5 , Austere 2 , Intelligent 3 , Warlord 4 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries wrestler, comedian, merchant
 army
 unit		spartan royal guard				exp 9 armour 9 weapon_lvl 9
@@ -19271,13 +19368,13 @@ unit		spartan youths				exp 0 armour 0 weapon_lvl 0
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 2
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 2
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
-unit		merc cretan archers			exp 1 armour 0 weapon_lvl 1
+unit		merc cretan archers			exp 1 armour 0 weapon_lvl 2
 unit		merc cretan archers			exp 1 armour 0 weapon_lvl 1
 unit		merc rhodian slingers		exp 1 armour 0 weapon_lvl 0
 
 ;	Sparta
 character	AcrotatusB Agides, named character, heir, age 26, , x 318, y 276
-traits GoodCommander 5 , NaturalMilitarySkill 2 , StrategicSkill 2 , GoodDefender 5 , Austere 2 , Intelligent 2 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , StrategicSkill 3 , GoodDefender 5 , Austere 2 , Intelligent 3 , Warlord 4 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries playwright, shieldbearer
 army
 unit		spartan royal guard				exp 9 armour 9 weapon_lvl 9
@@ -19299,7 +19396,7 @@ unit		spartan youths				exp 0 armour 0 weapon_lvl 0
 
 ;	Kythera
 character	Eudamidas Eurypontides, named character, age 39, , x 325, y 266
-traits GoodCommander 5 , NaturalMilitarySkill 2 , StrategicSkill 2 , GoodDefender 5 , Austere 2 , Intelligent 2 , GoodAttacker 5 , GoodAdministrator 3 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , StrategicSkill 3 , GoodDefender 5 , Austere 2 , Intelligent 3 , Warlord 4 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries poet, shieldbearer
 army
 unit		spartan royal guard				exp 9 armour 9 weapon_lvl 9
@@ -19307,6 +19404,9 @@ unit		spartan royal guard				exp 9 armour 9 weapon_lvl 9
 unit		spartan greek hoplite		exp 0 armour 0 weapon_lvl 0
 unit		spartan greek hoplite		exp 0 armour 0 weapon_lvl 0
 unit		spartan greek hoplite		exp 5 armour 1 weapon_lvl 2
+unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
+unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
+unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
@@ -19316,7 +19416,7 @@ unit		spartan youths				exp 0 armour 0 weapon_lvl 0
 
 ;	Zarax
 character	Eutychus Deukalides, named character, age 20, , x 326, y 269
-traits GoodCommander 5 , NaturalMilitarySkill 4 , StrategicSkill 2 , GoodDefender 5 , Austere 2 , Intelligent 2 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , StrategicSkill 3 , GoodDefender 5 , Austere 2 , Intelligent 3 , Warlord 4 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries poet, shieldbearer
 army
 unit		spartan royal guard				exp 9 armour 9 weapon_lvl 9
@@ -19324,6 +19424,7 @@ unit		spartan royal guard				exp 9 armour 9 weapon_lvl 9
 unit		spartan greek hoplite		exp 0 armour 0 weapon_lvl 0
 unit		spartan greek hoplite		exp 0 armour 0 weapon_lvl 0
 unit		spartan greek hoplite		exp 5 armour 1 weapon_lvl 2
+unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
@@ -19353,16 +19454,18 @@ unit		merc cretan archers			exp 3 armour 0 weapon_lvl 2
 
 ;	outside Sparta
 character	Xanthippos, diplomat, age 30, , x 319, y 274
-traits GoodDiplomat 3
+traits GoodDiplomat 4
 
 ;	outside Sparta
 character	Charax, spy, age 30, , x 314, y 279
-traits GoodSpy 3
+traits GoodSpy 4
 ancillaries networker
 
 ;	Crete Coast
 character	Menares, admiral, age 20, , x 345, y 259
 army
+unit		naval biremes				exp 2 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
@@ -19490,7 +19593,7 @@ settlement
 	region Parium_R
 
 	year_founded 0
-	population 713
+	population 710
 	plan_set default_set
 	faction_creator pergamon
 	garrisoned_army
@@ -19663,7 +19766,7 @@ relative 	AttalosB Attalides, 	Antiochis Seleucides,		AttalosC Attalides,	end
 
 
 faction	libya, trader_napoleon
-denari	5200
+denari	5100
 settlement
 {
 	level large_town
@@ -20037,9 +20140,8 @@ relative 	Glaucias Bardylides, 	Beroea,		Monounios Bardylides,	end
 relative 	Monounios Bardylides, 	Dita,		Mytilos Bardylides,	end
 relative 	Mytilos Bardylides, 	Telephassa,		BardylisB Bardylides,	Ino Bardylides,	Aegon Bardylides,	end
 
-
 faction	epirus, balanced_smith_crazy
-denari	31200
+denari	23900
 ;--------- Greece ----------
 settlement
 {
@@ -22526,10 +22628,8 @@ relative 	Deunoro Olcadi, 	Keyne,		Benat Olcadi,	end
 relative 	Gaizka Lobetani, 	Verctissa,		Dunixi Lobetani,	end
 relative 	Megaravicos Turboleti, 	Barita,	end
 
-
-
-faction	galatia, religious_smith
-denari	8000
+faction	galatia, celtic_passive
+denari	4000
 settlement
 {
 	level large_town
@@ -22713,9 +22813,8 @@ relative 	Gorteyrn Trocmi, 	Eudaf,		Verctissa Trocmi,	end
 relative 	Tincommius Tolistobogi, 	Esselt,		Cuniovenda Tolistobogi,	end
 
 
-
 faction	saka, balanced_genghis
-denari	6000
+denari	5100
 settlement
 {
 	level large_town
@@ -23294,7 +23393,7 @@ relative 	Secundus Porcius, 	Lepida,		Gnaeus Porcius,	end
 
 
 faction	taras, greek_passive
-denari	800
+denari	760
 settlement
 {
 	level large_town
@@ -23866,7 +23965,7 @@ relative 	Togodumnus Bagienni, 	Huctia,		end
 
 
 faction raeti, celtic_passive
-denari	5800
+denari	5300
 settlement
 {
 	level town
@@ -23913,7 +24012,7 @@ settlement
 	region Veldidena_R
 
 	year_founded 0
-	population 600
+	population 570
 	plan_set default_set
 	faction_creator raeti
 	building
@@ -23966,7 +24065,7 @@ relative 	Caratacus Breuni, 	Eudaf,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	corsi, iberian_passive
-denari	5600
+denari	4600
 settlement
 {
 	level town
@@ -24006,7 +24105,7 @@ relative 	Erromon Venacini, 	Verctissa,		Caraunios Venacini,	end
 
 
 faction iolei, iberian_passive
-denari	5700
+denari	5150
 settlement
 {
 	level town
@@ -24035,7 +24134,7 @@ settlement
 	region Macopsissa_R
 
 	year_founded 0
-	population 900
+	population 800
 	plan_set default_set
 	faction_creator iolei
 	building
@@ -24079,7 +24178,7 @@ relative 	Urtzi Lugudonensi, 	Euda,		Ixaka Lugudonensi,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	achea, greek_passive
-denari	3000
+denari	2800
 settlement
 {
 	level large_town
@@ -24117,6 +24216,7 @@ settlement
 	plan_set default_set
 	faction_creator achea
 	garrisoned_army
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
@@ -24164,7 +24264,7 @@ relative 	Cleinias Cleinides,	Chlo,		Aratos Cleinides,	end
 
 ;	Acarnanian League (not Aetolia)
 faction	aetolia, greek_passive
-denari	4000
+denari	3000
 settlement
 {
 	level large_town
@@ -24343,7 +24443,7 @@ relative 	Kalchas Phillipides, 	Theophane,		Kaenas Phillipides,	end
 
 
 faction	arcadia, greek_passive
-denari	4700
+denari	3900
 settlement
 {
 	level large_town
@@ -24377,7 +24477,7 @@ settlement
 	region Mantinea_R
 
 	year_founded 0
-	population 402
+	population 401
 	plan_set default_set
 	faction_creator arcadia
 	garrisoned_army
@@ -24390,7 +24490,6 @@ settlement
 		type core_building governors_house
 	}
 }
-
 
 ;	Megalopolis
 character	Comeas Artylides, named character, leader, age 37, , x 316, y 281 		;;aristodemus
@@ -24409,14 +24508,14 @@ relative 	Comeas Artylides, 	Dione,		Pigres Artylides,	end
 
 
 faction	argos, greek_passive
-denari	6000
+denari	4000
 settlement
 {
 	level large_town
 	region Argos_R
 
 	year_founded 0
-	population 2400
+	population 2100
 	plan_set default_set
 	faction_creator argos
 	building
@@ -24516,7 +24615,7 @@ relative 	Aristippus Aristomachides, 	Cilla,		Menalcas Aristomachides,	end
 
 
 faction	boetia, greek_passive
-denari	7200
+denari	7100
 settlement
 {
 	level large_town
@@ -24630,9 +24729,8 @@ relative 	Mikkos Lykomedides, 	Maiandria,		Thestor Lykomedides,	end
 relative 	Diagoras Hermides, 	Nephele,		end
 
 
-
 faction	elis, greek_passive
-denari	6000
+denari	5000
 settlement
 {
 	level large_town
@@ -25174,9 +25272,8 @@ character_record		Gorgias Aeschylides, 	male, command 0, influence 0, management
 relative 	Megakles Aeschylides, 	Timandra,		Gorgias Aeschylides,	end
 
 
-
 faction	paeonia, greek_passive
-denari	6000
+denari	5000
 settlement
 {
 	level large_town
@@ -30003,7 +30100,7 @@ relative 	Madduwatta Acamides, 	Circe,	end
 
 
 faction troezen, greek_passive
-denari	1300
+denari	900
 settlement
 {
 	level town
@@ -30029,9 +30126,9 @@ settlement
 
 ;	Troezen
 character	Pegasos Demophonidae, named character, leader, age 36, , x 327, y 281
-traits GoodCommander 4, GoodAdministrator 4, GoodTrader 2, GoodInfantryGeneral 2
+traits GoodCommander 2, GoodAdministrator 2, GoodTrader 2, GoodInfantryGeneral 2
 army
-unit		greek general's guard cavalry early	exp 5 armour 3 weapon_lvl 3
+unit		greek general's guard cavalry early	exp 5 armour 1 weapon_lvl 1
 unit		greek hoplite militia			exp 4 armour 0 weapon_lvl 2
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 3 armour 0 weapon_lvl 3
@@ -30056,7 +30153,7 @@ relative 	Thymoetes Demophonidae, 	Circe,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	siraces, nomad_passive
-denari	4000
+denari	3000
 settlement
 {
 	level large_town
@@ -30121,7 +30218,7 @@ settlement
 	region Corusia_R
 
 	year_founded 0
-	population 500
+	population 490
 	plan_set default_set
 	faction_creator siraces
 	building
@@ -30185,7 +30282,6 @@ unit		barbarian horse archers			exp 0 armour 0 weapon_lvl 0
 character	Ziaelas, general, age 20, , x 486, y 391
 army
 unit		barbarian cavalry				exp 0 armour 0 weapon_lvl 0
-unit		barbarian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		barbarian horse archers			exp 0 armour 0 weapon_lvl 0
 
 ;	Corusia
@@ -30219,14 +30315,12 @@ character_record		Madyes, 	male, command 0, influence 0, management 0, subterfug
 
 relative 	Aripharnes, 	Fallon,		Madyes,	end
 
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;            11# BRITANNIA               ;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	brigantes, british_passive
-denari	6000
+denari	5000
 settlement
 {
 	level town
@@ -30255,7 +30349,7 @@ settlement
 	region Galacum_R
 
 	year_founded 0
-	population 900
+	population 870
 	plan_set default_set
 	faction_creator brigantes
 	garrisoned_army
@@ -30287,7 +30381,7 @@ relative 	Cocolitanus Briganti, 	Verica,		Vellocatus Briganti,	end
 
 
 faction	cantiaci, british_passive
-denari	2000
+denari	1000
 settlement
 {
 	level town
@@ -30380,7 +30474,7 @@ settlement
 	region Arnemetiae_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator corieltauvi
 	garrisoned_army
@@ -30409,8 +30503,6 @@ character_record		Cartimandua, 	female, command 0, influence 0, management 0, su
 character_record		Catavignus Corieltauvi, 		male, command 0, influence 0, management 0, subterfuge 0, age 12, alive, never_a_leader
 
 relative 	Cintugnatus Corieltauvi, 	Cartimandua,		Catavignus Corieltauvi,	end
-
-
 
 faction	demetae, british_passive
 denari	6000
@@ -39654,7 +39746,7 @@ settlement
 	region Pataliputra_R
 
 	year_founded 0
-	population 1035
+	population 1025
 	plan_set default_set
 	faction_creator india
 	building
@@ -39668,24 +39760,6 @@ settlement
 	building
 	{
 		type port_buildings port
-	}
-}
-settlement
-{
-	level town
-	region Peperine_R
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator india
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
 	}
 }
 settlement
@@ -42091,11 +42165,6 @@ traits GoodDiplomat 1
 
 ;	Haritakivan
 character	Taharqa, general, age 20, , x 970, y 244
-army
-unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
-
-;	Peperine
-character	Taharqa, general, age 20, , x 881, y 117
 army
 unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 
@@ -46569,11 +46638,32 @@ settlement
 	region Kantakasola_R
 
 	year_founded 0
-	population 450
+	population 412
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
+	region Peperine_R
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator india
+	garrisoned_army
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
@@ -46631,7 +46721,7 @@ settlement
 	region Bardaxema_R
 
 	year_founded 0
-	population 550
+	population 500
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
