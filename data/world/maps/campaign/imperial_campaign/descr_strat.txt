@@ -46644,7 +46644,6 @@ settlement
 	garrisoned_army
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -52268,7 +52267,6 @@ unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 ;	Nigira Metropolis
 character	sub_faction numidia, Akbar, general, age 20, , x 73, y 36
 army
-unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
