@@ -1532,6 +1532,16 @@ Sidone_R
 Sidone
 Siraf_R
 Siraf
+Dayya_R
+Dayya
+Bushahr_R
+Bushahr
+Fariyah_R
+Fariyah
+Abdun_Taocene_R
+Abdun_Taocene
+Parsha_R
+Parsha
 Syringis_R
 Syringis
 Tabai_R
