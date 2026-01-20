@@ -9,9 +9,9 @@
 	;;technically as long as you have a unique number (within uint_max, of course) for your mod this will still work, and if you leave this part out your mod will always use that of the previously loaded mod,
 	;;although it might break if you actually use cultures, factions or climates anywhere
 
-	"culture hash": 143301507650,
-	"faction hash": 289338565519,
-	"climate hash": 914333180804,
+	"culture hash": 1491507650,
+	"faction hash": 276565519,
+	"climate hash": 943180804,
 },
 
 "global parameters":

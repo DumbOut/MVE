@@ -37,7 +37,7 @@
 
 			"sounds":
 			[
-				"data/sounds/music/ebtheme.opus",
+				"data/sounds/music/Frontend1-Rome_Total_War.opus",
 				"data/sounds/music/(stw_menu)_spartan_total_warrior.opus",
 				"data/sounds/music/(tyler_c_g_camp)_the_aegean.opus",
 				"data/sounds/music/(0ad_menu)_honor_bound.opus",
