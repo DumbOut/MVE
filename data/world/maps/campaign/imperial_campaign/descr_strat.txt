@@ -9281,7 +9281,7 @@ settlement
 	region Thebais		;;;;; Diospolis Magna
 
 	year_founded 0
-	population 1700
+	population 1600
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
@@ -52125,7 +52125,7 @@ settlement
 	region TerraIncognita2_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator scythia
 	building
