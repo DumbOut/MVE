@@ -46651,7 +46651,7 @@ settlement
 	region Bhokardan_R
 
 	year_founded 0
-	population 405
+	population 404
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
