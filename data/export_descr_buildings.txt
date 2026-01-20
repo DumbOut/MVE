@@ -18452,7 +18452,7 @@ building greco_persian_palatial_estates
 			{
 				taxable_income_bonus bonus 13 requires factions { seleucid, cappadocia, bactria, pergamon, antiochea_taocene, persis, gedrosia, agyrion, ferghana, }
 				taxable_income_bonus bonus -9986550 requires factions { slave, }
-				taxable_income_bonus bonus -8 requires factions { slave, }
+				taxable_income_bonus bonus -9 requires factions { slave, }
 				taxable_income_bonus bonus 4 requires factions { seleucid, cappadocia, bactria, pergamon, antiochea_taocene, persis, gedrosia, agyrion, ferghana, }
 				trade_base_income_bonus bonus 22 requires factions { seleucid, cappadocia, bactria, pergamon, antiochea_taocene, persis, gedrosia, agyrion, ferghana, }
 				taxable_income_bonus bonus -71799 requires not factions { seleucid, cappadocia, bactria, pergamon, antiochea_taocene, persis, gedrosia, agyrion, ferghana, }
