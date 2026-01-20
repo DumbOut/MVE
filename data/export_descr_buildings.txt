@@ -1,6 +1,6 @@
-; classification option (inside `building` and before first `levels`)
+; classification option (inside `building` and before first `levels`}
 ; Example:
-;	 classification core|defence|military|trade|water|culture|religious (deprecated, but recognised:fortification|infrastructure|other)
+;	 classification core|defence|military|trade|water|culture|religious (deprecated, but recognised:fortification|infrastructure|other}
 ; This tells the game which category of the building browser to use.
 ; RomeHD has subtly different classifications than the original, so note the deprecated classifications, they wont work anymore.
 ; If no classification is specified, the game will guess based on the building name, which works for all the unmodded buildings.
@@ -30,7 +30,7 @@ tags
 	generic_gov
 }
 
-;;alises, give multiple conditions a string (or allow conditions with normally no string to display one)
+;;alises, give multiple conditions a string (or allow conditions with normally no string to display one}
 ; alias roman_marian_reforms_triggered
 ; {
 ; 	requires factions { roman, } and major_event "marian_reforms"
@@ -998,7 +998,7 @@ alias not_faction_in_native_area
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;THRESHOLD A (x<20) ;;;;;;;
+;;;;;;THRESHOLD A (x<20} ;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 alias roman_and_religion_a
@@ -1167,7 +1167,7 @@ alias assyrian_and_religion_a
 }
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;THRESHOLD B (20=<x<40) ;;;;;
+;;;;THRESHOLD B (20=<x<40} ;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 alias roman_and_religion_b
@@ -1336,7 +1336,7 @@ alias assyrian_and_religion_b
 }
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;THRESHOLD C (40=<x<90) ;;;;;
+;;;;THRESHOLD C (40=<x<90} ;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 alias roman_and_religion_c
@@ -1505,7 +1505,7 @@ alias assyrian_and_religion_c
 }
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;THRESHOLD D (x>=90) ;;;;;;;
+;;;;;THRESHOLD D (x>=90} ;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 alias roman_and_religion_d
@@ -2695,7 +2695,7 @@ building core_building
 				recruit "spartan royal guard cavalry"  0  requires marian and militia_barracks_present and not academy_present
 				
 				
-				;;;;;;;;;;;   recruitable generals (exp upgrade 1)    ;;;;;;;;;;;;
+				;;;;;;;;;;;   recruitable generals (exp upgrade 1}    ;;;;;;;;;;;;
 				recruit "barb chieftain cavalry early dacian"  1  requires not marian and militia_barracks_present and academy_present
 				recruit "barb chieftain cavalry early gaul"  1  requires not marian and militia_barracks_present and academy_present
 				recruit "barb chieftain cavalry early german"  1  requires not marian and militia_barracks_present and academy_present
@@ -3017,7 +3017,7 @@ building core_building
 				recruit "spartan royal guard cavalry"  0  requires marian and militia_barracks_present and not academy_present
 				
 				
-				;;;;;;;;;;;   recruitable generals (exp upgrade 1)    ;;;;;;;;;;;;
+				;;;;;;;;;;;   recruitable generals (exp upgrade 1}    ;;;;;;;;;;;;
 				recruit "barb chieftain cavalry early dacian"  1  requires not marian and militia_barracks_present and academy_present
 				recruit "barb chieftain cavalry early gaul"  1  requires not marian and militia_barracks_present and academy_present
 				recruit "barb chieftain cavalry early german"  1  requires not marian and militia_barracks_present and academy_present
@@ -3067,7 +3067,7 @@ building core_building
 				recruit "spartan royal guard cavalry"  1  requires marian and militia_barracks_present and academy_present
 				
 				
-				;;;;;;;;;;;   recruitable generals (exp upgrade 2)    ;;;;;;;;;;;;
+				;;;;;;;;;;;   recruitable generals (exp upgrade 2}    ;;;;;;;;;;;;
 				recruit "barb chieftain cavalry early dacian"  2  requires not marian and militia_barracks_present and scriptorium_present
 				recruit "barb chieftain cavalry early gaul"  2  requires not marian and militia_barracks_present and scriptorium_present
 				recruit "barb chieftain cavalry early german"  2  requires not marian and militia_barracks_present and scriptorium_present
@@ -3389,7 +3389,7 @@ building core_building
 				recruit "spartan royal guard"  0  requires not marian and militia_barracks_present and not academy_present
 				recruit "spartan royal guard cavalry"  0  requires marian and militia_barracks_present and not academy_present			
 				
-				;;;;;;;;;;;   recruitable generals (exp upgrade 1)    ;;;;;;;;;;;;
+				;;;;;;;;;;;   recruitable generals (exp upgrade 1}    ;;;;;;;;;;;;
 				recruit "barb chieftain cavalry early dacian"  1  requires not marian and militia_barracks_present and academy_present
 				recruit "barb chieftain cavalry early gaul"  1  requires not marian and militia_barracks_present and academy_present
 				recruit "barb chieftain cavalry early german"  1  requires not marian and militia_barracks_present and academy_present
@@ -3438,7 +3438,7 @@ building core_building
 				recruit "spartan royal guard"  1  requires not marian and militia_barracks_present and academy_present
 				recruit "spartan royal guard cavalry"  1  requires marian and militia_barracks_present and academy_present
 				
-				;;;;;;;;;;;   recruitable generals (exp upgrade 2)    ;;;;;;;;;;;;
+				;;;;;;;;;;;   recruitable generals (exp upgrade 2}    ;;;;;;;;;;;;
 				recruit "barb chieftain cavalry early dacian"  2  requires not marian and militia_barracks_present and scriptorium_present
 				recruit "barb chieftain cavalry early gaul"  2  requires not marian and militia_barracks_present and scriptorium_present
 				recruit "barb chieftain cavalry early german"  2  requires not marian and militia_barracks_present and scriptorium_present
@@ -3488,7 +3488,7 @@ building core_building
 				recruit "spartan royal guard cavalry"  2  requires marian and militia_barracks_present and scriptorium_present
 				
 				
-				;;;;;;;;;;;   recruitable generals (exp upgrade 3)    ;;;;;;;;;;;;
+				;;;;;;;;;;;   recruitable generals (exp upgrade 3}    ;;;;;;;;;;;;
 				recruit "barb chieftain cavalry early dacian"  3  requires not marian and militia_barracks_present and ludus_magnus_present
 				recruit "barb chieftain cavalry early gaul"  3  requires not marian and militia_barracks_present and ludus_magnus_present
 				recruit "barb chieftain cavalry early german"  3  requires not marian and militia_barracks_present and ludus_magnus_present
@@ -7783,15 +7783,15 @@ building port_buildings
 				recruit "naval boats"  0 
 				recruit "naval biremes"  0 
 				
-				;;naval temple units (upgrade 1)
+				;;naval temple units (upgrade 1}
 				recruit "naval boats"  1 
 				recruit "naval biremes"  1 
 				
-				;;naval temple units (upgrade 2)
+				;;naval temple units (upgrade 2}
 				recruit "naval boats"  2 
 				recruit "naval biremes"  2 
 				
-				;;naval temple units (upgrade 3)
+				;;naval temple units (upgrade 3}
 				recruit "naval boats"  3 
 				recruit "naval biremes"  3 
 				
@@ -7840,19 +7840,19 @@ building port_buildings
 				recruit "naval biremes"  0 
 				recruit "naval triremes"  0 
 				
-				;;naval temple units (upgrade 1)
+				;;naval temple units (upgrade 1}
 				recruit "naval boats"  1 
 				recruit "naval biremes"  1 
 				recruit "naval large boats"  1 
 				recruit "naval triremes"  1 
 				
-				;;naval temple units (upgrade 2)
+				;;naval temple units (upgrade 2}
 				recruit "naval boats"  2 
 				recruit "naval biremes"  2 
 				recruit "naval large boats"  2 
 				recruit "naval triremes"  2 
 				
-				;;naval temple units (upgrade 3)
+				;;naval temple units (upgrade 3}
 				recruit "naval boats"  3 
 				recruit "naval biremes"  3 
 				recruit "naval large boats"  3 
@@ -7905,14 +7905,14 @@ building port_buildings
 				recruit "naval corvus quinquireme"  0  
 				recruit "naval deceres"  0  
 				
-				;;naval temple units (upgrade 1)
+				;;naval temple units (upgrade 1}
 				recruit "naval boats"  1 
 				recruit "naval biremes"  1 
 				recruit "naval large boats"  1 
 				recruit "naval triremes"  1 
 				recruit "naval quinquiremes"  1 
 				
-				;;naval temple units (upgrade 2)
+				;;naval temple units (upgrade 2}
 				recruit "naval boats"  2 
 				recruit "naval biremes"  2 
 				recruit "naval large boats"  2 
@@ -7921,7 +7921,7 @@ building port_buildings
 				recruit "naval corvus quinquireme"  1 
 				recruit "naval deceres"  1 
 				
-				;;naval temple units (upgrade 3)
+				;;naval temple units (upgrade 3}
 				recruit "naval boats"  3 
 				recruit "naval biremes"  3 
 				recruit "naval large boats"  3 
@@ -7930,7 +7930,7 @@ building port_buildings
 				recruit "naval corvus quinquireme"  2 
 				recruit "naval deceres"  2 
 				
-				;;naval temple units (upgrade 4)
+				;;naval temple units (upgrade 4}
 				recruit "naval corvus quinquireme"  3 
 				recruit "naval deceres"  3
 
@@ -8300,7 +8300,7 @@ building hinterland_roads
 				taxable_income_bonus bonus -86550 requires factions { slave, }
 				trade_base_income_bonus bonus -64 requires factions { slave, }
 				taxable_income_bonus bonus 24
-				taxable_income_bonus bonus 3 requires factions ( roman, greek, )
+				taxable_income_bonus bonus 3 requires factions { roman, greek, }
 				trade_base_income_bonus bonus 5
 				road_level 2
 			}
