@@ -3062,7 +3062,7 @@ faction			acarnania
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
 strat_model		sm_spartan_lesser_general
-battle_model	greek_lesser_general
+battle_model	sm_spartan_lesser_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			troezen
