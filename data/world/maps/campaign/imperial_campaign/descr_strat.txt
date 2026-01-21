@@ -23534,7 +23534,7 @@ settlement
 	region Tergeste_R
 
 	year_founded 0
-	population 1700
+	population 1300
 	plan_set default_set
 	faction_creator histri
 	building
@@ -23591,7 +23591,7 @@ relative 	Suratralis Histri, 	Bendidora,		Kersos Histri,	end
 
 
 faction veneti, celtic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level large_town
@@ -23655,7 +23655,7 @@ relative 	Eptecentus Veneti, 	Karia,		Kersebleptos Veneti,	end
 
 
 faction	insubres, celtic_passive
-denari	1900
+denari	1500
 settlement
 {
 	level large_town
@@ -23702,7 +23702,7 @@ relative 	Eporedorix Insubri, 	Cartimandua,		Belenus Insubri,	Verctissa,	Virssuc
 
 
 faction	leponti, celtic_passive
-denari	2000
+denari	1000
 settlement
 {
 	level town
