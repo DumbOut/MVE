@@ -33580,7 +33580,7 @@ settlement
 	region MediolaniumMarsia_R
 
 	year_founded 0
-	population 800
+	population 600
 	plan_set default_set
 	faction_creator bructeri
 	building
@@ -33614,9 +33614,8 @@ character_record		Alfsuind Bructeri, 	male, command 0, influence 0, management 0
 relative 	Cimberius Bructeri, 	Gisela,		Alfsuind Bructeri,	end
 
 
-
 faction	buri, germanic_passive
-denari	5000
+denari	2000
 settlement
 {
 	level town
