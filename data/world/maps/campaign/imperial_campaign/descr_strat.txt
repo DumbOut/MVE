@@ -35098,7 +35098,6 @@ character_record		Athanaric Vangioni, 	male, command 0, influence 0, management 
 relative 	Gundioc Vangioni, 	Johanna,		Athanaric Vangioni,	end
 
 
-
 ;	Varini
 faction	varini, germanic_passive
 denari	4500
