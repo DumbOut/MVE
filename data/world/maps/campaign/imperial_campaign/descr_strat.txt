@@ -34629,10 +34629,8 @@ character_record		Odovacar Marcomanni, 	male, command 0, influence 0, management
 
 relative 	Bertgarda Marcomanni, 	Alba,		Odovacar Marcomanni,	end
 
-
-
 faction	nemetes, germanic_passive
-denari	4500
+denari	3500
 settlement
 {
 	level town
@@ -34671,9 +34669,8 @@ character_record		Reudilo Nemeti, 	male, command 0, influence 0, management 0, s
 relative 	Fulcaris Nemeti, 	Bescela,		Reudilo Nemeti,	end
 
 
-
 faction	quadi, germanic_passive
-denari	4500
+denari	4300
 settlement
 {
 	level town
@@ -34702,7 +34699,7 @@ settlement
 	region Singone_R
 
 	year_founded 0
-	population 900
+	population 850
 	plan_set default_set
 	faction_creator quadi
 	building
