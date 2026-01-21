@@ -5716,7 +5716,7 @@ building barracks
 				taxable_income_bonus bonus -24 requires size10
 			}
 			construction  8 
-			cost  39395 
+			cost  42000 
 			settlement_min large_city
 			upgrades
 			{
@@ -10837,7 +10837,7 @@ building temple_of_farming
 				taxable_income_bonus bonus -18 requires size10
 			}
 			construction  6 
-			cost  6400 
+			cost  6450 
 			settlement_min city
 			upgrades
 			{
@@ -10995,7 +10995,7 @@ building temple_of_farming
 				taxable_income_bonus bonus -30 requires size10
 			}
 			construction  10 
-			cost  25600 
+			cost  28600 
 			settlement_min huge_city
 			upgrades
 			{
