@@ -23059,7 +23059,7 @@ relative 	Saulius, 	Dita,		Idanthyrsus,	end
 
 
 faction	caledonia, religious_smith
-denari	3950
+denari	3750
 settlement
 {
 	level large_town
@@ -34208,9 +34208,8 @@ character_record		Thelonius Gauti, 	male, command 0, influence 0, management 0, 
 relative 	Gaiseric Gauti, 	Ludwiga,		Thelonius Gauti,	end
 
 
-
 faction	harii, germanic_passive
-denari	6000
+denari	3000
 settlement
 {
 	level town
@@ -34239,7 +34238,7 @@ settlement
 	region Asanca_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator harii
 	building
