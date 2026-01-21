@@ -18428,7 +18428,7 @@ building temple_of_alexander
 				taxable_income_bonus bonus -29 requires size10
 			}
 			construction  16 
-			cost  60980 
+			cost  60990 
 			settlement_min huge_city
 			upgrades
 			{
