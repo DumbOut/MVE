@@ -34977,9 +34977,8 @@ character_record		Clovis Suioni, 	male, command 0, influence 0, management 0, su
 relative 	Theodoric Suioni, 	Ramis,		Clovis Suioni,	end
 
 
-
 faction	tencteri, germanic_passive
-denari	4500
+denari	1500
 settlement
 {
 	level town
@@ -35018,9 +35017,8 @@ character_record		Athanaric Tencteri, 	male, command 0, influence 0, management 
 relative 	Oza Tencteri, 	Eberharde,		Athanaric Tencteri,	end
 
 
-
 faction	ubii, germanic_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
