@@ -7982,7 +7982,7 @@ Ongole_R
 Melange_R
 	legion: Parthica
 	Melange
-	india
+	chola
 	Medes
 	67 136 32
 	india

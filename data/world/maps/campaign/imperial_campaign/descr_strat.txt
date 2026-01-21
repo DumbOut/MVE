@@ -11893,34 +11893,10 @@ settlement
 settlement
 {
 	level town
-	region Tyana_R
-
-	year_founded 0
-	population 1800
-	plan_set default_set
-	faction_creator seleucid
-	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	building
-	{
-		type hinterland_greek_klerouchia greek_klerouchia
-	}
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-	level town
 	region LaodiceaLycus_R
 
 	year_founded 0
-	population 1500
+	population 1200
 	plan_set default_set
 	faction_creator seleucid
 	building
@@ -25247,7 +25223,6 @@ settlement
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -25761,9 +25736,8 @@ character_record		Medistas Caeni, 	male, command 0, influence 0, management 0, s
 relative 	Bryzos Caeni, 	Eptesyka,		Medistas Caeni,	end
 
 
-
 faction	krobyzi, dacian_passive
-denari	5001
+denari	4001
 settlement
 {
 	level town
@@ -25998,9 +25972,8 @@ character_record		Agron Pleuratides, 	male, command 0, influence 0, management 0
 relative 	Pleuratus Pleuratides, 	Dentysyka,		Agron Pleuratides,	end
 
 
-
 faction	daorsi, dacian_passive
-denari	4500
+denari	4000
 settlement
 {
 	level town
@@ -28292,7 +28265,7 @@ relative	Damiskos Basilides, 	Khloris Diodotides,	end
 
 
 faction	cappadocia, eastern_passive
-denari	4500
+denari	4200
 settlement
 {
 	level large_town
@@ -28446,11 +28419,52 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Tyana_R
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator cappadocia
+	garrisoned_army
+	unit		east generals cavalry early		exp 1 armour 0 weapon_lvl 0
+	unit		east infantry				exp 3 armour 0 weapon_lvl 0
+	unit		east infantry				exp 3 armour 0 weapon_lvl 0
+	unit		east infantry				exp 0 armour 0 weapon_lvl 0
+	unit		east infantry				exp 0 armour 0 weapon_lvl 0
+	unit		east infantry				exp 0 armour 0 weapon_lvl 0
+	unit		east infantry				exp 0 armour 0 weapon_lvl 0
+	unit		east infantry				exp 0 armour 0 weapon_lvl 0
+	unit		east infantry				exp 0 armour 0 weapon_lvl 0
+	unit		east archer					exp 3 armour 0 weapon_lvl 1
+	unit		east archer					exp 3 armour 0 weapon_lvl 1
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
 ;	Mazaca
 character	Ariaramnes Ariaratha, named character, leader, age 28, , x 441, y 308
-traits GoodCommander 1, GoodAdministrator 2 , PublicFaith 2 , Intelligent 1 , Bloodthirsty 1
+traits GoodCommander 5, GoodAdministrator 3 , PublicFaith 2 , Intelligent 1 , Bloodthirsty 1
 army
 unit		east generals cavalry early		exp 1 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
@@ -28465,6 +28479,8 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 ;	Melitene
 character	Xerxes, general, age 20, , x 470, y 308 
 army
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
@@ -34574,7 +34590,7 @@ settlement
 	region Calisia_R
 
 	year_founded 0
-	population 750
+	population 730
 	plan_set default_set
 	faction_creator nahanarvali
 	building
@@ -36071,7 +36087,7 @@ character_record		Leukon Ilercavoni, 	male, command 0, influence 0, management 0
 relative 	Lucco Ilercavoni, 	Iseulta,		Leukon Ilercavoni,	end
 
 faction	ilergetes, iberian_passive
-denari	2000
+denari	1000
 settlement
 {
 	level town
@@ -40227,28 +40243,10 @@ settlement
 settlement
 {
 	level town
-	region Modogulla_R
-
-	year_founded 0
-	population 1200
-	plan_set default_set
-	faction_creator india
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-	level town
 	region Purulia_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator india
 	building
@@ -40374,7 +40372,7 @@ settlement
 	region Tripuri_R
 
 	year_founded 0
-	population 1400
+	population 1000
 	plan_set default_set
 	faction_creator india
 	building
@@ -40392,7 +40390,7 @@ settlement
 	region Vidisha_R
 
 	year_founded 0
-	population 1500
+	population 700
 	plan_set default_set
 	faction_creator india
 	building
@@ -41171,24 +41169,6 @@ settlement
 settlement
 {
 	level town
-	region Melange_R
-
-	year_founded 0
-	population 1200
-	plan_set default_set
-	faction_creator india
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-	level town
 	region Ongole_R
 
 	year_founded 0
@@ -41220,24 +41200,6 @@ settlement
 	building
 	{
 		type defenses stone_wall
-	}
-}
-settlement
-{
-	level town
-	region Cottabara_R
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator india
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
 	}
 }
 settlement
@@ -41833,24 +41795,6 @@ settlement
 settlement
 {
 	level town
-	region Uragapura_R
-
-	year_founded 0
-	population 800
-	plan_set default_set
-	faction_creator india
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-	level town
 	region Sabana_R
 
 	year_founded 0
@@ -42079,11 +42023,6 @@ unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 
 ;	Sabana
 character	Ambhi, general, age 20, , x 821, y 301
-army
-unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
-
-;	Uragapura
-character	Ambhi, general, age 20, , x 811, y 321
 army
 unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 
@@ -42388,11 +42327,6 @@ character	Taharqa, general, age 20, , x 972, y 231
 army
 unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 
-;	Modogulla
-character	Taharqa, general, age 20, , x 892, y 128
-army
-unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
-
 ;	Nagagoura
 character	Taharqa, general, age 20, , x 904, y 189
 army
@@ -42463,11 +42397,6 @@ character	Taharqa, general, age 20, , x 869, y 180
 army
 unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 
-;	Melange
-character	Taharqa, general, age 20, , x 931, y 118
-army
-unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
-
 ;	Ongole
 character	Taharqa, general, age 20, , x 929, y 132
 army
@@ -42480,11 +42409,6 @@ unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 
 ;	Vengipuram
 character	Taharqa, general, age 20, , x 938, y 147
-army
-unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
-
-;	Cottabara
-character	Taharqa, general, age 20, , x 773, y 254
 army
 unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 
@@ -42638,7 +42562,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Tissa M
 
 
 faction	chola, eastern_passive
-denari	4500
+denari	4000
 settlement
 {
 	level large_town
@@ -42667,7 +42591,7 @@ settlement
 	region Thiruvarur_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator chola
 	building
@@ -42707,7 +42631,7 @@ settlement
 	region Podouke_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator chola
 	building
@@ -42725,9 +42649,40 @@ settlement
 	region Orthura_R
 
 	year_founded 0
-	population 1100
+	population 800
 	plan_set default_set
 	faction_creator chola
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
+	region Melange_R
+
+	year_founded 0
+	population 1010
+	plan_set default_set
+	faction_creator chola
+	unit		indian general's bodyguard	exp 1 armour 0 weapon_lvl 0
+	unit		indian general's bodyguard	exp 1 armour 0 weapon_lvl 0
+	unit		indian general's bodyguard	exp 1 armour 0 weapon_lvl 0
+	unit		Indian Spearmen			exp 0 armour 0 weapon_lvl 0
+	unit		Indian Spearmen			exp 0 armour 0 weapon_lvl 0
+	unit		Indian Spearmen			exp 0 armour 0 weapon_lvl 0
+	unit		Indian Spearmen			exp 0 armour 0 weapon_lvl 0
+	unit		Indian Spearmen			exp 0 armour 0 weapon_lvl 0
+	unit		Indian Spearmen			exp 0 armour 0 weapon_lvl 0
+	unit		Indian Spearmen			exp 0 armour 0 weapon_lvl 0
+	unit		Indian Spearmen			exp 0 armour 0 weapon_lvl 0
+	unit		Indian Javelin Men		exp 0 armour 0 weapon_lvl 0
+	unit		Indian Javelin Men		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46578,11 +46533,71 @@ settlement
 	region Kantakasola_R
 
 	year_founded 0
-	population 410
+	population 350
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
+	region Modogulla_R
+
+	year_founded 0
+	population 600
+	plan_set default_set
+	faction_creator india
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
+	region Cottabara_R
+
+	year_founded 0
+	population 503
+	plan_set default_set
+	faction_creator india
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
+	region Uragapura_R
+
+	year_founded 0
+	population 490
+	plan_set default_set
+	faction_creator india
+	garrisoned_army
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
