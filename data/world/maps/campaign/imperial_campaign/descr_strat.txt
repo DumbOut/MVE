@@ -23731,7 +23731,7 @@ settlement
 	region Belitione_R
 
 	year_founded 0
-	population 500
+	population 400
 	plan_set default_set
 	faction_creator leponti
 	building
@@ -23766,7 +23766,7 @@ relative 	Voteporix Leponti, 	Cuniovenda,		Orgetorix Leponti,	end
 
 
 faction	taurini, celtic_passive
-denari	2100
+denari	2000
 settlement
 {
 	level town
@@ -23889,7 +23889,7 @@ settlement
 	region Apua_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator ligures
 	building
@@ -23962,7 +23962,7 @@ relative 	Cogidubnus Dectumini, 	Boudecea,		end
 relative 	Togodumnus Bagienni, 	Huctia,		end
 
 faction raeti, celtic_passive
-denari	4300
+denari	3300
 settlement
 {
 	level town
@@ -36021,9 +36021,8 @@ character_record		Leukon Ilercavoni, 	male, command 0, influence 0, management 0
 
 relative 	Lucco Ilercavoni, 	Iseulta,		Leukon Ilercavoni,	end
 
-
 faction	ilergetes, iberian_passive
-denari	3000
+denari	2000
 settlement
 {
 	level town
@@ -46441,7 +46440,7 @@ denari	-2000
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	slave, balanced_smith
-denari	-1999999999
+denari	-2099999990
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;             SETTLEMENTS                ;;;;;
