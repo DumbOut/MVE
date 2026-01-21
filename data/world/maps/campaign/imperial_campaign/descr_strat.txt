@@ -34006,7 +34006,7 @@ settlement
 	region LugdunumMenapia_R
 
 	year_founded 0
-	population 700
+	population 600
 	plan_set default_set
 	faction_creator frisii
 	building
@@ -34040,9 +34040,8 @@ character_record		Tillo Frisi, 	male, command 0, influence 0, management 0, subt
 relative 	Lutgardis Frisi, 	Irmingarda,		Tillo Frisi,	end
 
 
-
 faction	ostrogoths, germanic_passive
-denari	6000
+denari	1000
 settlement
 {
 	level town
