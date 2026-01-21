@@ -31417,10 +31417,8 @@ character_record		Cunobelinos Lemovici, 	male, command 0, influence 0, managemen
 
 relative 	Prasutagus Lemovici, 	Huctia,		Cunobelinos Lemovici,	end
 
-
-
 faction	lexovii, celtic_passive
-denari	6000
+denari	1000
 settlement
 {
 	level town
@@ -31458,10 +31456,8 @@ character_record		Mabon Lexovi, 	male, command 0, influence 0, management 0, sub
 
 relative 	Brennus Lexovi, 	Iseult,		Mabon Lexovi,	end
 
-
-
 faction	lingones, celtic_passive
-denari	6000
+denari	3000
 settlement
 {
 	level town
@@ -31486,7 +31482,7 @@ settlement
 	region Atria_R
 
 	year_founded 0
-	population 900
+	population 800
 	plan_set default_set
 	faction_creator lingones
 	building
@@ -31522,10 +31518,8 @@ character_record		Caradog Lingoni, 	male, command 0, influence 0, management 0, 
 
 relative 	Tancogeistla Lingoni, 	Huctia,		Caradog Lingoni,	end
 
-
-
 faction	mandubii, celtic_passive
-denari	6000
+denari	2000
 settlement
 {
 	level town
@@ -31563,17 +31557,15 @@ character_record		Cocolitanus Mandubi, 	male, command 0, influence 0, management
 
 relative 	Mandubracius Mandubi, 	Verctissa,		Cocolitanus Mandubi,	end
 
-
-
 faction	namnetes, celtic_passive
-denari	6000
+denari	3000
 settlement
 {
 	level town
 	region Condevincum_R
 
 	year_founded 0
-	population 1000
+	population 900
 	plan_set default_set
 	faction_creator namnetes
 	building
@@ -31603,10 +31595,8 @@ character_record		Matugenus Namneti, 	male, command 0, influence 0, management 0
 
 relative 	Tasciovanus Namneti, 	Keyne,		Matugenus Namneti,	end
 
-
-
 faction	osismii, celtic_passive
-denari	6000
+denari	4000
 settlement
 {
 	level town
@@ -31668,10 +31658,8 @@ character_record		Morirex Osismi, 	male, command 0, influence 0, management 0, s
 
 relative 	Diviciacus Osismi, 	Boudicca,		Morirex Osismi,	end
 
-
-
 faction	pictones, celtic_passive
-denari	6000
+denari	4000
 settlement
 {
 	level town
