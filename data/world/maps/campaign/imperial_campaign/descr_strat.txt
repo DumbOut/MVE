@@ -34809,7 +34809,7 @@ settlement
 	region Virunum_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator rugii
 	building
@@ -34916,10 +34916,8 @@ character_record		Dodonis Sicambri, 	male, command 0, influence 0, management 0,
 
 relative 	Fulcaris Sicambri, 	Othelhildis,		Dodonis Sicambri,	end
 
-
-
 faction	suiones, germanic_passive
-denari	4500
+denari	3000
 settlement
 {
 	level town
