@@ -32776,7 +32776,7 @@ relative 	Lutarius Boi, 	Boudicca,		Lugotorix Boi,	Mabon Boi,	end
 relative 	Lugotorix Boi, 	Iseult,		end
 
 faction	carni, celtic_passive
-denari	2000
+denari	1000
 settlement
 {
 	level town
@@ -32815,9 +32815,8 @@ character_record		Ivomagus Carni, 	male, command 0, influence 0, management 0, s
 relative 	Cacumattus Carni, 	Boudecea,		Ivomagus Carni,	end
 
 
-
 faction	vindelici, celtic_passive
-denari	6000
+denari	2000
 settlement
 {
 	level town
@@ -32846,7 +32845,7 @@ settlement
 	region Catenatium_R
 
 	year_founded 0
-	population 1300
+	population 1100
 	plan_set default_set
 	faction_creator vindelici
 	building
@@ -32864,7 +32863,7 @@ settlement
 	region Rucinatium_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator vindelici
 	building
@@ -32882,7 +32881,7 @@ settlement
 	region Setuacotum_R
 
 	year_founded 0
-	population 1000
+	population 900
 	plan_set default_set
 	faction_creator vindelici
 	building
