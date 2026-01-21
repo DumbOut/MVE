@@ -34454,9 +34454,8 @@ character_record		Adgandestrius Heruli, 	male, command 0, influence 0, managemen
 relative 	Heriman Heruli, 	Ethelmoda,		Adgandestrius Heruli,	end
 
 
-
 faction	juti, germanic_passive
-denari	6000
+denari	3000
 settlement
 {
 	level town
