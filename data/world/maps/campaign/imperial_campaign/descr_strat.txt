@@ -33937,7 +33937,7 @@ character_record		Biua, 	female, command 0, influence 0, management 0, subterfug
 relative 	Hariulfus Cimbri, 	Aurinia,		Sesithacus Cimbri,	Biua,	Carolus Cimbri,	end
 
 faction	fosi, germanic_passive
-denari	3000
+denari	2000
 settlement
 {
 	level town
@@ -33976,9 +33976,8 @@ character_record		Hesa Fosi, 	male, command 0, influence 0, management 0, subter
 relative 	Carolus Fosi, 	Adelgund,		Hesa Fosi,	end
 
 
-
 faction	frisii, germanic_passive
-denari	6000
+denari	2000
 settlement
 {
 	level town
