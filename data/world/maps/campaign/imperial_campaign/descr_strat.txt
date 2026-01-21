@@ -20140,7 +20140,7 @@ relative 	Monounios Bardylides, 	Dita,		Mytilos Bardylides,	end
 relative 	Mytilos Bardylides, 	Telephassa,		BardylisB Bardylides,	Ino Bardylides,	Aegon Bardylides,	end
 
 faction	epirus, comfortable_napoleon_2
-denari	13800
+denari	12800
 ;--------- Greece ----------
 settlement
 {
@@ -20198,7 +20198,7 @@ settlement
 	region Corcyra_R
 
 	year_founded 0
-	population 1600
+	population 1500
 	plan_set default_set
 	faction_creator epirus
 	garrisoned_army
@@ -20974,7 +20974,7 @@ relative 	Hyrtacus Aleuides, 	Canace,		Phrynikos Aleuides,	end
 relative 	Democritus Scopaides, 	Euphrosyne,		Ennomus Scopaides,	end
 
 faction	athens, athens_passive
-denari	8700
+denari	5700
 settlement
 {
 	level city

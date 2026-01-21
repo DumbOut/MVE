@@ -340,7 +340,7 @@ attack_risk_taker 2
 subterfuge_risk_taker 6
 
 diplomatic_priority cruel_asf
-aggresiveness 400
+aggresiveness 185
 
 diplomatic_priority very_mean
 aggresiveness 175
