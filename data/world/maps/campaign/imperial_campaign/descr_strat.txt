@@ -46396,15 +46396,15 @@ denari	-3000
 
 faction	thessaly, greek_passive
 dead_until_resurrected
-denari	-2000
+denari	-2300
 
 faction	akragas, greek_passive
 dead_until_resurrected
-denari	1000
+denari	200
 
 faction	italiotes, greek_passive
 dead_until_resurrected
-denari	1000
+denari	-1000
 
 faction	lucani, greek_passive
 dead_until_resurrected
@@ -46416,15 +46416,15 @@ denari	-1000
 
 faction	sabines, greek_passive
 dead_until_resurrected
-denari	1000
+denari	500
 
 faction	samnites, greek_passive
 dead_until_resurrected
-denari	2000
+denari	1000
 
 faction	umbri, greek_passive
 dead_until_resurrected
-denari	900
+denari	300
 
 faction	volsci, greek_passive
 dead_until_resurrected
@@ -46440,7 +46440,7 @@ denari	-2000
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	slave, balanced_smith
-denari	-2099999990
+denari	-2099999999
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;             SETTLEMENTS                ;;;;;
@@ -46529,7 +46529,7 @@ settlement
 	region Kantakasola_R
 
 	year_founded 0
-	population 412
+	population 410
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
