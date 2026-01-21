@@ -9281,7 +9281,7 @@ settlement
 	region Thebais		;;;;; Diospolis Magna
 
 	year_founded 0
-	population 1600
+	population 1400
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
@@ -9309,7 +9309,7 @@ settlement
 	region Apollinopolis_R
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
@@ -10620,7 +10620,7 @@ relative 	Ptolemy Lysimachides, 	Iphigenia,		LysimachusC Lysimachides,	Epigonus 
 
 ;-------------- 4$d - Seleucid Empire ---------------
 faction	seleucid, balanced_stalin
-denari	10025
+denari	10005
 ;--------- 4$d.a - Syria ----------
 settlement
 {
@@ -18593,14 +18593,14 @@ relative 	Eutlinde Burgundi, 	Othelhildis,		Fulcaris Burgundi,	end
 
 ;	Batavi
 faction	franks, germanic_passive
-denari	6000
+denari	5000
 settlement
 {
 	level town
 	region BatavodurumCity_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator franks
 	building
@@ -18630,7 +18630,6 @@ character_record		Eberharde, 	female, command 0, influence 0, management 0, subt
 character_record		Adelhaide Batavi, 	male, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
 
 relative 	Eraric Batavi, 	Eberharde,		Adelhaide Batavi,	end
-
 
 faction	goths, germanic_passive
 denari	5000
@@ -20141,7 +20140,7 @@ relative 	Monounios Bardylides, 	Dita,		Mytilos Bardylides,	end
 relative 	Mytilos Bardylides, 	Telephassa,		BardylisB Bardylides,	Ino Bardylides,	Aegon Bardylides,	end
 
 faction	epirus, balanced_smith_crazy
-denari	23900
+denari	23800
 ;--------- Greece ----------
 settlement
 {
