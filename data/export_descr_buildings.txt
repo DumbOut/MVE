@@ -5021,8 +5021,6 @@ building barracks
 				
 				;;;;;;;;;;;   greek    ;;;;;;;;;;;;
 				recruit "greek hoplite militia"  0  requires antigonid or not macedon_faction
-				
-				
 				;;stats
 				;;;;;building rework;;;;;
 
@@ -5039,7 +5037,7 @@ building barracks
 				taxable_income_bonus bonus -6 requires size10
 			}
 			construction  3 
-			cost  4000 
+			cost  5000 
 			settlement_min town
 			upgrades
 			{
@@ -5202,7 +5200,7 @@ building barracks
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  4895 
+			cost  6895 
 			settlement_min large_town
 			upgrades
 			{
@@ -5437,7 +5435,7 @@ building barracks
 				taxable_income_bonus bonus -18 requires size10
 			}
 			construction  6 
-			cost  9600 
+			cost  10600 
 			settlement_min city
 			upgrades
 			{
@@ -5718,7 +5716,7 @@ building barracks
 				taxable_income_bonus bonus -24 requires size10
 			}
 			construction  8 
-			cost  29295 
+			cost  39395 
 			settlement_min large_city
 			upgrades
 			{
@@ -5731,6 +5729,9 @@ building barracks
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
+				taxable_income_bonus bonus -1 requires factions { all, }
+				taxable_income_bonus bonus -1 requires factions { slave, }
+				trade_base_income_bonus bonus -2 requires factions { slave, }
 				taxable_income_bonus bonus -86550 requires factions { slave, }
 				trade_base_income_bonus bonus -64 requires factions { slave, }
 				taxable_income_bonus bonus 6
@@ -6003,7 +6004,7 @@ building barracks
 				taxable_income_bonus bonus -30 requires size10
 			}
 			construction  14 
-			cost  56950 
+			cost  64000 
 			settlement_min huge_city
 			upgrades
 			{
