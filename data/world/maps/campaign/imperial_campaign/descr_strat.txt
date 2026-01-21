@@ -32610,7 +32610,7 @@ settlement
 	region Strevinta_R
 
 	year_founded 0
-	population 800
+	population 600
 	plan_set default_set
 	faction_creator boii
 	building
@@ -32629,7 +32629,7 @@ settlement
 	region Mogentiana_R
 
 	year_founded 0
-	population 800
+	population 600
 	plan_set default_set
 	faction_creator boii
 	building
@@ -32648,7 +32648,7 @@ settlement
 	region Felsina_R
 
 	year_founded 0
-	population 2500
+	population 2000
 	plan_set default_set
 	faction_creator boii
 	building
@@ -32674,7 +32674,7 @@ settlement
 	region Parma_R
 
 	year_founded 0
-	population 1500
+	population 1200
 	plan_set default_set
 	faction_creator boii
 	building
@@ -32775,10 +32775,8 @@ character_record		Mabon Boi, 	male, command 0, influence 0, management 0, subter
 relative 	Lutarius Boi, 	Boudicca,		Lugotorix Boi,	Mabon Boi,	end
 relative 	Lugotorix Boi, 	Iseult,		end
 
-
-
 faction	carni, celtic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
