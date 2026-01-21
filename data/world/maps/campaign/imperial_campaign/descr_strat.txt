@@ -35169,7 +35169,7 @@ relative 	Gunderic Farodini, 	Eva,	end
 
 
 faction	aestii, germanic_passive
-denari	4500
+denari	2100
 settlement
 {
 	level town
