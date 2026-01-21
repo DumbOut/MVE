@@ -6956,7 +6956,7 @@ end
 ;-------------- 4$a - Romans ---------------
 faction	romans_julii, comfortable_caesar
 superfaction romans_senate
-denari	500
+denari	400
 settlement
 {
 	level large_town
@@ -18695,9 +18695,8 @@ character_record		Maroboduus Guti, 	male, command 0, influence 0, management 0, 
 
 relative 	Hanhavaldi Guti, 	Priska,		Maroboduus Guti,	end
 
-
 faction	lombardi, germanic_passive
-denari	5100
+denari	5000
 settlement
 {
 	level town
@@ -18761,10 +18760,8 @@ character_record		Eraric Langobardi, 	male, command 0, influence 0, management 0
 
 relative 	Carolus Langobardi, 	Bebelina,		Eraric Langobardi,	end
 
-
-
 faction	saxons, germanic_passive
-denari	6000
+denari	4000
 settlement
 {
 	level town
@@ -20140,7 +20137,7 @@ relative 	Monounios Bardylides, 	Dita,		Mytilos Bardylides,	end
 relative 	Mytilos Bardylides, 	Telephassa,		BardylisB Bardylides,	Ino Bardylides,	Aegon Bardylides,	end
 
 faction	epirus, balanced_smith_crazy
-denari	23800
+denari	21800
 ;--------- Greece ----------
 settlement
 {
@@ -22628,7 +22625,7 @@ relative 	Gaizka Lobetani, 	Verctissa,		Dunixi Lobetani,	end
 relative 	Megaravicos Turboleti, 	Barita,	end
 
 faction	galatia, celtic_passive
-denari	4000
+denari	3000
 settlement
 {
 	level large_town
@@ -24505,9 +24502,8 @@ character_record		Pigres Artylides, 	male, command 0, influence 0, management 0,
 
 relative 	Comeas Artylides, 	Dione,		Pigres Artylides,	end
 
-
 faction	argos, greek_passive
-denari	4000
+denari	3000
 settlement
 {
 	level large_town
@@ -24907,9 +24903,8 @@ character_record		Hicetaon Theopompides, 	male, command 0, influence 0, manageme
 
 relative 	Mantios Theopompides, 	Drosis,		Hicetaon Theopompides,	end
 
-
 faction	gortyn, greek_passive
-denari	6000
+denari	5000
 ;;BIGMAP
 settlement
 {
@@ -25270,9 +25265,8 @@ character_record		Gorgias Aeschylides, 	male, command 0, influence 0, management
 
 relative 	Megakles Aeschylides, 	Timandra,		Gorgias Aeschylides,	end
 
-
 faction	paeonia, greek_passive
-denari	5000
+denari	4000
 settlement
 {
 	level large_town
@@ -25676,9 +25670,8 @@ character_record		Anaxagoras Tirynthides, 	male, command 0, influence 0, managem
 relative 	Boethus Tirynthides, 	Lasthena,		Anaxagoras Tirynthides,	end
 
 
-
 faction	caeni, greek_passive
-denari	6000
+denari	4000
 settlement
 {
 	level town
@@ -26117,17 +26110,15 @@ relative 	Scorilo Dardani, 	Afina,		Diegis Dardani,	end
 relative 	Iptacens Galabri, 	Bendidora,	end
 relative 	Cersobleptes Thunati, 	Cerzula,	end
 
-
-
 faction	delmatae, dacian_passive
-denari	6000
+denari	5000
 settlement
 {
 	level town
 	region Delminium_R
 
 	year_founded 0
-	population 1300
+	population 1200
 	plan_set default_set
 	faction_creator delmatae
 	building
@@ -26150,7 +26141,7 @@ settlement
 	region Dalmatia
 
 	year_founded 0
-	population 1300
+	population 1100
 	plan_set default_set
 	faction_creator delmatae
 	building
@@ -26460,16 +26451,15 @@ relative 	Pytros Daesitiati, 	Ketripora,		Medistas Daesitiati,	end
 relative 	Vindex Segestani, 	Verctissa,	end
 
 
-
 faction	eravisci, celtic_passive
-denari	6000
+denari	3000
 settlement
 {
 	level town
 	region Pannonia
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator eravisci
 	building
@@ -26710,15 +26700,12 @@ character_record		Arkha, 	male, command 0, influence 0, management 0, subterfuge
 relative 	Argishti, 	Serapia,		Arkha,	end
 
 
-
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;               8# DACIA                 ;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	apuli, dacian_passive
-denari	6000
+denari	3000
 settlement
 {
 	level large_town
@@ -26989,10 +26976,8 @@ character_record		Roles Costoboci, 	male, command 0, influence 0, management 0, 
 
 relative 	Dnestr Costoboci, 	Dana,		Roles Costoboci,	end
 
-
-
 faction	daunians, dacian_passive
-denari	6000
+denari	5000
 settlement
 {
 	level town
@@ -27122,9 +27107,8 @@ character_record		Virssuccius Anarti, 	male, command 0, influence 0, management 
 relative 	Togodumnus Anarti, 	Keyne,		Virssuccius Anarti,	end
 
 
-
 faction	bastarnae, dacian_passive
-denari	6000
+denari	4000
 settlement
 {
 	level town
@@ -27153,7 +27137,7 @@ settlement
 	region Arsietaeum_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator bastarnae
 	building
@@ -27171,7 +27155,7 @@ settlement
 	region Carrodunum_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator bastarnae
 	building
@@ -28976,7 +28960,7 @@ relative 	Vrtanes Eruandid, 	Ariyamna,		Merkhavan Eruandid,		end
 
 ;	Iberia / Kartli
 faction	iberia, eastern_passive
-denari	5000
+denari	4000
 settlement
 {
 	level large_town
@@ -29311,10 +29295,8 @@ character_record		Sosimenes Eneti, 	male, command 0, influence 0, management 0, 
 
 relative 	Kambyses Eneti, 	Bardiya,		Sosimenes Eneti,		end
 
-
-
 faction	chorasmia, nomad_passive
-denari	6000
+denari	5000
 settlement
 {
 	level large_town
@@ -30044,7 +30026,7 @@ relative 	Damasithymos Ceides, 	Maiandria,		Hipparinos Ceides,	end
 relative 	Tharybis Phineides, 	Circe,	end
 
 faction	teion, greek_passive
-denari	3050
+denari	2000
 settlement
 {
 	level town
@@ -30380,7 +30362,7 @@ relative 	Cocolitanus Briganti, 	Verica,		Vellocatus Briganti,	end
 
 
 faction	cantiaci, british_passive
-denari	1000
+denari	890
 settlement
 {
 	level town
@@ -30542,10 +30524,8 @@ character_record		Orgetorix Demeti, 		male, command 0, influence 0, management 0
 
 relative 	Matugenus Demeti, 	Cuniovenda,		Orgetorix Demeti,	end
 
-
-
 faction	dumnonii, british_passive
-denari	6000
+denari	4000
 settlement
 {
 	level town
@@ -30829,17 +30809,15 @@ character_record		Matugenus Aedui, 	male, command 0, influence 0, management 0, 
 
 relative 	Brennus Aedui, 	Huctia,		Matugenus Aedui,	end
 
-
-
 faction	allobroges, celtic_passive
-denari	6000
+denari	4000
 settlement
 {
 	level town
 	region Vienna_R
 
 	year_founded 0
-	population 1100
+	population 1030
 	plan_set default_set
 	faction_creator allobroges
 	building
@@ -30861,7 +30839,7 @@ settlement
 	region Geneva_R
 
 	year_founded 0
-	population 900
+	population 800
 	plan_set default_set
 	faction_creator allobroges
 	building
@@ -30906,6 +30884,7 @@ character	Vercingetorix, general, age 20, , x 157, y 384
 army
 unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
 unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
+unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
 unit		barbarian archer warband		exp 0 armour 0 weapon_lvl 0
 
 ;	Cularo
@@ -30922,14 +30901,14 @@ relative 	Geraint Allobrogi, 	Barita,		Aneirin Allobrogi,	end
 
 
 faction	bituriges, celtic_passive
-denari	6000
+denari	3000
 settlement
 {
 	level town
 	region Avaricum_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator bituriges
 	building
@@ -31015,9 +30994,8 @@ relative 	Lannildut Biturigi, 	Cartimandua,		Cintugnatus Biturigi,	end
 relative 	Custennyn Vivisci, 	Esselt,		Brigomaglos Vivisci,	end
 
 
-
 faction	cadurci, celtic_passive
-denari	4100
+denari	2400
 settlement
 {
 	level town
@@ -31055,10 +31033,8 @@ character_record		Maglocunus Cadurci, 	male, command 0, influence 0, management 
 
 relative 	Adcobrovatus Cadurci, 	Cunoarda,		Maglocunus Cadurci,	end
 
-
-
 faction	carnutes, celtic_passive
-denari	6000
+denari	4000
 settlement
 {
 	level town
@@ -31161,10 +31137,8 @@ character_record		Caratacus Cavari, 	male, command 0, influence 0, management 0,
 
 relative 	Vellocatus Cavari, 	Boudicca,		Caratacus Cavari,	end
 
-
-
 faction	cenomanni, celtic_passive
-denari	6000
+denari	4000
 settlement
 {
 	level town
@@ -31229,7 +31203,7 @@ settlement
 	region MediolanumAulercorum_R
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator cenomanni
 	building
@@ -31284,10 +31258,8 @@ relative 	Enemnogenus Cenomani, 	Cartimandua,		Vindex Cenomani,	end
 relative 	Caratawc Aulerci, 	Cunoarda,	end
 relative 	Mabon Eburovici, 	Verctissa,	end
 
-
-
 faction	helvetii, celtic_passive
-denari	6000
+denari	5000
 settlement
 {
 	level town
@@ -34850,9 +34822,8 @@ relative 	Nasua Quadi, 	Aurinia,		Horsa Quadi,	end
 relative 	Heriman Osi, 	Amalberga,	end
 
 
-
 faction	rugii, germanic_passive
-denari	6000
+denari	5000
 settlement
 {
 	level town
@@ -35328,7 +35299,7 @@ character_record		Marcuui, 	male, command 0, influence 0, management 0, subterfu
 relative 	Hanhavaldi, 	Veleda,		Marcuui,	end
 
 faction	venedi, germanic_passive
-denari	5800
+denari	4100
 settlement
 {
 	level town
@@ -35564,16 +35535,15 @@ character_record		Lucco Eburoni, 		male, command 0, influence 0, management 0, s
 relative 	Cadeyrn Eburoni, 	Barita,		Lucco Eburoni,	end
 
 
-
 faction	mediomatrici, celtic_passive
-denari	6000
+denari	4000
 settlement
 {
 	level town
 	region Mediomatricorum_R
 
 	year_founded 0
-	population 1400
+	population 1300
 	plan_set default_set
 	faction_creator mediomatrici
 	building
@@ -35605,9 +35575,8 @@ character_record		Diviciacus Mediomatrici, 		male, command 0, influence 0, manag
 relative 	Rianorix Mediomatrici, 	Boudicca,		Diviciacus Mediomatrici,	end
 
 
-
 faction	morini, celtic_passive
-denari	6000
+denari	5000
 settlement
 {
 	level town
@@ -35962,9 +35931,8 @@ relative 	Gentza Bastuli, 	Barita,	end
 relative 	Ambon Deitani, 	Boudecea,	end
 
 
-
 faction	cessetani, iberian_passive
-denari	6000
+denari	4000
 settlement
 {
 	level town
@@ -46498,11 +46466,11 @@ denari	-10500
 
 faction	neapolis, greek_passive
 dead_until_resurrected
-denari	-2000
+denari	-3000
 
 faction	thessaly, greek_passive
 dead_until_resurrected
-denari	-2100
+denari	-2000
 
 faction	akragas, greek_passive
 dead_until_resurrected
@@ -46514,23 +46482,23 @@ denari	1000
 
 faction	lucani, greek_passive
 dead_until_resurrected
-denari	1000
+denari	-1100
 
 faction	paeligni, greek_passive
 dead_until_resurrected
-denari	1000
+denari	-1000
 
 faction	sabines, greek_passive
 dead_until_resurrected
-denari	4000
+denari	1000
 
 faction	samnites, greek_passive
 dead_until_resurrected
-denari	4000
+denari	2000
 
 faction	umbri, greek_passive
 dead_until_resurrected
-denari	1000
+denari	900
 
 faction	volsci, greek_passive
 dead_until_resurrected
@@ -46869,7 +46837,7 @@ settlement
 	region Isila_R
 
 	year_founded 0
-	population 301
+	population 300
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
@@ -46889,7 +46857,7 @@ settlement
 	region Banderbeyla_R
 
 	year_founded 0
-	population 300
+	population 303
 	plan_set default_set
 	faction_creator axum
 	garrisoned_army
@@ -47398,7 +47366,7 @@ settlement
 	region Arae_Philanorum_R
 
 	year_founded 0
-	population 360
+	population 330
 	plan_set default_set
 	faction_creator numidia
 	garrisoned_army
@@ -47410,9 +47378,6 @@ settlement
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	east archer		exp 0 armour 0 weapon_lvl 0
 	unit	east archer		exp 0 armour 0 weapon_lvl 0
@@ -47469,7 +47434,7 @@ settlement
 	region Harawa_Psyllia_R
 
 	year_founded 0
-	population 301
+	population 300
 	plan_set default_set
 	faction_creator numidia
 	garrisoned_army
@@ -47540,7 +47505,7 @@ settlement
 	region Tashkurghan_R
 
 	year_founded 0
-	population 450
+	population 420
 	plan_set default_set
 	faction_creator kashgar
 	building
@@ -47558,7 +47523,7 @@ settlement
 	region TektosakaKome_R
 
 	year_founded 0
-	population 310
+	population 304
 	plan_set default_set
 	faction_creator saka
 	building
@@ -47572,7 +47537,7 @@ settlement
 	region Varakhsha_R
 
 	year_founded 0
-	population 340
+	population 310
 	plan_set default_set
 	faction_creator chorasmia
 	building
@@ -47592,7 +47557,7 @@ settlement
 	region Astana_R
 
 	year_founded 0
-	population 400
+	population 380
 	plan_set default_set
 	faction_creator saka
 	building
@@ -47610,7 +47575,7 @@ settlement
 	region Jumi_R
 
 	year_founded 0
-	population 450
+	population 320
 	plan_set default_set
 	faction_creator saka
 	building

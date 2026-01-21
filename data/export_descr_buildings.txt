@@ -4766,6 +4766,7 @@ building defenses
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
+				taxable_income_bonus bonus -1 requires factions { all, }
 				taxable_income_bonus bonus -397550 requires factions { slave, }
 				taxable_income_bonus bonus -512 requires factions { slave, }
 				taxable_income_bonus bonus -2 requires factions { india, }
