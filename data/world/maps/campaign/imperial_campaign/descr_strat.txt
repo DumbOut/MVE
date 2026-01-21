@@ -34567,7 +34567,7 @@ relative 	Gaiobomarus Diduni, 	Ulrike,	end
 
 
 faction	marcomanni, germanic_passive
-denari	4500
+denari	4200
 settlement
 {
 	level town
@@ -34596,7 +34596,7 @@ settlement
 	region Lugidunum_R
 
 	year_founded 0
-	population 1000
+	population 900
 	plan_set default_set
 	faction_creator marcomanni
 	building
