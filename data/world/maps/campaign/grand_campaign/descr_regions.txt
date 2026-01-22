@@ -1447,18 +1447,18 @@ Acragas_R
 	sicily, greek_colony
 	5
 	10
-	greek 60 italic 40
+	greek 80 italic 20
 	
-Catana_R
+Katane_R
 	legion: Siciliae
-	Catana
+	Katane
 	syracuse
 	Sicani
 	22 18 95
 	sicily, greek_colony
 	5
 	7
-	greek 60 italic 40
+	greek 80 italic 20
 	
 Enna_R
 	legion: Siciliae
@@ -12510,7 +12510,7 @@ Xi_R
 ; 63. Ba & Shu
 ; Number of Provinces: 
 
-Hanzhong_
+Hanzhong_R
 	legion: ParthicaR
 	Nanzheng
 	agathyrsi
@@ -12600,7 +12600,7 @@ Hanjia_R
 	5
 	6
 	chinese 100
-Jiangyang
+Jiangyang_R
 	legion: Parthica_R
 	Jiangyang
 	agathyrsi
@@ -12630,7 +12630,7 @@ Dangqu_R
 	5
 	6
 	chinese 100
-Guanghan_
+Guanghan_R
 	legion: ParthicaR
 	Luo
 	agathyrsi

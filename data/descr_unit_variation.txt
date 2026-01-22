@@ -8199,6 +8199,14 @@ region
 			distribution 100
 		}
 	}
+	Katane_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
 	Corfinium_R
 	{
 		variant
@@ -26306,7 +26314,7 @@ region
 			distribution 100
 		}
 	}
-		
+
 	Qianwei_R
 	{
 		variant

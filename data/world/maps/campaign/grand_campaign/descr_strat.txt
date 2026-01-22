@@ -25234,7 +25234,7 @@ settlement
 	region Cos_R
 
 	year_founded 0
-	population 1400
+	population 1200
 	plan_set default_set
 	faction_creator cyprus
 	building
@@ -25257,8 +25257,6 @@ settlement
 		type core_building governors_house
 	}
 }
-
-
 
 settlement
 {
