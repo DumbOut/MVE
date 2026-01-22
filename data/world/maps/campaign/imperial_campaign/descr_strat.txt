@@ -46682,6 +46682,7 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
@@ -46702,6 +46703,7 @@ settlement
 	population 503
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
