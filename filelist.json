@@ -10913,7 +10913,7 @@
 	},
 	{
 		"filename": "data\/descr_character.txt",
-		"checksum": 1910869248
+		"checksum": 3202617389
 	},
 	{
 		"filename": "data\/descr_cultures.txt",
@@ -10989,7 +10989,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 2671822546
+		"checksum": 4287323324
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -11013,7 +11013,7 @@
 	},
 	{
 		"filename": "data\/descr_transition_screen.txt",
-		"checksum": 1609167952
+		"checksum": 1704964398
 	},
 	{
 		"filename": "data\/descr_ui_buildings.txt",
@@ -11021,7 +11021,7 @@
 	},
 	{
 		"filename": "data\/descr_unit_variation.txt",
-		"checksum": 2783454947
+		"checksum": 2557211462
 	},
 	{
 		"filename": "data\/enhanced_tweaks\/#kirsi_campaign_map_movement_range_color.json",
@@ -11069,7 +11069,7 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 944232327
+		"checksum": 259163492
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
@@ -11081,7 +11081,7 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 2171910636
+		"checksum": 1934573986
 	},
 	{
 		"filename": "data\/export_descr_vnvs_enums.txt",
@@ -35429,7 +35429,7 @@
 	},
 	{
 		"filename": "data\/text\/campaign_descriptions.txt",
-		"checksum": 1829593349
+		"checksum": 3232349872
 	},
 	{
 		"filename": "data\/text\/climates.txt",
@@ -35493,7 +35493,7 @@
 	},
 	{
 		"filename": "data\/text\/grand_campaign_regions_and_settlement_names.txt",
-		"checksum": 3719672669
+		"checksum": 3829436388
 	},
 	{
 		"filename": "data\/text\/historic_battles_subtitles.txt",
@@ -36453,22 +36453,6 @@
 	},
 	{
 		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_trader_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_wooden_pallisade.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_wooden_pallisade_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_wooden_wall.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_wooden_wall_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -50024,35 +50008,11 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_awesome_temple.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_awesome_temple_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_baths.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_baths_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/roman\/buildings\/#roman_caravan.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/roman\/buildings\/#roman_caravan_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_city_barracks.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_city_barracks_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -50125,14 +50085,6 @@
 	},
 	{
 		"filename": "data\/ui\/roman\/buildings\/#roman_farms+4_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_farms.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_farms_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -50213,14 +50165,6 @@
 	},
 	{
 		"filename": "data\/ui\/roman\/buildings\/#roman_market_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_militia_barracks.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_militia_barracks_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -100824,10 +100768,6 @@
 		"checksum": 2715582006
 	},
 	{
-		"filename": "data\/world\/maps\/base\/gude-2026-01-22.log",
-		"checksum": 631992080
-	},
-	{
 		"filename": "data\/world\/maps\/base\/map_climates.tga",
 		"checksum": "Blacklisted"
 	},
@@ -100889,11 +100829,11 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_mercenaries.txt",
-		"checksum": 2995856479
+		"checksum": 3346910785
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_regions.txt",
-		"checksum": 2248911476
+		"checksum": 1569539223
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_regions_and_settlement_name_lookup.txt",
@@ -100901,7 +100841,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_strat.txt",
-		"checksum": 796566234
+		"checksum": 4014456421
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_terrain.txt",
@@ -100928,51 +100868,15 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_acarnania.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_anuradhapura.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_ardiaei.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_armenia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_athens.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_bactria.tga",
-		"checksum": "Blacklisted"
+		"filename": "data\/world\/maps\/campaign\/grand_campaign\/gude-2026-01-22.log",
+		"checksum": 2523539950
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_climates.tga",
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_etruscans.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_features.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_galatia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_gauls.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_greek_cities.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -100993,26 +100897,6 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_roughness.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_saba.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_saka.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_saxons.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_scythia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_seleucid.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -101053,7 +100937,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 286295537
+		"checksum": 4193675159
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
@@ -101097,10 +100981,6 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_antiochea_taocene.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_anuradhapura copy.tga",
 		"checksum": "Blacklisted"
 	},
 	{
