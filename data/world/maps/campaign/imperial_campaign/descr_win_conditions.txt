@@ -222,7 +222,7 @@ carthage
 boetia
 take_rome
 short_campaign outlive_factions 
-macedon athens argos acarnania andros
+macedon athens argos acarnania
 
 cyrene
 take_rome

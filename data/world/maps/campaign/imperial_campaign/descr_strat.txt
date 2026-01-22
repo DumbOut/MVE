@@ -37467,14 +37467,14 @@ character_record		Philosir, 	male, command 0, influence 0, management 0, subterf
 relative 	Ashtzaph, 	Althaia,		Philosir,	end
 
 faction	psyllia, desert_passive
-denari	1093
+denari	1040
 settlement
 {
 	level town
 	region Latake_Psyllia_R
 
 	year_founded 0
-	population 330
+	population 310
 	plan_set default_set
 	faction_creator psyllia
 	building
@@ -37501,7 +37501,6 @@ settlement
 	faction_creator psyllia
 	garrisoned_army
 	unit		carthaginian general's cavalry early	exp 5 armour 0 weapon_lvl 3
-	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
@@ -42896,7 +42895,7 @@ relative 	Kochaet Chola, 	Sivali,		Ilanjaetcenni Chola,	end
 
 
 faction	chera, eastern_passive
-denari	4000
+denari	3000
 settlement
 {
 	level large_town
