@@ -6157,6 +6157,11 @@ dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		diplomat
 
+faction			slave
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
 faction			egypt
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
@@ -7451,7 +7456,6 @@ strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		diplomat_greek
 
 
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -7489,6 +7493,11 @@ strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		merchant
 
 faction			egypt
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			slave
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		merchant
