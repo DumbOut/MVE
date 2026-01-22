@@ -2281,7 +2281,7 @@
 
 			"family tree":
 			{
-				"background":      [  114, 57,  27,  ],
+				"background":      [  184, 101, 25,  ],
 				"font":            [  255, 255, 255, ],
 
 				"selected line":   [  255, 255, 255, ],
@@ -2355,8 +2355,8 @@
 
 			"family tree":
 			{
-				"background":      [  210, 191, 158, ],
-				"font":            [  0,   0,   0,   ],
+				"background":      [  191, 189, 145, ],
+				"font":            [  8,   40,  117,   ],
 
 				"selected line":   [  0,   0,   0,   ],
 				"unselected line": [  17,  17,  17,  ],
@@ -2429,8 +2429,8 @@
 
 			"family tree":
 			{
-				"background":      [  56,  27,  16,  ],
-				"font":            [  255, 255, 255, ],
+				"background":      [  115, 75, 46,  ],
+				"font":            [  0,   0,  0, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -2512,8 +2512,8 @@
 
 			"family tree":
 			{
-				"background":      [  94, 32, 25,  ],
-				"font":            [  255, 255, 255, ],
+				"background":      [  168, 83, 67,  ],
+				"font":            [  0,   0,   0, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -2591,7 +2591,7 @@
 
 			"family tree":
 			{
-				"background":      [  143, 17, 17,, ],
+				"background":      [  143, 17, 17, ],
 				"font":            [  181, 155, 7, ],
 
 				"selected line":   [  255, 255, 255, ],

@@ -24,7 +24,6 @@
 
 quotes
 
-
 	quote    "Quote_1"
 	quoted    "Author_1"
 	quote    "Quote_2"
