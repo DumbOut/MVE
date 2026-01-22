@@ -100764,8 +100764,8 @@
 		"checksum": 2715582006
 	},
 	{
-		"filename": "data\/world\/maps\/base\/gude-2026-01-22.log",
-		"checksum": 0
+		"filename": "data\/world\/maps\/base\/map.rwm",
+		"checksum": 2726233147
 	},
 	{
 		"filename": "data\/world\/maps\/base\/map_climates.tga",
@@ -100933,7 +100933,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 1671669513
+		"checksum": 2105326834
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
