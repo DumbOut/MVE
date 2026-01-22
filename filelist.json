@@ -10989,7 +10989,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 4287323324
+		"checksum": 3406930414
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -100764,10 +100764,6 @@
 		"checksum": 2715582006
 	},
 	{
-		"filename": "data\/world\/maps\/base\/map.rwm",
-		"checksum": 2726233147
-	},
-	{
 		"filename": "data\/world\/maps\/base\/map_climates.tga",
 		"checksum": "Blacklisted"
 	},
@@ -100941,7 +100937,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_win_conditions.txt",
-		"checksum": 70220088
+		"checksum": 811418163
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/description.txt",

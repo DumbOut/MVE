@@ -17169,7 +17169,7 @@ Iasinos_Psyllia_R
 	north_africa
 	5
 	2
-	numidian 98 greek 1 phoenician 1
+	numidian 90 greek 5 phoenician 5
 
 Pano_R
 	legion: Africarum
@@ -17180,7 +17180,7 @@ Pano_R
 	nubia
 	5
 	3
-	ethiopian 98 arab 2
+	ethiopian 97 arab 3
 
 Seutheum_R
 	legion: Africarum
@@ -17191,7 +17191,7 @@ Seutheum_R
 	nubia
 	5
 	3
-	ethiopian 95 arab 5
+	ethiopian 90 arab 10
 
 Pylamnus_Aethiopis_R
 	legion: Africarum

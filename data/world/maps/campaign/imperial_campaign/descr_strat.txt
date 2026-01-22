@@ -357,7 +357,7 @@ trigger_status camillan_reforms, true
 trigger_status antigonid_reforms, true
 rebelling_characters_active
 night_battles_enabled
-brigand_spawn_value 126
+brigand_spawn_value 182
 pirate_spawn_value 16
 ;;---unused settings
 ;gladiator_uprising_disabled
@@ -45354,7 +45354,7 @@ settlement
 	region Wensu_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator kucha
 	garrisoned_army
@@ -45384,10 +45384,8 @@ character_record		Basyk, 	male, command 0, influence 0, management 0, subterfuge
 
 relative 	Karidach, 	Dana,		Basyk,		end
 
-
-
 faction	aorsi, nomad_passive
-denari	4500
+denari	1500
 settlement
 {
 	level large_town
@@ -46400,10 +46398,7 @@ settlement
 	unit	greek hoplite		exp 4 armour 2 weapon_lvl 3
 	unit	east infantry		exp 2 armour 0 weapon_lvl 0
 	unit	east infantry		exp 2 armour 0 weapon_lvl 0
-	unit	east infantry		exp 2 armour 0 weapon_lvl 0
-	unit	east infantry		exp 2 armour 0 weapon_lvl 0
 	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 3
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
@@ -46506,7 +46501,7 @@ relative 	Adamanthaleus of Epardus, 	Arxa,		Herakles of Epardus,	    Synges of E
 
 faction	corinth, greek_passive
 dead_until_resurrected
-denari	-11500
+denari	-13500
 ;;character	Oenomaus Bacchides, named character, leader, age 38, , x 227, y 202 ;;coords outdated
 ;;traits GoodCommander 2, GoodAdministrator 2
 ;;army
@@ -46525,7 +46520,7 @@ denari	-3000
 
 faction	thessaly, greek_passive
 dead_until_resurrected
-denari	-2300
+denari	-2400
 
 faction	akragas, greek_passive
 dead_until_resurrected
