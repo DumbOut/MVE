@@ -16505,7 +16505,7 @@ region
 			distribution 99
 		}		
 	}
-	Iasinos_Pysllia_R
+	Iasinos_Psyllia_R
 	{
 		variant
 		{

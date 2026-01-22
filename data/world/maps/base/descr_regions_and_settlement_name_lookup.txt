@@ -3032,8 +3032,8 @@ Seutheum_R
 Seutheum
 Pylamnus_Aethiopis_R
 Pylamnus_Aethiopis
-Iasinos_Pysllia_R
-Iasinos_Pysllia
+Iasinos_Psyllia_R
+Iasinos_Psyllia
 Harawa_Psyllia_R
 Harawa_Psyllia
 Agathokleous_R

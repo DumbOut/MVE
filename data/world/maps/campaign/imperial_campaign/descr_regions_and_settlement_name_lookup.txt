@@ -3078,8 +3078,8 @@ Arae_Philanorum_R
 Arae_Philanorum
 Harawa_Psyllia_R
 Harawa_Psyllia
-Iasinos_Pysllia_R
-Iasinos_Pysllia
+Iasinos_Psyllia_R
+Iasinos_Psyllia
 Pano_R
 Pano
 Seutheum_R
@@ -3152,3 +3152,5 @@ Kythnos_R
 Kythnos
 Syros_R
 Syros
+Syme_R
+Syme

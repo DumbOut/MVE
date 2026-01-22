@@ -3017,7 +3017,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 510, 140, 60, 80, 510
-ownership        iberian, numidia, carthage, gaetuli, garamantes, massylii, mauri, nasamones, astures, cantabri, carpetani, vaccaei, slave
+ownership        iberian, numidia, carthage, gaetuli, garamantes, psyllia, massylii, mauri, nasamones, astures, cantabri, carpetani, vaccaei, slave
 ethnicity carthage, Baliares
 ethnicity numidia, Numidia
 ethnicity spain, Taraconenis
@@ -3273,9 +3273,8 @@ stat_cost        1, 720, 110, 80, 110, 720
 ownership        numidia, carthage
 ethnicity carthage, Baliares
 ethnicity numidia, Numidia
-ethnicity spain, Taraconenis
  
- 
+
 type             carthaginian heavy onager
 dictionary       carthaginian_heavy_onagers      ; Heavy Onagers
 category         siege
@@ -3309,7 +3308,6 @@ stat_food        60, 300
 stat_cost        2, 930, 110, 100, 140, 930
 ownership        carthage
 ethnicity carthage, Baliares
- 
  
 type             spanish scutarii
 dictionary       scutarii      ; Scutarii
@@ -3407,7 +3405,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 180, 170, 20, 30, 180
-ownership        numidia, gaetuli, garamantes, massylii, mauri, nasamones, slave
+ownership        numidia, gaetuli, garamantes, psyllia, massylii, mauri, nasamones, slave
 ethnicity numidia, Numidia
 rebalance_statblock
 soldiers         40, 0, 0.8
@@ -3460,7 +3458,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 390, 200, 40, 60, 390
-ownership        numidia, gaetuli, garamantes, massylii, mauri, nasamones, gerrha, hadhramaut, lihyan, mascat, minaea, thamud, qataban, qedar, axum, blemmyes
+ownership        numidia, gaetuli, garamantes, psyllia, massylii, mauri, nasamones, gerrha, hadhramaut, lihyan, mascat, minaea, thamud, qataban, qedar, axum, blemmyes
 ethnicity numidia, Numidia
  
  
@@ -3556,7 +3554,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 130, 50, 70, 420
-ownership        numidia, gaetuli, garamantes, massylii, mauri, nasamones, slave
+ownership        numidia, gaetuli, garamantes, psyllia, massylii, mauri, nasamones, slave
 ethnicity numidia, Numidia
  
  
@@ -3585,7 +3583,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 520, 140, 60, 80, 520
-ownership        numidia, gaetuli, garamantes, massylii, mauri, nasamones
+ownership        numidia, gaetuli, garamantes, psyllia, massylii, mauri, nasamones
 ethnicity numidia, Numidia
  
  
@@ -9253,7 +9251,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 790, 80, 80, 120, 790
-ownership        astures, bastetani, cantabri, carpetani, cessetani, edetani, ilercavones, ilergetes, oretani, turdetani, vaccaei, vascones, vettones, nuragic, gaetuli, garamantes, massylii, mauri, nasamones, slave
+ownership        astures, bastetani, cantabri, carpetani, cessetani, edetani, ilercavones, ilergetes, oretani, turdetani, vaccaei, vascones, vettones, nuragic, gaetuli, garamantes, psyllia, massylii, mauri, nasamones, slave
  
  
 type             iberian general's cavalry
@@ -9281,7 +9279,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1040, 80, 110, 160, 1040
-ownership        astures, bastetani, cantabri, carpetani, cessetani, edetani, ilercavones, ilergetes, oretani, turdetani, vaccaei, vascones, vettones, nuragic, gaetuli, garamantes, massylii, mauri, nasamones, slave
+ownership        astures, bastetani, cantabri, carpetani, cessetani, edetani, ilercavones, ilergetes, oretani, turdetani, vaccaei, vascones, vettones, nuragic, gaetuli, garamantes, psyllia, massylii, mauri, nasamones, slave
 
 
 ; based on carthage medium infantry but with medium cav soldier

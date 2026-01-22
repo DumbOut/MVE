@@ -2591,8 +2591,8 @@
 
 			"family tree":
 			{
-				"background":      [  84, 9, 9, ],
-				"font":            [  255, 255, 255, ],
+				"background":      [  143, 17, 17,, ],
+				"font":            [  181, 155, 7, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -2670,8 +2670,8 @@
 
 			"family tree":
 			{
-				"background":      [  70, 4, 22, ],
-				"font":            [  255, 255, 255, ],
+				"background":      [  89, 4, 29, ],
+				"font":            [  19, 102, 10, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -2749,8 +2749,8 @@
 
 			"family tree":
 			{	
-				"background":      [  92,  30,  38,  ],
-				"font":            [  255, 255, 255, ],
+				"background":      [  143, 68, 84,  ],
+				"font":            [  222, 208, 184, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -2828,8 +2828,8 @@
 
 			"family tree":
 			{
-				"background":      [  214, 176, 154, ],
-				"font":            [  0,   0,   0,   ],
+				"background":      [  199, 157, 133, ],
+				"font":            [  183, 85, 22,   ],
 
 				"selected line":   [  0,   0,   0,   ],
 				"unselected line": [  17,  17,  17,  ],
@@ -16979,6 +16979,81 @@
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
 	},
+
+	"psyllia":
+	{
+		;;name and description
+		"string":      "PSYLLIA",
+		"description": "PSYLLIA_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "numidian",
+		"ethnicity": "berber",
+
+		;;tags for faction groups
+		"tags": [ "fgroup_farming_temple", ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "psyllia_men",
+			"women":    "psyllia_women",
+			"surnames": "psyllia_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/psyllia.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       302,
+			"rebel standard index": 22,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       22,
+			"rebel logo index": 22,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_carthage_rebel.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_carthage_rebel.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  101, 121, 22, ],
+			"secondary": [  188, 82, 47,  ],
+			;;tertiary   22, 179, 218
+
+			"family tree":
+			{
+				"background":      [  101, 121, 22,   ],
+				"font":            [  22, 179, 218, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/numidia_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/carthage_outro.wmv",
+			"defeat": "data/fmv/lose/rebels_eliminated.wmv",
+		},
+
+		"available in custom battles": false,
+		"prefer naval invasions": false,
+		"default religion": "numidian",
+		"default battle ai personality": "default_personality",
+	
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
 	
 	"garamantes":
 	{
@@ -17204,6 +17279,8 @@
 		;;allow this faction to have a functioning family tree
 		"allow reproduction": true,
 	},
+
+
 	
 	"nasamones":
 	{

@@ -1619,6 +1619,12 @@ rebels_texture		models/textures/standard_egyptian_rebels.tga
 routing_texture		models/textures/standard_routing.tga
 ally_texture		models/textures/standard_garamantes.tga
 
+faction				psyllia
+standard_texture	models/textures/standard_egyptian_rebels.tga
+rebels_texture		models/textures/standard_egyptian_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_egyptian_rebels.tga
+
 faction				libya
 standard_texture	models/textures/standard_libya.tga
 rebels_texture		models/textures/standard_egyptian_rebels.tga

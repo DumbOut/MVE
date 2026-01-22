@@ -17141,7 +17141,7 @@ Saena_R
 Arae_Philanorum_R
 	legion: Cyrenaica
 	Arae_Philanorum
-	numidia
+	psyllia
 	Poeni
 	192 93 93
 	north_africa
@@ -17152,7 +17152,7 @@ Arae_Philanorum_R
 Harawa_Psyllia_R
 	legion: Cyrenaica
 	Harawa_Psyllia
-	numidia
+	psyllia
 	Poeni
 	152 85 85
 	north_africa
@@ -17160,10 +17160,10 @@ Harawa_Psyllia_R
 	2
 	numidian 90 phoenician 5 assyrian 5
 
-Iasinos_Pysllia_R
+Iasinos_Psyllia_R
 	legion: Cyrenaica
-	Iasinos_Pysllia
-	numidia
+	Iasinos_Psyllia
+	psyllia
 	Poeni
 	166 113 113
 	north_africa
@@ -17218,7 +17218,7 @@ Kynouria_R
 Latake_Psyllia_R
 	legion: Cyrenaica
 	Latake_Psyllia
-	numidia
+	psyllia
 	Poeni
 	61 82 51
 	north_africa
@@ -17257,7 +17257,7 @@ Diridotis_R
 	mesopotamia
 	5
 	10
-	greek 5 mesopotamian 95
+	greek 3 mesopotamian 97
 
 Apphana_R
 	legion: Parthica

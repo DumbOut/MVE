@@ -9656,6 +9656,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/characters\/textures\/gude-2026-01-21.log",
+		"checksum": 2768701604
+	},
+	{
 		"filename": "data\/characters\/textures\/heavy_bactrian_cavalry_bactria.tga.dds",
 		"checksum": "Blacklisted"
 	},
@@ -10885,7 +10889,7 @@
 	},
 	{
 		"filename": "data\/descr_banners.txt",
-		"checksum": 2778776044
+		"checksum": 1879131168
 	},
 	{
 		"filename": "data\/descr_beliefs.txt",
@@ -10893,7 +10897,7 @@
 	},
 	{
 		"filename": "data\/descr_building_battle.txt",
-		"checksum": 3634266602
+		"checksum": 949544216
 	},
 	{
 		"filename": "data\/descr_building_battle\/dbb_barbarian_invasion.txt",
@@ -10909,15 +10913,11 @@
 	},
 	{
 		"filename": "data\/descr_character.txt",
-		"checksum": 4167096480
+		"checksum": 1910869248
 	},
 	{
 		"filename": "data\/descr_cultures.txt",
 		"checksum": 798640918
-	},
-	{
-		"filename": "data\/descr_daytypes.txt",
-		"checksum": 2092169917
 	},
 	{
 		"filename": "data\/descr_faction_groups.txt",
@@ -10933,7 +10933,7 @@
 	},
 	{
 		"filename": "data\/descr_lbc_db.txt",
-		"checksum": 150923395
+		"checksum": 644844221
 	},
 	{
 		"filename": "data\/descr_model_battle.txt",
@@ -10949,19 +10949,15 @@
 	},
 	{
 		"filename": "data\/descr_namelists.txt",
-		"checksum": 198154439
+		"checksum": 2445883026
 	},
 	{
 		"filename": "data\/descr_names_lookup.txt",
-		"checksum": 1125273078
+		"checksum": 3764677430
 	},
 	{
 		"filename": "data\/descr_offmap_models.txt",
-		"checksum": 2454899982
-	},
-	{
-		"filename": "data\/descr_pallete.txt",
-		"checksum": 3622917803
+		"checksum": 4148687881
 	},
 	{
 		"filename": "data\/descr_prebattle_script.txt",
@@ -10984,24 +10980,16 @@
 		"checksum": 903235873
 	},
 	{
-		"filename": "data\/descr_senate.txt",
-		"checksum": 48302138
-	},
-	{
 		"filename": "data\/descr_settlement_plan.txt",
 		"checksum": 2156111818
 	},
 	{
-		"filename": "data\/descr_skydome.txt",
-		"checksum": 709835301
-	},
-	{
 		"filename": "data\/descr_sm_faction_logos.txt",
-		"checksum": 3433823112
+		"checksum": 2513592505
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 4045340205
+		"checksum": 2671822546
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -11024,10 +11012,6 @@
 		"checksum": 1869230357
 	},
 	{
-		"filename": "data\/descr_strategy_lighting.txt",
-		"checksum": 1343084593
-	},
-	{
 		"filename": "data\/descr_transition_screen.txt",
 		"checksum": 1609167952
 	},
@@ -11037,7 +11021,7 @@
 	},
 	{
 		"filename": "data\/descr_unit_variation.txt",
-		"checksum": 1155437598
+		"checksum": 2783454947
 	},
 	{
 		"filename": "data\/enhanced_tweaks\/#kirsi_campaign_map_movement_range_color.json",
@@ -11085,7 +11069,7 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 1946224338
+		"checksum": 944232327
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
@@ -11093,11 +11077,11 @@
 	},
 	{
 		"filename": "data\/export_descr_character_traits.txt",
-		"checksum": 892174224
+		"checksum": 4239110922
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 2134184841
+		"checksum": 2171910636
 	},
 	{
 		"filename": "data\/export_descr_vnvs_enums.txt",
@@ -11105,131 +11089,11 @@
 	},
 	{
 		"filename": "data\/feral_descr_ai_personality.txt",
-		"checksum": 1414641313
+		"checksum": 3171064557
 	},
 	{
 		"filename": "data\/feral_descr_portraits_variation.txt",
 		"checksum": 63942566
-	},
-	{
-		"filename": "data\/feral_descr_tonemap_lut.txt",
-		"checksum": 2310900925
-	},
-	{
-		"filename": "data\/feral_descr_truesky.txt",
-		"checksum": 3469889080
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/arid_foggy.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/arid_haze.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/arid_hot.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/arid_rainy.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/arid_sandstorm.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/arid_storm.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/base_lut.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/battle_cold.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/battle_desaturated.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/battle_frosty.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/battle_hot.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/battle_mild.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/battle_night.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/battle_night_winter.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/battle_rain.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/bit_luthd.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/cold_blizzard.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/cold_clear.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/cold_foggy.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/cold_storm.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/desert_desaturated.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/desert_hot.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/desert_sandstorm.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/woods_cold.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/woods_foggy.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/woods_hot.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/woods_rain.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/tonemap_luts\/woods_storm.tga",
-		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/fmv\/intros\/armenia_intro_1080p.webm",
@@ -11388,10 +11252,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/loading_screen\/loading_screen_19.dds",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/loading_screen\/loading_screen_2.dds",
 		"checksum": "Blacklisted"
 	},
@@ -11421,6 +11281,10 @@
 	},
 	{
 		"filename": "data\/loading_screen\/loading_screen_9.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/loading_screen\/symbols\/egypt.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -13152,6 +13016,22 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_egypt.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_egypt_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_egypt_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_egypt_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_elis.tga",
 		"checksum": "Blacklisted"
 	},
@@ -14800,6 +14680,22 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_psyllia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_psyllia_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_psyllia_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_psyllia_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_qataban.tga",
 		"checksum": "Blacklisted"
 	},
@@ -15993,54 +15889,6 @@
 	},
 	{
 		"filename": "data\/menu\/textures\/rome_logo.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/models\/riverbanks\/textures\/mud_riverbank.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/models\/riverbanks\/textures\/mud_riverbank_n.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/models\/riverbanks\/textures\/mud_riverbank_pebbles.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/models\/riverbanks\/textures\/mud_riverbank_pebbles_n.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/models\/riverbanks\/textures\/mud_riverbank_pebbles_s.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/models\/riverbanks\/textures\/mud_riverbank_s.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/models\/riverbanks\/textures\/sand_riverbank.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/models\/riverbanks\/textures\/sand_riverbank_n.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/models\/riverbanks\/textures\/sand_riverbank_pebbles.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/models\/riverbanks\/textures\/sand_riverbank_pebbles_n.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/models\/riverbanks\/textures\/sand_riverbank_pebbles_s.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/models\/riverbanks\/textures\/sand_riverbank_s.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -19225,10 +19073,6 @@
 	},
 	{
 		"filename": "data\/models_building\/textures\/##standard_thyssagetae.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/models_building\/textures\/##standard_treozen.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -35585,7 +35429,7 @@
 	},
 	{
 		"filename": "data\/text\/campaign_descriptions.txt",
-		"checksum": 841301668
+		"checksum": 1829593349
 	},
 	{
 		"filename": "data\/text\/climates.txt",
@@ -35621,7 +35465,7 @@
 	},
 	{
 		"filename": "data\/text\/expanded_bi.txt",
-		"checksum": 277534832
+		"checksum": 1611168831
 	},
 	{
 		"filename": "data\/text\/export_ancillaries.txt",
@@ -35661,7 +35505,7 @@
 	},
 	{
 		"filename": "data\/text\/imperial_campaign_regions_and_settlement_names.txt",
-		"checksum": 149174160
+		"checksum": 2834269478
 	},
 	{
 		"filename": "data\/text\/landmarks.txt",
@@ -35677,7 +35521,7 @@
 	},
 	{
 		"filename": "data\/text\/names.txt",
-		"checksum": 515093898
+		"checksum": 3652469330
 	},
 	{
 		"filename": "data\/text\/names_feral.txt",
@@ -36412,14 +36256,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_governors_villa.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_governors_villa_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_great_forum.tga",
 		"checksum": "Blacklisted"
 	},
@@ -36572,14 +36408,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_shrine.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_shrine_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_siege_engineer.tga",
 		"checksum": "Blacklisted"
 	},
@@ -36609,14 +36437,6 @@
 	},
 	{
 		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_stone_wall_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_tavern.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_tavern_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -37936,87 +37756,11 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_awesome_temple_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_baths.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_baths_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_blacksmith.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_blacksmith_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_caravan.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_caravan_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_catapult_range.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_catapult_range_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_cavalry_barracks.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_cavalry_barracks_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_circus_maximus.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_circus_maximus_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_city_barracks.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_city_barracks_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_city_plumbing.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_city_plumbing_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/eastern\/buildings\/#eastern_curia.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/eastern\/buildings\/#eastern_curia_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_dockyard.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_dockyard_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -38072,30 +37816,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_governors_house.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_governors_house_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_governors_palace.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_governors_palace_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_governors_villa.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_governors_villa_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/eastern\/buildings\/#eastern_great_forum.tga",
 		"checksum": "Blacklisted"
 	},
@@ -38120,59 +37840,11 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_hippodrome.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_hippodrome_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_imperial_palace.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_imperial_palace_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_large_stone_wall.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_large_stone_wall_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_large_temple.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_large_temple_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/eastern\/buildings\/#eastern_ludus_magnus.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/eastern\/buildings\/#eastern_ludus_magnus_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_market.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_market_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_militia_barracks.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_militia_barracks_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -38184,59 +37856,11 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_mines.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_mines_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_muster_field.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_muster_field_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_pantheon.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_pantheon_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/eastern\/buildings\/#eastern_paved_roads.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/eastern\/buildings\/#eastern_paved_roads_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_port.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_port_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_practice_field.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_practice_field_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_proconsuls_palace.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_proconsuls_palace_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -38248,59 +37872,11 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_royal_barracks.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_royal_barracks_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/eastern\/buildings\/#eastern_scriptorium.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/eastern\/buildings\/#eastern_scriptorium_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_secret_police_hq.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_secret_police_hq_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_secret_police_network.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_secret_police_network_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_sewers.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_sewers_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_shipwright.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_shipwright_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_shrine.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_shrine_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -38317,38 +37893,6 @@
 	},
 	{
 		"filename": "data\/ui\/eastern\/buildings\/#eastern_silk_rd_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_smiths_workshop.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_smiths_workshop_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_stables.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_stables_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_stone_wall.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_stone_wall_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_temple.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_temple_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -38413,30 +37957,6 @@
 	},
 	{
 		"filename": "data\/ui\/eastern\/buildings\/#eastern_temple_of_sun_god_temple_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_trader.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_trader_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_wooden_pallisade.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_wooden_pallisade_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_wooden_wall.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/#eastern_wooden_wall_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -38596,10 +38116,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/eastern\/buildings\/construction\/#eastern_militia_barracks.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/eastern\/buildings\/construction\/#eastern_mines+1.tga",
 		"checksum": "Blacklisted"
 	},
@@ -38629,10 +38145,6 @@
 	},
 	{
 		"filename": "data\/ui\/eastern\/buildings\/construction\/#eastern_proconsuls_palace.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/construction\/#eastern_roads.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -38680,10 +38192,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/eastern\/buildings\/construction\/#eastern_stone_wall.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/eastern\/buildings\/construction\/#eastern_temple.tga",
 		"checksum": "Blacklisted"
 	},
@@ -38721,14 +38229,6 @@
 	},
 	{
 		"filename": "data\/ui\/eastern\/buildings\/construction\/#eastern_trader.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/construction\/#eastern_wooden_pallisade.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/eastern\/buildings\/construction\/#eastern_wooden_wall.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -39640,6 +39140,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/faction_icons\/egypt.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/faction_icons\/elis.tga",
 		"checksum": "Blacklisted"
 	},
@@ -40160,6 +39664,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/faction_icons\/psyllia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/faction_icons\/pylos.tga",
 		"checksum": "Blacklisted"
 	},
@@ -40269,10 +39777,6 @@
 	},
 	{
 		"filename": "data\/ui\/faction_icons\/sassanids.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/faction_icons\/saxoni.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -40752,43 +40256,7 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/greek\/agents\/admiral.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/agents\/assassin.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/agents\/assassin_info.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/agents\/construction\/assassin.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/agents\/construction\/diplomat.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/agents\/construction\/spy.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/agents\/diplomat.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/agents\/diplomat_info.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/agents\/spy.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/agents\/spy_info.tga",
+		"filename": "data\/ui\/greek\/buildings\/#greek_awesome_temple_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -40805,6 +40273,14 @@
 	},
 	{
 		"filename": "data\/ui\/greek\/buildings\/#greek_frankincense_rd_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_governors_palace_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_governors_villa_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -40856,11 +40332,55 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_imperial_palace_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_large_temple_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_lyceum.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_lyceum_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_militia_barracks_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_odeon.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_odeon_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_pantheon_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_proconsuls_palace_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_royal_barracks_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/greek\/buildings\/#greek_silk_rd.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/greek\/buildings\/#greek_silk_rd_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_temple_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -40904,139 +40424,11 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_army_barracks_constructed.tga",
+		"filename": "data\/ui\/greek\/buildings\/#greek_theatre.tga",
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_awesome_temple_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_caravan.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_caravan_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_city_barracks_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_frankincense_rd.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_frankincense_rd_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_governors_palace_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_governors_villa_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_imperial_palace_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_large_temple_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_lyceum.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_lyceum_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_militia_barracks_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_odeon.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_odeon_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_pantheon_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_proconsuls_palace_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_royal_barracks_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_silk_rd.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_silk_rd_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_temple_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_temple_of_alexander_awesome_temple.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_temple_of_alexander_awesome_temple_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_temple_of_alexander_large_temple.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_temple_of_alexander_large_temple_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_temple_of_alexander_pantheon.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_temple_of_alexander_pantheon_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_temple_of_alexander_shrine.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_temple_of_alexander_shrine_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_temple_of_alexander_temple.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_temple_of_alexander_temple_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_theatre.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/#roman_theatre_constructed.tga",
+		"filename": "data\/ui\/greek\/buildings\/#greek_theatre_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -41080,6 +40472,14 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/greek\/buildings\/construction\/#greek_lyceum.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/construction\/#greek_odeon.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/greek\/buildings\/construction\/#greek_silk_rd.tga",
 		"checksum": "Blacklisted"
 	},
@@ -41104,47 +40504,15 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/greek\/buildings\/construction\/#greek_theatre.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/greek\/buildings\/construction\/#roman_caravan.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/greek\/buildings\/construction\/#roman_frankincense_rd.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/construction\/#roman_lyceum.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/construction\/#roman_odeon.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/construction\/#roman_silk_rd.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/construction\/#roman_temple_of_alexander_awesome_temple.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/construction\/#roman_temple_of_alexander_large_temple.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/construction\/#roman_temple_of_alexander_pantheon.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/construction\/#roman_temple_of_alexander_shrine.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/construction\/#roman_temple_of_alexander_temple.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/greek\/buildings\/construction\/#roman_theatre.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -50632,70 +50000,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/pips\/pip_resources.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/pips\/pip_slavery.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/pips\/pip_squalour.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/pips\/pip_tax_bonus.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/pips\/pip_tax_penalty.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/pips\/pip_tax_rate_bonus.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/pips\/pip_tax_rate_penalty.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/pips\/pip_taxes.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/pips\/pip_trade.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/pips\/pip_triumph.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/pips\/pip_turmoil.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/pips\/pip_underpopulation.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/pips\/pip_unit_disbands.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/pips\/pip_upkeep.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/pips\/pip_wages.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/pips\/pip_wonder.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/resources\/resource_salt.tga",
 		"checksum": "Blacklisted"
 	},
@@ -50709,22 +50013,6 @@
 	},
 	{
 		"filename": "data\/ui\/roman\/buildings\/#roman_academy_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_aqueduct.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_aqueduct_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_archery_range.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_archery_range_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -50752,43 +50040,11 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_blacksmith.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_blacksmith_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/roman\/buildings\/#roman_caravan.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/roman\/buildings\/#roman_caravan_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_catapult_range.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_catapult_range_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_cavalry_barracks.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_cavalry_barracks_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_circus_maximus.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_circus_maximus_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -50829,14 +50085,6 @@
 	},
 	{
 		"filename": "data\/ui\/roman\/buildings\/#roman_curia_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_dockyard.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_dockyard_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -50888,22 +50136,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_forum.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_forum_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_foundry.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_foundry_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/roman\/buildings\/#roman_frankincense_rd.tga",
 		"checksum": "Blacklisted"
 	},
@@ -50917,14 +50149,6 @@
 	},
 	{
 		"filename": "data\/ui\/roman\/buildings\/#roman_governors_house_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_governors_palace.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_governors_palace_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -50965,30 +50189,6 @@
 	},
 	{
 		"filename": "data\/ui\/roman\/buildings\/#roman_hippodrome_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_imperial_palace.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_imperial_palace_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_large_stone_wall.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_large_stone_wall_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_large_temple.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_large_temple_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -51060,14 +50260,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_pantheon.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_pantheon_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/roman\/buildings\/#roman_paved_roads.tga",
 		"checksum": "Blacklisted"
 	},
@@ -51097,14 +50289,6 @@
 	},
 	{
 		"filename": "data\/ui\/roman\/buildings\/#roman_proconsuls_palace_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_roads.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_roads_constructed.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -51260,14 +50444,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_stone_wall.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_stone_wall_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/roman\/buildings\/#roman_temple.tga",
 		"checksum": "Blacklisted"
 	},
@@ -51340,22 +50516,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_wooden_pallisade.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_wooden_pallisade_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_wooden_wall.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/#roman_wooden_wall_constructed.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/roman\/buildings\/construction\/#roman_academy.tga",
 		"checksum": "Blacklisted"
 	},
@@ -51369,10 +50529,6 @@
 	},
 	{
 		"filename": "data\/ui\/roman\/buildings\/construction\/#roman_army_barracks.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/buildings\/construction\/#roman_awesome_temple.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -51676,10 +50832,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/roman\/buildings\/gude-2025-09-28.log",
-		"checksum": 585526385
-	},
-	{
 		"filename": "data\/ui\/roman\/interface\/battle_new_0.tga",
 		"checksum": "Blacklisted"
 	},
@@ -51689,22 +50841,6 @@
 	},
 	{
 		"filename": "data\/ui\/roman\/interface\/battle_new_extruded_0.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/interface\/editor_01.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/interface\/editor_battle01.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/interface\/editor_shared01.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/interface\/editor_strat01.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -51737,10 +50873,6 @@
 	},
 	{
 		"filename": "data\/ui\/roman\/interface\/strat_new_extruded_0.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/roman\/interface\/strateditor.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -69368,6 +68500,66 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/psyllia\/assassin_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/psyllia\/carthaginian_medium_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/psyllia\/carthaginian_peasant_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/psyllia\/diplomat_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/psyllia\/iberian_generals_cavalry_early_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/psyllia\/iberian_generals_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/psyllia\/merchant_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/psyllia\/naval_bireme_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/psyllia\/naval_quinquireme_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/psyllia\/naval_trireme_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/psyllia\/numidian_camel_riders_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/psyllia\/numidian_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/psyllia\/numidian_desert_warriors_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/psyllia\/numidian_javelinmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/psyllia\/spy_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/qataban\/african_peasant_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -72985,6 +72177,10 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info\/slave\/carthaginian_city_militia_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/slave\/carthaginian_generals_cavalry_early_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -94492,6 +93688,66 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/psyllia\/#carthaginian_medium_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/psyllia\/#carthaginian_peasant.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/psyllia\/#iberian_generals_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/psyllia\/#iberian_generals_cavalry_early.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/psyllia\/#naval_bireme.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/psyllia\/#naval_quinquireme.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/psyllia\/#naval_trireme.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/psyllia\/#numidian_camel_riders.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/psyllia\/#numidian_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/psyllia\/#numidian_desert_warriors.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/psyllia\/#numidian_javelinmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/psyllia\/assassin.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/psyllia\/diplomat.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/psyllia\/merchant.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/psyllia\/spy.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/qataban\/#african_peasant.tga",
 		"checksum": "Blacklisted"
 	},
@@ -101557,19 +100813,19 @@
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions.txt",
-		"checksum": 955461953
+		"checksum": 2265502568
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions_and_settlement_name_lookup.txt",
-		"checksum": 4070759068
+		"checksum": 709902797
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_terrain.txt",
 		"checksum": 2715582006
 	},
 	{
-		"filename": "data\/world\/maps\/base\/map.rwm",
-		"checksum": 1115825533
+		"filename": "data\/world\/maps\/base\/gude-2026-01-22.log",
+		"checksum": 631992080
 	},
 	{
 		"filename": "data\/world\/maps\/base\/map_climates.tga",
@@ -101637,7 +100893,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_regions.txt",
-		"checksum": 1899478601
+		"checksum": 2248911476
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_regions_and_settlement_name_lookup.txt",
@@ -101676,14 +100932,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_aetolia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_antiochea_taocene.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_anuradhapura.tga",
 		"checksum": "Blacklisted"
 	},
@@ -101704,55 +100952,7 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_boetia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_boii.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_bosporus.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_britons.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_caledonia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_carthage.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_celtiberia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_chola.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_climates.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_cyrene.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_dacia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_egypt.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_epirus.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -101772,10 +100972,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_germans.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_greek_cities.tga",
 		"checksum": "Blacklisted"
 	},
@@ -101788,87 +100984,11 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_illyria.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_india.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_insubres.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_iolei.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_kush.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_lakes.tga",
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_libya.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_macedon.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_marcomanni.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_massagetae.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_massalia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_nabataea.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_nervii.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_numidia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_parthia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_pergamon.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_pontus.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_regions.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_romans_brutii.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_romans_julii.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_romans_scipii.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -101900,31 +101020,7 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_spain.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_syracuse.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_taras.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_thrace.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_trade_routes.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_tylis.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_veneti.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -101949,15 +101045,15 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_mercenaries.txt",
-		"checksum": 3933897945
+		"checksum": 2032328357
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_regions_and_settlement_name_lookup.txt",
-		"checksum": 3054495312
+		"checksum": 4274153241
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 1924677876
+		"checksum": 286295537
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
@@ -101965,7 +101061,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_win_conditions.txt",
-		"checksum": 3930325430
+		"checksum": 2944904976
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/description.txt",
@@ -101988,135 +101084,7 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_armenia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_athens.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_bactria.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_boii.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_bosporus.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_britons.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_carthage.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_celtiberia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_dacia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_egypt.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_epirus.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_galatia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_gauls.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_germans.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_greek_cities.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_helisii.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_macedon.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_marcomanni.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_massalia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_nabataea.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_numidia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_parthia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_pergamon.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_pontus.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_romans_brutii.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_romans_julii.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_romans_scipii.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_scythia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_seleucid.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_spain.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_syracuse.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_thrace.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_tylis.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -102129,6 +101097,10 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_antiochea_taocene.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_anuradhapura copy.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -102297,10 +101269,6 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_romans_scipii.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_romans_senate.tga",
 		"checksum": "Blacklisted"
 	},
 	{

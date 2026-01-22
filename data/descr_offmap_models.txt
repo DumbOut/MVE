@@ -118,7 +118,14 @@ navy
 		medium	data/models_off_map/bireme_OFF_MAP.CAS	100 0
 		small	data/models_off_map/bireme_OFF_MAP.CAS	100 0
 	}
-	
+
+	faction psyllia
+	{
+		large 	data/models_off_map/bireme_OFF_MAP.CAS	100 0
+		medium	data/models_off_map/bireme_OFF_MAP.CAS	100 0
+		small	data/models_off_map/bireme_OFF_MAP.CAS	100 0
+	}	
+
 	faction scythia
 	{
 		large 	data/models_off_map/bireme_OFF_MAP.CAS	100 0

@@ -124,6 +124,7 @@ playable
 	taras
 	tylis
 	veneti
+	psyllia
 	antiochea_taocene
 end
 unlockable
@@ -20086,7 +20087,7 @@ unit		illyrian heavy peltast			exp 1 armour 0 weapon_lvl 0
 
 ;	Apollonia
 character	Mytilos Bardylides, named character, heir, age 30, , x 287, y 319 
-traits GoodCommander 1
+traits GoodCommander 2
 ancillaries mentor
 army
 unit		illyrian generals guard cavalry early		exp 1 armour 0 weapon_lvl 0
@@ -20114,8 +20115,8 @@ relative 	Glaucias Bardylides, 	Beroea,		Monounios Bardylides,	end
 relative 	Monounios Bardylides, 	Dita,		Mytilos Bardylides,	end
 relative 	Mytilos Bardylides, 	Telephassa,		BardylisB Bardylides,	Ino Bardylides,	Aegon Bardylides,	end
 
-faction	epirus, comfortable_napoleon_2
-denari	12800
+faction	epirus, comfortable_napoleon
+denari	11200
 ;--------- Greece ----------
 settlement
 {
@@ -20173,7 +20174,7 @@ settlement
 	region Corcyra_R
 
 	year_founded 0
-	population 1500
+	population 1400
 	plan_set default_set
 	faction_creator epirus
 	garrisoned_army
@@ -20187,9 +20188,9 @@ settlement
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
@@ -20217,15 +20218,15 @@ settlement
 	region Phoenice_R
 
 	year_founded 0
-	population 1500
+	population 1000
 	plan_set default_set
 	faction_creator epirus
 	garrisoned_army
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 2 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 2 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
@@ -20257,12 +20258,12 @@ settlement
 	region Passaron_R
 
 	year_founded 0
-	population 1400
+	population 1100
 	plan_set default_set
 	faction_creator epirus
 	garrisoned_army
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
-	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 4 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
@@ -22387,7 +22388,7 @@ settlement
 	region Termes_R
 
 	year_founded 0
-	population 890
+	population 500
 	plan_set default_set
 	faction_creator celtiberia
 	garrisoned_army
@@ -37034,9 +37035,8 @@ relative 	Gaizka Caluri, 	Boudecea,	end
 relative 	Kerbasi Calontiensi, 	Cartimandua,	end
 
 
-
 faction	emporion, greek_passive
-denari	4500
+denari	2100
 settlement
 {
 	level large_town
@@ -37346,10 +37346,8 @@ character_record		Zimrida, 	male, command 0, influence 0, management 0, subterfu
 
 relative 	Hiempsal, 	Kahina,		Zimrida,	end
 
-
-
 faction	garamantes, desert_passive
-denari	4500
+denari	2100
 settlement
 {
 	level large_town
@@ -37378,7 +37376,7 @@ settlement
 	region Sabae_R
 
 	year_founded 0
-	population 1000
+	population 850
 	plan_set default_set
 	faction_creator garamantes
 	building
@@ -37400,7 +37398,7 @@ settlement
 	region Cydamus_R
 
 	year_founded 0
-	population 900
+	population 600
 	plan_set default_set
 	faction_creator garamantes
 	building
@@ -37443,10 +37441,154 @@ character_record		Philosir, 	male, command 0, influence 0, management 0, subterf
 
 relative 	Ashtzaph, 	Althaia,		Philosir,	end
 
+faction	psyllia, desert_passive
+denari	1093
+settlement
+{
+	level town
+	region Latake_Psyllia_R
 
+	year_founded 0
+	population 330
+	plan_set default_set
+	faction_creator psyllia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+settlement
+{
+	level town
+	region Arae_Philanorum_R
+
+	year_founded 0
+	population 320
+	plan_set default_set
+	faction_creator psyllia
+	garrisoned_army
+	unit		carthaginian general's cavalry early	exp 5 armour 0 weapon_lvl 3
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian javelinmen				exp 1 armour 0 weapon_lvl 0
+	unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
+	region Harawa_Psyllia_R
+
+	year_founded 0
+	population 300
+	plan_set default_set
+	faction_creator psyllia
+	garrisoned_army
+	unit		carthaginian general's cavalry early	exp 5 armour 0 weapon_lvl 3
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
+	region Iasinos_Psyllia_R
+
+	year_founded 0
+	population 300
+	plan_set default_set
+	faction_creator psyllia
+	garrisoned_army
+	unit		carthaginian general's cavalry early	exp 5 armour 0 weapon_lvl 3
+	unit		numidian desert warriors		exp 4 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 4 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 4 armour 0 weapon_lvl 2
+	unit		numidian desert warriors		exp 5 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+	unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+;	Latake Psyllia
+character	Tefneferas Qkhepersptahikid, named character, leader, age 35, , x 283, y 196
+traits GoodCommander 5, GoodAdministrator 3, Warlord 4, GoodMiner 2, Brave 1
+army
+unit		carthaginian general's cavalry early	exp 9 armour 2 weapon_lvl 3
+unit		carthaginian general's cavalry early	exp 5 armour 0 weapon_lvl 3
+unit		carthaginian general's cavalry early	exp 5 armour 0 weapon_lvl 3
+unit		carthaginian general's cavalry early	exp 7 armour 0 weapon_lvl 3
+unit		numidian desert warriors		exp 5 armour 0 weapon_lvl 1
+unit		numidian desert warriors		exp 5 armour 0 weapon_lvl 1
+unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
+unit		numidian desert warriors		exp 0 armour 0 weapon_lvl 0
+unit		numidian desert warriors		exp 0 armour 0 weapon_lvl 0
+unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 0
+unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 0
+unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 0
+unit		numidian desert warriors		exp 1 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 3 armour 0 weapon_lvl 2
+
+;	inside Latake Psyllia
+character	Zalankhos Tefraides, diplomat, age 20, , x 283, y 196
+traits GoodDiplomat 3
+
+character_record		Gurkheperta, 	female, command 0, influence 0, management 0, subterfuge 0, age 35, alive, never_a_leader
+character_record		Nankhsptahos Qkhepersptahikid, 	male, command 7, influence 7, management 5, subterfuge 0, age 15, alive, never_a_leader
+character_record		Lemkheperes Qkhepersptahikid, 	male, command 7, influence 7, management 5, subterfuge 0, age 10, alive, never_a_leader
+character_record		Qasraaios Qkhepersptahikid, 	male, command 5, influence 1, management 1, subterfuge 0, age 8, alive, never_a_leader
+character_record		Baramunes Qkhepersptahikid, 	male, command 8, influence 1, management 3, subterfuge 0, age 6, alive, never_a_leader
+
+relative 	Tefneferas Qkhepersptahikid, 	Gurkheperta, 	Nankhsptahos Qkhepersptahikid, 	Lemkheperes Qkhepersptahikid, 	Qasraaios Qkhepersptahikid, 	Baramunes Qkhepersptahikid, 	end
 
 faction	massylii, desert_passive
-denari	4500
+denari	760
 settlement
 {
 	level town
@@ -47350,145 +47492,6 @@ settlement
 settlement
 {
 	level town
-	region Arae_Philanorum_R
-
-	year_founded 0
-	population 330
-	plan_set default_set
-	faction_creator numidia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
-	region Latake_Psyllia_R
-
-	year_founded 0
-	population 300
-	plan_set default_set
-	faction_creator numidia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-	level town
-	region Harawa_Psyllia_R
-
-	year_founded 0
-	population 300
-	plan_set default_set
-	faction_creator numidia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
-	region Iasinos_Pysllia_R
-
-	year_founded 0
-	population 300
-	plan_set default_set
-	faction_creator numidia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-	level town
 	region Tashkurghan_R
 
 	year_founded 0
@@ -50850,7 +50853,7 @@ settlement
 	region Abalessa_R
 
 	year_founded 0
-	population 600
+	population 550
 	plan_set default_set
 	faction_creator garamantes
 	building
@@ -54195,7 +54198,7 @@ unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 
 character	sub_faction greek_cities, Artemas, general, age 20, , x 591, y 606
 army
-unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
+unit		rebel amazon chariots				exp 5 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
@@ -54503,6 +54506,7 @@ core_attitudes	frisii,			600		slave
 core_attitudes	gaetuli,		600		slave
 core_attitudes	gallaeci,		600		slave
 core_attitudes	garamantes,		600		slave
+core_attitudes	psyllia,		600		slave
 core_attitudes	gerrha,			600		slave
 core_attitudes	gortyn,			600		slave
 core_attitudes	hadhramaut,		600		slave
@@ -54622,7 +54626,7 @@ core_attitudes	kashgar,		600		slave
 core_attitudes	ferghana,		600		slave
 core_attitudes	teion,			600		slave
 core_attitudes	troezen,		600		slave
-core_attitudes	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, egypt, seleucid, carthage, parthia, gauls, germans, britons, greek_cities, macedon, pontus, armenia, dacia, numidia, scythia, spain, thrace, saxons, ardiaei, athens, antiochea_taocene, bactria, boii, bosporus, caledonia, celtiberia, colchis, epirus, galatia, kush, marcomanni, massagetae, massalia, nabataea, nervii, pergamon, saba, syracuse, tylis, veneti, anuradhapura, chola, alemanni, burgundii, franks, goths, huns, lombardi, ostrogoths, roxolani, sarmatians, slavs, vandals, persia, acarnania, achea, aedui, aestii, aetolia, agathyrsi, agyrion, akragas, albania, allobroges, anartes, anglii, aorsi, apuli, arcadia, argos, etruscans, astures, atrebates, atropatene, axum, balari, bastarnae, bastetani, belgae, bellovaci, bithynia, bituriges, blemmyes, boetia, breuci, brigantes, bructeri, brutii, budini, buri, byzantion, cadurci, cantabri, cantiaci, cappadocia, carni, carnutes, carpetani, catuvellauni, cavari, celtici, cenomanni, cessetani, chamavi, chauci, chera, cherusci, chorasmia, cimbri, corieltauvi, corinth, corsi, italiotes, cyprus, cyrene, daesitiates, dahae, daorsi, dardania, daunians, delmatae, demetae, dumnonii, eblani, eburones, edetani, elis, elusates, emporion, eravisci, fosi, frisii, gaetuli, gallaeci, garamantes, gerrha, gortyn, hadhramaut, harii, helisii, helveconae, helvetii, heraclea, hermunduri, heruli, histri, iazyges, iberia, ilercavones, ilergetes, illyria, india, insubres, iolei, juti, knossos, kydonia, lemovices, leponti, lexovii, libya, ligures, lihyan, lingones, lucani, mamertines, mandubii, mascat, massylii, mauri, mediomatrici, melos, messapians, messene, minaea, morini, nahanarvali, namnetes, nasamones, neapolis, nemetes, nori, oretani, osismii, paeligni, paeonia, palmyra, pandya, paphlagonia, parisii, peucitans, picentes, pictones, qataban, qedar, quadi, raeti, redones, remi, rhodes, rugii, ruteni, sabines, saka, samnites, santones, scordisci, segusiavi, senones, sequani, sinope, siraces, suessiones, sugambri, suiones, taras, tarbelli, taurini, tencteri, thessaly, thyssagetae, treverii, triballi, turdetani, turones, ubii, umbri, unelli, vaccaei, vangiones, varini, vascones, venedi, veneti_gaul, vettones, vindelici, vivisci, vocontii, volcae, volsci, bessi, caeni, krobyzi, biephi, buridenses, thamud, ay, athiyaman, kalinga, kucha, kashgar, teion, troezen, ferghana
+core_attitudes	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, egypt, seleucid, carthage, parthia, gauls, germans, britons, greek_cities, macedon, pontus, armenia, dacia, numidia, scythia, spain, thrace, saxons, ardiaei, athens, antiochea_taocene, bactria, boii, bosporus, caledonia, celtiberia, colchis, epirus, galatia, kush, marcomanni, massagetae, massalia, nabataea, nervii, pergamon, saba, syracuse, tylis, veneti, anuradhapura, chola, alemanni, burgundii, franks, goths, huns, lombardi, ostrogoths, roxolani, sarmatians, slavs, vandals, persia, acarnania, achea, aedui, aestii, aetolia, agathyrsi, agyrion, akragas, albania, allobroges, anartes, anglii, aorsi, apuli, arcadia, argos, etruscans, astures, atrebates, atropatene, axum, balari, bastarnae, bastetani, belgae, bellovaci, bithynia, bituriges, blemmyes, boetia, breuci, brigantes, bructeri, brutii, budini, buri, byzantion, cadurci, cantabri, cantiaci, cappadocia, carni, carnutes, carpetani, catuvellauni, cavari, celtici, cenomanni, cessetani, chamavi, chauci, chera, cherusci, chorasmia, cimbri, corieltauvi, corinth, corsi, italiotes, cyprus, cyrene, daesitiates, dahae, daorsi, dardania, daunians, delmatae, demetae, dumnonii, eblani, eburones, edetani, elis, elusates, emporion, eravisci, fosi, frisii, gaetuli, gallaeci, garamantes, psyllia, gerrha, gortyn, hadhramaut, harii, helisii, helveconae, helvetii, heraclea, hermunduri, heruli, histri, iazyges, iberia, ilercavones, ilergetes, illyria, india, insubres, iolei, juti, knossos, kydonia, lemovices, leponti, lexovii, libya, ligures, lihyan, lingones, lucani, mamertines, mandubii, mascat, massylii, mauri, mediomatrici, melos, messapians, messene, minaea, morini, nahanarvali, namnetes, nasamones, neapolis, nemetes, nori, oretani, osismii, paeligni, paeonia, palmyra, pandya, paphlagonia, parisii, peucitans, picentes, pictones, qataban, qedar, quadi, raeti, redones, remi, rhodes, rugii, ruteni, sabines, saka, samnites, santones, scordisci, segusiavi, senones, sequani, sinope, siraces, suessiones, sugambri, suiones, taras, tarbelli, taurini, tencteri, thessaly, thyssagetae, treverii, triballi, turdetani, turones, ubii, umbri, unelli, vaccaei, vangiones, varini, vascones, venedi, veneti_gaul, vettones, vindelici, vivisci, vocontii, volcae, volsci, bessi, caeni, krobyzi, biephi, buridenses, thamud, ay, athiyaman, kalinga, kucha, kashgar, teion, troezen, ferghana
 
 ;-------------- #$b Faction Relations ---------------
 
@@ -54918,6 +54922,7 @@ faction_relationships	frisii,			600		slave
 faction_relationships	gaetuli,		600		slave
 faction_relationships	gallaeci,		600		slave
 faction_relationships	garamantes,		600		slave
+faction_relationships	psyllia,		600		slave
 faction_relationships	gerrha,			600		slave
 faction_relationships	gortyn,			600		slave
 faction_relationships	hadhramaut,		600		slave
@@ -55037,7 +55042,7 @@ faction_relationships	kashgar,		600		slave
 faction_relationships	ferghana,		600		slave
 faction_relationships	teion,			600		slave
 faction_relationships	troezen,		600		slave
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, egypt, seleucid, carthage, parthia, gauls, germans, britons, greek_cities, macedon, pontus, armenia, dacia, numidia, scythia, spain, thrace, saxons, ardiaei, athens, antiochea_taocene, bactria, boii, bosporus, caledonia, celtiberia, colchis, epirus, galatia, kush, marcomanni, massagetae, massalia, nabataea, nervii, pergamon, saba, syracuse, tylis, veneti, anuradhapura, chola, alemanni, burgundii, franks, goths, huns, lombardi, ostrogoths, roxolani, sarmatians, slavs, vandals, persia, acarnania, achea, aedui, aestii, aetolia, agathyrsi, agyrion, akragas, albania, allobroges, anartes, anglii, aorsi, apuli, arcadia, argos, etruscans, astures, atrebates, atropatene, axum, balari, bastarnae, bastetani, belgae, bellovaci, bithynia, bituriges, blemmyes, boetia, breuci, brigantes, bructeri, brutii, budini, buri, byzantion, cadurci, cantabri, cantiaci, cappadocia, carni, carnutes, carpetani, catuvellauni, cavari, celtici, cenomanni, cessetani, chamavi, chauci, chera, cherusci, chorasmia, cimbri, corieltauvi, corinth, corsi, italiotes, cyprus, cyrene, daesitiates, dahae, daorsi, dardania, daunians, delmatae, demetae, dumnonii, eblani, eburones, edetani, elis, elusates, emporion, eravisci, fosi, frisii, gaetuli, gallaeci, garamantes, gerrha, gortyn, hadhramaut, harii, helisii, helveconae, helvetii, heraclea, hermunduri, heruli, histri, iazyges, iberia, ilercavones, ilergetes, illyria, india, insubres, iolei, juti, knossos, kydonia, lemovices, leponti, lexovii, libya, ligures, lihyan, lingones, lucani, mamertines, mandubii, mascat, massylii, mauri, mediomatrici, melos, messapians, messene, minaea, morini, nahanarvali, namnetes, nasamones, neapolis, nemetes, nori, oretani, osismii, paeligni, paeonia, palmyra, pandya, paphlagonia, parisii, peucitans, picentes, pictones, qataban, qedar, quadi, raeti, redones, remi, rhodes, rugii, ruteni, sabines, saka, samnites, santones, scordisci, segusiavi, senones, sequani, sinope, siraces, suessiones, sugambri, suiones, taras, tarbelli, taurini, tencteri, thessaly, thyssagetae, treverii, triballi, turdetani, turones, ubii, umbri, unelli, vaccaei, vangiones, varini, vascones, venedi, veneti_gaul, vettones, vindelici, vivisci, vocontii, volcae, volsci, bessi, caeni, krobyzi, biephi, buridenses, thamud, ay, athiyaman, kalinga, kucha, kashgar, teion, troezen, ferghana
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, egypt, seleucid, carthage, parthia, gauls, germans, britons, greek_cities, macedon, pontus, armenia, dacia, numidia, scythia, spain, thrace, saxons, ardiaei, athens, antiochea_taocene, bactria, boii, bosporus, caledonia, celtiberia, colchis, epirus, galatia, kush, marcomanni, massagetae, massalia, nabataea, nervii, pergamon, saba, syracuse, tylis, veneti, anuradhapura, chola, alemanni, burgundii, franks, goths, huns, lombardi, ostrogoths, roxolani, sarmatians, slavs, vandals, persia, acarnania, achea, aedui, aestii, aetolia, agathyrsi, agyrion, akragas, albania, allobroges, anartes, anglii, aorsi, apuli, arcadia, argos, etruscans, astures, atrebates, atropatene, axum, balari, bastarnae, bastetani, belgae, bellovaci, bithynia, bituriges, blemmyes, boetia, breuci, brigantes, bructeri, brutii, budini, buri, byzantion, cadurci, cantabri, cantiaci, cappadocia, carni, carnutes, carpetani, catuvellauni, cavari, celtici, cenomanni, cessetani, chamavi, chauci, chera, cherusci, chorasmia, cimbri, corieltauvi, corinth, corsi, italiotes, cyprus, cyrene, daesitiates, dahae, daorsi, dardania, daunians, delmatae, demetae, dumnonii, eblani, eburones, edetani, elis, elusates, emporion, eravisci, fosi, frisii, gaetuli, gallaeci, garamantes, psyllia, gerrha, gortyn, hadhramaut, harii, helisii, helveconae, helvetii, heraclea, hermunduri, heruli, histri, iazyges, iberia, ilercavones, ilergetes, illyria, india, insubres, iolei, juti, knossos, kydonia, lemovices, leponti, lexovii, libya, ligures, lihyan, lingones, lucani, mamertines, mandubii, mascat, massylii, mauri, mediomatrici, melos, messapians, messene, minaea, morini, nahanarvali, namnetes, nasamones, neapolis, nemetes, nori, oretani, osismii, paeligni, paeonia, palmyra, pandya, paphlagonia, parisii, peucitans, picentes, pictones, qataban, qedar, quadi, raeti, redones, remi, rhodes, rugii, ruteni, sabines, saka, samnites, santones, scordisci, segusiavi, senones, sequani, sinope, siraces, suessiones, sugambri, suiones, taras, tarbelli, taurini, tencteri, thessaly, thyssagetae, treverii, triballi, turdetani, turones, ubii, umbri, unelli, vaccaei, vangiones, varini, vascones, venedi, veneti_gaul, vettones, vindelici, vivisci, vocontii, volcae, volsci, bessi, caeni, krobyzi, biephi, buridenses, thamud, ay, athiyaman, kalinga, kucha, kashgar, teion, troezen, ferghana
 
 ;-------------- #$c Faction Aggression ---------------
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -55054,8 +55059,8 @@ faction_agression	romans_julii,		700	epirus
 faction_agression	romans_scipii,		700	epirus
 ;
 faction_agression	epirus,		700	romans_brutii
-faction_agression	epirus, 		700	romans_julii
-faction_agression	epirus, 		700	romans_scipii
+faction_agression	epirus,		700	romans_julii
+faction_agression	epirus,		700	romans_scipii
 ;
 faction_agression	carthage,		700	romans_brutii
 faction_agression	carthage, 		700	romans_julii

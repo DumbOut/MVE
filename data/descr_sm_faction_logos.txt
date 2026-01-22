@@ -305,3 +305,4 @@ icon	ui/faction_icons/troezen.tga			; 298
 icon	ui/faction_icons/persis.tga			    ; 299
 icon	ui/faction_icons/gedrosia.tga			; 300
 icon	ui/faction_icons/antiochea_taocene.tga  ; 301
+icon	ui/faction_icons/psyllia.tga			; 302

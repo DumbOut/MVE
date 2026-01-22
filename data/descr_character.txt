@@ -1417,6 +1417,12 @@ strat_model		sm_carthage_general
 battle_model	carthaginian_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+faction			psyllia
+dictionary		2
+strat_model		sm_carthage_general
+battle_model	carthaginian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 faction			libya
 dictionary		2
 strat_model		sm_carthage_general
@@ -3212,6 +3218,13 @@ strat_model		sm_carthage_lesser_general
 battle_model	carthaginian_lesser_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+faction			psyllia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	carthaginian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 faction			libya
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
@@ -4432,6 +4445,11 @@ strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy_east
 
 faction			garamantes
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			psyllia
 dictionary		2
 strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy_east
@@ -5769,6 +5787,11 @@ dictionary		2
 strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin_east
 
+faction			psyllia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_east
+
 faction			libya
 dictionary		2
 strat_card		data/ui/roman/agents/card_assassin.tga
@@ -7097,6 +7120,11 @@ dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		diplomat_east
 
+faction			psyllia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
 faction			libya
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
@@ -8420,6 +8448,11 @@ strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		merchant_east
 
 faction			garamantes
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			psyllia
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		merchant_east
@@ -9894,6 +9927,11 @@ strat_card		data/ui/egyptian/agents/temp_admiral.tga
 strat_model		numidia_admiral
 
 faction			garamantes
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		numidia_admiral
+
+faction			psyllia
 dictionary		2
 strat_card		data/ui/egyptian/agents/temp_admiral.tga
 strat_model		numidia_admiral

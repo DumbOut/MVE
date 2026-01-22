@@ -244,7 +244,7 @@ pool Nubia
 	unit merc egyptian chariot,				exp 0 cost 1600 replenish 0.005 - 0.015 max 1 initial 0
 	
 pool Sahara
-	regions Agadir_R Latake_Psyllia_R Iasinos_Pysllia_R Harawa_Psyllia_R Arambys_R Augila_R Autolalae_R Cufra_R Cydamus_R Dorath_R Gaetulia Garama_R Iarzitha_R Ifeyyey_R Magura_R NigritaeCamp_R OasisAghlan_R Sabae_R Tamdoult_R Thalubath_R Thenteos_R Tucrumuda_R Uddita_R Abalessa_R Buata_R Byntha_R Cuphe_R Geva_R GiraMetropolis_R Ischeri_R Lynxama_R Malachath_R NigiraMetropolis_R Tagama_R Thabudis_R Thamondocana_R Vellegia_R		
+	regions Agadir_R Latake_Psyllia_R Iasinos_Psyllia_R Harawa_Psyllia_R Arambys_R Augila_R Autolalae_R Cufra_R Cydamus_R Dorath_R Gaetulia Garama_R Iarzitha_R Ifeyyey_R Magura_R NigritaeCamp_R OasisAghlan_R Sabae_R Tamdoult_R Thalubath_R Thenteos_R Tucrumuda_R Uddita_R Abalessa_R Buata_R Byntha_R Cuphe_R Geva_R GiraMetropolis_R Ischeri_R Lynxama_R Malachath_R NigiraMetropolis_R Tagama_R Thabudis_R Thamondocana_R Vellegia_R		
 	unit merc libyan infantry,			exp 0 cost 350 replenish 0.1 - 0.15 max 2 initial 1
 	unit merc numidian cavalry,			exp 1 cost 750 replenish 0.1 - 0.15 max 2 initial 1
 	unit merc bedouin,			exp 0 cost 700 replenish 0.1 - 0.15 max 1 initial 0

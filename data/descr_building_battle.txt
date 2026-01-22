@@ -338,6 +338,7 @@ texture_variants
 		daesitiates		##standard_daesitiates.tga
 		troezen			##standard_troezen.tga
 		persis			##standard_slave.tga
+		psyllia			##standard_slave.tga
 		teion			##standard_slave.tga
 		gedrosia		##standard_slave.tga
 		antiochea_taocene		##standard_slave.tga
