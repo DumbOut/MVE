@@ -18926,7 +18926,7 @@ settlement
 	region Aila_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator nabataea
 	building
@@ -18985,7 +18985,7 @@ settlement
 	region Tabawa_R
 
 	year_founded 0
-	population 1500
+	population 1300
 	plan_set default_set
 	faction_creator nabataea
 	building
@@ -54190,10 +54190,12 @@ unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
+unit		rebel amazon chariots				exp 5 armour 0 weapon_lvl 0
 
 character	sub_faction greek_cities, Artemas, general, age 20, , x 591, y 606
 army
 unit		rebel amazon chariots				exp 5 armour 0 weapon_lvl 0
+unit		rebel amazon chariots				exp 5 armour 0 weapon_lvl 1
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
