@@ -15090,7 +15090,7 @@ settlement
 	region Sulci_R
 
 	year_founded 0
-	population 1500
+	population 1200
 	plan_set default_set
 	faction_creator carthage
 	building
@@ -15112,7 +15112,7 @@ settlement
 	region Sardinia
 
 	year_founded 0
-	population 700
+	population 600
 	plan_set default_set
 	faction_creator carthage
 	building
@@ -15185,7 +15185,7 @@ settlement
 	region Aiacium_R
 
 	year_founded 0
-	population 400
+	population 300
 	plan_set default_set
 	faction_creator carthage
 	building
