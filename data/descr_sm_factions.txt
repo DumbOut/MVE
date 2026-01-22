@@ -9530,7 +9530,7 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": false,
-		"default religion": "greek",
+		"default religion": "caucasian",
 		"default battle ai personality": "default_personality",
 	
 		;;allow this faction to have a functioning family tree

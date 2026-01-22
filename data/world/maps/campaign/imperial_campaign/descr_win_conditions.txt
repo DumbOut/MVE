@@ -14,7 +14,7 @@ short_campaign outlive_factions
 carthage numidia
 
 macedon
-hold_regions Rome Larissa Pella Thessalonica Middle_Egypt Babylon_R Bactra_R Sagala_R
+take_rome
 short_campaign outlive_factions 
 thrace romans_brutii epirus acarnania seleucid egypt bactria persis
 
@@ -70,7 +70,7 @@ short_campaign outlive_factions
 thrace tylis
 
 acarnania
-hold_regions Rome Sparta Messene
+take_rome
 short_campaign outlive_factions 
 athens boetia epirus romans_brutii macedon romans_senate romans_scipii thrace egypt seleucid illyria
 
@@ -100,12 +100,12 @@ short_campaign outlive_factions
 boetia acarnania
 
 greek_cities
-hold_regions Rome Ambracia Pella Sparta
+take_rome
 short_campaign outlive_factions 
 boetia acarnania athens
 
 epirus
-hold_regions Rome Ambracia Pella Sparta
+take_rome
 short_campaign outlive_factions 
 acarnania macedon romans_brutii romans_julii romans_senate romans_scipii illyria argos thrace athens
 
