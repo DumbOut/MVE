@@ -4013,7 +4013,7 @@ Lycia
 	anatolia_greek
 	5
 	10
-	anatolian 85 greek 10 thracian
+	anatolian 85 greek 10 thracian 5
 Cnidus_R
 	legion: Asianae
 	Cnidus
