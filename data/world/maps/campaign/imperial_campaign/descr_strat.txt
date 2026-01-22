@@ -42834,6 +42834,7 @@ settlement
 	population 1010
 	plan_set default_set
 	faction_creator chola
+	garrisoned_army
 	unit		indian general's bodyguard	exp 1 armour 0 weapon_lvl 0
 	unit		indian general's bodyguard	exp 1 armour 0 weapon_lvl 0
 	unit		indian general's bodyguard	exp 1 armour 0 weapon_lvl 0
@@ -42894,9 +42895,8 @@ character_record		Ilanjaetcenni Chola, 	male, command 0, influence 0, management
 relative 	Kochaet Chola, 	Sivali,		Ilanjaetcenni Chola,	end
 
 
-
 faction	chera, eastern_passive
-denari	4500
+denari	4000
 settlement
 {
 	level large_town
