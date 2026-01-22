@@ -1164,6 +1164,548 @@ region
 		}
 	}
 
+	Pieria_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Elimiotis_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Thessalia_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Tymphaea_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Mygdonia_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Chaonia_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Parauaea_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Molossis_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Aetolia_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Attica_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Corinthia_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Lemnos_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Laconia_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Euboea_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Boeotia_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Thebes_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Opous_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Rhamnous_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Megaris_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Phocis_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Acarnania_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Malis_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Dolopia_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Argolis_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Epidauros_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Aegina_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Thyrea_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Kleitor_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Olympia_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Psophis_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Cyparissea_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Epidauros_Limera_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Arcadia_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Achaea_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Messenia_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Magnesia_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Lyncestis_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Cephallenia_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 10
+		}		
+	}
+
+	Kydonia_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 98
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 2
+		}
+	}
+
+	Lappa_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 98
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 2
+		}
+	}
+
+	Hierapytna_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 98
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 2
+		}
+	}
+
+	Praesos_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 98
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 2
+		}
+	}
+
+	Lyktos_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 98
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 2
+		}
+	}
+
+	Cnidus_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+	}
+
+	Lesbos_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+	}
+
+	Cos_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+	}
+
+	Klazomenai_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+	}
+
+	Teos_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+	}
+
+	Chalcidice_R
+	{
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Orestis_R
+	{
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Sintice_R
+	{
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Bisaltia_R
+	{
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}		
+	}
+
+	Cypsela_R
+	{
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
 	Thessalia
 	{
 
@@ -7910,6 +8452,237 @@ region
 		}
 	}
 	Reate_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Grumentum_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Consilinum_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Nola_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Lavinium_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Tarracinae_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Privernum_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Caeta_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}	
+	}
+	Aquae_Apollinares_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}	
+	}
+	Candulum_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}	
+	}
+	Alsium_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Tuter_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Cleusi_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 91
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 9
+		}
+	}
+	Rusle_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 91
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 9
+		}
+	}
+	Pyrgium_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 91
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 9
+		}
+	}
+	Statonia_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 91
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 9
+		}
+	}
+	Venafrum_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 97
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 3
+		}
+	}
+	Casinum_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 97
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 2
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 1
+		}
+	}
+	Alba_Fucens_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 97
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 2
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 1
+		}
+	}
+	Saticula_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Sipontum_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 95
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 5
+		}
+	}
+	Nuceria_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 95
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 5
+		}
+	}
+	Stiglanium_R
 	{
 		variant
 		{
@@ -21505,6 +22278,5396 @@ region
 			distribution 100
 		}
 	}
+
+;;;;;;;;;;;;;;;;. Grand Campaign Expansion .;;;;;;;;;;;;;;;;.
+
+	Troas_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+	}
+
+	Palaeopolis_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Leuke_Akte_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Issos_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	SigonBeloi_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Besalatha_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Carcemish_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Telmenissos_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Pharnake_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Theleda_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Ḫaturpīr_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Šīsḫimhunna_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 8
+		}
+	}
+
+	Samal_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Memphites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Heliopolites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Thinites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Panopolites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Sethroites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Saites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Athribites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Tanites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Prosopites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Moeris_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Ancyronpolites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Hermopolites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Antaeopolites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Alabastronopolites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Apollinopolites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Lycopolites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Oasis_Magna_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+
+
+	
+	Lauhiti_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 25
+		}
+	}
+
+	
+	Haruppeswara_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 25
+		}
+	}
+
+	
+	Lanka_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 25
+		}
+	}
+
+	
+	Kangleipak_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 25
+		}
+	}
+
+	
+	Srihatta_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 25
+		}
+	}
+
+	
+	Dhannavati_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 25
+		}
+	}
+
+	
+	Pinle_Pyu_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 25
+		}
+	}
+
+	
+	Sri_Ksetra_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 25
+		}
+	}
+
+	
+	Beikthano_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 25
+		}
+	}
+
+	
+	Binnaka_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 25
+		}
+	}
+
+	
+	Bagan_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 25
+		}
+	}
+
+	
+	Maingmaw_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 25
+		}
+	}
+
+	Oasis_Parva_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity north_african
+			distribution 20
+		}
+	}
+
+	Heroopolites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 75
+		}
+
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 5
+		}
+		
+		variant
+		{
+			ethnicity north_african
+			distribution 15
+		}
+	}
+
+	Kastabala_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Khindanu_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Terqa_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Ganibatum_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Nemed_Ishtar_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Saggaratum_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Nemru_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Erana_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Tabal_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Tyba_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Doliche_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Oiniandos_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Rhabaine_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Shugab_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Apologos_Emporion_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Dumurnabesh_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Alugilurtu_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Hawmah_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Gerrha_Pandapolis_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+	Hamatiyat_R
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 92
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 8
+		}
+	}
+
+
+	Zamuchana_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Tatacene_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Parsine_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Chorasmopolis_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Chorasmia_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Chomara_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Dargamanis_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Juandu_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Taohuai_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Nandou_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Sargin_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Zanskar_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Maryul_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Kyunglung_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+Lhoka
+	Yangbajain_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Langru_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	BamcangCamp_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Changtang_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Pulathisipura_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Puli_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Wucha_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Shule_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Shache_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Weitou_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Wunsu_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Gumo_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Qiuci_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Yutian_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Yumi_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Qule_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Jingjue_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Ronglu_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Qiemo_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Yixun_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Loulan_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Yanqi_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Quli_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Wusun_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+Xiaoyuezhi
+	Bailan_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Qian_Cheshi_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Jie_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Hou_Cheshi_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	ChileCamp_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	TieleCamp_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	GaocheCamp_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	QiulinXiongnuCamp_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Yilie_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Chaenides_Camp_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+	Agathyrsi_Camp_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 18
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 2
+		}
+	}
+
+
+
+	Halingyi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Tagaung_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Pong_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Mongmao_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Nagqu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yarlung_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Qamdo_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Deqen_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Bainang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Lithang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Garze_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Glingtshang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Derge_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yangtong_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	SumpaCamp_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Jyekundo_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Qugar_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Diezhou_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	ShaodangCamp_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Hekou_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	LianchuanCamp_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Fuqi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	LushuihuCamp_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Khitan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Murong_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Rouran_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Tuoba_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	HuyanXiongnuCamp_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	XunyuCamp_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	LuandiXiongnu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	XubuXiongnu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Ashina_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Tufa_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Qifu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Luofan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Awu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Tangna_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Silla_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Mahan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Jinhan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Honam_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yemaek_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Baekje_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Tongni_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Daifang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Qian_Xuantu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Okjeo_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Lelang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Gungnae_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Gaogouli_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Haengin_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Sushan_Tribe_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Buyeo_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yilou_Tribe_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Wuji_Tribe_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Shiwei_Tribe_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Duan_Tribe_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yuwen_Tribe_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Wuhuan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Liaodong_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Hou_Xuantu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Changli_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Liaoxi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Youbeiping_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Guangyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Zhuo_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Dai_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Gu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Zhongshan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Bohai_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Anping_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Wei_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Qinghe_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Pingyuan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Gaotang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Dong_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	DongEr_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Hedong_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Puban_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Linghu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Pingyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Duanshi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Henei_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yanmen_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Taiyuan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Shangdang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Xuanshi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Nie_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yishi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Shanggu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yuyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Hengshan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Zhangwu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Hejian_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Julu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Zhao_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Laoling_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Xinxing_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Leping_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Linshui_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Xihe_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Zhongmou_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Chaoge_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Jinan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Qiansheng_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Qi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Beihai_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Donglai_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Changguang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Chengyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Donghai_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Xiapi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Dongyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Taishan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Chenliu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Xue_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Qiao_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Liang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yingchuan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Runan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Anfeng_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Jiujiang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Sanchuan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Mi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Daliang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Juancheng_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Linqiu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Langya_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Pengcheng_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Huaiyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Shanyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Jiyin_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Sishui_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Xiyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Ruyin_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Hongnong_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yinjin_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yiyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Xincheng_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Weinan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Shang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Heshang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Shaoliang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Gaoling_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Gaonu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Anding_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Fushi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Beidi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Hefei_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Dingxiang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yunzhong_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Wuyuan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Shuofang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Tianshui_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Longxi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Wudu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Wuwei_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Jincheng_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Xiping_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Zhangye_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Jiuquan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Xihai_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+Mingan
+	Zhongdi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Hanxing_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Xi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+Hanzhong_
+	Guling_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Quren_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Baxi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Zitong_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yinping_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Wenshan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Shu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Hanjia_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+Jiangyang
+	Ba_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Dangqu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+Guanghan_
+	Qianwei_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Zhi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Badong_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Bie_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Xicheng_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Fangling_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Nanyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Luyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Xiangyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Jiangxia_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Nan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Wuqian_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Wuchang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Wuling_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Changsha_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Xiangnan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Zhaoling_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Lingling_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Guiyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Qujiang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Shangyong_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Nanxiang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Zhangling_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Anlu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Cigu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Linjiang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Shian_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Hengyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Qianling_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Qianzhong_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Guangling_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Liyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Lujiang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Qichun_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Pengze_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Danyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Piling_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Wu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Xindu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Poyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yuzhang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Luling_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Nan_Luling_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Nancheng_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Shangrao_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Gumie_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Lingyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Qian_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Zhang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Ancheng_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Wushang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Huiji_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Linhai_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	JianAn_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yizhou_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Houguan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yongning_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Dongan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Nanhai_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Cangwu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Linyun_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Gaoyao_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Gaoliang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Xuwen_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Hepu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Guilin_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Jiaozhi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Jiuzhen_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Jiude_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Rinan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Zhuya_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Sihui_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Linchen_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Tanzhong_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Lingfang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Jieyang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Longchuan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Jianwei_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yuesui_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yunnan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Mengzhang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Dianchi_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Zangke_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Xinggu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Mongnai_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Pu_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Jianning_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Yelang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Mengdaguang_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Wulian_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Ailao_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Vesunga_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Verapatha_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Haripunjaya_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Prabang_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Lavapura_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Nagarjaysri_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Vajrapura_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Candanapura_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Bhimapura_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Sresthapura_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Hariharalaya_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Isanapura_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Bhavapura_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Vyadhapura_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Cattigara_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Simhapura_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 30
+		}
+	}
+
+	Vijaya_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 30
+		}
+	}
+
+	Virapura_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 80
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+
+	Baigaur_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Cahaya_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Takola_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 30
+		}
+	}
+
+	Tambralinga_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Langkasuka_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Kadaram_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Raktamaritika_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Pahang_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Gelanggi_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 95
+		}
+	}
+
+	Srideva_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Srimahosata_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 60
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 40
+		}
+	}
+
+	U_Thong_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 95
+		}
+	}
+
+	Fa_Daet_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 95
+		}
+	}
+
+	Sri_Gotapura_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 80
+		}
+	}
+
+	Tigumpa_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 30
+		}
+	}
+
+	Gangganagara_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Maladvipa_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Lusong_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 30
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 70
+		}
+	}
+
+	Niyan_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 90
+		}
+	}
+
+	Lamuri_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 30
+		}
+	}
+
+	Aru_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Barus_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 30
+		}
+	}
+
+	Panai_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 30
+		}
+	}
+
+	Sambas_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 95
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 5
+		}
+	}
+
+	Cerava_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Musa_R
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 15
+		}
+	}
+
+	Lahad_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Berau_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Banaue_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Tshushima_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Mai_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+
 
 ;;;;;;;;;;TERRA INCOGNITA;;;;;;;;;;
 

@@ -4,60 +4,60 @@ pool Aegean
 	unit merc greek hoplites,			exp 0 cost 850 replenish 0.08 - 0.15 max 2 initial 1
 
 
-pool North_Africa
+;		pool North_Africa
 
-pool Arabia
+;		pool Arabia
 
-pool Armenia
+;		pool Armenia
 
-pool Balearics
-	
-pool Britain
+;		pool Balearics
+			
+;		pool Britain
 
-pool Cilicia
+;		pool Cilicia
 
-pool Cisapline_Gaul
+;		pool Cisapline_Gaul
 
-pool Central_Europe
+;		pool Central_Europe
 
-pool Eastern_Europe
+;		pool Eastern_Europe
 
-pool Egypt
+;		pool Egypt
 
-pool Galatia
+;		pool Galatia
 
-pool Gaul
+;		pool Gaul
 
-pool Germany
+;		pool Germany
 
-pool Northern_Greece
+;		pool Northern_Greece
 
-pool Greece
+;		pool Greece
 
-pool Illyria
+;		pool Illyria
 
-pool Northern_Italy 
+;		pool Northern_Italy 
 
-pool Southern_Italy
+;		pool Southern_Italy
 
-pool Libya
+;		pool Libya
 
-pool Liguria
+;		pool Liguria
 
-pool Persia
+;		pool Persia
 
-pool Sicily
+;		pool Sicily
 
-pool Spain
+;		pool Spain
 
-pool Spain
+;		pool Spain
 
-pool Steppes
+;		pool Steppes
 
-pool Syria
+;		pool Syria
 
-pool Thrace
+;		pool Thrace
 
-pool Nubia
+;		pool Nubia
 
-pool Sahara
+;		pool Sahara

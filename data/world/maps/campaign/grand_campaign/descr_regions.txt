@@ -645,8 +645,9 @@ Durocotorum_R
 	remi
 	Aedui
 	60 106 24
+	belgica
 	5
-	8
+	7
 	celtic 100
 
 ; *********************************************************
@@ -1272,7 +1273,7 @@ Ilorci_R
 Hispania
 	legion: Hispana
 	Carthago_Nova
-	macedon
+	carthage
 	Iberians
 	187 198 13
 	iberia, phoenician_colony
@@ -2327,7 +2328,7 @@ Frisium_R
 	germanic 100
 Navalia_R
 	Navalia
-	macedon
+	frisii
 	Batavi
 	195 53 200
 	germania
@@ -2647,7 +2648,7 @@ Asanca_R
 Carrodunum_R
 	legion: Germanica
 	Carrodunum
-	macedobastarnaen
+	bastarnae
 	Venedae
 	151 110 138
 	germania
@@ -2949,7 +2950,7 @@ Dacia
 Tribus_Getae
 	legion: Dacica
 	Campus_Getae
-	macdaciaedon
+	dacia
 	Troglodytae
 	131 33 38
 	carpathia
@@ -3851,7 +3852,7 @@ Arcadia_R
 	greek 100
 Achaea_R
 	Aegium
-	macedon
+	corinth
 	Achaeans
 	206 173 22
 	greece
@@ -3991,7 +3992,7 @@ Lyktos_R
 Rhodos
 	legion: Asianae
 	Rhodes
-	macrhodesedon
+	rhodes
 	Rhodians
 	131 33 77
 	greece
@@ -4335,7 +4336,7 @@ Amisus_R
 	7
 	iranian 10 anatolian 90
 Amaseia_R
-	egion: Pontica
+	legion: Pontica
 	Amaseia
 	pontus
 	Paphlagonians
@@ -4463,7 +4464,7 @@ Trapezus_R
 	pontus, greek_colony
 	5
 	8
-	greek 55 anatolian 45 caucasian 5
+	greek 55 anatolian 45
 Cotyora_R
 	legion: Pontica
 	Cotyora
@@ -4473,7 +4474,7 @@ Cotyora_R
 	pontus, greek_colony
 	5
 	5
-	greek 55 anatolian 45 caucasian 5
+	greek 55 anatolian 45
 Melitene_R
 	legion: Cappadocica
 	Melitene
@@ -5045,7 +5046,7 @@ Rhabaine_R
 Shugab_R
 	legion: Syriaca
 	Shugab
-	seleucid
+	palmyra
 	Syrians
 	150 79 79
 	syria
@@ -5065,7 +5066,7 @@ Hierapolis_R
 Arados_R
 	legion: Syriaca
 	Arados
-	macedon
+	palmyra
 	Phoenicians
 	160 80 91
 	syria
@@ -5075,7 +5076,7 @@ Arados_R
 Byblos_R
 	legion: Phoenicea
 	Byblos
-	egypt
+	palmyra
 	Phoenicians
 	162 31 180
 	phoenicia
@@ -5827,7 +5828,7 @@ Europus_R
 	persia
 	5
 	10
-	iranian 70 assyrian 10 caucasian 10 anatolian 5 mesopotamian 5
+	iranian 70 assyrian 10 anatolian 5 mesopotamian 5
 Kumandan_R
 	legion: Parthica
 	Kumandan
@@ -6017,7 +6018,7 @@ Hecatompylos_R
 	persia, greek_colony
 	5
 	7
-	greek 10 caucasian 5 anatolian 2 assyrian 3 iranian 80
+	greek 10 iranian 80
 Amol_R
 	legion: Parthica
 	Amol
@@ -6146,7 +6147,7 @@ AlexandriaProphthasia_R
 	greek 20 iranian 80
 Tatacene_R
 	Xarxiare
-	macedon
+	seleucid
 	Athenians
 	196 111 2
 	aria, greek_colony
@@ -6182,7 +6183,7 @@ Neh_R
 	aria
 	5
 	4
-	iranian 90 caucasian 5 arab 5
+	iranian 90 arab 5
 Sigal_R
 	legion: Parthica
 	Sigal
@@ -7945,7 +7946,7 @@ Pishtapura_R
 	kalinga
 	Medes
 	139 139 84
-	nindia
+	india
 	5
 	8
 	indian 100
@@ -9622,228 +9623,6 @@ Heroopolites_R
 
 ; *********************************************************
 ; *********************************************************
-; 48. Ethiopia
-; Number of Provinces: 14
-
-PtolemaisTheron_R
-	legion: Africarum
-	PtolemaisTheron
-	egypt
-	Libyans
-	76 26 97
-	nubia, greek_colony
-	5
-	3
-	greek 20 nubian 80
-Napata_R
-	legion: Parthica
-	Napata
-	kush
-	Libyans
-	42 181 35
-	nubia
-	5
-	7
-	nubian 100
-Patinga_R
-	legion: Africarum
-	Patinga
-	kush
-	Libyans
-	217 107 77
-	nubia
-	5
-	8
-	nubian 100
-Meroe_R
-	legion: Africarum
-	Meroe
-	kush
-	Libyans
-	181 224 182
-	nubia
-	5
-	8
-	nubian 100
-Maste_R
-	legion: Africarum
-	Maste
-	kush
-	Libyans
-	21 108 17
-	nubia
-	5
-	5
-	nubian 100
-Daron_R
-	legion: Africarum
-	Daron
-	axum
-	Libyans
-	87 35 14
-	ethiopia
-	5
-	5
-	ethiopian 100
-Roha_R
-	legion: Africarum
-	Roha
-	axum
-	Libyans
-	134 224 144
-	ethiopia
-	5
-	7
-	ethiopian 100
-Axum_R
-	legion: Africarum
-	Axum
-	axum
-	Libyans
-	70 61 182
-	ethiopia
-	5
-	8
-	ethiopian 100
-Adulis_R
-	legion: Africarum
-	Adulis
-	axum
-	Libyans
-	222 216 57
-	ethiopia
-	5
-	5
-	ethiopian 100
-Primis_R
-	legion: Africarum
-	Primis
-	kush
-	Libyans
-	152 69 213
-	nubia
-	5
-	4
-	nubian 100
-Araba_R
-	legion: Africarum
-	Araba
-	kush
-	Libyans
-	192 196 74
-	nubia
-	5
-	4
-	nubian 100
-Premis_R
-	legion: Aegyptia
-	Premis
-	kush
-	Libyans
-	167 160 111
-	aegypt
-	5
-	6
-	egyptian 100
-Koloe_R
-	legion: Africarum
-	Koloe
-	axum
-	Libyans
-	95 16 148
-	ethiopia
-	5
-	5
-	ethiopian 100
-Morou_R
-	legion: Africarum
-	Morou
-	kush
-	Libyans
-	172 30 78
-	nubia
-	5
-	5
-	nubian 100
-
-; *********************************************************
-; *********************************************************
-; 49. Eastern Africa
-; Number of Provinces: 7
-
-Arsinoe_R
-	legion: Aegyptia
-	Arsinoe
-	egypt
-	Libyans
-	159 170 68
-	aegypt, greek_colony
-	5
-	3
-	greek 10 nubian 10 egyptian 80
-Gey_R
-	legion: Africarum
-	Gey
-	axum
-	Libyans
-	176 43 76
-	ethiopia
-	5
-	3
-	ethiopian 100
-Aualites_R
-	legion: Africarum
-	Aualites
-	axum
-	Libyans
-	93 83 170
-	ethiopia
-	5
-	4
-	ethiopian 100
-Malao_R
-	legion: Africarum
-	Malao
-	axum
-	Libyans
-	20 94 25
-	ethiopia
-	5
-	3
-	ethiopian 100
-Mosyllum_R
-	legion: Africarum
-	Mosyllum
-	axum
-	Libyans
-	157 151 96
-	ethiopia
-	5
-	3
-	ethiopian 100
-Opone_R
-	legion: Africarum
-	Opone
-	axum
-	Libyans
-	211 153 61
-	ethiopia
-	5
-	3
-	ethiopian 100
-Tamrida_R
-	legion: Arabica
-	Tamrida
-	hadhramaut
-	Libyans
-	47 143 17
-	arabia
-	5
-	3
-	arab 100
-
-; *********************************************************
-; *********************************************************
 ; 50. Libya
 ; Number of Provinces: 7
 
@@ -9853,7 +9632,7 @@ Tetrapyrgia_R
 	cyrene
 	Libyans
 	192 53 53
-	ncyrene
+	cyrene
 	5
 	3
 	egyptian 10 numidian 40 greek 50
@@ -10139,82 +9918,6 @@ Tamrida_R
 	5
 	3
 	arab 100
-
-; *********************************************************
-; *********************************************************
-; 50. Libya
-; Number of Provinces: 7
-
-Tetrapyrgia_R
-	legion: Cyrenaica
-	Tetrapyrgia
-	cyrene
-	Libyans
-	192 53 53
-	ncyrene
-	5
-	3
-	greek 100
-Paraetonium_R
-	legion: Aegyptia
-	Paraetonium
-	egypt
-	Libyans
-	162 163 51
-	aegypt
-	5
-	3
-	egyptian 100
-Libya
-	legion: Aegyptia
-	Siwa
-	egypt
-	Libyans
-	42 232 77
-	aegypt
-	5
-	2
-	egyptian 100
-Cyrenaica
-	legion: Cyrenaica
-	Cyrene
-	cyrene
-	Libyans
-	244 171 13
-	cyrene
-	5
-	3
-	greek 100
-Barce_R
-	legion: Cyrenaica
-	Barce
-	cyrene
-	Libyans
-	133 122 169
-	cyrene
-	5
-	5
-	greek 40 numidian 60
-Augila_R
-	legion: Cyrenaica
-	Augila
-	nasamones
-	Libyans
-	48 116 11
-	libya
-	5
-	3
-	numidian 100
-Euesperides_R
-	legion: Cyrenaica
-	Euesperides
-	cyrene
-	Libyans
-	234 223 55
-	cyrene
-	5
-	5
-	greek 40 numidian 60
 
 ; *********************************************************
 ; *********************************************************
@@ -12252,7 +11955,7 @@ Dongyang_R
 Taishan_R
 	legion: Parthica
 	Fenggao
-	macedon
+	agathyrsi
 	Athenians
 	81 104 177
 	tibet
@@ -12810,7 +12513,7 @@ Xi_R
 Hanzhong_
 	legion: ParthicaR
 	Nanzheng
-	tibet
+	agathyrsi
 	Medes
 	110 192 93
 	tibet
@@ -12820,7 +12523,7 @@ Hanzhong_
 Guling_R
 	legion: Parthica
 	Yufu
-	tibet
+	agathyrsi
 	Medes
 	36 97 12
 	tibet
@@ -12830,7 +12533,7 @@ Guling_R
 Quren_R
 	legion: Parthica
 	Quren
-	tibet
+	agathyrsi
 	Medes
 	131 137 83
 	tibet
@@ -12840,7 +12543,7 @@ Quren_R
 Baxi_R
 	legion: Parthica
 	Langzhong
-	tibet
+	agathyrsi
 	Medes
 	237 74 31
 	tibet
@@ -12850,7 +12553,7 @@ Baxi_R
 Zitong_R
 	legion: Parthica
 	Zitong
-	tibet
+	agathyrsi
 	Medes
 	19 138 137
 	tibet
@@ -12860,7 +12563,7 @@ Zitong_R
 Yinping_R
 	legion: Parthica
 	Yinping
-	tibet
+	agathyrsi
 	Medes
 	86 57 152
 	tibet
@@ -12870,7 +12573,7 @@ Yinping_R
 Wenshan_R
 	legion: Parthica
 	Wenjiang
-	tibet
+	agathyrsi
 	Medes
 	237 201 31
 	tibet
@@ -12880,7 +12583,7 @@ Wenshan_R
 Shu_R
 	legion: Parthica
 	Chengdu
-	tibet
+	agathyrsi
 	Medes
 	172 9 0
 	tibet
@@ -12890,7 +12593,7 @@ Shu_R
 Hanjia_R
 	legion: Parthica
 	Hanjia
-	tibet
+	agathyrsi
 	Medes
 	106 155 102
 	tibet
@@ -12900,7 +12603,7 @@ Hanjia_R
 Jiangyang
 	legion: Parthica_R
 	Jiangyang
-	tibet
+	agathyrsi
 	Medes
 	230 238 18
 	tibet
@@ -12910,7 +12613,7 @@ Jiangyang
 Ba_R
 	legion: Parthica
 	Jiangzhou
-	tibet
+	agathyrsi
 	Medes
 	201 51 153
 	tibet
@@ -12920,7 +12623,7 @@ Ba_R
 Dangqu_R
 	legion: Parthica
 	Dangqu
-	tibet
+	agathyrsi
 	Medes
 	232 155 100
 	tibet
@@ -12930,7 +12633,7 @@ Dangqu_R
 Guanghan_
 	legion: ParthicaR
 	Luo
-	tibet
+	agathyrsi
 	Medes
 	31 39 151
 	tibet
@@ -12940,7 +12643,7 @@ Guanghan_
 Qianwei_R
 	legion: Parthica
 	Bodao
-	tibet
+	agathyrsi
 	Medes
 	53 60 122
 	tibet
@@ -12950,7 +12653,7 @@ Qianwei_R
 Zhi_R
 	legion: Parthica
 	Zhi
-	tibet
+	agathyrsi
 	Medes
 	147 148 232
 	tibet
@@ -12960,7 +12663,7 @@ Zhi_R
 Badong_R
 	legion: Parthica
 	Fuling
-	tibet
+	agathyrsi
 	Medes
 	110 173 146
 	tibet
@@ -12970,7 +12673,7 @@ Badong_R
 Bie_R
 	legion: Parthica
 	Bie
-	tibet
+	agathyrsi
 	Medes
 	112 145 206
 	tibet
