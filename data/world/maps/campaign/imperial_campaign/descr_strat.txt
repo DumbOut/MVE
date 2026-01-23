@@ -26431,7 +26431,7 @@ settlement
 	region Serbinum_R
 
 	year_founded 0
-	population 900
+	population 850
 	plan_set default_set
 	faction_creator daesitiates
 	building
@@ -26474,9 +26474,8 @@ character_record		Medistas Daesitiati, 	male, command 0, influence 0, management
 relative 	Pytros Daesitiati, 	Ketripora,		Medistas Daesitiati,	end
 relative 	Vindex Segestani, 	Verctissa,	end
 
-
 faction	eravisci, celtic_passive
-denari	3000
+denari	1000
 settlement
 {
 	level town
@@ -26505,7 +26504,7 @@ settlement
 	region Tricciana_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator eravisci
 	building
@@ -26523,7 +26522,7 @@ settlement
 	region Candanum_R
 
 	year_founded 0
-	population 900
+	population 700
 	plan_set default_set
 	faction_creator eravisci
 	building
@@ -26541,7 +26540,7 @@ settlement
 	region AraBona_R
 
 	year_founded 0
-	population 800
+	population 600
 	plan_set default_set
 	faction_creator eravisci
 	building
@@ -26591,10 +26590,8 @@ character_record		Tancogeistla Eravisci, 	male, command 0, influence 0, manageme
 relative 	Gorteyrn Eravisci, 	Esselt,		Tancogeistla Eravisci,	end
 relative 	Caratacus Hercuniati, 	Cartimandua,		end
 
-
-
 faction	scordisci, celtic_passive
-denari	2500
+denari	1300
 settlement
 {
 	level town
