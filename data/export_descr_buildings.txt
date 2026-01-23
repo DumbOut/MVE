@@ -7204,7 +7204,6 @@ building missiles
 				recruit "goth raiders"  1   
 				recruit "steppe raiders"  0   
 				recruit "goth raiders"  0   
-				recruit "saxon hunters"  0   
 				recruit "chosen archer alemanni"  0   
 				recruit "lombard archers"  1   
 				recruit "frankish ballistae"  0  
@@ -7363,7 +7362,6 @@ building missiles
 				recruit "goth raiders"  1   
 				recruit "steppe raiders"  0   
 				recruit "goth raiders"  0   
-				recruit "saxon hunters"  0   
 				recruit "chosen archer alemanni"  0   
 				recruit "lombard archers"  1   
 				recruit "frankish ballistae"  0  
@@ -7560,7 +7558,6 @@ building missiles
 				recruit "goth raiders"  1   
 				recruit "steppe raiders"  0   
 				recruit "goth raiders"  0   
-				recruit "saxon hunters"  0   
 				recruit "chosen archer alemanni"  0   
 				recruit "lombard archers"  1   
 				recruit "frankish ballistae"  0  
