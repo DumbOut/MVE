@@ -14383,7 +14383,6 @@ model boii, Mediterranean data/characters/BI_celtic_kerns_celts_Mediterranean
 no_variation model Mediterranean data/characters/BI_celtic_kerns_Mediterranean_no_variation
 no_variation model boii, Mediterranean data/characters/BI_celtic_kerns_celts_Mediterranean_no_variation
 
-
 type celtic_slingers
 skeleton	fs_slinger_new, fs_slinger_new
 male
@@ -14486,7 +14485,6 @@ no_variation model Indian data/characters/BI_noble_clansmen_celts_Indian_no_vari
 model Mediterranean data/characters/BI_noble_clansmen_celts_Mediterranean
 no_variation model Mediterranean data/characters/BI_noble_clansmen_celts_Mediterranean_no_variation
 
-
 type scotti_chariots
 skeleton	fs_chariot_javelinman
 male
@@ -14512,7 +14510,6 @@ no_variation model Indian data/characters/BI_scotti_chariots_celts_Indian_no_var
 model Mediterranean data/characters/BI_scotti_chariots_celts_Mediterranean
 no_variation model Mediterranean data/characters/BI_scotti_chariots_celts_Mediterranean_no_variation
 
-
 type greek_militia_spearmen
 skeleton			fs_spearman
 male
@@ -14537,13 +14534,6 @@ model Indian data/characters/greek_militia_spearmen_indian
 no_variation model Indian data/characters/greek_militia_spearmen_indian
 model Mediterranean data/characters/greek_militia_spearmen_mediterranean
 no_variation model Mediterranean data/characters/greek_militia_spearmen_mediterranean
-
-
-
-
-
-
-
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

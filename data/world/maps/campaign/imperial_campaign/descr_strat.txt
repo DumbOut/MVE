@@ -18719,7 +18719,7 @@ settlement
 	region Dandutium_R
 
 	year_founded 0
-	population 810
+	population 710
 	plan_set default_set
 	faction_creator lombardi
 	building
@@ -18784,7 +18784,7 @@ settlement
 	region Fabiranum_R
 
 	year_founded 0
-	population 700
+	population 600
 	plan_set default_set
 	faction_creator saxons
 	building
@@ -18823,14 +18823,14 @@ relative 	Lutgardis Reudigni, 	Eponina,	end
 
 faction	vandals, germanic_passive
 dead_until_resurrected
-denari	400
+denari	300
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;           DANYMOK FACTIONS             ;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	nabataea, fortified_napoleon
-denari	8010
+denari	7010
 settlement
 {
 	level city
@@ -20134,7 +20134,7 @@ relative 	Monounios Bardylides, 	Dita,		Mytilos Bardylides,	end
 relative 	Mytilos Bardylides, 	Telephassa,		BardylisB Bardylides,	Ino Bardylides,	Aegon Bardylides,	end
 
 faction	epirus, comfortable_napoleon
-denari	11200
+denari	10100
 ;--------- Greece ----------
 settlement
 {
@@ -22617,7 +22617,7 @@ relative 	Gaizka Lobetani, 	Verctissa,		Dunixi Lobetani,	end
 relative 	Megaravicos Turboleti, 	Barita,	end
 
 faction	galatia, celtic_passive
-denari	3000
+denari	1000
 settlement
 {
 	level large_town
@@ -23293,9 +23293,8 @@ character_record		Sethre Velchana, 	male, command 0, influence 0, management 0, 
 relative 	Mamarce Velchana, 	Pevtha,		Sethre Velchana,	end
 relative 	Cuinte Leprna, 	Fastia,		end
 
-
 faction	mamertines, greek_passive
-denari	700
+denari	500
 settlement
 {
 	level large_town
