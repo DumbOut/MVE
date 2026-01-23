@@ -26718,20 +26718,19 @@ character_record		Arkha, 	male, command 0, influence 0, management 0, subterfuge
 
 relative 	Argishti, 	Serapia,		Arkha,	end
 
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;               8# DACIA                 ;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	apuli, dacian_passive
-denari	3000
+denari	1000
 settlement
 {
 	level large_town
 	region Dacia
 
 	year_founded 0
-	population 5252
+	population 5052
 	plan_set default_set
 	faction_creator apuli
 	building
@@ -26805,9 +26804,8 @@ relative 	Skunxa Apuli, 	Devnet,		Scyles Apuli,	end
 relative 	Scyles Apuli, 	Birkita,	Fallon,	Scylurus Apuli,	end
 
 
-
 faction	biephi, dacian_passive
-denari	2500
+denari	1500
 settlement
 {
 	level town
@@ -26836,7 +26834,7 @@ settlement
 	region Partiskon_R
 
 	year_founded 0
-	population 900
+	population 600
 	plan_set default_set
 	faction_creator biephi
 	building
@@ -26870,9 +26868,8 @@ character_record		Scylurus Biephi, 	male, command 0, influence 0, management 0, 
 relative 	Deceneu Biephi, 	Branka,		Scylurus Biephi,	end
 
 
-
 faction	buridenses, dacian_passive
-denari	2500
+denari	1100
 settlement
 {
 	level town
@@ -26896,7 +26893,6 @@ settlement
 	}
 }
 
-
 ;	Buridava
 character	Comosicus Buridensi, named character, leader, age 33, , x 328, y 379 
 traits GoodCommander 2, GoodAdministrator 2
@@ -26913,7 +26909,7 @@ relative 	Comosicus Buridensi, 	Devnet,		Atheas Buridensi,	end
 
 
 faction	peucitans, dacian_passive
-denari	2500
+denari	2000
 settlement
 {
 	level town
@@ -26938,7 +26934,7 @@ settlement
 	region Petrodava_R
 
 	year_founded 0
-	population 700
+	population 600
 	plan_set default_set
 	faction_creator peucitans
 	building
@@ -26956,7 +26952,7 @@ settlement
 	region Costobocum_R
 
 	year_founded 0
-	population 800
+	population 500
 	plan_set default_set
 	faction_creator peucitans
 	building
@@ -26974,8 +26970,7 @@ character	Dnestr Costoboci, named character, leader, age 34, , x 336, y 413
 traits GoodCommander 2, GoodAdministrator 2
 army
 unit		barb chieftain cavalry early gaul	exp 1 armour 0 weapon_lvl 0
-unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
-unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
+unit		barbarian warband				exp 0 armour 0 weapon_lvl 1
 unit		barbarian archer warband		exp 0 armour 0 weapon_lvl 0
 
 ;	Petrodava
@@ -26996,7 +26991,7 @@ character_record		Roles Costoboci, 	male, command 0, influence 0, management 0, 
 relative 	Dnestr Costoboci, 	Dana,		Roles Costoboci,	end
 
 faction	daunians, dacian_passive
-denari	3000
+denari	2000
 settlement
 {
 	level town
@@ -27036,8 +27031,6 @@ character_record		Saulius Rhadacensi, 	male, command 0, influence 0, management 
 
 relative 	Duras Rhadacensi, 	Dita,		Saulius Rhadacensi,	end
 
-
-
 faction	anartes, germanic_passive
 denari	2500
 settlement
@@ -27046,7 +27039,7 @@ settlement
 	region Trissum_R
 
 	year_founded 0
-	population 1000
+	population 700
 	plan_set default_set
 	faction_creator anartes
 	building
