@@ -221,6 +221,31 @@ model		data/models_missile/weapon_pilum_low.cas,  max
 
 ; Added so we have something that looks like a pilum but acts like a javelin
 ; (so we can match the held model with the thrown model for units that hold pilums but throw javelins, without breaking balance by limiting their max range)
+
+
+projectile plumbatari
+
+damage		0
+radius		0
+min_angle	-60
+max_angle	60
+prefer_high
+velocity	30
+display		aimed particle_trail invert_model_z thrown_weapon
+model		bi/data/models_missile/BI_projectile_plumbata.CAS,  max
+
+projectile francisca
+
+damage		0
+radius		0
+mass		0.3
+;area		0.1
+min_angle	-60
+max_angle	70
+velocity	30
+bounce		0.3 0.4 0.7 0.9 erratic
+display		aimed particle_trail spin
+model		bi/data/models_missile/BI_projectile_francisca.CAS,  max
 projectile javelin_with_pilum_skin
 
 damage		0
