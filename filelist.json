@@ -11069,7 +11069,7 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 4039887631
+		"checksum": 1786964234
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
@@ -32809,30 +32809,6 @@
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/black.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/corner.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/corner_n.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/corner_s.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/edge.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/edge_n.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/edge_s.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -106229,7 +106205,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 3480256174
+		"checksum": 57013308
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
@@ -106237,7 +106213,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_win_conditions.txt",
-		"checksum": 811418163
+		"checksum": 2263685028
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/description.txt",
@@ -106325,10 +106301,6 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_macedon.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_marcomanni.tga",
 		"checksum": "Blacklisted"
 	},
 	{

@@ -43453,9 +43453,8 @@ relative 	Mahanaga Vijaya, 	Anula,			Yatala Vijaya,	end
 relative 	Mahasiva Vijaya, 	Karuvaki,		end
 
 
-
 faction	athiyaman, eastern_passive
-denari	2000
+denari	1000
 settlement
 {
 	level town
@@ -43484,7 +43483,7 @@ settlement
 	region Sidhapura_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator athiyaman
 	building
