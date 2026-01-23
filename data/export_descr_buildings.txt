@@ -2426,9 +2426,7 @@ building core_building
 				recruit "herdsmen hun"  0
 				recruit "peasant gothic"  0
 				recruit "peasant vandal"  0
-				recruit "herdsmen sarmatian"  0
-				recruit "western peasant"  0
-				recruit "sassanid peasant"  0				
+				recruit "herdsmen sarmatian"  0		
 				
 				;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;;;;;;;;;;unit rework;;;;;;;;;;;;;;;;;;;;
@@ -2651,9 +2649,7 @@ building core_building
 				recruit "herdsmen hun"  0
 				recruit "peasant gothic"  0
 				recruit "peasant vandal"  0
-				recruit "herdsmen sarmatian"  0
-				recruit "western peasant"  0
-				recruit "sassanid peasant"  0				
+				recruit "herdsmen sarmatian"  0		
 				
 				;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;;;;;;;;;;unit rework;;;;;;;;;;;;;;;;;;;;
@@ -2984,9 +2980,7 @@ building core_building
 				recruit "herdsmen hun"  0
 				recruit "peasant gothic"  0
 				recruit "peasant vandal"  0
-				recruit "herdsmen sarmatian"  0
-				recruit "western peasant"  0
-				recruit "sassanid peasant"  0				
+				recruit "herdsmen sarmatian"  0		
 				
 				;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;;;;;;;;;;unit rework;;;;;;;;;;;;;;;;;;;;
