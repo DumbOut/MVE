@@ -14315,7 +14315,6 @@ no_variation model burgundii, Mediterranean data/characters/BI_barbarian_cavalry
 no_variation model lombardi, Mediterranean data/characters/BI_barbarian_cavalry_lombardi_Mediterranean_no_variation
 no_variation model slave, Mediterranean data/characters/BI_barbarian_cavalry_slave_Mediterranean_no_variation
 
-
 type night_raiders
 skeleton	fs_swordsman
 male

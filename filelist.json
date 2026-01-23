@@ -10937,7 +10937,7 @@
 	},
 	{
 		"filename": "data\/descr_model_battle.txt",
-		"checksum": 1639143108
+		"checksum": 909346198
 	},
 	{
 		"filename": "data\/descr_model_strat.txt",
@@ -106321,10 +106321,6 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_seleucid.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_slave.tga",
 		"checksum": "Blacklisted"
 	},
 	{
