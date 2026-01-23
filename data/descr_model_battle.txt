@@ -27094,7 +27094,6 @@ no_variation model Mediterranean data/characters/BI_western_archer_empire_west_M
 no_variation model empire_east, Mediterranean data/characters/BI_western_archer_empire_east_Mediterranean_no_variation
 no_variation model empire_east_rebels, Mediterranean data/characters/BI_western_archer_empire_east_rebels_Mediterranean_no_variation
 
-
 type western_peasant
 skeleton fs_semi_fast_spearman
 male
