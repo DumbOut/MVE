@@ -2201,7 +2201,17 @@ building core_building
 				;;danymok expansion
 				recruit "arab peasant"  0
 				recruit "helots"  0
-
+				;; bi expansion
+				recruit "western peasant alemanni"  0
+				recruit "western peasant frank"  0
+				recruit "western peasant saxon"  0
+				recruit "western peasant celt"  0
+				recruit "african peasant"  0
+				recruit "herdsmen hun"  0
+				recruit "peasant gothic"  0
+				recruit "peasant vandal"  0
+				recruit "herdsmen sarmatian"  0
+				recruit "western peasant"  0
 
 				;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;;;;;;;;;;unit rework;;;;;;;;;;;;;;;;;;;;
@@ -2222,7 +2232,6 @@ building core_building
 				;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;;;;;;;;;;unit rework end;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-					
 				
 				;;stats
 				law_bonus bonus 1 requires roman_has_gov or not roman_faction
@@ -2408,7 +2417,18 @@ building core_building
 				;;danymok expansion
 				recruit "arab peasant"  0
 				recruit "helots"  0
-				
+				;; bi expansion
+				recruit "western peasant alemanni"  0
+				recruit "western peasant frank"  0
+				recruit "western peasant saxon"  0
+				recruit "western peasant celt"  0
+				recruit "african peasant"  0
+				recruit "herdsmen hun"  0
+				recruit "peasant gothic"  0
+				recruit "peasant vandal"  0
+				recruit "herdsmen sarmatian"  0
+				recruit "western peasant"  0
+				recruit "sassanid peasant"  0				
 				
 				;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;;;;;;;;;;unit rework;;;;;;;;;;;;;;;;;;;;
@@ -2622,7 +2642,18 @@ building core_building
 				;;danymok expansion
 				recruit "arab peasant"  0
 				recruit "helots"  0
-				
+				;; bi expansion
+				recruit "western peasant alemanni"  0
+				recruit "western peasant frank"  0
+				recruit "western peasant saxon"  0
+				recruit "western peasant celt"  0
+				recruit "african peasant"  0
+				recruit "herdsmen hun"  0
+				recruit "peasant gothic"  0
+				recruit "peasant vandal"  0
+				recruit "herdsmen sarmatian"  0
+				recruit "western peasant"  0
+				recruit "sassanid peasant"  0				
 				
 				;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;;;;;;;;;;unit rework;;;;;;;;;;;;;;;;;;;;
@@ -2944,7 +2975,18 @@ building core_building
 				;;danymok expansion
 				recruit "arab peasant"  0
 				recruit "helots"  0
-				
+				;; bi expansion
+				recruit "western peasant alemanni"  0
+				recruit "western peasant frank"  0
+				recruit "western peasant saxon"  0
+				recruit "western peasant celt"  0
+				recruit "african peasant"  0
+				recruit "herdsmen hun"  0
+				recruit "peasant gothic"  0
+				recruit "peasant vandal"  0
+				recruit "herdsmen sarmatian"  0
+				recruit "western peasant"  0
+				recruit "sassanid peasant"  0				
 				
 				;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;;;;;;;;;;unit rework;;;;;;;;;;;;;;;;;;;;
@@ -3128,7 +3170,6 @@ building core_building
 				;;stats
 				happiness_bonus bonus 1 requires not blockaded and not besieged and roman_has_gov or not roman_faction
                	law_bonus bonus 4 requires roman_has_gov or not roman_faction
-				
 				
 				;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;building rework;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -3317,6 +3358,17 @@ building core_building
 				;;danymok expansion
 				recruit "arab peasant"  0
 				recruit "helots"  0
+				;; bi expansion
+				recruit "western peasant alemanni"  0
+				recruit "western peasant frank"  0
+				recruit "western peasant saxon"  0
+				recruit "western peasant celt"  0
+				recruit "african peasant"  0
+				recruit "herdsmen hun"  0
+				recruit "peasant gothic"  0
+				recruit "peasant vandal"  0
+				recruit "herdsmen sarmatian"  0
+				recruit "western peasant"  0
 				;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;;;;;;;;;;unit rework;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -4971,12 +5023,21 @@ building barracks
 				taxable_income_bonus bonus -2 requires factions { all, }
 				taxable_income_bonus bonus -47 requires factions { slave, }
 				taxable_income_bonus bonus -512 requires factions { slave, }
-				trade_base_income_bonus bonus -4 requires factions { slave, }
+				trade_base_income_bonus bonus -5 requires factions { slave, }
 				taxable_income_bonus bonus 6
 				trade_base_income_bonus bonus 1
 				recruit "barb infantry briton"  0
 				recruit "barb infantry dacian"  0
 				recruit "barb infantry gaul"  0
+				;; Bi Expansion
+				recruit "spear warband alemanni"  0   
+				recruit "steppe spearmen hun"  0   
+				recruit "runaway slave spearmen"  0   
+				recruit "steppe spearmen vandal"  0 
+				recruit "celtic spearman"  0   
+				recruit "levy spearman frank"  0   
+				recruit "levy spearman saxon"  0   
+				;; End
 				recruit "warband spear german"  0
 				recruit "barb horse archers scythian"  0
 				recruit "numidian javelinmen"  0
@@ -5006,9 +5067,7 @@ building barracks
 				recruit "libyan levy spearmen"  0
 				recruit "spartan youths"  0  requires greek_polis
 				recruit "syro hurrian spearmen"  0
-				recruit "syro hurrian swordsmen" 0
 				recruit "spartan medium aichmetai"  0
-
 				;;;;;;;;;;;;;;;;;;;;;   main units    ;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;   roman    ;;;;;;;;;;;;
 				recruit "roman city militia"  0  requires roman_has_gov or not roman_faction
@@ -5058,6 +5117,15 @@ building barracks
 				recruit "barb infantry briton"  0
 				recruit "barb infantry dacian"  0
 				recruit "barb infantry gaul"  0
+				;; Bi Expansion
+				recruit "spear warband alemanni"  0   
+				recruit "steppe spearmen hun"  0   
+				recruit "runaway slave spearmen"  0   
+				recruit "steppe spearmen vandal"  0 
+				recruit "celtic spearman"  0   
+				recruit "levy spearman frank"  0   
+				recruit "levy spearman saxon"  0   
+				;; End
 				recruit "warband spear german"  0
 				recruit "barb horse archers scythian"  0
 				recruit "warband sword briton"  0
@@ -5114,9 +5182,27 @@ building barracks
 				recruit "spartan youths"  0  requires greek_polis
 				recruit "syro hurrian spearmen"  0
 				recruit "syro hurrian swordsmen" 0
+				;; BI Expansion 1
+				recruit "gothic spearmen"  0
+				recruit "saxon keels"  0
+				recruit "foederati infantry"  0
+				recruit "steppe swordsmen hun"  0   
+				recruit "steppe spearmen vandal"  1   
+				recruit "steppe swordsmen vandal"  0
+				recruit "gallowglass"  0
+				recruit "axe heerbann"  0   
+				recruit "sword heerbann"  0
+				recruit "bosphoran infantry"  0
+				recruit "gothic warriors"  0
+				recruit "saxon hearth troops"  0
+				recruit "saxon hearth troops"  0
+				recruit "golden band"  0
+				recruit "steppe heavy spearmen vandal"  0
+				recruit "steppe heavy spearmen hun"  1
+				;; Carthage Greek Hoplites ;;
+				recruit "merc greek hoplites" requires factions { carthage, slave, }
 				recruit "spartan medium aichmetai"  0
 
-				
 				;;;;;;;;;;;;;;;;;;;;;   main units    ;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;   roman    ;;;;;;;;;;;;
 				recruit "roman city militia"  0  requires roman_has_gov or not roman_faction
@@ -5183,9 +5269,6 @@ building barracks
 				recruit "greek hoplite militia allied"  0  requires location_greek_etruria and not is_player
 				
 				
-				
-				
-				
 				;;stats
 				;;;;;building rework;;;;;
 
@@ -5221,6 +5304,15 @@ building barracks
 				recruit "barb infantry briton"  0
 				recruit "barb infantry dacian"  0
 				recruit "barb infantry gaul"  0
+				;; Bi Expansion
+				recruit "spear warband alemanni"  0   
+				recruit "steppe spearmen hun"  0   
+				recruit "runaway slave spearmen"  0   
+				recruit "steppe spearmen vandal"  0 
+				recruit "celtic spearman"  0   
+				recruit "levy spearman frank"  0   
+				recruit "levy spearman saxon"  0   
+				;; End
 				recruit "warband spear german"  0
 				recruit "barb horse archers scythian"  0
 				recruit "warband sword briton"  0
@@ -5258,6 +5350,7 @@ building barracks
 				recruit "iberian medium infantry"  0
 				recruit "hoplites"  0
 				recruit "barb naked fanatics nuragic"  0
+				recruit "hounds of culann"  0
 				recruit "barb naked fanatics slave"  0
 				recruit "berber axemen"  0   
 				recruit "mountain men"  0   
@@ -5327,6 +5420,25 @@ building barracks
 				recruit "spartan youths"  0  requires greek_polis
 				recruit "syro hurrian spearmen"  0
 				recruit "syro hurrian swordsmen" 0
+				;; BI Expansion 1
+				recruit "gothic spearmen"  0
+				recruit "saxon keels"  0
+				recruit "foederati infantry"  0
+				recruit "steppe swordsmen hun"  0   
+				recruit "steppe spearmen vandal"  1   
+				recruit "steppe swordsmen vandal"  0
+				recruit "gallowglass"  0
+				recruit "axe heerbann"  0   
+				recruit "sword heerbann"  0
+				recruit "bosphoran infantry"  0
+				recruit "gothic warriors"  0
+				recruit "saxon hearth troops"  0
+				recruit "saxon hearth troops"  0
+				recruit "golden band"  0
+				recruit "steppe heavy spearmen vandal"  0
+				recruit "steppe heavy spearmen hun"  1
+				;; Carthage Greek Hoplites ;;
+				recruit "merc greek hoplites" requires factions { carthage, slave, }
 				recruit "spartan medium aichmetai"  0
 
 				
@@ -5456,6 +5568,15 @@ building barracks
 				recruit "barb infantry briton"  0
 				recruit "barb infantry dacian"  0
 				recruit "barb infantry gaul"  0
+				;; Bi Expansion
+				recruit "spear warband alemanni"  0   
+				recruit "steppe spearmen hun"  0   
+				recruit "runaway slave spearmen"  0   
+				recruit "steppe spearmen vandal"  0 
+				recruit "celtic spearman"  0   
+				recruit "levy spearman frank"  0   
+				recruit "levy spearman saxon"  0   
+				;; End
 				recruit "warband spear german"  0
 				recruit "barb horse archers scythian"  0
 				recruit "warband sword briton"  0
@@ -5498,6 +5619,7 @@ building barracks
 				recruit "iberian medium infantry"  1
 				recruit "hoplites"  0
 				recruit "barb naked fanatics nuragic"  0
+				recruit "hounds of culann"  0
 				recruit "barb naked fanatics slave"  1
 				recruit "berber axemen"  0   
 				recruit "mountain men"  0   
@@ -5593,10 +5715,28 @@ building barracks
 				recruit "spartan youths"  0  requires greek_polis
 				recruit "syro hurrian spearmen"  0
 				recruit "syro hurrian swordsmen" 0
+				;; BI Expansion 1
+				recruit "gothic spearmen"  0
+				recruit "saxon keels"  0
+				recruit "foederati infantry"  0
+				recruit "steppe swordsmen hun"  0   
+				recruit "steppe spearmen vandal"  1   
+				recruit "steppe swordsmen vandal"  0
+				recruit "gallowglass"  0
+				recruit "axe heerbann"  0   
+				recruit "sword heerbann"  0
+				recruit "bosphoran infantry"  0
+				recruit "gothic warriors"  0
+				recruit "saxon hearth troops"  0
+				recruit "saxon hearth troops"  0
+				recruit "golden band"  0
+				recruit "steppe heavy spearmen vandal"  0
+				recruit "steppe heavy spearmen hun"  1
+				;; Carthage Greek Hoplites ;;
+				recruit "merc greek hoplites" requires factions { carthage, slave, }
 				recruit "spartan medium aichmetai"  0
 				recruit "thorax swordsmen hellenic"  0
 
-				
 				;;;;;;;;;;;;;;;;;;;;;   main units    ;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;   roman    ;;;;;;;;;;;;
 				recruit "roman city militia"  0  requires roman_has_gov or not roman_faction
@@ -5741,6 +5881,15 @@ building barracks
 				recruit "barb infantry briton"  0
 				recruit "barb infantry dacian"  0
 				recruit "barb infantry gaul"  0
+				;; Bi Expansion
+				recruit "spear warband alemanni"  0   
+				recruit "steppe spearmen hun"  0   
+				recruit "runaway slave spearmen"  0   
+				recruit "steppe spearmen vandal"  0 
+				recruit "celtic spearman"  0   
+				recruit "levy spearman frank"  0   
+				recruit "levy spearman saxon"  0   
+				;; End
 				recruit "warband spear german"  0
 				recruit "barb horse archers scythian"  0
 				recruit "warband sword briton"  0
@@ -5871,6 +6020,7 @@ building barracks
 				recruit "perioikoi greek hoplite noble"  0  requires greek_klerouchia or greek_polis
 				recruit "perioikoi spearmen"  0  requires greek_klerouchia or greek_polis
 				recruit "phrygian infantry"  0
+				recruit "hounds of culann"  0
 				recruit "saka chosen axe warriors"  0
 				recruit "spanish turdetani hoplite"  0
 				recruit "spartan armoured hoplite"  0  requires greek_polis
@@ -5879,9 +6029,27 @@ building barracks
 				recruit "spartan youths"  0  requires greek_polis
 				recruit "syro hurrian spearmen"  0
 				recruit "syro hurrian swordsmen" 0
+				;; BI Expansion 1
+				recruit "gothic spearmen"  0
+				recruit "saxon keels"  0
+				recruit "foederati infantry"  0
+				recruit "steppe swordsmen hun"  0   
+				recruit "steppe spearmen vandal"  1   
+				recruit "steppe swordsmen vandal"  0
+				recruit "gallowglass"  0
+				recruit "axe heerbann"  0   
+				recruit "sword heerbann"  0
+				recruit "bosphoran infantry"  0
+				recruit "gothic warriors"  0
+				recruit "saxon hearth troops"  0
+				recruit "saxon hearth troops"  0
+				recruit "golden band"  0
+				recruit "steppe heavy spearmen vandal"  0
+				recruit "steppe heavy spearmen hun"  1
+				;; Carthage Greek Hoplites ;;
+				recruit "merc greek hoplites" requires factions { carthage, slave, }
 				recruit "spartan medium aichmetai"  0
 				recruit "thorax swordsmen hellenic"  0
-				
 				
 				;;;;;;;;;;;;;;;;;;;;;   main units    ;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;   roman    ;;;;;;;;;;;;
@@ -5989,7 +6157,6 @@ building barracks
 				recruit "greek hoplite militia allied"  2  requires location_greek_etruria and not is_player
 				recruit "greek hoplite allied"  1  requires location_greek_etruria and not is_player
 								
-				
 				;;stats
 				;;;;;building rework;;;;;
 
@@ -6005,7 +6172,7 @@ building barracks
 				taxable_income_bonus bonus -25 requires size9
 				taxable_income_bonus bonus -30 requires size10
 			}
-			construction  14 
+			construction  16 
 			cost  64000 
 			settlement_min huge_city
 			upgrades
@@ -6047,8 +6214,42 @@ building equestrian
 				recruit "barb wardogs scythian"  0
 				recruit "numidian cavalry"  0
 				recruit "east cavalry"  0
+				;; BI Cav Additions ;;
+				recruit "alemanni warhounds" 0
+				recruit "noble cavalry alemanni"  0
+				recruit "scotti chariots"  0
+				recruit "noble clansmen celt"  0
+				recruit "frankish raiders"  1   
+				recruit "frankish paladin bodyguard"  0   
+				recruit "saxon sea raiders"  1
+				recruit "saxon warlord"  0
+				recruit "nomad archer cavalry"  0
+				recruit "tribal cavalry"  0
+				recruit "sarmatian virgin cavalry"  0
+				recruit "gothic lancer"  0
+				recruit "steppe lancers"  0
+				recruit "noble cavalry alemanni"  0
+				recruit "scotti chariots"  0
+				recruit "noble clansmen celt"  0
+				recruit "noble warriors frank"  0
+				recruit "saxon mounted nobles"  0
+				recruit "sarmatian armoured archers"  0
+				recruit "steppe warriors"  0
+				recruit "hunnic heavy cavalry"  0
+				recruit "hunnic elite warriors"  0
+				recruit "hunnic warlords"  0
+				recruit "hunnic lancers"  0  
+				recruit "alan noble cavalry"  0
+				recruit "alan horse archers"  0
+				recruit "sarmatian warlords"  0
+				recruit "gothic warrior nobles"  0
+				recruit "steppe warlords"  0
+				recruit "goth warlords"  0
+				recruit "chosen warlord alemanni"  0
+				recruit "gothic horse archers"  0
+				recruit "steppe horse archers"  0
+				;; End
 				recruit "east horse archer"  0
-				;;recruit "egyptian cavalry"  0
 				recruit "egyptian nubian cavalry"  0	;;added so hellenistic egypt has a unit at this level
 				;;added units
 				recruit "barbarian cavalry"  0
@@ -6059,6 +6260,7 @@ building equestrian
 				recruit "celtish wolfhounds"  0
 				recruit "italian skirmisher cavalry"  0
 				recruit "Indian Light Cavalry"  0
+				;; BI Cav 1
 				;;danymoks units
 				recruit "barb gallic horse peltast"  0
 				recruit "barb horse archers dacian"  0
@@ -6086,7 +6288,6 @@ building equestrian
 				recruit "libyan saharan cavalry"  0
 				recruit "nomad cavalry saka"  0
 				recruit "skiritai cavalry"  0
-				
 				
 				;;;;;;;;;;;;;;;;;;;;;   main units    ;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;   roman    ;;;;;;;;;;;;
@@ -6120,11 +6321,7 @@ building equestrian
 				;;;;;;;;;;;   greek    ;;;;;;;;;;;;
 				recruit "greek light lancer"  0  requires antigonid or not macedon_faction
 				recruit "greek cavalry"  0  requires antigonid or not macedon_faction
-				
-				
-				
-				
-				
+			
 				;;stats
 				;;;;;building rework;;;;;
 
@@ -6141,7 +6338,7 @@ building equestrian
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  2 
-			cost  4900 
+			cost  5900 
 			settlement_min large_town
 			upgrades
 			{
@@ -6174,6 +6371,41 @@ building equestrian
 				recruit "numidian cavalry"  0
 				recruit "numidian camel riders"  0  requires resource camels
 				recruit "east cavalry"  0
+				;; BI Cav Additions ;;
+				recruit "alemanni warhounds" 0
+				recruit "noble cavalry alemanni"  0
+				recruit "scotti chariots"  0
+				recruit "noble clansmen celt"  0
+				recruit "frankish raiders"  1   
+				recruit "frankish paladin bodyguard"  0   
+				recruit "saxon sea raiders"  1
+				recruit "saxon warlord"  0
+				recruit "nomad archer cavalry"  0
+				recruit "tribal cavalry"  0
+				recruit "sarmatian virgin cavalry"  0
+				recruit "gothic lancer"  0
+				recruit "steppe lancers"  0
+				recruit "noble cavalry alemanni"  0
+				recruit "scotti chariots"  0
+				recruit "noble clansmen celt"  0
+				recruit "noble warriors frank"  0
+				recruit "saxon mounted nobles"  0
+				recruit "sarmatian armoured archers"  0
+				recruit "steppe warriors"  0
+				recruit "hunnic heavy cavalry"  0
+				recruit "hunnic elite warriors"  0
+				recruit "hunnic warlords"  0
+				recruit "hunnic lancers"  0  
+				recruit "alan noble cavalry"  0
+				recruit "alan horse archers"  0
+				recruit "sarmatian warlords"  0
+				recruit "gothic warrior nobles"  0
+				recruit "steppe warlords"  0
+				recruit "goth warlords"  0
+				recruit "chosen warlord alemanni"  0
+				recruit "gothic horse archers"  0
+				recruit "steppe horse archers"  0
+				;; End
 				recruit "east horse archer"  0
 				recruit "east heavy cavalry"  0
 				recruit "east persian cavalry"  0
@@ -6193,6 +6425,7 @@ building equestrian
 				recruit "italian cavalry"  0
 				recruit "italian skirmisher cavalry"  0
 				recruit "Indian Light Cavalry"  0
+				;; BI Cav 1
 				recruit "Indian Medium Cavalry"  0
 				recruit "noble clansmen celt"  0
 				recruit "nuragic skirmisher cavalry"  0
@@ -6299,10 +6532,6 @@ building equestrian
 				recruit "greek cavalry allied"  0  requires location_greek and not is_player
 				recruit "elite equites"  0  requires location_italy_proper and not is_player
 				
-				
-				
-				
-				
 				;;stats
 				;;;;;building rework;;;;;
 
@@ -6318,8 +6547,8 @@ building equestrian
 				taxable_income_bonus bonus -15 requires size9
 				taxable_income_bonus bonus -20 requires size10
 			}
-			construction  4 
-			cost  9800 
+			construction  5 
+			cost  9900 
 			settlement_min city
 			upgrades
 			{
@@ -6352,6 +6581,41 @@ building equestrian
 				recruit "numidian cavalry"  0
 				recruit "numidian camel riders"  0  requires resource camels
 				recruit "east cavalry"  0
+				;; BI Cav Additions ;;
+				recruit "alemanni warhounds" 0
+				recruit "noble cavalry alemanni"  0
+				recruit "scotti chariots"  0
+				recruit "noble clansmen celt"  0
+				recruit "frankish raiders"  1   
+				recruit "frankish paladin bodyguard"  0   
+				recruit "saxon sea raiders"  1
+				recruit "saxon warlord"  0
+				recruit "nomad archer cavalry"  0
+				recruit "tribal cavalry"  0
+				recruit "sarmatian virgin cavalry"  0
+				recruit "gothic lancer"  0
+				recruit "steppe lancers"  0
+				recruit "noble cavalry alemanni"  0
+				recruit "scotti chariots"  0
+				recruit "noble clansmen celt"  0
+				recruit "noble warriors frank"  0
+				recruit "saxon mounted nobles"  0
+				recruit "sarmatian armoured archers"  0
+				recruit "steppe warriors"  0
+				recruit "hunnic heavy cavalry"  0
+				recruit "hunnic elite warriors"  0
+				recruit "hunnic warlords"  0
+				recruit "hunnic lancers"  0  
+				recruit "alan noble cavalry"  0
+				recruit "alan horse archers"  0
+				recruit "sarmatian warlords"  0
+				recruit "gothic warrior nobles"  0
+				recruit "steppe warlords"  0
+				recruit "goth warlords"  0
+				recruit "chosen warlord alemanni"  0
+				recruit "gothic horse archers"  0
+				recruit "steppe horse archers"  0
+				;; End
 				recruit "east horse archer"  0
 				recruit "east heavy cavalry"  0
 				recruit "east persian cavalry"  0
@@ -6573,6 +6837,41 @@ building equestrian
 				recruit "numidian cavalry"  0
 				recruit "numidian camel riders"  0  requires resource camels
 				recruit "east cavalry"  0
+				;; BI Cav Additions ;;
+				recruit "alemanni warhounds" 0
+				recruit "noble cavalry alemanni"  0
+				recruit "scotti chariots"  0
+				recruit "noble clansmen celt"  0
+				recruit "frankish raiders"  1   
+				recruit "frankish paladin bodyguard"  0   
+				recruit "saxon sea raiders"  1
+				recruit "saxon warlord"  0
+				recruit "nomad archer cavalry"  0
+				recruit "tribal cavalry"  0
+				recruit "sarmatian virgin cavalry"  0
+				recruit "gothic lancer"  0
+				recruit "steppe lancers"  0
+				recruit "noble cavalry alemanni"  0
+				recruit "scotti chariots"  0
+				recruit "noble clansmen celt"  0
+				recruit "noble warriors frank"  0
+				recruit "saxon mounted nobles"  0
+				recruit "sarmatian armoured archers"  0
+				recruit "steppe warriors"  0
+				recruit "hunnic heavy cavalry"  0
+				recruit "hunnic elite warriors"  0
+				recruit "hunnic warlords"  0
+				recruit "hunnic lancers"  0  
+				recruit "alan noble cavalry"  0
+				recruit "alan horse archers"  0
+				recruit "sarmatian warlords"  0
+				recruit "gothic warrior nobles"  0
+				recruit "steppe warlords"  0
+				recruit "goth warlords"  0
+				recruit "chosen warlord alemanni"  0
+				recruit "gothic horse archers"  0
+				recruit "steppe horse archers"  0
+				;; End
 				recruit "east horse archer"  0
 				recruit "east heavy cavalry"  0
 				recruit "east persian cavalry"  0
@@ -6904,7 +7203,7 @@ building missiles
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
-				taxable_income_bonus bonus -28 requires factions { slave, }
+				taxable_income_bonus bonus -32 requires factions { slave, }
 				trade_base_income_bonus bonus -64 requires factions { slave, }
 				taxable_income_bonus bonus 6
 				trade_base_income_bonus bonus 1
@@ -6919,6 +7218,21 @@ building missiles
 				recruit "warband huntsman gaul"  0
 				recruit "barb ballista dacian"  0
 				recruit "barb onager dacian"  0
+				recruit "hunnic archers"  0   
+				recruit "sarmatian virgin archers foot"  0   
+				recruit "sarmatian virgin archers horse"  0   
+				recruit "steppe raiders"  1   
+				recruit "goth raiders"  1   
+				recruit "steppe raiders"  0   
+				recruit "goth raiders"  0   
+				recruit "saxon hunters"  0   
+				recruit "chosen archer alemanni"  0   
+				recruit "lombard archers"  1   
+				recruit "frankish ballistae"  0  
+				recruit "steppe raiders"  1
+				recruit "celtic crossbowmen"  1 
+				recruit "alemanni onager"  0   
+				recruit "frankish onager"  0   
 				recruit "barb onager scythian"  0
 				recruit "east peltast"  0
 				recruit "east slinger"  0
@@ -7063,6 +7377,21 @@ building missiles
 				recruit "warband huntsman gaul"  0
 				recruit "barb ballista dacian"  0
 				recruit "barb onager dacian"  0
+				recruit "hunnic archers"  0   
+				recruit "sarmatian virgin archers foot"  0   
+				recruit "sarmatian virgin archers horse"  0   
+				recruit "steppe raiders"  1   
+				recruit "goth raiders"  1   
+				recruit "steppe raiders"  0   
+				recruit "goth raiders"  0   
+				recruit "saxon hunters"  0   
+				recruit "chosen archer alemanni"  0   
+				recruit "lombard archers"  1   
+				recruit "frankish ballistae"  0  
+				recruit "steppe raiders"  1
+				recruit "celtic crossbowmen"  1 
+				recruit "alemanni onager"  0   
+				recruit "frankish onager"  0   
 				recruit "barb onager scythian"  0
 				recruit "east peltast"  0
 				recruit "east slinger"  0
@@ -7245,6 +7574,21 @@ building missiles
 				recruit "warband huntsman gaul"  1
 				recruit "barb ballista dacian"  0
 				recruit "barb onager dacian"  0
+				recruit "hunnic archers"  0   
+				recruit "sarmatian virgin archers foot"  0   
+				recruit "sarmatian virgin archers horse"  0   
+				recruit "steppe raiders"  1   
+				recruit "goth raiders"  1   
+				recruit "steppe raiders"  0   
+				recruit "goth raiders"  0   
+				recruit "saxon hunters"  0   
+				recruit "chosen archer alemanni"  0   
+				recruit "lombard archers"  1   
+				recruit "frankish ballistae"  0  
+				recruit "steppe raiders"  1
+				recruit "celtic crossbowmen"  1 
+				recruit "alemanni onager"  0   
+				recruit "frankish onager"  0   
 				recruit "barb onager scythian"  0
 				recruit "east peltast"  0
 				recruit "east slinger"  0
@@ -7899,7 +8243,7 @@ building port_buildings
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
-				taxable_income_bonus bonus -8550 requires factions { slave, }
+				taxable_income_bonus bonus -512 requires factions { slave, }
 				taxable_income_bonus bonus 6
 				trade_base_income_bonus bonus 1
 				recruit "naval boats"  0 
@@ -7961,7 +8305,7 @@ building port_buildings
 				taxable_income_bonus bonus -30 requires size10
 			}
 			construction  26
-			cost  146000
+			cost  147000
 			settlement_min large_city
 			upgrades
 			{
@@ -9076,7 +9420,6 @@ building temple_of_religion
 				recruit "barb screeching women barbarian"  0
 				recruit "briton axe maidens"  0
 				recruit "caledonian axe maidens"  0
- 				recruit "celtic berserker"  0   
 				recruit "roman arcani"  0
 				recruit "barb head hunting maidens scythian"  0
 				recruit "barb scythian noblewomen scythian"  0
@@ -9177,7 +9520,6 @@ building temple_of_religion
 				recruit "barb screeching women barbarian"  0
 				recruit "briton axe maidens"  0
 				recruit "caledonian axe maidens"  0
- 				recruit "celtic berserker"  0   
 				recruit "roman arcani"  0
 				recruit "barb head hunting maidens scythian"  0
 				recruit "barb scythian noblewomen scythian"  0
@@ -9283,7 +9625,6 @@ building temple_of_religion
 				recruit "barb screeching women barbarian"  0
 				recruit "briton axe maidens"  0
 				recruit "caledonian axe maidens"  0
- 				recruit "celtic berserker"  0   
 				recruit "roman arcani"  0
 				recruit "barb head hunting maidens scythian"  0
 				recruit "barb scythian noblewomen scythian"  0
@@ -9387,7 +9728,6 @@ building temple_of_religion
 				recruit "barb screeching women barbarian"  0
 				recruit "briton axe maidens"  0
 				recruit "caledonian axe maidens"  0
- 				recruit "celtic berserker"  0   
 				recruit "roman arcani"  0
 				recruit "barb head hunting maidens scythian"  0
 				recruit "barb scythian noblewomen scythian"  0
@@ -9491,7 +9831,6 @@ building temple_of_religion
 				recruit "barb screeching women barbarian"  0
 				recruit "briton axe maidens"  0
 				recruit "caledonian axe maidens"  0
- 				recruit "celtic berserker"  0   
 				recruit "roman arcani"  0
 				recruit "barb head hunting maidens scythian"  0
 				recruit "barb scythian noblewomen scythian"  0
@@ -9595,7 +9934,6 @@ building temple_of_religion
 				recruit "barb screeching women barbarian"  0
 				recruit "briton axe maidens"  0
 				recruit "caledonian axe maidens"  0
- 				recruit "celtic berserker"  0   
 				recruit "roman arcani"  0
 				recruit "barb head hunting maidens scythian"  0
 				recruit "barb scythian noblewomen scythian"  0
@@ -9698,7 +10036,6 @@ building temple_of_religion
 				recruit "barb screeching women barbarian"  0
 				recruit "briton axe maidens"  0
 				recruit "caledonian axe maidens"  0
- 				recruit "celtic berserker"  0   
 				recruit "roman arcani"  0
 				recruit "barb head hunting maidens scythian"  0
 				recruit "barb scythian noblewomen scythian"  0
@@ -13628,6 +13965,7 @@ building temple_of_hunting
 				trade_base_income_bonus bonus 1
 
 				taxable_income_bonus bonus 8
+				recruit "druids"  0
 				recruit "celtic berserker"  0
 				happiness_bonus bonus 3
 				weapon_missile bonus 3
@@ -13707,6 +14045,7 @@ building temple_of_hunting
 				trade_base_income_bonus bonus 1
 
 				taxable_income_bonus bonus 8
+				recruit "druids"  0
 				recruit "celtic berserker"  0
 				happiness_bonus bonus 5
 				weapon_missile bonus 3
@@ -13786,6 +14125,7 @@ building temple_of_hunting
 				trade_base_income_bonus bonus 1
 
 				taxable_income_bonus bonus 8
+				recruit "druids"  0
 				recruit "celtic berserker"  0
 				happiness_bonus bonus 5
 				weapon_missile bonus 3
@@ -16900,6 +17240,7 @@ building temple_of_victory
 				taxable_income_bonus bonus 8
 				recruit "warband woad briton"  1
 				recruit "warband hurler briton"  1
+				recruit "druids"  0
 				recruit "celtic berserker"  0
 				happiness_bonus bonus 3
 				recruits_exp_bonus bonus 2
@@ -16981,6 +17322,7 @@ building temple_of_victory
 				taxable_income_bonus bonus 8
 				recruit "warband woad briton"  1
 				recruit "warband hurler briton"  1
+				recruit "druids"  0
 				recruit "celtic berserker"  0
 				happiness_bonus bonus 4
 				recruits_exp_bonus bonus 3
@@ -17062,6 +17404,7 @@ building temple_of_victory
 				taxable_income_bonus bonus 8
 				recruit "warband woad briton"  1
 				recruit "warband hurler briton"  1
+				recruit "druids"  0
 				recruit "celtic berserker"  0
 				happiness_bonus bonus 5
 				recruits_exp_bonus 3

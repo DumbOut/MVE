@@ -6336,7 +6336,7 @@ Odessus_R
 	moesia, greek_colony
 	5
 	8
-	greek 60 thracian 40
+	greek 50 thracian 50
 	
 Arubium_R
 	legion: Moesica
@@ -6347,10 +6347,8 @@ Arubium_R
 	carpathia
 	5
 	4
-	dacian 80 thracian 20
+	dacian 90 thracian 10
 
-
-	
 ; *********************************************************
 ; *********************************************************
 ; . Greek Anatolia
@@ -6386,7 +6384,7 @@ Phrygia
 	anatolia_greek
 	5
 	12
-	greek 100
+	greek 90 anatolian 5 thracian 5
 
 Adramyttium_R
 	legion: Asianae
@@ -6430,7 +6428,7 @@ Zeleia_R
 	anatolia_greek
 	5
 	8
-	anatolian 98 greek 2
+	greek 50 thracian 30 anatolian 20
 
 Cyme_R
 	legion: Asianae
@@ -6441,7 +6439,7 @@ Cyme_R
 	anatolia_greek
 	5
 	6
-	greek 100
+	greek 95 anatolian 5
 
 Ephesus_R
 	legion: Asianae
@@ -6463,7 +6461,7 @@ Erythrae_R
 	anatolia_greek
 	5
 	3
-	greek 100
+	greek 94 anatolian 6
 
 Knidos_R
 	legion: Asianae
@@ -6496,9 +6494,7 @@ Smyrna_R
 	anatolia_greek
 	5
 	8
-	greek 100
-
-
+	greek 98 anatolian 1 thracian 1
 
 ; *********************************************************
 ; *********************************************************
@@ -6513,7 +6509,7 @@ Cyzicus_R
 	anatolia, greek_colony
 	5
 	4
-	greek 60 anatolian 40
+	anatolian 100
 
 Dascylium_R
 	legion: Asianae
@@ -6525,8 +6521,6 @@ Dascylium_R
 	5
 	7
 	anatolian 100
-
-
 
 ; *********************************************************
 ; *********************************************************
@@ -6553,7 +6547,6 @@ Bithynium_R
 	5
 	4
 	thracian 100
-	
 
 Chalcedon_R
 	legion: Bithynica
@@ -6564,7 +6557,7 @@ Chalcedon_R
 	bithynia, greek_colony
 	5
 	7
-	greek 40 thracian 60
+	greek 10 thracian 90
 	
 Cius_R
 	legion: Bithynica
@@ -6575,7 +6568,7 @@ Cius_R
 	bithynia, greek_colony
 	5
 	4
-	greek 40 thracian 50 anatolian 10
+	greek 40 thracian 20 anatolian 40
 	
 Nicaea_R
 	legion: Bithynica
@@ -6597,7 +6590,7 @@ HeracleaPontica_R
 	bithynia, greek_colony
 	5
 	8
-	greek 80 anatolian 20
+	greek 80 anatolian 15 thracian 5
 
 Tios_R
 	legion: Bithynica
@@ -6608,8 +6601,7 @@ Tios_R
 	bithynia, greek_colony
 	5
 	7
-	greek 60 anatolian 40
-
+	greek 55 anatolian 40 thracian 5
 
 
 ; *********************************************************
@@ -6718,15 +6710,13 @@ Plastentia_R
 Tyana_R
 	legion: Cappadocica
 	Tyana
-	seleucid
+	cappadocia
 	Cappadocians
 	220 110 8
 	cappadocia
 	5
 	6
 	anatolian 100
-
-
 
 
 ; *********************************************************
@@ -6742,30 +6732,29 @@ Kaunos_R
 	caria, greek_colony
 	5
 	5
-	greek 60 anatolian 40
+	greek 55 anatolian 45
 	
 LaodiceaLycus_R
 	legion: Asianae
 	LaodiceaLycus
 	seleucid
-	Galatians
+	Cilicians
 	15 21 136
 	caria, greek_colony
 	5
 	7
-	greek 40 anatolian 60
+	greek 10 anatolian 90
 
 Stratonicea_R
 	legion: Asianae
 	Stratonicea
 	seleucid
-	Galatians
+	Cilicians
 	191 15 43
 	caria
 	5
 	6
 	anatolian 100
-
 
 
 ; *********************************************************
@@ -6803,7 +6792,7 @@ Adana_R
 	cilicia, greek_colony
 	5
 	12
-	greek 20 anatolian 80
+	anatolian 99 greek 1 
 	
 Antiochia_Taurus_R
 	legion: Ciliciana
@@ -6814,7 +6803,7 @@ Antiochia_Taurus_R
 	cilicia, greek_colony
 	5
 	6
-	greek 20 anatolian 80
+	anatolian 80 assyrian 18 greek 2
 	
 SeleuciaCalycadnum_R
 	legion: Ciliciana
@@ -6825,7 +6814,7 @@ SeleuciaCalycadnum_R
 	cilicia, greek_colony
 	5
 	9
-	greek 20 anatolian 80
+	greek 10 assyrian 10 anatolian 80
 	
 Anemourion_R
 	legion: Ciliciana
@@ -6837,8 +6826,6 @@ Anemourion_R
 	5
 	6
 	anatolian 100
-
-
 
 ; *********************************************************
 ; *********************************************************
@@ -6866,8 +6853,6 @@ Laranda_R
 	6
 	anatolian 100
 
-
-
 ; *********************************************************
 ; *********************************************************
 ; . Galatia
@@ -6881,7 +6866,7 @@ Galatia
 	galatia
 	5
 	8
-	celtic 60 anatolian 40
+	celtic 35 anatolian 60 thracian 5
 
 Eccobriga_R
 	legion: Galatiae
@@ -6892,7 +6877,7 @@ Eccobriga_R
 	galatia
 	5
 	7
-	celtic 40 anatolian 60
+	anatolian 100
 	
 Peium_R
 	legion: Galatiae
@@ -6903,7 +6888,7 @@ Peium_R
 	galatia
 	5
 	4
-	celtic 40 anatolian 60
+	thracian 11 anatolian 89
 	
 Pessinus_R
 	legion: Galatiae
@@ -6914,7 +6899,7 @@ Pessinus_R
 	galatia
 	5
 	6
-	celtic 20 anatolian 80
+	anatolian 98 thracian 2
 	
 Tavium_R
 	legion: Galatiae
@@ -6925,9 +6910,7 @@ Tavium_R
 	galatia
 	5
 	6
-	celtic 40 anatolian 60
-
-
+	celtic 5 thracian 5 anatolian 90
 
 ; *********************************************************
 ; *********************************************************
@@ -6955,8 +6938,6 @@ Philomelion_R
 	6
 	anatolian 100
 
-
-
 ; *********************************************************
 ; *********************************************************
 ; . Lycia
@@ -6983,8 +6964,6 @@ Limyra_R
 	6
 	anatolian 100
 
-
-
 ; *********************************************************
 ; *********************************************************
 ; . Pisidia
@@ -7010,7 +6989,6 @@ Sagalassos_R
 	5
 	6
 	anatolian 100
-
 
 
 ; *********************************************************
@@ -7048,9 +7026,7 @@ Side_R
 	pamphylia, greek_colony
 	5
 	7
-	greek 40 anatolian 60
-
-
+	anatolian 80 greek 10 phoenician 10 
 
 ; *********************************************************
 ; *********************************************************
@@ -7065,7 +7041,7 @@ ApameaMaeandrum_R
 	phrygia, greek_colony
 	5
 	6
-	greek 20 anatolian 80
+	anatolian 98 greek 2
 
 Cotyaeum_R
 	legion: Asianae
@@ -7111,8 +7087,6 @@ Mlaundus_R
 	6
 	anatolian 100
 
-
-
 ; *********************************************************
 ; *********************************************************
 ; . Pontus
@@ -7126,7 +7100,7 @@ Amaseia_R
 	pontus
 	5
 	11
-	iranian 60 anatolian 40
+	iranian 50 anatolian 45 greek 4 caucasian 1
 	
 Amisus_R
 	legion: Pontica
@@ -7137,7 +7111,7 @@ Amisus_R
 	pontus
 	5
 	7
-	iranian 40 anatolian 60
+	anatolian 99 iranian 2
 	
 ComanaPontica_R
 	legion: Pontica
@@ -7148,7 +7122,7 @@ ComanaPontica_R
 	pontus
 	5
 	6
-	iranian 40 anatolian 60
+	anatolian 98 iranian 2
 	
 Dasteira_R
 	legion: Pontica
@@ -7159,18 +7133,18 @@ Dasteira_R
 	pontus
 	5
 	5
-	iranian 40 anatolian 60
+	anatolian 98 iranian 2
 	
 Karana_R
 	legion: Pontica
 	Karana
 	pontus
-	Galatians
+	Cappadocians
 	38 155 26
 	pontus
 	5
 	5
-	iranian 40 anatolian 60
+	anatolian 98 iranian 2
 	
 Pimolisa_R
 	legion: Pontica
@@ -7181,7 +7155,7 @@ Pimolisa_R
 	pontus
 	5
 	6
-	iranian 40 anatolian 60
+	anatolian 98 iranian 2
 	
 Cotyora_R
 	legion: Pontica
@@ -7192,7 +7166,7 @@ Cotyora_R
 	pontus, greek_colony
 	5
 	5
-	greek 40 anatolian 60
+	greek 10 caucasian 10 anatolian 80
 
 Trapezus_R
 	legion: Pontica
@@ -7204,8 +7178,6 @@ Trapezus_R
 	5
 	8
 	greek 60 anatolian 40
-
-
 
 ; *********************************************************
 ; *********************************************************
@@ -7220,7 +7192,7 @@ Pontus
 	paphlagonia, greek_colony
 	5
 	10
-	greek 80 anatolian 20
+	greek 60 anatolian 40
 	
 Amastris_R
 	legion: Pontica
@@ -7231,7 +7203,7 @@ Amastris_R
 	paphlagonia
 	5
 	7
-	iranian 40 anatolian 60
+	anatolian 60 iranian 25 greek 15
 	
 Gangra_R
 	legion: Pontica
@@ -7256,7 +7228,6 @@ Koloussa_R
 	anatolian 100
 
 
-
 ; *********************************************************
 ; *********************************************************
 ; . Troas
@@ -7270,7 +7241,7 @@ Abydos_R
 	troas
 	5
 	6
-	greek 100
+	greek 75 anatolian 20 phoenician 5
 
 AlexandriaTroas_R
 	legion: Asianae
@@ -7281,9 +7252,7 @@ AlexandriaTroas_R
 	troas
 	5
 	6
-	greek 100
-
-
+	greek 60 anatolian 40
 
 ; *********************************************************
 ; *********************************************************
@@ -7298,7 +7267,7 @@ Amathous_R
 	cyprus
 	5
 	6
-	greek 100
+	greek 60 phoenician 38 assyrian 2
 
 Cyprus
 	legion: Cyprica
@@ -7309,7 +7278,7 @@ Cyprus
 	cyprus
 	5
 	9
-	greek 100
+	greek 80 phoenician 15 assyrian 5
 
 NeaPaphos_R
 	legion: Cyprica
@@ -7320,7 +7289,7 @@ NeaPaphos_R
 	cyprus
 	5
 	8
-	greek 100
+	greek 80 phoenician 15 assyrian 5
 
 	
 Soloi_R
@@ -7332,8 +7301,7 @@ Soloi_R
 	cyprus
 	5
 	6
-	greek 100
-
+	greek 70 phoenician 20 assyrian 10
 
 
 ; *********************************************************
@@ -7349,7 +7317,7 @@ Characmoba_R
 	arabia
 	5
 	5
-	arab 100
+	arab 90 phoenician 5 mesopotamian 5
 
 Gadara_R
 	legion: Arabia
@@ -7371,7 +7339,7 @@ Nabataea
 	arabia
 	5
 	5
-	arab 100
+	arab 96 phoenician 3 mesopotamian 1
 	
 Philadelphia_R
 	legion: Ferrata
@@ -7382,7 +7350,7 @@ Philadelphia_R
 	arabia
 	5
 	6
-	arab 100
+	arab 90 mesopotamian 8 phoenician 2
 
 Gaza_R
 	legion: Iudaica
@@ -7393,7 +7361,7 @@ Gaza_R
 	levant
 	5
 	2
-	judaean 100
+	judaean 60 phoenician 30 assyrian 6 greek 4
 
 Ioppe_R
 	legion: Iudaica
@@ -7404,7 +7372,7 @@ Ioppe_R
 	levant
 	5
 	2
-	judaean 100
+	phoenician 80 greek 20
 
 Judaea
 	legion: Iudaica
@@ -7415,7 +7383,7 @@ Judaea
 	levant
 	5
 	8
-	judaean 100
+	judaean 98 greek 2
 
 Ptolemais_R
 	legion: Iudaica
@@ -7426,7 +7394,7 @@ Ptolemais_R
 	levant, greek_colony
 	5
 	9
-	greek 20 judaean 80
+	greek 50 phoenician 45 judaean 5
 
 Rhinokolura_R
 	legion: Iudaica
@@ -7437,7 +7405,7 @@ Rhinokolura_R
 	levant
 	5
 	2
-	judaean 100
+	judaean 70 arab 24 phoenician 6
 
 
 ; *********************************************************
@@ -7499,7 +7467,6 @@ Tyre_R
 	9
 	phoenician 100
 
-
 ; *********************************************************
 ; *********************************************************
 ; . Syria
@@ -7513,7 +7480,7 @@ Syria
 	syria, greek_colony
 	5
 	9
-	greek 2 assyrian 88
+	assyrian 98 greek 2
 	
 Coele_Syria
 	legion: Phoenicea
@@ -7590,7 +7557,7 @@ Edessa_R
 	syria, greek_colony
 	5
 	8
-	assyrian 95 greek 5
+	assyrian 98 greek 2
 
 Hierapolis_R
 	legion: Syriaca
@@ -7612,7 +7579,7 @@ Laodicea_R
 	syria, greek_colony
 	5
 	8
-	assyrian 95 greek 5
+	assyrian 99 greek 1
 	
 Nikephorion_R
 	legion: Syriaca
@@ -7645,7 +7612,7 @@ SeleuciaPieria_R
 	syria, greek_colony
 	5
 	9
-	greek 1 assyrian 99
+	assyrian 95 anatolian 4 greek 1
 	
 Dura_R
 	legion: Syriaca
@@ -7749,7 +7716,7 @@ Nisibis_R
 	assyria, greek_colony
 	5
 	6
-	assyrian 95 greek 5
+	assyrian 98 greek 1 armenian 1
 
 Sareisa_R
 	legion: Assyriaca
@@ -7761,7 +7728,6 @@ Sareisa_R
 	5
 	5
 	assyrian 100
-
 
 ; *********************************************************
 ; *********************************************************
@@ -7776,7 +7742,7 @@ Babylonia
 	mesopotamia, greek_colony
 	5
 	14
-	greek 40 mesopotamian 60
+	mesopotamian 90 greek 5 iranian 5
 
 AntiochiaSittacene_R
 	legion: Mesopotamica
@@ -7787,7 +7753,7 @@ AntiochiaSittacene_R
 	mesopotamia, greek_colony
 	5
 	5
-	greek 20 mesopotamian 80
+	mesopotamian 90 greek 5 iranian 5
 
 ApameaSittacene_R
 	legion: Mesopotamica
@@ -7798,7 +7764,7 @@ ApameaSittacene_R
 	mesopotamia, greek_colony
 	5
 	8
-	greek 20 mesopotamian 80
+	mesopotamian 95 greek 4 iranian 1
 
 Arrapha_R
 	legion: Mesopotamica
@@ -7864,7 +7830,7 @@ CharaxSpasinu_R
 	mesopotamia, greek_colony
 	5
 	10
-	greek 10 mesopotamian 90
+	mesopotamian 98 greek 1 iranian 1
 
 Charmande_R
 	legion: Mesopotamica
@@ -8011,7 +7977,7 @@ Carcathiocerta_R
 	armenia_r
 	5
 	6
-	armenian 100
+	armenian 90 assyrian 10
 
 Gorneae_R
 	legion: Armeniaca
@@ -8110,7 +8076,7 @@ Satala_R
 	armenia_r
 	5
 	6
-	armenian 100
+	armenian 80 anatolian 20
 
 Seltia_R
 	legion: Armeniaca
@@ -8148,7 +8114,7 @@ AlexandriaCarmania_R
 	persia, greek_colony
 	5
 	5
-	greek 20 iranian 80
+	iranian 80 greek 20
 
 Amol_R
 	legion: Parthica
@@ -8170,7 +8136,7 @@ Ange_R
 	persia
 	5
 	4
-	iranian 100
+	iranian 90 assyrian 10
 
 AntiochiaPersis_R
 	legion: Parthica
@@ -8181,7 +8147,7 @@ AntiochiaPersis_R
 	persia, greek_colony
 	5
 	6
-	greek 20 iranian 80
+	iranian 80 greek 10 mesopotamian 10
 
 ApameaRagiana_R
 	legion: Parthica
@@ -8192,7 +8158,7 @@ ApameaRagiana_R
 	persia, greek_colony
 	5
 	4
-	greek 20 iranian 80
+	greek 10 iranian 90
 
 Archiotis_R
 	legion: Parthica
@@ -8247,7 +8213,7 @@ Bam_R
 	persia
 	5
 	6
-	iranian 100
+	iranian 98 arab 2
 
 Denabaran_R
 	legion: Parthica
@@ -8258,7 +8224,7 @@ Denabaran_R
 	persia
 	5
 	6
-	iranian 100
+	iranian 90 assyrian 7 armenian 2 anatolian 1
 
 Elymais
 	legion: Parthica
@@ -8269,7 +8235,7 @@ Elymais
 	persia
 	5
 	8
-	iranian 100
+	iranian 70 mesopotamian 30
 
 Europus_R
 	legion: Parthica
@@ -8280,7 +8246,7 @@ Europus_R
 	persia
 	5
 	10
-	iranian 100
+	iranian 50 assyrian 50
 
 Gabra_R
 	legion: Parthica
@@ -8324,7 +8290,7 @@ Harmozeia_R
 	persia
 	5
 	6
-	iranian 100
+	iranian 90 arab 10
 
 Hecatompylos_R
 	legion: Parthica
@@ -8335,7 +8301,7 @@ Hecatompylos_R
 	persia, greek_colony
 	5
 	7
-	greek 20 iranian 80
+	iranian 85 greek 15
 
 Issatis_R
 	legion: Parthica
@@ -8500,7 +8466,7 @@ SeleuciaHedyphon_R
 	persia, greek_colony
 	5
 	5
-	greek 20 iranian 80
+	greek 20 iranian 70 mesopotamian 10
 
 Semina_R
 	legion: Parthica
@@ -8544,7 +8510,7 @@ Dayya_R
 	persia, greek_colony
 	5
 	6
-	assyrian 40 iranian 40 mesopotamian 10 greek 10
+	assyrian 10 iranian 40 mesopotamian 40 greek 10
 
 Bushahr_R
 	legion: Parthica
@@ -8555,7 +8521,7 @@ Bushahr_R
 	persia, greek_colony
 	5
 	6
-	assyrian 40 iranian 40 mesopotamian 10 greek 10
+	assyrian 10 iranian 40 mesopotamian 40 greek 10
 
 Fariyah_R
 	legion: Parthica
@@ -8566,7 +8532,7 @@ Fariyah_R
 	persia, greek_colony
 	5
 	6
-	assyrian 20 iranian 60 mesopotamian 10 greek 10
+	mesopotamian 96 greek 4
 
 Abdun_Taocene_R
 	legion: Parthica
@@ -8588,7 +8554,7 @@ Parsha_R
 	persia, greek_colony
 	5
 	6
-	assyrian 5 iranian 60 mesopotamian 15 greek 20
+	iranian 60 mesopotamian 20 greek 20
 
 Syringis_R
 	legion: Parthica
@@ -8666,7 +8632,6 @@ Zadracarta_R
 	5
 	8
 	iranian 100
-	
 	
 ; *********************************************************
 ; *********************************************************
@@ -8769,7 +8734,7 @@ Cyropolis_R
 	media
 	5
 	7
-	iranian 100
+	iranian 96 armenian 4
 	
 Gazaca_R
 	legion: Parthica
@@ -8804,7 +8769,6 @@ Ormi_R
 	5
 	iranian 100
 	
-	
 ; *********************************************************
 ; *********************************************************
 ; . Ariana & Gedrosia
@@ -8818,7 +8782,7 @@ AlexandriaArachosia_R
 	aria, greek_colony
 	5
 	7
-	greek 20 iranian 80
+	greek 10 iranian 90
 
 AlexandriaAriana_R
 	legion: Parthica
@@ -9139,8 +9103,6 @@ Zranka_R
 	5
 	iranian 100
 
-	
-	
 ; *********************************************************
 ; *********************************************************
 ; . Bactria & Sogdiana
@@ -12855,7 +12817,7 @@ Pripet
 	scythia_r
 	5
 	3
-	scythian 100
+	scythian 80 baltic 20
 
 SanaraiKome_R
 	legion: Scythica
@@ -13722,7 +13684,6 @@ Yuni_R
 	3
 	tocharian 100
 
-
 	
 ; *********************************************************
 ; *********************************************************
@@ -13816,8 +13777,6 @@ Yumen_R
 	5
 	tocharian 100
 
-
-
 ; *********************************************************
 ; *********************************************************
 ; . Altai
@@ -13831,7 +13790,7 @@ AshinaCamp_R
 	altai
 	5
 	3
-	hunnic 100
+	hunnic 90 saka 10
 
 ChubeiXiongnuCamp_R
 	legion: Scythica
@@ -13897,7 +13856,7 @@ HujieCamp_R
 	altai
 	5
 	4
-	hunnic 100
+	hunnic 80 saka 20
 
 HunyuCamp_R
 	legion: Scythica
@@ -13930,7 +13889,7 @@ JushiCamp_R
 	altai
 	5
 	3
-	hunnic 100
+	tocharian 90 saka 5 hunnic 5
 
 LanXiongnuCamp_R
 	legion: Scythica
@@ -13963,7 +13922,7 @@ QusheCamp_R
 	altai
 	5
 	3
-	hunnic 100
+	hunnic 60 saka 40
 
 SamoyedCamp_R
 	legion: Scythica
@@ -14029,9 +13988,8 @@ XubuXiongnuCamp_R
 	altai
 	5
 	3
-	hunnic 100
+	hunnic 80 saka 20
 
-	
 
 ; *********************************************************
 ; *********************************************************
@@ -14200,7 +14158,7 @@ Skardu_R
 	tibet
 	5
 	3
-	tibetan 100
+	tibetan 70 saka 20 indian 5 tocharian 5
 
 Srinagara_R
 	legion: Parthica
@@ -14222,9 +14180,7 @@ Tsetang_R
 	tibet
 	5
 	5
-	tibetan 100
-
-	
+	tibetan 80 saka 20
 	
 ; *********************************************************
 ; *********************************************************
@@ -14239,7 +14195,7 @@ AlexandriaIndus_R
 	indus, greek_colony
 	5
 	9
-	greek 20 indian 80
+	greek 50 indian 50
 
 Amaktis_R
 	legion: Parthica
@@ -14250,7 +14206,7 @@ Amaktis_R
 	indus
 	5
 	6
-	indian 100
+	indian 80 iranian 20
 
 Andrapana_R
 	legion: Parthica
@@ -14327,7 +14283,7 @@ Barbaricum_R
 	indus
 	5
 	5
-	indian 100
+	indian 70 iranian 25 arab 5
 
 Bauterna_R
 	legion: Parthica
@@ -14349,7 +14305,7 @@ Bucephala_R
 	indus, greek_colony
 	5
 	8
-	greek 20 indian 80
+	greek 60 indian 35 iranian 5
 
 Cottabara_R
 	legion: Parthica
@@ -14360,7 +14316,7 @@ Cottabara_R
 	indus
 	5
 	5
-	indian 100
+	indian 70 iranian 30
 
 Daidala_R
 	legion: Parthica
@@ -14547,7 +14503,7 @@ Rajapura_R
 	indus
 	5
 	5
-	indian 100
+	indian 90 iranian 10
 
 Sabana_R
 	legion: Parthica
@@ -14569,7 +14525,7 @@ Sagala_R
 	indus
 	5
 	11
-	indian 100
+	indian 70 greek 28 iranian 2
 
 Shivipura_R
 	legion: Parthica
@@ -14624,7 +14580,7 @@ Taxila_R
 	indus
 	5
 	12
-	indian 100
+	indian 60 iranian 20 greek 20
 
 Tiausa_R
 	legion: Parthica
@@ -14691,8 +14647,6 @@ Xoana_R
 	5
 	6
 	indian 100
-
-
 
 ; *********************************************************
 ; *********************************************************
@@ -14817,9 +14771,7 @@ Bamanghati_R
 	india
 	5
 	5
-	indian 100
-
-
+	tamil 60 indian 35 iranian 5
 
 ; *********************************************************
 ; *********************************************************
@@ -15066,8 +15018,6 @@ Naimisha_R
 	5
 	6
 	indian 100
-
-	
 
 ; *********************************************************
 ; *********************************************************
@@ -17080,7 +17030,7 @@ Antium_R
 	italy
 	5
 	6
-	italic 90 etruscan 10
+	italic 45 etruscan 55
 
 Tarquinii_R
 	legion: Italica
@@ -17102,7 +17052,7 @@ Nursia_R
 	italy
 	5
 	4
-	italic 100
+	italic 90 etruscan 10
 
 Reate_R
 	legion: Sabina
@@ -17113,7 +17063,7 @@ Reate_R
 	italy
 	5
 	5
-	italic 70 etruscan 30
+	italic 50 etruscan 40 nuragic 10
 
 Aiacium_R
 	legion: Sardinica
@@ -17169,7 +17119,7 @@ Iasinos_Psyllia_R
 	north_africa
 	5
 	2
-	numidian 90 greek 5 phoenician 5
+	numidian 91 greek 4 phoenician 5
 
 Pano_R
 	legion: Africarum
@@ -17202,7 +17152,7 @@ Pylamnus_Aethiopis_R
 	nubia
 	5
 	4
-	ethiopian 85 arab 10 mesopotamian 5
+	ethiopian 90 arab 9 mesopotamian 2
 
 Kynouria_R
 	legion: Macedonica

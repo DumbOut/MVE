@@ -17087,7 +17087,7 @@ relative 	Aramu Eruanduni, 	Pao,		Eminos Eruanduni,	Hurriya,	end
 
 
 faction	dacia, balanced_stalin
-denari	4500
+denari	2500
 ;--------- Dacia ----------
 settlement
 {
@@ -17992,7 +17992,6 @@ unit		barb chieftain cavalry early scythian	exp 1 armour 0 weapon_lvl 0
 character	Phillipos, general, age 20, , x 387, y 452
 army
 unit		barb archer scythian				exp 0 armour 0 weapon_lvl 0
-unit		barb archer scythian				exp 0 armour 0 weapon_lvl 0
 
 ;	Carcina
 character	Phillipos, general, age 20, , x 410, y 403
@@ -18085,7 +18084,6 @@ traits GoodSpy 1
 character	Rimsin, diplomat, age 20, , x 413, y 429
 traits GoodDiplomat 1
 
-
 ;--------- 4$?/d - Family ----------
 character_record		Ara, 	male, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
 character_record		Madyes, 	male, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
@@ -18102,14 +18100,14 @@ relative 	Partatua, 	Afina,		Ziaelas,	Hestia,	end
 relative 	Belnirari, 	Branka,		Madyes,	Ara,	end
 
 faction	spain, fortified_mao
-denari	4000
+denari	1000
 settlement
 {
 	level large_town
 	region Oxthraca_R
 
 	year_founded 0
-	population 2500
+	population 2410
 	plan_set default_set
 	faction_creator spain
 	building
@@ -18434,7 +18432,7 @@ relative 	Byzas Odrysi, 	Cerzula,		Gaidres Odrysi,	Mokasokos,	Bryzos Odrysi,	end
 
 ;	Chatti
 faction	alemanni, germanic_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -18499,7 +18497,7 @@ relative 	Nasua Chatti, 	Eva,		Inguiomerus Chatti,	end
 
 
 faction	burgundii, germanic_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -19992,7 +19990,7 @@ relative 	Sakarbal, 	Pervinca,	Abdosir,	Galussa,	Ramona,	end
 
 ;	Deraemestae (to be Illyrian Kingdom)
 faction	illyria, balanced_mao
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -24772,7 +24770,7 @@ relative 	Aristotimus Theophrastides, 	Kyra,		Diagoras Theophrastides,	end
 
 
 faction	messene, greek_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -24952,7 +24950,7 @@ relative 	Elasus Menesthides, 	Arethusa,		Odysseus Menesthides,	end
 
 
 faction	knossos, greek_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -24998,7 +24996,7 @@ relative 	Telephus Marsyides, 	Leucothea,		Aetion Marsyides,	end
 
 
 faction	kydonia, greek_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -25044,7 +25042,7 @@ relative 	Cronos Agapides, 	Phylace,		Kritodemos Agapides,	end
 
 
 faction	melos, athens_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -25417,7 +25415,7 @@ relative 	Leon Derroni, 	Dentysyka,		Dropion Derroni,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	bessi, greek_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -25484,7 +25482,7 @@ relative 	Ketriporis Bessi, 	Karia,		Desakenthos Bessi,	end
 
 
 faction	bithynia, greek_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -25616,7 +25614,7 @@ relative 	Nicomedes Boteirides, 	Etazeta,			Ziaelas Boteirides,		end
 
 
 faction	byzantion, greek_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -26039,7 +26037,7 @@ relative 	Skaris Daorsi, 	Ketripora,		Brinkainos Daorsi,	end
 
 
 faction	dardania, celtic_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -26251,7 +26249,7 @@ relative 	Rescuturme Dalmati, 	Cerzula,		Iptacens Dalmati,	end
 
 
 faction	balari, dacian_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -26340,7 +26338,7 @@ relative 	Eptenis Liburni, 	Eptarys,		Skaris Liburni,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	breuci, celtic_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -26404,7 +26402,7 @@ relative 	Diazelmis Breuci, 	Eptesyka,		Kersebleptos Breuci,	end
 
 
 faction	daesitiates, celtic_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -26618,7 +26616,7 @@ relative 	Caratacus Hercuniati, 	Cartimandua,		end
 
 
 faction	scordisci, celtic_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -26713,7 +26711,7 @@ relative 	Erbin Celegeri, 	Barita,		end
 
 
 faction	iazyges, nomad_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -26836,7 +26834,7 @@ relative 	Scyles Apuli, 	Birkita,	Fallon,	Scylurus Apuli,	end
 
 
 faction	biephi, dacian_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -26901,7 +26899,7 @@ relative 	Deceneu Biephi, 	Branka,		Scylurus Biephi,	end
 
 
 faction	buridenses, dacian_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -26942,7 +26940,7 @@ relative 	Comosicus Buridensi, 	Devnet,		Atheas Buridensi,	end
 
 
 faction	peucitans, dacian_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -27068,7 +27066,7 @@ relative 	Duras Rhadacensi, 	Dita,		Saulius Rhadacensi,	end
 
 
 faction	anartes, germanic_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -28555,7 +28553,7 @@ relative 	Ariaramnes Ariaratha, 	Esther,		Ariarathes Ariaratha,		end
 
 
 faction	cyprus, greek_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -28842,7 +28840,7 @@ relative 	Pelias Aschinides, 	Callianessa,		end
 
 
 faction	albania, eastern_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -29283,7 +29281,7 @@ relative 	Gaumata Odaenathus, 	Arxa,		Zabbai Odaenathus,		end
 
 
 faction	paphlagonia, eastern_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -29577,7 +29575,7 @@ relative 	Skunxa, 	Martiya,		Uvaxshtra,		end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	colchis, greek_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -30003,7 +30001,7 @@ relative 	Phrixos Atraxidae, 	Pelopia,		end
 
 
 faction	sinope, greek_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -30567,7 +30565,7 @@ character_record		Catavignus Corieltauvi, 		male, command 0, influence 0, manage
 relative 	Cintugnatus Corieltauvi, 	Cartimandua,		Catavignus Corieltauvi,	end
 
 faction	demetae, british_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -30670,7 +30668,7 @@ relative 	Cynfawr Dumnoni, 	Eudaf,		Sennianus Dumnoni,	Drustan Dumnoni,	end
 
 
 faction	belgae, celtic_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -30711,7 +30709,7 @@ relative 	Vindomorucius Regni, 	Keyne,		Togodumnus Regni,	end
 
 
 faction	catuvellauni, british_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -30769,7 +30767,7 @@ relative 	Rhydderch Damnoni, 	Cuniovenda,		Enestinus Damnoni,	end
 
 
 faction	eblani, british_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -30816,7 +30814,7 @@ relative 	Morirex Eblani, 	Cunoarda,		Erbin Eblani,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	aedui, celtic_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -31180,7 +31178,7 @@ relative 	Brycham Carnuti, 	Verica,		Aneirin Carnuti,	end
 
 
 faction	cavari, celtic_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -35140,7 +35138,7 @@ relative 	Kuonrad Ubi, 	Ethelmoda,		Gaiobomarus Ubi,	end
 
 
 faction	vangiones, germanic_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -35181,7 +35179,7 @@ relative 	Gundioc Vangioni, 	Johanna,		Athanaric Vangioni,	end
 
 ;	Varini
 faction	varini, germanic_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -35694,7 +35692,7 @@ relative 	Vortigern Nervi, 	Cuniovenda,		Belenus Nervi,	end
 
 
 faction	parisii, celtic_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -35735,7 +35733,7 @@ relative 	Maglocunus Parisi, 	Esselt,		Vindex Parisi,	end
 
 
 faction	remi, celtic_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -35797,7 +35795,7 @@ relative 	Sennianus Remi, 	Eudaf,		Enestinus Remi,	end
 
 
 faction	treverii, germanic_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -35844,7 +35842,7 @@ relative 	Glasobrin Treveri, 	Verctissa,		Barrivendos Treveri,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	bastetani, iberian_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -36431,7 +36429,7 @@ relative 	Edrigu Blendi, 	Cunoarda,		Zorion Blendi,	end
 
 
 faction	carpetani, iberian_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -36496,7 +36494,7 @@ relative 	Ander Carpetani, 	Cuniovenda,		Inaki Carpetani,	end
 
 
 faction	celtici, iberian_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -36593,7 +36591,7 @@ relative 	Diviciacus Mirobrigensi, 	Eudaf,	end
 
 
 faction	gallaeci, iberian_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -36715,7 +36713,7 @@ relative 	Cador Egovarri, 	Keyne,	end
 
 
 faction	vaccaei, iberian_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -36916,7 +36914,7 @@ relative 	Gergori Tartessi, 	Barita,		Aingeru Tartessi,	end
 
 
 faction	vascones, iberian_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -36957,7 +36955,7 @@ relative 	Bingen Vasconi, 	Cunoarda,		Lon Vasconi,	end
 
 
 faction	vettones, iberian_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -37176,7 +37174,7 @@ relative 	Ambiorix Suessetani, 	Huctia,		Dejotarus Suessetani,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	gaetuli, desert_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -37790,7 +37788,7 @@ relative 	Zelalsen, 	Polymede,		Gaia,	Oesalces,	end
 
 
 faction	mauri, desert_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -37999,7 +37997,7 @@ relative 	Jubal, 	Muttunbaal,		Ahiram,	end
 
 
 faction	nasamones, desert_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -38070,7 +38068,7 @@ relative 	Mastanabal, 	Thais,		Khilletzbal,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	gerrha, desert_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -38211,7 +38209,7 @@ relative 	Niptasan, 	Thyia,		Bodeshmun,		end
 
 
 faction	hadhramaut, desert_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -38372,7 +38370,7 @@ relative 	Yad_ab Gaylan, 	Elissa,		Yad_il Gaylan,		end
 
 
 faction	lihyan, desert_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -38485,7 +38483,7 @@ relative 	Balshillek Karab, 	Protogonia,		Tabnit Karab,		end
 
 
 faction	mascat, desert_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -38623,7 +38621,7 @@ relative 	Zamir Yashur, 	Polymede,		Karib Yashur,		end
 
 
 faction	minaea, desert_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -38736,7 +38734,7 @@ relative 	Yitha_il Riyam, 	Raisa,		Ilyafa Riyam,		end
 
 
 faction	saba, desert_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -38863,7 +38861,7 @@ relative 	Dhamar Yuha_min, 	Althaia,		Nasha_karib Yuha_min,		end
 
 
 faction	thamud, desert_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -38952,7 +38950,7 @@ relative 	Karib_il Yakkuf, 	Hakeema,		Dari_karib Yakkuf,		end
 
 
 faction	qataban, desert_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -39090,7 +39088,7 @@ relative 	Yad_ab Yagil, 	Xanthe,		Sahr Yagil,		end
 
 
 faction	qedar, desert_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -43030,7 +43028,7 @@ relative 	Kottu Chera, 	Kopperundevi,		end
 
 
 faction	pandya, eastern_passive
-denari	4500
+denari	2500
 settlement
 {
 	level city
@@ -43151,7 +43149,7 @@ relative 	Netunceliyan Pandya, 	Durdhara,		Pudappandiyan Pandya,	end
 
 
 faction	anuradhapura, eastern_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -43328,7 +43326,7 @@ settlement
 	region Odoka_R
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator anuradhapura
 	building
@@ -43346,7 +43344,7 @@ settlement
 	region Dedigama_R
 
 	year_founded 0
-	population 1000
+	population 600
 	plan_set default_set
 	faction_creator anuradhapura
 	building
@@ -43460,10 +43458,8 @@ relative 	Uttiya Vijaya, 	Sumanadevi,			Devi,	UttiyaB Vijaya, TissaB Vijaya,	end
 relative 	Mahanaga Vijaya, 	Anula,			Yatala Vijaya,	end
 relative 	Mahasiva Vijaya, 	Karuvaki,		end
 
-
-
 faction	athiyaman, eastern_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -43577,7 +43573,7 @@ relative 	Illam Athiyaman, 	Ramadattha,		Karikala Athiyaman,	end
 
 
 faction	ay, eastern_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -43667,7 +43663,7 @@ relative 	Andiran Ay, 	Veliyan,		Selva Ay,	end
 
 
 faction	kalinga, eastern_passive
-denari	4500
+denari	2500
 settlement
 {
 	level city
@@ -44239,7 +44235,7 @@ settlement
 	region ApasiacaeKome_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator massagetae
 	building
@@ -44253,7 +44249,7 @@ settlement
 	region AugasiiKome_R
 
 	year_founded 0
-	population 1000
+	population 700
 	plan_set default_set
 	faction_creator massagetae
 	building
@@ -44357,7 +44353,7 @@ settlement
 	region AbiaeKome_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator thyssagetae
 	building
@@ -44375,7 +44371,7 @@ settlement
 	region DerbicesKome_R
 
 	year_founded 0
-	population 560
+	population 540
 	plan_set default_set
 	faction_creator thyssagetae
 	building
@@ -44398,7 +44394,6 @@ unit		barbarian horse archers			exp 0 armour 0 weapon_lvl 0
 character	Phillipos, general, age 20, , x 621, y 491
 army
 unit		barbarian horse archers			exp 0 armour 0 weapon_lvl 0
-unit		barbarian horse archers			exp 0 armour 0 weapon_lvl 0
 
 ;	Derbices Kome
 character	Phillipos, general, age 20, , x 577, y 443
@@ -44415,9 +44410,8 @@ character_record		Anacharsis, 	male, command 0, influence 0, management 0, subte
 
 relative 	Madyes, 	Scylurus,		Anacharsis,	end
 
-
 faction	roxolani, nomad_passive
-denari 3000
+denari 1000
 settlement
 {
 	level town
@@ -44446,7 +44440,7 @@ settlement
 	region UpperAorsiCamp_R
 
 	year_founded 0
-	population 1400
+	population 1200
 	plan_set default_set
 	faction_creator roxolani
 	building
@@ -44464,7 +44458,7 @@ settlement
 	region CoraxiKome_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator roxolani
 	building
@@ -44496,7 +44490,7 @@ settlement
 	region IaxamataeKome_R
 
 	year_founded 0
-	population 700
+	population 600
 	plan_set default_set
 	faction_creator roxolani
 	building
@@ -44557,7 +44551,7 @@ relative 	Zinafer, 	Devnet,		Atheas,	end
 
 
 faction	sarmatians, nomad_passive
-denari	4100
+denari	3100
 settlement
 {
 	level town
@@ -44622,7 +44616,7 @@ settlement
 	region TaniataeCamp_R
 
 	year_founded 0
-	population 600
+	population 550
 	plan_set default_set
 	faction_creator sarmatians
 	building
@@ -44666,7 +44660,6 @@ character_record		Idanthyrsus, 	male, command 0, influence 0, management 0, subt
 relative 	Saulius, 	Hestia,		Idanthyrsus,	end
 
 
-
 faction	slavs, nomad_passive
 denari	1000
 settlement
@@ -44675,7 +44668,7 @@ settlement
 	region Pripet
 
 	year_founded 0
-	population 800
+	population 760
 	plan_set default_set
 	faction_creator slavs
 	building
@@ -44697,7 +44690,7 @@ settlement
 	region Cariscus_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator slavs
 	building
@@ -44715,7 +44708,7 @@ settlement
 	region Gerrhos_R
 
 	year_founded 0
-	population 800
+	population 600
 	plan_set default_set
 	faction_creator slavs
 	building
@@ -44757,9 +44750,8 @@ character_record		Usafer, 	male, command 0, influence 0, management 0, subterfug
 relative 	Rumo, 	Fallon,		Usafer,	end
 
 
-
 faction	huns, nomad_passive
-denari	4500
+denari	1500
 settlement
 {
 	level town
@@ -44784,7 +44776,7 @@ settlement
 	region LanXiongnuCamp_R
 
 	year_founded 0
-	population 900
+	population 600
 	plan_set default_set
 	faction_creator huns
 	building
@@ -44798,7 +44790,7 @@ settlement
 	region ChubeiXiongnuCamp_R
 
 	year_founded 0
-	population 900
+	population 500
 	plan_set default_set
 	faction_creator huns
 	building
@@ -44840,7 +44832,7 @@ relative 	Charaton, 	Dita,		Muyun,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	agyrion, nomad_passive
-denari	4500
+denari	3800
 settlement
 {
 	level large_town
@@ -44869,7 +44861,7 @@ settlement
 	region Parab_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator agyrion
 	garrisoned_army
@@ -44890,7 +44882,7 @@ settlement
 	region AntiochiaScythia_R
 
 	year_founded 0
-	population 1200
+	population 980
 	plan_set default_set
 	faction_creator bactria
 	garrisoned_army
@@ -44914,7 +44906,7 @@ settlement
 	region Isfijab_R
 
 	year_founded 0
-	population 1100
+	population 800
 	plan_set default_set
 	faction_creator agyrion
 	garrisoned_army
@@ -44935,7 +44927,7 @@ settlement
 	region Sidak_R
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator agyrion
 	garrisoned_army
@@ -44956,7 +44948,7 @@ settlement
 	region ComariKome_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator agyrion
 	garrisoned_army
@@ -44983,17 +44975,15 @@ character_record		Vindarna Naptya, 	male, command 0, influence 0, management 0, 
 
 relative 	Siamak Naptya, 	Haldita,		Vindarna Naptya,		end
 
-
-
 faction	ferghana, nomad_passive
-denari	4500
+denari	2100
 settlement
 {
 	level large_town
 	region Ershi_R
 
 	year_founded 0
-	population 2000
+	population 1800
 	plan_set default_set
 	faction_creator ferghana
 	building
@@ -45015,7 +45005,7 @@ settlement
 	region Akhsikath_R
 
 	year_founded 0
-	population 1300
+	population 1000
 	plan_set default_set
 	faction_creator ferghana
 	garrisoned_army
@@ -45040,7 +45030,7 @@ settlement
 	region Hukande_R
 
 	year_founded 0
-	population 1100
+	population 900
 	plan_set default_set
 	faction_creator ferghana
 	garrisoned_army
@@ -45082,7 +45072,7 @@ settlement
 	region Shurabashat_R
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator ferghana
 	garrisoned_army
@@ -45116,7 +45106,7 @@ relative 	Cishpi Farzaneh, 	Arkha,		Sherh Farzaneh,		end
 
 
 faction	kashgar, nomad_passive
-denari	4500
+denari	2500
 settlement
 {
 	level large_town
@@ -45145,7 +45135,7 @@ settlement
 	region Suoju_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator kashgar
 	garrisoned_army
@@ -45166,7 +45156,7 @@ settlement
 	region Tumxuk_R
 
 	year_founded 0
-	population 1000
+	population 900
 	plan_set default_set
 	faction_creator kashgar
 	garrisoned_army
@@ -45208,7 +45198,7 @@ settlement
 	region Pishan_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator kashgar
 	garrisoned_army
@@ -45240,14 +45230,14 @@ relative 	Uguluy, 	Fallon,		Datan,		end
 
 
 faction	kucha, nomad_passive
-denari	3500
+denari	3100
 settlement
 {
 	level town
 	region Kucha_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator kucha
 	building
@@ -45514,7 +45504,7 @@ relative 	Mundzuk, 	Branka,		Tengiz,		end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	agathyrsi, nomad_passive
-denari	4500
+denari	2500
 settlement
 {
 	level town
@@ -46284,7 +46274,7 @@ relative 	Satres of Gedrosia, 	Arxa,		Narai of Gedrosia,	    Orontobates of Gedr
 faction	antiochea_taocene, greek_passive
 ai_do_not_attack_faction seleucid
 ai_do_not_attack_faction bactria
-denari	3115
+denari	2015
 settlement
 {
 	level town
@@ -46539,11 +46529,11 @@ denari	-1000
 
 faction	sabines, greek_passive
 dead_until_resurrected
-denari	500
+denari	300
 
 faction	samnites, greek_passive
 dead_until_resurrected
-denari	700
+denari	300
 
 faction	umbri, greek_passive
 dead_until_resurrected
