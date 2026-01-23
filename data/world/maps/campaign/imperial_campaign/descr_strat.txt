@@ -18784,7 +18784,7 @@ settlement
 	region Fabiranum_R
 
 	year_founded 0
-	population 890
+	population 700
 	plan_set default_set
 	faction_creator saxons
 	building
@@ -18823,14 +18823,14 @@ relative 	Lutgardis Reudigni, 	Eponina,	end
 
 faction	vandals, germanic_passive
 dead_until_resurrected
-denari	500
+denari	400
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;           DANYMOK FACTIONS             ;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	nabataea, fortified_napoleon
-denari	9710
+denari	8110
 settlement
 {
 	level city
