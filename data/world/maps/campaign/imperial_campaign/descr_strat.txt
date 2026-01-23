@@ -37587,16 +37587,16 @@ unit		numidian javelinmen				exp 3 armour 0 weapon_lvl 2
 character	Zalankhos Tefraides, diplomat, age 20, , x 283, y 196
 traits GoodDiplomat 3
 
-character_record		Gurkheperta, 	female, command 0, influence 0, management 0, subterfuge 0, age 35, alive, never_a_leader
+character_record		Gurkheperta Feramunika, 	female, command 0, influence 0, management 0, subterfuge 0, age 35, alive, never_a_leader
 character_record		Nankhsptahos Qkhepersptahikid, 	male, command 7, influence 7, management 5, subterfuge 0, age 15, alive, never_a_leader
 character_record		Lemkheperes Qkhepersptahikid, 	male, command 7, influence 7, management 5, subterfuge 0, age 10, alive, never_a_leader
 character_record		Qasraaios Qkhepersptahikid, 	male, command 5, influence 1, management 1, subterfuge 0, age 8, alive, never_a_leader
 character_record		Baramunes Qkhepersptahikid, 	male, command 8, influence 1, management 3, subterfuge 0, age 6, alive, never_a_leader
 
-relative 	Tefneferas Qkhepersptahikid, 	Gurkheperta, 	Nankhsptahos Qkhepersptahikid, 	Lemkheperes Qkhepersptahikid, 	Qasraaios Qkhepersptahikid, 	Baramunes Qkhepersptahikid, 	end
+relative 	Tefneferas Qkhepersptahikid, 	Gurkheperta Feramunika, 	Nankhsptahos Qkhepersptahikid, 	Lemkheperes Qkhepersptahikid, 	Qasraaios Qkhepersptahikid, 	Baramunes Qkhepersptahikid, 	end
 
 faction	massylii, desert_passive
-denari	720
+denari	700
 settlement
 {
 	level town
