@@ -46604,7 +46604,7 @@ settlement
 	region Kantakasola_R
 
 	year_founded 0
-	population 320
+	population 310
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
