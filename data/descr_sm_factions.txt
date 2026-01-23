@@ -7507,7 +7507,7 @@
 			"loading screen icon": "data/ui/faction_icons/dardania.tga",
 
 			;;standard index as declared in descr_standards (4 per page)
-			"standard index":       302,
+			"standard index":       ,
 			"rebel standard index": 21,
 
 			;;logo index as declared in descr_sm_faction_logos (1 per page)
@@ -9717,7 +9717,7 @@
 			"loading screen icon": "data/ui/faction_icons/teion.tga",
 
 			;;standard index as declared in descr_standards (4 per page)
-			"standard index":       302,
+			"standard index":       23,
 			"rebel standard index": 23,
 
 			;;logo index as declared in descr_sm_faction_logos (1 per page)
@@ -17007,11 +17007,11 @@
 			"loading screen icon": "data/ui/faction_icons/psyllia.tga",
 
 			;;standard index as declared in descr_standards (4 per page)
-			"standard index":       302,
+			"standard index":       22,
 			"rebel standard index": 22,
 
 			;;logo index as declared in descr_sm_faction_logos (1 per page)
-			"logo index":       22,
+			"logo index":       302,
 			"rebel logo index": 22,
 
 			;;flag models to be used on the strat map when a settlement is unoccupied
