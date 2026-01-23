@@ -26346,7 +26346,7 @@ settlement
 	region Cornacum_R
 
 	year_founded 0
-	population 1100
+	population 900
 	plan_set default_set
 	faction_creator breuci
 	building
@@ -26379,9 +26379,8 @@ character_record		Kersebleptos Breuci, 	male, command 0, influence 0, management
 
 relative 	Diazelmis Breuci, 	Eptesyka,		Kersebleptos Breuci,	end
 
-
 faction	daesitiates, celtic_passive
-denari	2500
+denari	2100
 settlement
 {
 	level town
