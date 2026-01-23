@@ -274,11 +274,6 @@ take_rome
 short_campaign outlive_factions 
 cyrene garamantes
 
-psyllia
-take_rome
-short_campaign outlive_factions 
-cyrene garamantes
-
 saka
 take_rome
 short_campaign outlive_factions 
