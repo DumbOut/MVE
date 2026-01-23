@@ -7431,8 +7431,6 @@ building missiles
 				recruit "cretan archers"  0  requires location_greece_proper
 				recruit "rhodian slingers"  0  requires location_greece_proper
 				
-
-				
 				;;;;;;;;;;;;;;;;;;;;;   main units    ;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;   roman    ;;;;;;;;;;;;
 				;;;;non-marian
@@ -18753,7 +18751,7 @@ building temple_of_alexander
 				taxable_income_bonus bonus -29 requires size10
 			}
 			construction  16 
-			cost  60990 
+			cost  61990 
 			settlement_min huge_city
 			upgrades
 			{
@@ -18793,7 +18791,7 @@ building greco_persian_palatial_estates
 				population_growth_bonus bonus -26 requires not factions { seleucid, cappadocia, bactria, pergamon, antiochea_taocene, persis, gedrosia, agyrion, ferghana, } ;; Old Financial semi-serfdom system not popular with the poor but better than nothing due to some profit yield by generation
 				taxable_income_bonus bonus 5 ; Base Profit
 				taxable_income_bonus bonus -4 ; Base Expense
-				taxable_income_bonus bonus 82 requires factions { seleucid, cappadocia, bactria, pergamon, antiochea_taocene, persis, gedrosia, agyrion, ferghana, }
+				taxable_income_bonus bonus 84 requires factions { seleucid, cappadocia, bactria, pergamon, antiochea_taocene, persis, gedrosia, agyrion, ferghana, }
 
 				;;;; Cultural Promotion ;;
 
@@ -18828,8 +18826,8 @@ building greco_persian_palatial_estates
 				taxable_income_bonus bonus -6 requires size9
 				taxable_income_bonus bonus -10 requires size10
 			}
-			construction 24
-			cost  200000 
+			construction 28
+			cost  210000 
 			settlement_min village
 			upgrades
 			{

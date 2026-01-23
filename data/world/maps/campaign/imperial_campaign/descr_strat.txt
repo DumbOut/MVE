@@ -109,20 +109,14 @@ playable
 	anuradhapura
 	ardiaei
 	bactria
-	boetia
 	boii
 	chola
-	colchis
 	etruscans
-	india
-	insubres
 	iolei				; sardi
 	kush
 	nervii
 	saba
-	taras
 	tylis
-	veneti
 end
 unlockable
 end
@@ -133,12 +127,18 @@ nonplayable
 	; DO NOT MAKE ALL OF THESE FACTIONS PLAYABLE!
 	; ONLY MAKE THE ONES YOU WANT TO PLAY PLAYABLE! TOO MANY MAY CAUSE ISSUES WITH THE UI!
 	alemanni			; chatti
+	taras
+	india
+	boetia
 	greek_cities        ; andros
 	antiochea_taocene
 	psyllia
 	persis
+	veneti
 	massagetae
+	colchis
 	gedrosia
+	insubres
 	teion
 	troezen
 	burgundii
@@ -8786,7 +8786,7 @@ relative 	Ameinias Iolaides, 	Caleope Antigonides,	end
 
 ;-------------- 4$c - Ptolemaic Egypt ---------------
 faction	egypt, religious_caesar
-denari	9800
+denari	6800
 ;--------- 4$c.a - Lower Egypt ----------
 settlement
 {
@@ -16591,14 +16591,14 @@ relative 	Inguiomerus Sidini, 	Edith,	end
 relative 	Odovacar Butoni, 	Johanna,	end
 
 faction	britons, trader_henry
-denari	2000
+denari	1000
 settlement
 {
 	level large_town
 	region Britannia_Superior
 
 	year_founded 0
-	population 1800
+	population 1700
 	plan_set default_set
 	faction_creator britons
 	building

@@ -10941,7 +10941,7 @@
 	},
 	{
 		"filename": "data\/descr_model_strat.txt",
-		"checksum": 2138534029
+		"checksum": 3695618392
 	},
 	{
 		"filename": "data\/descr_mount.txt",
@@ -106225,11 +106225,11 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_mercenaries.txt",
-		"checksum": 3297858914
+		"checksum": 2032328357
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 1078161930
+		"checksum": 3480256174
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
@@ -106237,7 +106237,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_win_conditions.txt",
-		"checksum": 1405701773
+		"checksum": 811418163
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/description.txt",
@@ -106622,5 +106622,9 @@
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/scripts\/6_turns_per_year_script.txt",
 		"checksum": 3267479921
+	},
+	{
+		"filename": "data\/world\/maps\/descr_strat.txt",
+		"checksum": 2105326834
 	}
 ]
