@@ -7835,7 +7835,7 @@ building market
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
-				taxable_income_bonus bonus -28 requires factions { slave, }
+				taxable_income_bonus bonus -29 requires factions { slave, }
 				trade_base_income_bonus bonus -64 requires factions { slave, }
 				taxable_income_bonus bonus 6
 				trade_base_income_bonus bonus 1
