@@ -118,11 +118,14 @@ playable
 	insubres
 	iolei				; sardi
 	kush
+	massagetae
 	nervii
 	saba
 	taras
 	tylis
 	veneti
+	psyllia
+	antiochea_taocene
 end
 unlockable
 end
@@ -134,10 +137,7 @@ nonplayable
 	; ONLY MAKE THE ONES YOU WANT TO PLAY PLAYABLE! TOO MANY MAY CAUSE ISSUES WITH THE UI!
 	alemanni			; chatti
 	greek_cities        ; andros
-	antiochea_taocene
-	psyllia
 	persis
-	massagetae
 	gedrosia
 	teion
 	troezen
@@ -357,7 +357,7 @@ trigger_status camillan_reforms, true
 trigger_status antigonid_reforms, true
 rebelling_characters_active
 night_battles_enabled
-brigand_spawn_value 190
+brigand_spawn_value 126
 pirate_spawn_value 16
 ;;---unused settings
 ;gladiator_uprising_disabled
@@ -9852,7 +9852,7 @@ settlement
 	region Coracesium_R
 
 	year_founded 0
-	population 700
+	population 1090
 	plan_set default_set
 	faction_creator egypt
 	building
@@ -10616,6 +10616,7 @@ relative 	Pelops Alexandrides, 	Hypsipyle Ptolemeides,		PelopsB Alexandrides,	en
 relative 	Lysimachus Lysimachides, 	Amestris,		Agathocles Lysimachides,	Ptolemy Lysimachides,	LysimachusB Lysimachides,	Philip Lysimachides,	end
 relative 	Agathocles Lysimachides, 	Lysandra,		end
 relative 	Ptolemy Lysimachides, 	Iphigenia,		LysimachusC Lysimachides,	Epigonus Lysimachides,	end
+
 
 ;-------------- 4$d - Seleucid Empire ---------------
 faction	seleucid, balanced_stalin
@@ -14153,7 +14154,7 @@ relative 	Adaeus Mydides, 	Circe,		Pylaemenes Mydides,	end
 ;-------------- 4$e - Carthage ---------------
 faction	carthage, balanced_smith
 ;;ai_do_not_attack_faction numidia
-denari	12030
+denari	13030
 ;--------- 4$e.a - Africa ----------
 settlement
 {
@@ -16265,7 +16266,7 @@ relative 	Herakles Mithridatides, 	Antonia,		Dionysos Mithridatides,	Rhescuporis
 
 ;-------------- 4$h - Gauls ---------------
 faction	gauls, religious_smith
-denari	3000
+denari	5000
 ;--------- 4$h.a - Gaul ---------
 settlement
 {
@@ -16355,9 +16356,10 @@ character_record		Verica Arverni, 	female, command 0, influence 0, management 0,
 relative 	Vindex Arverni, 	Keyne,		Meriadoc Arverni,	Verica Arverni,	end
 relative 	Cadeyrn Gabali, 	Boudecea,	end
 
+
 ;-------------- 4$i - Germans ---------------
 faction	germans, balanced_mao
-denari	3100
+denari	4100
 settlement
 {
 	level large_town
@@ -16590,8 +16592,9 @@ relative 	Catualdo Varisci, 	Ulrike,		Reingardis Varisci,	end
 relative 	Inguiomerus Sidini, 	Edith,	end
 relative 	Odovacar Butoni, 	Johanna,	end
 
+
 faction	britons, trader_henry
-denari	2000
+denari	4000
 settlement
 {
 	level large_town
@@ -17082,8 +17085,9 @@ relative 	Orontes Eruanduni, 	Erato,		Sames Eruanduni,	Aramu Eruanduni,	Zipoetes
 relative 	Sames Eruanduni, 	Karo,		Arao,	Aram Eruanduni,	Sarduri Eruanduni,	end
 relative 	Aramu Eruanduni, 	Pao,		Eminos Eruanduni,	Hurriya,	end
 
+
 faction	dacia, balanced_stalin
-denari	1000
+denari	4500
 ;--------- Dacia ----------
 settlement
 {
@@ -17091,7 +17095,7 @@ settlement
 	region Arubium_R
 
 	year_founded 0
-	population 2200
+	population 2400
 	plan_set default_set
 	faction_creator dacia
 	building
@@ -17117,7 +17121,7 @@ settlement
 	region Tribus_Getae
 
 	year_founded 0
-	population 800
+	population 1000
 	plan_set default_set
 	faction_creator dacia
 	garrisoned_army
@@ -17142,7 +17146,7 @@ settlement
 	region Harpispolis_R
 
 	year_founded 0
-	population 700
+	population 900
 	plan_set default_set
 	faction_creator dacia
 	garrisoned_army
@@ -17167,7 +17171,7 @@ settlement
 	region Argedava_R
 
 	year_founded 0
-	population 650
+	population 700
 	plan_set default_set
 	faction_creator dacia
 	building
@@ -17599,7 +17603,7 @@ relative 	Tanakwa, 	Aglaurus,		Tabnit,	Sotera,	Abdimilki,	end
 
 ;-------------- 4$? - Scythia ---------------
 faction	scythia, trader_smith
-denari	3000
+denari	5000
 ;--------- 4$?.a - Scythia ----------
 settlement
 {
@@ -18421,13 +18425,16 @@ relative 	CotysB Odrysi, 	Bendidora,		Rhescuporis Odrysi,	Ziles Odrysi,	Iptacens
 relative 	Byzas Odrysi, 	Cerzula,		Gaidres Odrysi,	Mokasokos,	Bryzos Odrysi,	end
 
 
+
+
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;              BI FACTIONS               ;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;	Chatti
 faction	alemanni, germanic_passive
-denari	1000
+denari	4500
 settlement
 {
 	level town
@@ -18492,7 +18499,7 @@ relative 	Nasua Chatti, 	Eva,		Inguiomerus Chatti,	end
 
 
 faction	burgundii, germanic_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -18585,7 +18592,7 @@ relative 	Eutlinde Burgundi, 	Othelhildis,		Fulcaris Burgundi,	end
 
 ;	Batavi
 faction	franks, germanic_passive
-denari	2000
+denari	5000
 settlement
 {
 	level town
@@ -18624,7 +18631,7 @@ character_record		Adelhaide Batavi, 	male, command 0, influence 0, management 0,
 relative 	Eraric Batavi, 	Eberharde,		Adelhaide Batavi,	end
 
 faction	goths, germanic_passive
-denari	3000
+denari	5000
 settlement
 {
 	level town
@@ -18688,7 +18695,7 @@ character_record		Maroboduus Guti, 	male, command 0, influence 0, management 0, 
 relative 	Hanhavaldi Guti, 	Priska,		Maroboduus Guti,	end
 
 faction	lombardi, germanic_passive
-denari	1000
+denari	5000
 settlement
 {
 	level town
@@ -18821,7 +18828,7 @@ relative 	Lutgardis Reudigni, 	Eponina,	end
 
 faction	vandals, germanic_passive
 dead_until_resurrected
-denari	300
+denari	500
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;           DANYMOK FACTIONS             ;;;;;;;;;;
@@ -19144,7 +19151,7 @@ relative 	Obodas,		Aglaurus,		Massinissa,		end
 
 ;	Sparta (not Acarnania)
 faction	acarnania, greek_passive
-denari	5100
+denari	9100
 settlement
 {
 	level city
@@ -19193,7 +19200,7 @@ settlement
 	region Kythera_R
 
 	year_founded 0
-	population 510
+	population 550
 	plan_set default_set
 	faction_creator acarnania
 	building
@@ -19224,7 +19231,7 @@ settlement
 	region Zarax_R
 
 	year_founded 0
-	population 302
+	population 310
 	plan_set default_set
 	faction_creator acarnania
 	building
@@ -19292,7 +19299,6 @@ settlement
 	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
 	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
 	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
-	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -19313,7 +19319,7 @@ settlement
 	region Tainaron_R
 
 	year_founded 0
-	population 360
+	population 400
 	plan_set default_set
 	faction_creator acarnania
 	garrisoned_army
@@ -19440,7 +19446,6 @@ unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
-unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
 unit		spartan youths				exp 0 armour 0 weapon_lvl 0
 unit		merc cretan archers			exp 5 armour 0 weapon_lvl 2
 unit		merc cretan archers			exp 3 armour 0 weapon_lvl 2
@@ -19457,7 +19462,7 @@ ancillaries networker
 ;	Crete Coast
 character	Menares, admiral, age 20, , x 345, y 259
 army
-unit		naval biremes				exp 3 armour 0 weapon_lvl 0
+unit		naval biremes				exp 2 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
@@ -19483,8 +19488,9 @@ relative 	Eudamidas Eurypontides, 	Agesistrata,		Agis Eurypontides,	Archidamus E
 relative 	Areus Agides, 	Kyra,		AcrotatusB Agides,	end
 relative 	AcrotatusB Agides, 	Chilonis,		end
 
+
 faction	pergamon, balanced_smith
-denari	8000
+denari	10000
 settlement
 {
 	level city
@@ -19757,14 +19763,14 @@ relative 	Eumenes Attalides, 	Satyra,		EumenesB Attalides,	end
 relative 	AttalosB Attalides, 	Antiochis Seleucides,		AttalosC Attalides,	end
 
 faction	libya, trader_napoleon
-denari	2100
+denari	4100
 settlement
 {
 	level large_town
 	region Tripolitania
 
 	year_founded 0
-	population 2100
+	population 2200
 	plan_set default_set
 	faction_creator libya
 	building
@@ -19986,7 +19992,7 @@ relative 	Sakarbal, 	Pervinca,	Abdosir,	Galussa,	Ramona,	end
 
 ;	Deraemestae (to be Illyrian Kingdom)
 faction	illyria, balanced_mao
-denari	1000
+denari	4500
 settlement
 {
 	level large_town
@@ -20133,7 +20139,7 @@ relative 	Monounios Bardylides, 	Dita,		Mytilos Bardylides,	end
 relative 	Mytilos Bardylides, 	Telephassa,		BardylisB Bardylides,	Ino Bardylides,	Aegon Bardylides,	end
 
 faction	epirus, comfortable_napoleon
-denari	10050
+denari	11200
 ;--------- Greece ----------
 settlement
 {
@@ -20907,8 +20913,8 @@ unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek levy pikemen				exp 8 armour 2 weapon_lvl 3
 unit		greek levy pikemen				exp 8 armour 2 weapon_lvl 3
 unit		greek levy pikemen				exp 9 armour 2 weapon_lvl 3
-unit		greek levy pikemen				exp 7 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 7 armour 1 weapon_lvl 3
+unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
+unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
 unit		greek levy pikemen				exp 5 armour 2 weapon_lvl 3
 unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
 unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
@@ -20919,7 +20925,7 @@ unit		greek levy pikemen				exp 8 armour 1 weapon_lvl 3
 unit		greek levy pikemen				exp 8 armour 1 weapon_lvl 3
 unit		greek hoplite militia			exp 8 armour 1 weapon_lvl 2
 unit		greek hoplite militia			exp 8 armour 2 weapon_lvl 3
-unit		greek hoplite militia			exp 8 armour 2 weapon_lvl 2
+unit		greek hoplite militia			exp 5 armour 2 weapon_lvl 2
 unit		greek archer					exp 9 armour 2 weapon_lvl 3
 
 ;;character_record		Ariadne, 	female, command 0, influence 0, management 0, subterfuge 0, age 134, dead, never_a_leader
@@ -20967,7 +20973,7 @@ relative 	Hyrtacus Aleuides, 	Canace,		Phrynikos Aleuides,	end
 relative 	Democritus Scopaides, 	Euphrosyne,		Ennomus Scopaides,	end
 
 faction	athens, athens_passive
-denari	2100
+denari	5300
 settlement
 {
 	level city
@@ -21770,8 +21776,9 @@ relative 	PaerisadesC Spartocides, 	Tryphaena,		SpartocusC Spartocides,	LeukonB 
 relative 	Aetion Spartocides, 	Aedon,		Thebe,	Peleus Spartocides,	end
 relative 	Theodoros Spartocides, 	Electra,		Midylos Spartocides,	end
 
+
 faction	massalia, balanced_smith
-denari	2000
+denari	8000
 settlement
 {
 	level large_town
@@ -22800,7 +22807,7 @@ relative 	Tincommius Tolistobogi, 	Esselt,		Cuniovenda Tolistobogi,	end
 
 
 faction	saka, balanced_genghis
-denari	3020
+denari	5020
 settlement
 {
 	level large_town
@@ -23184,8 +23191,9 @@ character_record		Pompo Brutus, 	male, command 0, influence 0, management 0, sub
 
 relative 	Numa Brutus, 	Dryantilla,		Pompo Brutus,	end
 
+
 faction	etruscans, religious_caesar
-denari	6025
+denari	9025
 settlement
 {
 	level large_town
@@ -23376,8 +23384,9 @@ character_record		Gnaeus Porcius, 	male, command 0, influence 0, management 0, s
 
 relative 	Secundus Porcius, 	Lepida,		Gnaeus Porcius,	end
 
+
 faction	taras, greek_passive
-denari	710
+denari	760
 settlement
 {
 	level large_town
@@ -24717,7 +24726,7 @@ relative 	Diagoras Hermides, 	Nephele,		end
 
 
 faction	elis, greek_passive
-denari	3000
+denari	5000
 settlement
 {
 	level large_town
@@ -24763,7 +24772,7 @@ relative 	Aristotimus Theophrastides, 	Kyra,		Diagoras Theophrastides,	end
 
 
 faction	messene, greek_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -24828,9 +24837,9 @@ settlement
 	region Pylos_R
 
 	year_founded 0
-	population 550
+	population 600
 	plan_set default_set
-	faction_creator messene
+	faction_creator rhodes
 	garrisoned_army
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -24859,7 +24868,7 @@ settlement
 	region Leuktra_R
 
 	year_founded 0
-	population 501
+	population 600
 	plan_set default_set
 	faction_creator rhodes
 	garrisoned_army
@@ -24896,7 +24905,7 @@ character_record		Hicetaon Theopompides, 	male, command 0, influence 0, manageme
 relative 	Mantios Theopompides, 	Drosis,		Hicetaon Theopompides,	end
 
 faction	gortyn, greek_passive
-denari	1000
+denari	5000
 ;;BIGMAP
 settlement
 {
@@ -24904,7 +24913,7 @@ settlement
 	region Gortyna_R
 
 	year_founded 0
-	population 1400
+	population 1500
 	plan_set default_set
 	faction_creator gortyn
 	building
@@ -24941,8 +24950,9 @@ character_record		Odysseus Menesthides, 	male, command 0, influence 0, managemen
 relative 	Elasus Menesthides, 	Arethusa,		Odysseus Menesthides,	end
 
 
+
 faction	knossos, greek_passive
-denari	3400
+denari	4500
 settlement
 {
 	level large_town
@@ -24976,10 +24986,6 @@ traits GoodCommander 2, GoodAdministrator 2
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
 unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
@@ -24989,8 +24995,10 @@ character_record		Aetion Marsyides, 	male, command 0, influence 0, management 0,
 
 relative 	Telephus Marsyides, 	Leucothea,		Aetion Marsyides,	end
 
+
+
 faction	kydonia, greek_passive
-denari	1000
+denari	4500
 settlement
 {
 	level large_town
@@ -25034,8 +25042,9 @@ character_record		Kritodemos Agapides, 	male, command 0, influence 0, management
 relative 	Cronos Agapides, 	Phylace,		Kritodemos Agapides,	end
 
 
+
 faction	melos, athens_passive
-denari	1000
+denari	4500
 settlement
 {
 	level large_town
@@ -25068,15 +25077,9 @@ settlement
 	region Pharos_R
 
 	year_founded 0
-	population 550
+	population 600
 	plan_set default_set
 	faction_creator melos
-	garrisoned_army
-	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-	unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -25097,7 +25100,7 @@ settlement
 	region Melos_R
 
 	year_founded 0
-	population 400
+	population 407
 	plan_set default_set
 	faction_creator melos
 	garrisoned_army
@@ -25116,31 +25119,35 @@ settlement
 
 ;	Naxos
 character	Cordylion Eurysthenides, named character, leader, age 34, , x 347, y 279 
-traits GoodCommander 3, GoodAdministrator 2
+traits GoodCommander 2, GoodAdministrator 2
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 1
 unit		greek peltast					exp 1 armour 0 weapon_lvl 0
+
+;	Pharos
+character	Iollas, general, age 20, , x 257, y 349
+army
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
 character_record		Kynthia, 	female, command 0, influence 0, management 0, subterfuge 0, age 33, alive, never_a_leader
 character_record		Epaphos Eurysthenides, 	male, command 0, influence 0, management 0, subterfuge 0, age 12, alive, never_a_leader
 
 relative 	Cordylion Eurysthenides, 	Kynthia,		Epaphos Eurysthenides,	end
 
+
+
 faction	rhodes, athens_passive
-denari	5000
+denari	8000
 settlement
 {
 	level large_town
 	region Rhodos
 
 	year_founded 0
-	population 3800
+	population 3900
 	plan_set default_set
 	faction_creator rhodes
 	building
@@ -25178,7 +25185,7 @@ settlement
 	region Potidaion_R
 
 	year_founded 0
-	population 600
+	population 800
 	plan_set default_set
 	faction_creator rhodes
 	building
@@ -25294,8 +25301,6 @@ character	Polydoros Chrysippides, admiral, age 36, , x 375, y 270
 army
 unit		naval biremes					exp 3 armour 0 weapon_lvl 0
 unit		naval biremes					exp 3 armour 0 weapon_lvl 0
-unit		naval biremes					exp 3 armour 0 weapon_lvl 0
-unit		naval biremes					exp 3 armour 0 weapon_lvl 0
 unit		naval biremes					exp 1 armour 0 weapon_lvl 0
 unit		naval biremes					exp 1 armour 0 weapon_lvl 0
 unit		naval biremes					exp 1 armour 0 weapon_lvl 0
@@ -25311,14 +25316,14 @@ character_record		Gorgias Aeschylides, 	male, command 0, influence 0, management
 relative 	Megakles Aeschylides, 	Timandra,		Gorgias Aeschylides,	end
 
 faction	paeonia, greek_passive
-denari	000
+denari	2000
 settlement
 {
 	level large_town
 	region Paionia
 
 	year_founded 0
-	population 2600
+	population 2700
 	plan_set default_set
 	faction_creator paeonia
 	building
@@ -25344,7 +25349,7 @@ settlement
 	region Pautalia_R
 
 	year_founded 0
-	population 900
+	population 1000
 	plan_set default_set
 	faction_creator paeonia
 	building
@@ -25362,7 +25367,7 @@ settlement
 	region Stobi_R
 
 	year_founded 0
-	population 950
+	population 1000
 	plan_set default_set
 	faction_creator paeonia
 	building
@@ -25412,7 +25417,7 @@ relative 	Leon Derroni, 	Dentysyka,		Dropion Derroni,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	bessi, greek_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -25479,7 +25484,7 @@ relative 	Ketriporis Bessi, 	Karia,		Desakenthos Bessi,	end
 
 
 faction	bithynia, greek_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -25611,7 +25616,7 @@ relative 	Nicomedes Boteirides, 	Etazeta,			Ziaelas Boteirides,		end
 
 
 faction	byzantion, greek_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -26034,7 +26039,7 @@ relative 	Skaris Daorsi, 	Ketripora,		Brinkainos Daorsi,	end
 
 
 faction	dardania, celtic_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -26154,7 +26159,7 @@ relative 	Iptacens Galabri, 	Bendidora,	end
 relative 	Cersobleptes Thunati, 	Cerzula,	end
 
 faction	delmatae, dacian_passive
-denari	3000
+denari	5000
 settlement
 {
 	level town
@@ -26246,7 +26251,7 @@ relative 	Rescuturme Dalmati, 	Cerzula,		Iptacens Dalmati,	end
 
 
 faction	balari, dacian_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -26335,7 +26340,7 @@ relative 	Eptenis Liburni, 	Eptarys,		Skaris Liburni,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	breuci, celtic_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -26399,7 +26404,7 @@ relative 	Diazelmis Breuci, 	Eptesyka,		Kersebleptos Breuci,	end
 
 
 faction	daesitiates, celtic_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -26613,7 +26618,7 @@ relative 	Caratacus Hercuniati, 	Cartimandua,		end
 
 
 faction	scordisci, celtic_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -26708,7 +26713,7 @@ relative 	Erbin Celegeri, 	Barita,		end
 
 
 faction	iazyges, nomad_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -26831,7 +26836,7 @@ relative 	Scyles Apuli, 	Birkita,	Fallon,	Scylurus Apuli,	end
 
 
 faction	biephi, dacian_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -26896,7 +26901,7 @@ relative 	Deceneu Biephi, 	Branka,		Scylurus Biephi,	end
 
 
 faction	buridenses, dacian_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -26937,7 +26942,7 @@ relative 	Comosicus Buridensi, 	Devnet,		Atheas Buridensi,	end
 
 
 faction	peucitans, dacian_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -27020,7 +27025,7 @@ character_record		Roles Costoboci, 	male, command 0, influence 0, management 0, 
 relative 	Dnestr Costoboci, 	Dana,		Roles Costoboci,	end
 
 faction	daunians, dacian_passive
-denari	3000
+denari	5000
 settlement
 {
 	level town
@@ -27063,7 +27068,7 @@ relative 	Duras Rhadacensi, 	Dita,		Saulius Rhadacensi,	end
 
 
 faction	anartes, germanic_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -27272,7 +27277,7 @@ relative 	Aioulfus, 	Eva,	end
 
 ;-------------- Media Atropatene ---------------
 faction	atropatene, eastern_passive
-denari	3000
+denari	5000
 ;--------- Settlements ----------
 settlement
 {
@@ -28283,7 +28288,7 @@ relative	DiodotusB Diodotides, 	Helle,		Oreithuia,	end
 relative	Damiskos Basilides, 	Khloris Diodotides,	end
 
 faction	cappadocia, eastern_passive
-denari	1200
+denari	4200
 settlement
 {
 	level large_town
@@ -28550,7 +28555,7 @@ relative 	Ariaramnes Ariaratha, 	Esther,		Ariarathes Ariaratha,		end
 
 
 faction	cyprus, greek_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -28837,7 +28842,7 @@ relative 	Pelias Aschinides, 	Callianessa,		end
 
 
 faction	albania, eastern_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -29278,7 +29283,7 @@ relative 	Gaumata Odaenathus, 	Arxa,		Zabbai Odaenathus,		end
 
 
 faction	paphlagonia, eastern_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -29380,7 +29385,7 @@ character_record		Sosimenes Eneti, 	male, command 0, influence 0, management 0, 
 relative 	Kambyses Eneti, 	Bardiya,		Sosimenes Eneti,		end
 
 faction	chorasmia, nomad_passive
-denari	3000
+denari	5000
 settlement
 {
 	level large_town
@@ -29572,7 +29577,7 @@ relative 	Skunxa, 	Martiya,		Uvaxshtra,		end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	colchis, greek_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -29739,14 +29744,14 @@ relative 	Saulaces Phasishvili, 	Karo,		Atheas Phasishvili,	end
 
 ;	Heraclea Pontica
 faction	heraclea, greek_passive
-denari	2000
+denari	4000
 settlement
 {
 	level large_town
 	region HeracleaPontica_R
 
 	year_founded 0
-	population 2500
+	population 2600
 	plan_set default_set
 	faction_creator heraclea
 	building
@@ -29998,7 +30003,7 @@ relative 	Phrixos Atraxidae, 	Pelopia,		end
 
 
 faction	sinope, greek_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -30155,8 +30160,9 @@ relative 	Echelaos Acamides, 	Maiandria,		Madduwatta Acamides,	Sautes Acamides,	
 relative 	Madduwatta Acamides, 	Circe,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+
 faction troezen, greek_passive
-denari	300
+denari	900
 settlement
 {
 	level town
@@ -30376,7 +30382,7 @@ relative 	Aripharnes, 	Fallon,		Madyes,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	brigantes, british_passive
-denari	3000
+denari	5000
 settlement
 {
 	level town
@@ -30561,7 +30567,7 @@ character_record		Catavignus Corieltauvi, 		male, command 0, influence 0, manage
 relative 	Cintugnatus Corieltauvi, 	Cartimandua,		Catavignus Corieltauvi,	end
 
 faction	demetae, british_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -30664,7 +30670,7 @@ relative 	Cynfawr Dumnoni, 	Eudaf,		Sennianus Dumnoni,	Drustan Dumnoni,	end
 
 
 faction	belgae, celtic_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -30705,7 +30711,7 @@ relative 	Vindomorucius Regni, 	Keyne,		Togodumnus Regni,	end
 
 
 faction	catuvellauni, british_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -30763,7 +30769,7 @@ relative 	Rhydderch Damnoni, 	Cuniovenda,		Enestinus Damnoni,	end
 
 
 faction	eblani, british_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -30810,7 +30816,7 @@ relative 	Morirex Eblani, 	Cunoarda,		Erbin Eblani,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	aedui, celtic_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -31174,7 +31180,7 @@ relative 	Brycham Carnuti, 	Verica,		Aneirin Carnuti,	end
 
 
 faction	cavari, celtic_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -33197,7 +33203,7 @@ settlement
 	region Agri_Decumates
 
 	year_founded 0
-	population 2700
+	population 2800
 	plan_set default_set
 	faction_creator volcae
 	building
@@ -35134,7 +35140,7 @@ relative 	Kuonrad Ubi, 	Ethelmoda,		Gaiobomarus Ubi,	end
 
 
 faction	vangiones, germanic_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -35175,7 +35181,7 @@ relative 	Gundioc Vangioni, 	Johanna,		Athanaric Vangioni,	end
 
 ;	Varini
 faction	varini, germanic_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -35578,7 +35584,7 @@ relative 	Rianorix Mediomatrici, 	Boudicca,		Diviciacus Mediomatrici,	end
 
 
 faction	morini, celtic_passive
-denari	3000
+denari	5000
 settlement
 {
 	level town
@@ -35688,7 +35694,7 @@ relative 	Vortigern Nervi, 	Cuniovenda,		Belenus Nervi,	end
 
 
 faction	parisii, celtic_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -35729,7 +35735,7 @@ relative 	Maglocunus Parisi, 	Esselt,		Vindex Parisi,	end
 
 
 faction	remi, celtic_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -35791,7 +35797,7 @@ relative 	Sennianus Remi, 	Eudaf,		Enestinus Remi,	end
 
 
 faction	treverii, germanic_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -35838,7 +35844,7 @@ relative 	Glasobrin Treveri, 	Verctissa,		Barrivendos Treveri,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	bastetani, iberian_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -36260,7 +36266,7 @@ relative 	Etor Germani, 	Huctia,	end
 
 
 faction	astures, iberian_passive
-denari	3000
+denari	5000
 settlement
 {
 	level town
@@ -36425,7 +36431,7 @@ relative 	Edrigu Blendi, 	Cunoarda,		Zorion Blendi,	end
 
 
 faction	carpetani, iberian_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -36490,7 +36496,7 @@ relative 	Ander Carpetani, 	Cuniovenda,		Inaki Carpetani,	end
 
 
 faction	celtici, iberian_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -36587,7 +36593,7 @@ relative 	Diviciacus Mirobrigensi, 	Eudaf,	end
 
 
 faction	gallaeci, iberian_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -36709,7 +36715,7 @@ relative 	Cador Egovarri, 	Keyne,	end
 
 
 faction	vaccaei, iberian_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -36910,7 +36916,7 @@ relative 	Gergori Tartessi, 	Barita,		Aingeru Tartessi,	end
 
 
 faction	vascones, iberian_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -36951,7 +36957,7 @@ relative 	Bingen Vasconi, 	Cunoarda,		Lon Vasconi,	end
 
 
 faction	vettones, iberian_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -37119,7 +37125,7 @@ relative 	Linus Amphides, 	Hermine,		Pittacus Amphides,	end
 
 ;	Suessetani
 faction	suessiones, celtic_passive
-denari	3000
+denari	5000
 settlement
 {
 	level town
@@ -37170,7 +37176,7 @@ relative 	Ambiorix Suessetani, 	Huctia,		Dejotarus Suessetani,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	gaetuli, desert_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -37482,10 +37488,11 @@ settlement
 	region Arae_Philanorum_R
 
 	year_founded 0
-	population 310
+	population 320
 	plan_set default_set
 	faction_creator psyllia
 	garrisoned_army
+	unit		carthaginian general's cavalry early	exp 5 armour 0 weapon_lvl 3
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
@@ -37515,6 +37522,7 @@ settlement
 	plan_set default_set
 	faction_creator psyllia
 	garrisoned_army
+	unit		carthaginian general's cavalry early	exp 5 armour 0 weapon_lvl 3
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
@@ -37540,11 +37548,11 @@ settlement
 	plan_set default_set
 	faction_creator psyllia
 	garrisoned_army
+	unit		carthaginian general's cavalry early	exp 5 armour 0 weapon_lvl 3
 	unit		numidian desert warriors		exp 4 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 4 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 4 armour 0 weapon_lvl 2
 	unit		numidian desert warriors		exp 5 armour 0 weapon_lvl 1
-	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
@@ -37587,16 +37595,16 @@ unit		numidian javelinmen				exp 3 armour 0 weapon_lvl 2
 character	Zalankhos Tefraides, diplomat, age 20, , x 283, y 196
 traits GoodDiplomat 3
 
-character_record		Gurkheperta Feramunika, 	female, command 0, influence 0, management 0, subterfuge 0, age 35, alive, never_a_leader
+character_record		Gurkheperta, 	female, command 0, influence 0, management 0, subterfuge 0, age 35, alive, never_a_leader
 character_record		Nankhsptahos Qkhepersptahikid, 	male, command 7, influence 7, management 5, subterfuge 0, age 15, alive, never_a_leader
 character_record		Lemkheperes Qkhepersptahikid, 	male, command 7, influence 7, management 5, subterfuge 0, age 10, alive, never_a_leader
 character_record		Qasraaios Qkhepersptahikid, 	male, command 5, influence 1, management 1, subterfuge 0, age 8, alive, never_a_leader
 character_record		Baramunes Qkhepersptahikid, 	male, command 8, influence 1, management 3, subterfuge 0, age 6, alive, never_a_leader
 
-relative 	Tefneferas Qkhepersptahikid, 	Gurkheperta Feramunika, 	Nankhsptahos Qkhepersptahikid, 	Lemkheperes Qkhepersptahikid, 	Qasraaios Qkhepersptahikid, 	Baramunes Qkhepersptahikid, 	end
+relative 	Tefneferas Qkhepersptahikid, 	Gurkheperta, 	Nankhsptahos Qkhepersptahikid, 	Lemkheperes Qkhepersptahikid, 	Qasraaios Qkhepersptahikid, 	Baramunes Qkhepersptahikid, 	end
 
 faction	massylii, desert_passive
-denari	500
+denari	760
 settlement
 {
 	level town
@@ -37782,7 +37790,7 @@ relative 	Zelalsen, 	Polymede,		Gaia,	Oesalces,	end
 
 
 faction	mauri, desert_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -37991,7 +37999,7 @@ relative 	Jubal, 	Muttunbaal,		Ahiram,	end
 
 
 faction	nasamones, desert_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -38062,7 +38070,7 @@ relative 	Mastanabal, 	Thais,		Khilletzbal,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	gerrha, desert_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -38203,7 +38211,7 @@ relative 	Niptasan, 	Thyia,		Bodeshmun,		end
 
 
 faction	hadhramaut, desert_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -38364,7 +38372,7 @@ relative 	Yad_ab Gaylan, 	Elissa,		Yad_il Gaylan,		end
 
 
 faction	lihyan, desert_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -38477,7 +38485,7 @@ relative 	Balshillek Karab, 	Protogonia,		Tabnit Karab,		end
 
 
 faction	mascat, desert_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -38615,7 +38623,7 @@ relative 	Zamir Yashur, 	Polymede,		Karib Yashur,		end
 
 
 faction	minaea, desert_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -38728,7 +38736,7 @@ relative 	Yitha_il Riyam, 	Raisa,		Ilyafa Riyam,		end
 
 
 faction	saba, desert_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -38855,7 +38863,7 @@ relative 	Dhamar Yuha_min, 	Althaia,		Nasha_karib Yuha_min,		end
 
 
 faction	thamud, desert_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -38944,7 +38952,7 @@ relative 	Karib_il Yakkuf, 	Hakeema,		Dari_karib Yakkuf,		end
 
 
 faction	qataban, desert_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -39082,7 +39090,7 @@ relative 	Yad_ab Yagil, 	Xanthe,		Sahr Yagil,		end
 
 
 faction	qedar, desert_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -39499,7 +39507,7 @@ relative 	Tamal, 	Mkehnye,		Isemne,		end
 
 
 faction	kush, desert_passive
-denari	3000
+denari	5000
 settlement
 {
 	level large_town
@@ -43022,7 +43030,7 @@ relative 	Kottu Chera, 	Kopperundevi,		end
 
 
 faction	pandya, eastern_passive
-denari	2000
+denari	4500
 settlement
 {
 	level city
@@ -43143,7 +43151,7 @@ relative 	Netunceliyan Pandya, 	Durdhara,		Pudappandiyan Pandya,	end
 
 
 faction	anuradhapura, eastern_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -43455,7 +43463,7 @@ relative 	Mahasiva Vijaya, 	Karuvaki,		end
 
 
 faction	athiyaman, eastern_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -43569,7 +43577,7 @@ relative 	Illam Athiyaman, 	Ramadattha,		Karikala Athiyaman,	end
 
 
 faction	ay, eastern_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -43659,7 +43667,7 @@ relative 	Andiran Ay, 	Veliyan,		Selva Ay,	end
 
 
 faction	kalinga, eastern_passive
-denari	2000
+denari	4500
 settlement
 {
 	level city
@@ -44409,7 +44417,7 @@ relative 	Madyes, 	Scylurus,		Anacharsis,	end
 
 
 faction	roxolani, nomad_passive
-denari	3000
+denari 3000
 settlement
 {
 	level town
@@ -44547,8 +44555,9 @@ character_record		Atheas, 	male, command 0, influence 0, management 0, subterfug
 relative 	Palacus, 	Dita,		Scylurus,	end
 relative 	Zinafer, 	Devnet,		Atheas,	end
 
+
 faction	sarmatians, nomad_passive
-denari	1100
+denari	4100
 settlement
 {
 	level town
@@ -44750,7 +44759,7 @@ relative 	Rumo, 	Fallon,		Usafer,	end
 
 
 faction	huns, nomad_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -44831,7 +44840,7 @@ relative 	Charaton, 	Dita,		Muyun,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	agyrion, nomad_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -44977,7 +44986,7 @@ relative 	Siamak Naptya, 	Haldita,		Vindarna Naptya,		end
 
 
 faction	ferghana, nomad_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -45107,7 +45116,7 @@ relative 	Cishpi Farzaneh, 	Arkha,		Sherh Farzaneh,		end
 
 
 faction	kashgar, nomad_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -45229,15 +45238,17 @@ character_record		Datan, 	male, command 0, influence 0, management 0, subterfuge
 
 relative 	Uguluy, 	Fallon,		Datan,		end
 
+
+
 faction	kucha, nomad_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
 	region Kucha_R
 
 	year_founded 0
-	population 1100
+	population 1200
 	plan_set default_set
 	faction_creator kucha
 	building
@@ -45259,7 +45270,7 @@ settlement
 	region Kumo_R
 
 	year_founded 0
-	population 900
+	population 1000
 	plan_set default_set
 	faction_creator kucha
 	garrisoned_army
@@ -45376,7 +45387,7 @@ relative 	Karidach, 	Dana,		Basyk,		end
 
 
 faction	aorsi, nomad_passive
-denari	2000
+denari	4500
 settlement
 {
 	level large_town
@@ -45506,7 +45517,7 @@ relative 	Mundzuk, 	Branka,		Tengiz,		end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	agathyrsi, nomad_passive
-denari	2000
+denari	4500
 settlement
 {
 	level town
@@ -46276,14 +46287,14 @@ relative 	Satres of Gedrosia, 	Arxa,		Narai of Gedrosia,	    Orontobates of Gedr
 faction	antiochea_taocene, greek_passive
 ai_do_not_attack_faction seleucid
 ai_do_not_attack_faction bactria
-denari	2115
+denari	3115
 settlement
 {
 	level town
 	region Dayya_R
 
 	year_founded 0
-	population 301
+	population 302
 	plan_set default_set
 	faction_creator antiochea_taocene
 	building
@@ -51123,7 +51134,7 @@ settlement
 	region Arados_R
 
 	year_founded 0
-	population 2100
+	population 2200
 	plan_set default_set
 	faction_creator seleucid
 	building
@@ -54124,6 +54135,14 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;--------- Thrace ----------
 
+;	Mesembria
+character	sub_faction greek_cities, Iollas, general, age 20, , x 362, y 351
+army
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
 ;	Serdica
 character	sub_faction gauls, Erbin, general, age 20, , x 321, y 347
 army
@@ -54132,14 +54151,13 @@ unit		greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 ;--------- TERRA INCOGNITAS ----------
 
 character	sub_faction greek_cities, Artemas, general, age 20, , x 38, y 618
 army
-unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
-unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
@@ -54168,7 +54186,6 @@ unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
-unit		rebel amazon chariots				exp 5 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 5 armour 0 weapon_lvl 0
 
 character	sub_faction greek_cities, Artemas, general, age 20, , x 591, y 606
@@ -54483,6 +54500,7 @@ core_attitudes	frisii,			600		slave
 core_attitudes	gaetuli,		600		slave
 core_attitudes	gallaeci,		600		slave
 core_attitudes	garamantes,		600		slave
+core_attitudes	psyllia,		600		slave
 core_attitudes	gerrha,			600		slave
 core_attitudes	gortyn,			600		slave
 core_attitudes	hadhramaut,		600		slave
@@ -54602,10 +54620,7 @@ core_attitudes	kashgar,		600		slave
 core_attitudes	ferghana,		600		slave
 core_attitudes	teion,			600		slave
 core_attitudes	troezen,		600		slave
-core_attitudes	persis,			600		slave
-core_attitudes	gedrosia,		600		slave
-core_attitudes	psyllia,		600		slave
-core_attitudes	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, egypt, seleucid, carthage, parthia, gauls, germans, britons, greek_cities, macedon, pontus, armenia, dacia, numidia, scythia, spain, thrace, saxons, ardiaei, athens, antiochea_taocene, bactria, boii, bosporus, caledonia, celtiberia, colchis, epirus, galatia, kush, marcomanni, massagetae, massalia, nabataea, nervii, pergamon, saba, syracuse, tylis, veneti, anuradhapura, chola, alemanni, burgundii, franks, goths, huns, lombardi, ostrogoths, roxolani, sarmatians, slavs, vandals, persia, acarnania, achea, aedui, aestii, aetolia, agathyrsi, agyrion, akragas, albania, allobroges, anartes, anglii, aorsi, apuli, arcadia, argos, etruscans, astures, atrebates, atropatene, axum, balari, bastarnae, bastetani, belgae, bellovaci, bithynia, bituriges, blemmyes, boetia, breuci, brigantes, bructeri, brutii, budini, buri, byzantion, cadurci, cantabri, cantiaci, cappadocia, carni, carnutes, carpetani, catuvellauni, cavari, celtici, cenomanni, cessetani, chamavi, chauci, chera, cherusci, chorasmia, cimbri, corieltauvi, corinth, corsi, italiotes, cyprus, cyrene, daesitiates, dahae, daorsi, dardania, daunians, delmatae, demetae, dumnonii, eblani, eburones, edetani, elis, elusates, emporion, eravisci, fosi, frisii, gaetuli, gallaeci, garamantes, psyllia, gerrha, gortyn, hadhramaut, harii, helisii, helveconae, helvetii, heraclea, hermunduri, heruli, histri, iazyges, iberia, ilercavones, ilergetes, illyria, india, insubres, iolei, juti, knossos, kydonia, lemovices, leponti, lexovii, libya, ligures, lihyan, lingones, lucani, mamertines, mandubii, mascat, massylii, mauri, mediomatrici, melos, messapians, messene, minaea, morini, nahanarvali, namnetes, nasamones, neapolis, nemetes, nori, oretani, osismii, paeligni, paeonia, palmyra, pandya, paphlagonia, parisii, peucitans, picentes, pictones, qataban, qedar, quadi, raeti, redones, remi, rhodes, rugii, ruteni, sabines, saka, samnites, santones, scordisci, segusiavi, senones, sequani, sinope, siraces, suessiones, sugambri, suiones, taras, tarbelli, taurini, tencteri, thessaly, thyssagetae, treverii, triballi, turdetani, turones, ubii, umbri, unelli, vaccaei, vangiones, varini, vascones, venedi, veneti_gaul, vettones, vindelici, vivisci, vocontii, volcae, volsci, bessi, caeni, krobyzi, biephi, buridenses, thamud, ay, athiyaman, kalinga, kucha, kashgar, teion, troezen, persis, gedrosia, ferghana
+core_attitudes	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, egypt, seleucid, carthage, parthia, gauls, germans, britons, greek_cities, macedon, pontus, armenia, dacia, numidia, scythia, spain, thrace, saxons, ardiaei, athens, antiochea_taocene, bactria, boii, bosporus, caledonia, celtiberia, colchis, epirus, galatia, kush, marcomanni, massagetae, massalia, nabataea, nervii, pergamon, saba, syracuse, tylis, veneti, anuradhapura, chola, alemanni, burgundii, franks, goths, huns, lombardi, ostrogoths, roxolani, sarmatians, slavs, vandals, persia, acarnania, achea, aedui, aestii, aetolia, agathyrsi, agyrion, akragas, albania, allobroges, anartes, anglii, aorsi, apuli, arcadia, argos, etruscans, astures, atrebates, atropatene, axum, balari, bastarnae, bastetani, belgae, bellovaci, bithynia, bituriges, blemmyes, boetia, breuci, brigantes, bructeri, brutii, budini, buri, byzantion, cadurci, cantabri, cantiaci, cappadocia, carni, carnutes, carpetani, catuvellauni, cavari, celtici, cenomanni, cessetani, chamavi, chauci, chera, cherusci, chorasmia, cimbri, corieltauvi, corinth, corsi, italiotes, cyprus, cyrene, daesitiates, dahae, daorsi, dardania, daunians, delmatae, demetae, dumnonii, eblani, eburones, edetani, elis, elusates, emporion, eravisci, fosi, frisii, gaetuli, gallaeci, garamantes, psyllia, gerrha, gortyn, hadhramaut, harii, helisii, helveconae, helvetii, heraclea, hermunduri, heruli, histri, iazyges, iberia, ilercavones, ilergetes, illyria, india, insubres, iolei, juti, knossos, kydonia, lemovices, leponti, lexovii, libya, ligures, lihyan, lingones, lucani, mamertines, mandubii, mascat, massylii, mauri, mediomatrici, melos, messapians, messene, minaea, morini, nahanarvali, namnetes, nasamones, neapolis, nemetes, nori, oretani, osismii, paeligni, paeonia, palmyra, pandya, paphlagonia, parisii, peucitans, picentes, pictones, qataban, qedar, quadi, raeti, redones, remi, rhodes, rugii, ruteni, sabines, saka, samnites, santones, scordisci, segusiavi, senones, sequani, sinope, siraces, suessiones, sugambri, suiones, taras, tarbelli, taurini, tencteri, thessaly, thyssagetae, treverii, triballi, turdetani, turones, ubii, umbri, unelli, vaccaei, vangiones, varini, vascones, venedi, veneti_gaul, vettones, vindelici, vivisci, vocontii, volcae, volsci, bessi, caeni, krobyzi, biephi, buridenses, thamud, ay, athiyaman, kalinga, kucha, kashgar, teion, troezen, ferghana
 
 ;-------------- #$b Faction Relations ---------------
 
@@ -55021,10 +55036,7 @@ faction_relationships	kashgar,		600		slave
 faction_relationships	ferghana,		600		slave
 faction_relationships	teion,			600		slave
 faction_relationships	troezen,		600		slave
-faction_relationships	persis,			600		slave
-faction_relationships	gedrosia,		600		slave
-faction_relationships	psyllia,		600		slave
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, egypt, seleucid, carthage, parthia, gauls, germans, britons, greek_cities, macedon, pontus, armenia, dacia, numidia, scythia, spain, thrace, saxons, ardiaei, athens, antiochea_taocene, bactria, boii, bosporus, caledonia, celtiberia, colchis, epirus, galatia, kush, marcomanni, massagetae, massalia, nabataea, nervii, pergamon, saba, syracuse, tylis, veneti, anuradhapura, chola, alemanni, burgundii, franks, goths, huns, lombardi, ostrogoths, roxolani, sarmatians, slavs, vandals, persia, acarnania, achea, aedui, aestii, aetolia, agathyrsi, agyrion, akragas, albania, allobroges, anartes, anglii, aorsi, apuli, arcadia, argos, etruscans, astures, atrebates, atropatene, axum, balari, bastarnae, bastetani, belgae, bellovaci, bithynia, bituriges, blemmyes, boetia, breuci, brigantes, bructeri, brutii, budini, buri, byzantion, cadurci, cantabri, cantiaci, cappadocia, carni, carnutes, carpetani, catuvellauni, cavari, celtici, cenomanni, cessetani, chamavi, chauci, chera, cherusci, chorasmia, cimbri, corieltauvi, corinth, corsi, italiotes, cyprus, cyrene, daesitiates, dahae, daorsi, dardania, daunians, delmatae, demetae, dumnonii, eblani, eburones, edetani, elis, elusates, emporion, eravisci, fosi, frisii, gaetuli, gallaeci, garamantes, psyllia, gerrha, gortyn, hadhramaut, harii, helisii, helveconae, helvetii, heraclea, hermunduri, heruli, histri, iazyges, iberia, ilercavones, ilergetes, illyria, india, insubres, iolei, juti, knossos, kydonia, lemovices, leponti, lexovii, libya, ligures, lihyan, lingones, lucani, mamertines, mandubii, mascat, massylii, mauri, mediomatrici, melos, messapians, messene, minaea, morini, nahanarvali, namnetes, nasamones, neapolis, nemetes, nori, oretani, osismii, paeligni, paeonia, palmyra, pandya, paphlagonia, parisii, peucitans, picentes, pictones, qataban, qedar, quadi, raeti, redones, remi, rhodes, rugii, ruteni, sabines, saka, samnites, santones, scordisci, segusiavi, senones, sequani, sinope, siraces, suessiones, sugambri, suiones, taras, tarbelli, taurini, tencteri, thessaly, thyssagetae, treverii, triballi, turdetani, turones, ubii, umbri, unelli, vaccaei, vangiones, varini, vascones, venedi, veneti_gaul, vettones, vindelici, vivisci, vocontii, volcae, volsci, bessi, caeni, krobyzi, biephi, buridenses, thamud, ay, athiyaman, kalinga, kucha, kashgar, teion, troezen, persis, gedrosia, ferghana
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, egypt, seleucid, carthage, parthia, gauls, germans, britons, greek_cities, macedon, pontus, armenia, dacia, numidia, scythia, spain, thrace, saxons, ardiaei, athens, antiochea_taocene, bactria, boii, bosporus, caledonia, celtiberia, colchis, epirus, galatia, kush, marcomanni, massagetae, massalia, nabataea, nervii, pergamon, saba, syracuse, tylis, veneti, anuradhapura, chola, alemanni, burgundii, franks, goths, huns, lombardi, ostrogoths, roxolani, sarmatians, slavs, vandals, persia, acarnania, achea, aedui, aestii, aetolia, agathyrsi, agyrion, akragas, albania, allobroges, anartes, anglii, aorsi, apuli, arcadia, argos, etruscans, astures, atrebates, atropatene, axum, balari, bastarnae, bastetani, belgae, bellovaci, bithynia, bituriges, blemmyes, boetia, breuci, brigantes, bructeri, brutii, budini, buri, byzantion, cadurci, cantabri, cantiaci, cappadocia, carni, carnutes, carpetani, catuvellauni, cavari, celtici, cenomanni, cessetani, chamavi, chauci, chera, cherusci, chorasmia, cimbri, corieltauvi, corinth, corsi, italiotes, cyprus, cyrene, daesitiates, dahae, daorsi, dardania, daunians, delmatae, demetae, dumnonii, eblani, eburones, edetani, elis, elusates, emporion, eravisci, fosi, frisii, gaetuli, gallaeci, garamantes, psyllia, gerrha, gortyn, hadhramaut, harii, helisii, helveconae, helvetii, heraclea, hermunduri, heruli, histri, iazyges, iberia, ilercavones, ilergetes, illyria, india, insubres, iolei, juti, knossos, kydonia, lemovices, leponti, lexovii, libya, ligures, lihyan, lingones, lucani, mamertines, mandubii, mascat, massylii, mauri, mediomatrici, melos, messapians, messene, minaea, morini, nahanarvali, namnetes, nasamones, neapolis, nemetes, nori, oretani, osismii, paeligni, paeonia, palmyra, pandya, paphlagonia, parisii, peucitans, picentes, pictones, qataban, qedar, quadi, raeti, redones, remi, rhodes, rugii, ruteni, sabines, saka, samnites, santones, scordisci, segusiavi, senones, sequani, sinope, siraces, suessiones, sugambri, suiones, taras, tarbelli, taurini, tencteri, thessaly, thyssagetae, treverii, triballi, turdetani, turones, ubii, umbri, unelli, vaccaei, vangiones, varini, vascones, venedi, veneti_gaul, vettones, vindelici, vivisci, vocontii, volcae, volsci, bessi, caeni, krobyzi, biephi, buridenses, thamud, ay, athiyaman, kalinga, kucha, kashgar, teion, troezen, ferghana
 
 ;-------------- #$c Faction Aggression ---------------
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -55039,12 +55051,10 @@ faction_agression	romans_scipii,		700	carthage
 faction_agression	romans_brutii,		700	epirus
 faction_agression	romans_julii,		700	epirus
 faction_agression	romans_scipii,		700	epirus
-faction_agression	romans_senate,		700	epirus
 ;
 faction_agression	epirus,		700	romans_brutii
 faction_agression	epirus,		700	romans_julii
 faction_agression	epirus,		700	romans_scipii
-faction_agression	epirus,		700	romans_senate
 ;
 faction_agression	carthage,		700	romans_brutii
 faction_agression	carthage, 		700	romans_julii
@@ -55063,6 +55073,7 @@ faction_agression	macedon,		700	epirus
 ;
 faction_agression	parthia,		700	seleucid
 ;
+
 ;------------------- #$ Super Factions --------------------
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of regions section <<<<

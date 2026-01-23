@@ -14,10 +14,9 @@ short_campaign outlive_factions
 carthage numidia
 
 macedon
-hold_regions Rome Larissa Pella Thessalonica
-take_regions 50
+take_rome
 short_campaign outlive_factions 
-thrace romans_brutii epirus
+thrace romans_brutii epirus acarnania seleucid egypt bactria persis
 
 egypt
 take_rome
@@ -70,16 +69,10 @@ take_rome
 short_campaign outlive_factions 
 thrace tylis
 
-greek_cities
+acarnania
 take_rome
 short_campaign outlive_factions 
-aetolia epirus
-
-acarnania
-hold_regions Rome Sparta Messene
-take_regions 50
-short_campaign outlive_factions 
-athens boetia epirus
+athens boetia epirus romans_brutii macedon romans_senate romans_scipii thrace egypt seleucid illyria
 
 numidia
 take_rome
@@ -104,13 +97,17 @@ macedon
 athens
 take_rome
 short_campaign outlive_factions 
-boetia greek_cities
+boetia acarnania
+
+greek_cities
+take_rome
+short_campaign outlive_factions 
+boetia acarnania athens
 
 epirus
-hold_regions Rome Ambracia Pella Sparta
-take_regions 50
+take_rome
 short_campaign outlive_factions 
-greek_cities macedon romans_brutii 
+acarnania macedon romans_brutii romans_julii romans_senate romans_scipii illyria argos thrace athens
 
 massalia
 take_rome
@@ -120,7 +117,7 @@ gauls vocontii volcae
 syracuse
 take_rome
 short_campaign outlive_factions 
-mamertines greek_cities
+mamertines acarnania
 
 boii
 take_rome
@@ -129,10 +126,8 @@ quadi veneti
 
 ardiaei
 take_rome
-;;hold_regions Rome Rhizon Apollonia Iader Salona Scodra
-;;take_regions 50
 short_campaign outlive_factions 
-delmatae dardania
+delmatae dardania romans_brutii illyria epirus
 
 nabataea
 take_rome
@@ -187,7 +182,7 @@ parthia chorasmia
 antiochea_taocene
 take_rome
 short_campaign outlive_factions 
-parthia chorasmia
+parthia chorasmia gedrosia persis gerrha galatia
 
 celtiberia
 take_rome
@@ -227,7 +222,7 @@ carthage
 boetia
 take_rome
 short_campaign outlive_factions 
-macedon athens
+macedon athens argos acarnania
 
 cyrene
 take_rome
@@ -247,7 +242,7 @@ hadhramaut thamud
 kush
 take_rome
 short_campaign outlive_factions 
-egypt
+egypt saba thamud
 
 chola
 take_rome
@@ -282,7 +277,7 @@ cyrene garamantes
 psyllia
 take_rome
 short_campaign outlive_factions 
-cyrene garamantes
+cyrene garamantes libya
 
 saka
 take_rome
