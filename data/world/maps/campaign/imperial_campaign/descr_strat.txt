@@ -26082,7 +26082,7 @@ settlement
 	region Scupi_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator dardania
 	building
@@ -26137,7 +26137,7 @@ relative 	Iptacens Galabri, 	Bendidora,	end
 relative 	Cersobleptes Thunati, 	Cerzula,	end
 
 faction	delmatae, dacian_passive
-denari	3000
+denari	2010
 settlement
 {
 	level town
@@ -26167,7 +26167,7 @@ settlement
 	region Dalmatia
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator delmatae
 	building
@@ -26186,7 +26186,7 @@ settlement
 	region SetoviaDelmatia_R
 
 	year_founded 0
-	population 1000
+	population 700
 	plan_set default_set
 	faction_creator delmatae
 	building
@@ -26227,9 +26227,8 @@ character_record		Iptacens Dalmati, 	male, command 0, influence 0, management 0,
 relative 	Rescuturme Dalmati, 	Cerzula,		Iptacens Dalmati,	end
 
 
-
 faction	balari, dacian_passive
-denari	2500
+denari	1500
 settlement
 {
 	level town
