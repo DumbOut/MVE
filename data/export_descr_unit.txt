@@ -22212,30 +22212,6 @@ stat_cost        1, 295, 179, 50, 70, 349
 ownership        acarnania
 ethnicity        acarnania, Laconia
 
-type             roman civ peasant
-dictionary       roman_civ_peasant      ; Roman Civilians
-category         non_combatant
-class            light
-voice_type       Light_1
-soldier          roman_civ_peasant, 300, 0, 0.8
-attributes       sea_faring, hide_forest, can_sap, no_custom
-formation        1.2, 1.8, 2.4, 2.4, 3, horde
-stat_health      1, 0
-stat_pri         1, 0, no, 0, 0, melee, simple, piercing, knife, 25 ,1
-stat_pri_attr    no
-stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
-stat_sec_attr    no
-stat_pri_armour  0, 3, 0, flesh
-stat_sec_armour  0, 0, flesh
-stat_heat        1
-stat_ground      1, 0, 0, 0
-stat_mental      1, low, untrained
-stat_charge_dist 40
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 160, 216, 30, 40, 210
-ownership        roman
- 
 
 type             roman female peasant
 dictionary       roman_female_peasant      ; Roman Civilians
