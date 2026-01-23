@@ -18830,7 +18830,7 @@ denari	400
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	nabataea, fortified_napoleon
-denari	8110
+denari	8010
 settlement
 {
 	level city
