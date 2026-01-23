@@ -7507,7 +7507,7 @@
 			"loading screen icon": "data/ui/faction_icons/dardania.tga",
 
 			;;standard index as declared in descr_standards (4 per page)
-			"standard index":       ,
+			"standard index":       21,
 			"rebel standard index": 21,
 
 			;;logo index as declared in descr_sm_faction_logos (1 per page)
@@ -17011,7 +17011,7 @@
 			"rebel standard index": 22,
 
 			;;logo index as declared in descr_sm_faction_logos (1 per page)
-			"logo index":       302,
+			"logo index":       22,
 			"rebel logo index": 22,
 
 			;;flag models to be used on the strat map when a settlement is unoccupied
