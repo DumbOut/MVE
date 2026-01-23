@@ -124,7 +124,6 @@ playable
 	taras
 	tylis
 	veneti
-	psyllia
 	antiochea_taocene
 end
 unlockable
@@ -132,6 +131,7 @@ end
 nonplayable
 	slave
 	romans_senate
+	psyllia
 	;------- WARNING -------
 	; DO NOT MAKE ALL OF THESE FACTIONS PLAYABLE!
 	; ONLY MAKE THE ONES YOU WANT TO PLAY PLAYABLE! TOO MANY MAY CAUSE ISSUES WITH THE UI!
@@ -37422,7 +37422,7 @@ character_record		Philosir, 	male, command 0, influence 0, management 0, subterf
 relative 	Ashtzaph, 	Althaia,		Philosir,	end
 
 faction	psyllia, desert_passive
-denari	1040
+denari	1030
 settlement
 {
 	level town
@@ -37567,7 +37567,7 @@ character_record		Baramunes Qkhepersptahikid, 	male, command 8, influence 1, man
 relative 	Tefneferas Qkhepersptahikid, 	Gurkheperta, 	Nankhsptahos Qkhepersptahikid, 	Lemkheperes Qkhepersptahikid, 	Qasraaios Qkhepersptahikid, 	Baramunes Qkhepersptahikid, 	end
 
 faction	massylii, desert_passive
-denari	760
+denari	740
 settlement
 {
 	level town
@@ -39914,7 +39914,7 @@ settlement
 	region Kelydna_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator india
 	building
