@@ -4221,7 +4221,6 @@ ownership        anatolian, tibetan, tocharian, parthia, antiochea_taocene, arme
 ethnicity armenia, Armenia
 ethnicity parthia, Elymais
  
- 
 type             east camel cataphract
 dictionary       east_camel_cataphract      ; Cataphract Camels
 category         cavalry
@@ -4250,7 +4249,6 @@ stat_cost        2, 940, 140, 100, 150, 940
 ownership        parthia, nabataea
 ethnicity parthia, Elymais
 ethnicity nabataea, Nabataea
- 
  
 type             east elephant
 dictionary       east_elephant_african      ; War Elephants

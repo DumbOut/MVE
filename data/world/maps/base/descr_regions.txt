@@ -17492,7 +17492,7 @@ Peparethos_R
 	greece
 	5
 	3
-	greek 97 thracian 3
+	greek 96 thracian 4
 
 Karthaea_R
 	legion: Macedonica

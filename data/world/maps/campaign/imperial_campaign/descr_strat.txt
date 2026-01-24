@@ -111,8 +111,7 @@ playable
 	bactria
 	boii
 	etruscans
-	iolei				; sardi
-	kush
+	iolei			; sardi
 	saba
 	tylis
 end
@@ -127,6 +126,7 @@ nonplayable
 	alemanni			; chatti
 	taras
 	india
+	kush
 	chola
 	boetia
 	greek_cities        ; andros
@@ -14153,7 +14153,7 @@ relative 	Adaeus Mydides, 	Circe,		Pylaemenes Mydides,	end
 ;-------------- 4$e - Carthage ---------------
 faction	carthage, balanced_smith
 ;;ai_do_not_attack_faction numidia
-denari	12030
+denari	11020
 ;--------- 4$e.a - Africa ----------
 settlement
 {
@@ -16591,7 +16591,7 @@ relative 	Inguiomerus Sidini, 	Edith,	end
 relative 	Odovacar Butoni, 	Johanna,	end
 
 faction	britons, trader_henry
-denari	1000
+denari	900
 settlement
 {
 	level large_town
@@ -17596,10 +17596,9 @@ relative 	Syphax, 	Sophonisba,		Vermina,	Tanakwa,	Adonibal,	end
 relative 	Vermina, 	Kahina,		Archobarzane,	Pherusa,	end
 relative 	Tanakwa, 	Aglaurus,		Tabnit,	Sotera,	Abdimilki,	end
 
-
 ;-------------- 4$? - Scythia ---------------
 faction	scythia, trader_smith
-denari	3000
+denari	2000
 ;--------- 4$?.a - Scythia ----------
 settlement
 {
@@ -17607,7 +17606,7 @@ settlement
 	region Scythia
 
 	year_founded 0
-	population 2500
+	population 2200
 	plan_set default_set
 	faction_creator scythia
 	building
@@ -17633,7 +17632,7 @@ settlement
 	region Amadoca_R
 
 	year_founded 0
-	population 1800
+	population 1500
 	plan_set default_set
 	faction_creator scythia
 	building
@@ -18219,7 +18218,7 @@ relative 	Gentza Meidubrigensi, 	Barita,	end
 relative 	Kemen Elbocori, 	Huctia,	end
 
 faction	thrace, sailor_napoleon
-denari	4400
+denari	1300
 settlement
 {
 	level large_town
@@ -18252,7 +18251,7 @@ settlement
 	region Kabyle_R
 
 	year_founded 0
-	population 1800
+	population 1600
 	plan_set default_set
 	faction_creator thrace
 	building
@@ -18419,7 +18418,6 @@ relative 	Raizdos Odrysi, 	Karia,		CotysB Odrysi,	Byzas Odrysi,	end
 relative 	SeuthesB Odrysi, 	Devnet,		TeresB Odrysi,	Roigos Odrysi,	end
 relative 	CotysB Odrysi, 	Bendidora,		Rhescuporis Odrysi,	Ziles Odrysi,	Iptacens Odrysi,	Eptesyka,	end
 relative 	Byzas Odrysi, 	Cerzula,		Gaidres Odrysi,	Mokasokos,	Bryzos Odrysi,	end
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;              BI FACTIONS               ;;;;;;;;;;
@@ -18828,7 +18826,7 @@ denari	300
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	nabataea, fortified_napoleon
-denari	9710
+denari	7710
 settlement
 {
 	level city
