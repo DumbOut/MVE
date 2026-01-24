@@ -6656,7 +6656,7 @@ Garsaura_R
 	legion: Cappadocica
 	Garsaura
 	cappadocia
-	Galatians
+	Cilicians
 	160 9 13
 	cappadocia
 	5
@@ -6689,7 +6689,7 @@ Parnassos_R
 	legion: Cappadocica
 	Parnassos
 	cappadocia
-	Galatians
+	Cilicians
 	35 103 46
 	cappadocia
 	5
@@ -6846,7 +6846,7 @@ Laranda_R
 	legion: Isaura
 	Laranda
 	seleucid
-	Galatians
+	Cilicians
 	98 84 151
 	isauria
 	5
@@ -6861,7 +6861,7 @@ Galatia
 	legion: Galatiae
 	Ancyra
 	galatia
-	Galatians
+	Cilicians
 	17 165 202
 	galatia
 	5
@@ -6872,7 +6872,7 @@ Eccobriga_R
 	legion: Galatiae
 	Eccobriga
 	galatia
-	Galatians
+	Cilicians
 	193 190 30
 	galatia
 	5
@@ -6894,7 +6894,7 @@ Pessinus_R
 	legion: Galatiae
 	Pessinus
 	galatia
-	Galatians
+	Cilicians
 	44 91 43
 	galatia
 	5
@@ -6905,7 +6905,7 @@ Tavium_R
 	legion: Galatiae
 	Tavium
 	galatia
-	Galatians
+	Cilicians
 	255 120 120
 	galatia
 	5
@@ -6920,7 +6920,7 @@ Iconium_R
 	legion: Galatiae
 	Iconium
 	seleucid
-	Galatians
+	Cilicians
 	255 200 200
 	lycaonia
 	5
@@ -6931,7 +6931,7 @@ Philomelion_R
 	legion: Galatiae
 	Philomelion
 	seleucid
-	Galatians
+	Cilicians
 	206 212 47
 	lycaonia
 	5
@@ -7036,7 +7036,7 @@ ApameaMaeandrum_R
 	legion: Asianae
 	ApameaMaeandrum
 	seleucid
-	Galatians
+	Lycians
 	46 118 126
 	phrygia, greek_colony
 	5
@@ -7047,7 +7047,7 @@ Cotyaeum_R
 	legion: Asianae
 	Cotyaeum
 	seleucid
-	Galatians
+	Cilicians
 	252 17 238
 	phrygia
 	5
@@ -7058,7 +7058,7 @@ Docimium_R
 	legion: Asianae
 	Docimium
 	seleucid
-	Galatians
+	Cilicians
 	194 29 63
 	phrygia
 	5
@@ -7069,7 +7069,7 @@ Dorylaeum_R
 	legion: Asianae
 	Dorylaeum
 	seleucid
-	Galatians
+	Cilicians
 	118 133 52
 	phrygia
 	5
@@ -7080,7 +7080,7 @@ Mlaundus_R
 	legion: Asianae
 	Mlaundus
 	seleucid
-	Galatians
+	Cilicians
 	82 201 77
 	phrygia
 	5

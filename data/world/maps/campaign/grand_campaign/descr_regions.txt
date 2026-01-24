@@ -1454,7 +1454,7 @@ Katane_R
 	Katane
 	syracuse
 	Sicani
-	22 18 95
+	217 186 219
 	sicily, greek_colony
 	5
 	7
@@ -3545,7 +3545,7 @@ Attica_R
 	Athens
 	athens
 	Athenians
-	58 177 106
+	59 179 108
 	greece, athens
 	5
 	9
@@ -3569,7 +3569,7 @@ Lemnos_R
 	greece, athens
 	5
 	9
-	greek 100
+	greek 60 anatolian 35 phoenician 5
 Laconia_R
 	legion: Achaica
 	Sparta
@@ -3594,8 +3594,8 @@ Boeotia_R
 	legion: Achaica
 	Thespiae
 	boetia
-	Athenians
-	175 126 126
+	Ionians
+	176 128 128
 	greece, thebes
 	5
 	8
@@ -3605,7 +3605,7 @@ Thebes_R
 	Thebes
 	boetia
 	Athenians
-	82 44 44
+	83 44 44
 	greece, thebes
 	5
 	8
@@ -3615,7 +3615,7 @@ Opous_R
 	Opous
 	boetia
 	Athenians
-	175 48 48
+	176 48 48
 	greece, thebes
 	5
 	10
@@ -3623,9 +3623,9 @@ Opous_R
 Rhamnous_R
 	legion: Achaica
 	Rhamnous
-	boetia
+	athens
 	Athenians
-	82 85 120
+	84 87 123
 	greece, thebes
 	5
 	10
@@ -3635,7 +3635,7 @@ Megaris_R
 	Megara
 	athens
 	Athenians
-	191 147 174
+	193 149 176
 	greece, athens
 	5
 	10
@@ -3653,8 +3653,8 @@ Phocis_R
 Acarnania_R
 	legion: Macedonica
 	Stratus
-	macedon
-	Athenians
+	aetolia
+	Ionians
 	67 74 47
 	macedonia
 	5
@@ -3695,7 +3695,7 @@ Troezen_R
 	Troezen
 	troezen
 	Achaeans
-	97 82 92
+	100 84 95
 	greece
 	5
 	3
@@ -3705,7 +3705,7 @@ Mycenae_R
 	Mycenae
 	argos
 	Achaeans
-	92 40 40
+	93 40 40
 	greece
 	5
 	8
@@ -3715,7 +3715,7 @@ Epidauros_R
 	Epidauros
 	argos
 	Achaeans
-	193 108 108
+	195 111 111
 	greece
 	5
 	8
@@ -3725,7 +3725,7 @@ Aegina_R
 	Aegina
 	athens
 	Achaeans
-	110 19 80
+	124 38 124
 	greece, athens
 	5
 	9
@@ -3735,7 +3735,7 @@ Mantinea_R
 	Mantinea
 	arcadia
 	Achaeans
-	120 50 50
+	218 56 218
 	greece
 	5
 	8
@@ -3743,9 +3743,9 @@ Mantinea_R
 Thyrea_R
 	legion: Macedonica
 	Thyrea
-	arcadia
+	argos
 	Achaeans
-	196 111 149
+	198 114 151
 	greece
 	5
 	8
@@ -3755,7 +3755,7 @@ Kleitor_R
 	Kleitor
 	arcadia
 	Achaeans
-	166 58 116
+	141 83 114
 	greece
 	5
 	8
@@ -3765,7 +3765,7 @@ Olympia_R
 	Olympia
 	arcadia
 	Achaeans
-	170 79 79
+	171 80 80
 	greece
 	5
 	8
@@ -3775,7 +3775,7 @@ Psophis_R
 	Psophis
 	arcadia
 	Achaeans
-	139 82 113
+	167 58 117
 	greece
 	5
 	8
@@ -3785,7 +3785,7 @@ Lepreon_R
 	Lepreon
 	messene
 	Achaeans
-	99 100 40
+	100 101 40
 	greece
 	5
 	3
@@ -3809,37 +3809,37 @@ Pylos_R
 	greece
 	5
 	3
-	greek 99 phoenician 1
+	greek 98 phoenician 2
 Epidauros_Limera_R
 	legion: Macedonica
 	Epidauros_Limera
-	messene
+	acarnania
 	Achaeans
-	89 37 37
+	93 38 38
 	greece
 	5
 	3
-	greek 99 phoenician 1
+	greek 95 phoenician 5
 Andros_R
 	legion: Macedonica
 	Andros
 	greek_cities
 	Achaeans
-	190 100 147
+	193 104 150
 	greece
 	5
 	2
-	greek 90 phoenician 10
+	greek 98 phoenician 2
 Skyros_R
 	legion: Macedonica
 	Skyros
 	macedon
 	Achaeans
-	132 86 124
+	200 161 161
 	greece
 	5
 	2
-	greek 100
+	greek 90 thracian 10
 Arcadia_R
 	legion: Achaica
 	Megalopolis
@@ -3852,7 +3852,7 @@ Arcadia_R
 	greek 100
 Achaea_R
 	Aegium
-	corinth
+	achea
 	Achaeans
 	206 173 22
 	greece
@@ -3894,7 +3894,7 @@ Naxos_R
 	Naxos
 	melos
 	Ionians
-	189 39 39
+	197 41 41
 	greece
 	5
 	3
@@ -3904,7 +3904,7 @@ Zakynthos_R
 	Zakynthos
 	aetolia
 	Ionians
-	158 85 165
+	158 85 166
 	greece
 	5
 	2
@@ -3914,7 +3914,7 @@ Samos_R
 	Samos
 	egypt
 	Ionians
-	231 123 123
+	201 174 213
 	greece
 	5
 	3
@@ -3924,7 +3924,7 @@ Gortyna_R
 	Gortyna
 	gortyn
 	Cretans
-	144 144 74
+	161 161 83
 	greece
 	5
 	6
@@ -3934,7 +3934,7 @@ Kydonia_R
 	Kydonia
 	kydonia
 	Cretans
-	193 162 206
+	201 174 213
 	greece
 	5
 	7
@@ -3944,7 +3944,7 @@ Knossos_R
 	Knossos
 	knossos
 	Cretans
-	174 23 23
+	188 24 24
 	greece
 	5
 	9
@@ -3954,7 +3954,7 @@ Lappa_R
 	Lappa
 	kydonia
 	Cretans
-	112 106 155
+	125 119 170
 	greece
 	5
 	7
@@ -3964,7 +3964,7 @@ Hierapytna_R
 	Hierapytna
 	kydonia
 	Cretans
-	42 84 47
+	65 132 110
 	greece
 	5
 	7
@@ -3974,7 +3974,7 @@ Praesos_R
 	Praesos
 	kydonia
 	Cretans
-	113 54 54
+	129 59 59
 	greece
 	5
 	7
@@ -3984,7 +3984,7 @@ Lyktos_R
 	Lyktos
 	kydonia
 	Cretans
-	59 116 97
+	45 95 51
 	greece
 	5
 	9
@@ -3994,7 +3994,7 @@ Rhodos
 	Rhodes
 	rhodes
 	Rhodians
-	131 33 77
+	139 34 81
 	greece
 	5
 	6
@@ -4010,7 +4010,7 @@ Lycia
 	Halicarnasus
 	seleucid
 	Lycians
-	131 83 77
+	136 86 80
 	anatolia_greek
 	5
 	10
@@ -4020,7 +4020,7 @@ Cnidus_R
 	Cnidus
 	seleucid
 	Ionians
-	83 195 106
+	87 199 110
 	anatolia_greek
 	5
 	10
@@ -4040,7 +4040,7 @@ Ephesus_R
 	Ephesus
 	seleucid
 	Ionians
-	127 142 107
+	131 146 111
 	anatolia_greek
 	5
 	8
@@ -4050,7 +4050,7 @@ Erythrae_R
 	Erythrae
 	egypt
 	Ionians
-	192 184 201
+	194 186 203
 	anatolia_greek
 	5
 	3
@@ -4069,7 +4069,7 @@ Galatia
 	legion: Galatiae
 	Ancyra
 	galatia
-	Galatians
+	Cilicians
 	17 165 202
 	galatia
 	5
@@ -4134,7 +4134,7 @@ SeleuciaCalycadnum_R
 	cilicia, greek_colony
 	5
 	9
-	greek 10 assyrian 10 anatolian 80
+	greek 1 assyrian 9 anatolian 90
 Pontus
 	legion: Pontica
 	Sinope
@@ -4144,7 +4144,7 @@ Pontus
 	paphlagonia, greek_colony
 	5
 	10
-	greek 80 anatolian 20
+	anatolian 80 greek 10 iranian 10
 Cyprus
 	legion: Cyprica
 	Salamis
@@ -4220,7 +4220,7 @@ Cos_R
 	Cos
 	cyprus
 	Achaeans
-	92 83 92
+	99 89 99
 	anatolia, greek_colony
 	5
 	4
@@ -4240,7 +4240,7 @@ Klazomenai_R
 	Klazomenai
 	cyprus
 	Ionians
-	185 144 144
+	187 147 147
 	greece
 	5
 	3
@@ -4250,7 +4250,7 @@ Teos_R
 	Teos
 	cyprus
 	Ionians
-	111 57 57
+	113 58 58
 	greece
 	5
 	3
@@ -4294,13 +4294,13 @@ Abydos_R
 	troas
 	5
 	6
-	anatolian 100
+	greek 70 anatolian 25 phoenician 5
 Troas_R
 	legion: Asianae
 	Troas
 	pergamon
 	Lesbians
-	78 106 79
+	78 107 79
 	troas
 	5
 	6
@@ -4334,7 +4334,7 @@ Amisus_R
 	pontus
 	5
 	7
-	iranian 10 anatolian 90
+	iranian 8 greek 2 anatolian 90
 Amaseia_R
 	legion: Pontica
 	Amaseia
@@ -4354,7 +4354,7 @@ ComanaPontica_R
 	pontus
 	5
 	6
-	iranian 40 anatolian 60
+	anatolian 100
 Gangra_R
 	legion: Pontica
 	Gangra
@@ -4379,27 +4379,27 @@ Pessinus_R
 	legion: Galatiae
 	Pessinus
 	galatia
-	Galatians
+	Cilicians
 	44 91 43
 	galatia
 	5
 	6
-	celtic 5 anatolian 90 thracian 5
+	anatolian 98 thracian 2
 Tavium_R
 	legion: Galatiae
 	Tavium
 	galatia
-	Galatians
+	Cilicians
 	255 120 120
 	galatia
 	5
 	6
-	celtic 5 anatolian 90 thracian 5
+	celtic 2 anatolian 90 thracian 8
 Iconium_R
 	legion: Galatiae
 	Iconium
 	seleucid
-	Galatians
+	Cilicians
 	255 200 200
 	lycaonia
 	5
@@ -4409,7 +4409,7 @@ Cotyaeum_R
 	legion: Asianae
 	Cotyaeum
 	seleucid
-	Galatians
+	Cilicians
 	252 17 238
 	phrygia
 	5
@@ -4419,17 +4419,17 @@ LaodiceaLycus_R
 	legion: Asianae
 	LaodiceaLycus
 	seleucid
-	Galatians
+	Cilicians
 	15 21 136
 	caria, greek_colony
 	5
 	7
-	greek 40 anatolian 60
+	anatolian 99 greek 1
 ApameaMaeandrum_R
 	legion: Asianae
 	ApameaMaeandrum
 	seleucid
-	Galatians
+	Cilicians
 	46 118 126
 	phrygia, greek_colony
 	5
@@ -4439,7 +4439,7 @@ Philomelion_R
 	legion: Galatiae
 	Philomelion
 	seleucid
-	Galatians
+	Cilicians
 	206 212 47
 	lycaonia
 	5
@@ -4449,7 +4449,7 @@ Laranda_R
 	legion: Isaura
 	Laranda
 	seleucid
-	Galatians
+	Cilicians
 	98 84 151
 	isauria
 	5
@@ -9641,7 +9641,7 @@ Paraetonium_R
 	Paraetonium
 	egypt
 	Libyans
-	162 163 51
+	163 164 51
 	aegypt
 	5
 	3
@@ -9671,7 +9671,7 @@ Barce_R
 	Barce
 	cyrene
 	Libyans
-	133 122 169
+	134 123 169
 	cyrene
 	5
 	5
