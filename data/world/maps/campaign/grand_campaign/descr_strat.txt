@@ -1392,7 +1392,7 @@ unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 
 ;	Bovianum
-character	Titus ManliusTorquatus, named character, age 54, , x 242, y 321
+character	Titus ManliusTorquatus, named character, age 54, , x 168, y 241
 traits isManliaGens 1 , GoodCommander 1 , GoodAdministrator 1
 army
 unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
@@ -1460,14 +1460,14 @@ relative 	Titus ManliusTorquatus, 	Gaia,		TitusB ManliusTorquatus,	Aulus Manlius
 relative 	TitusB ManliusTorquatus, 	Leontia,		Plautilla ManliusTorquatus,	TitusC ManliusTorquatus,	end
 
 faction	romans_senate, comfortable_napoleon
-denari	25000
+denari	550
 settlement
 {
 	level city
 	region Latium
 
 	year_founded 0
-	population 7500
+	population 5015
 	plan_set default_set
 	faction_creator romans_senate
 	building
@@ -1481,6 +1481,10 @@ settlement
 	building
 	{
 		type defenses stone_wall
+	}
+	building
+	{
+		type amphitheatres stone_amphitheatre
 	}
 	building
 	{
@@ -1522,7 +1526,7 @@ settlement
 	region Veii_R
 
 	year_founded 0
-	population 1300
+	population 410
 	plan_set default_set
 	faction_creator romans_senate
 	building
@@ -1544,7 +1548,7 @@ settlement
 	region Lavinium_R
 
 	year_founded 0
-	population 1000
+	population 300
 	plan_set default_set
 	faction_creator romans_senate
 	building
@@ -1567,12 +1571,12 @@ settlement
 	region Fregellae_R
 
 	year_founded 0
-	population 1000
+	population 300
 	plan_set default_set
 	faction_creator romans_senate
 	building
 	{
-		type hinterland_roman_colonia roman_colonia
+		type hinterland_roman_civitas roman_civitas
 	}
 	building
 	{
@@ -1590,13 +1594,15 @@ settlement
 	region Casinum_R
 
 	year_founded 0
-	population 1100
+	population 300
 	plan_set default_set
 	faction_creator romans_senate
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+	unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
+	unit		roman leves						exp 1 armour 0 weapon_lvl 0
+	unit		roman leves						exp 1 armour 0 weapon_lvl 0
+	unit		roman leves						exp 1 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_colonia roman_colonia
@@ -1617,12 +1623,16 @@ settlement
 	region Tarracinae_R
 
 	year_founded 0
-	population 1080
+	population 300
 	plan_set default_set
-	faction_creator romans_julii
+	faction_creator romans_senate
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+	unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
+	unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
+	unit		roman leves						exp 1 armour 0 weapon_lvl 0
+	unit		roman leves						exp 1 armour 0 weapon_lvl 0
+	unit		roman leves						exp 1 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_civitas roman_civitas
@@ -1635,10 +1645,6 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type port_buildings port
-	}
 }
 
 settlement
@@ -1647,12 +1653,9 @@ settlement
 	region Caeta_R
 
 	year_founded 0
-	population 870
+	population 300
 	plan_set default_set
-	faction_creator romans_julii
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		roman city militia			exp 2 armour 0 weapon_lvl 0
+	faction_creator romans_senate
 	building
 	{
 		type hinterland_roman_colonia roman_colonia
@@ -1663,19 +1666,15 @@ settlement
 	}
 }
 
-
 settlement
 {
 	level town
 	region Privernum_R
 
 	year_founded 0
-	population 870
+	population 300
 	plan_set default_set
-	faction_creator romans_julii
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		roman city militia			exp 2 armour 0 weapon_lvl 0
+	faction_creator romans_senate
 	building
 	{
 		type hinterland_roman_civitas roman_civitas
@@ -1683,6 +1682,10 @@ settlement
 	building
 	{
 		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
 	}
 }
 
@@ -1692,12 +1695,11 @@ settlement
 	region Alba_Fucens_R
 
 	year_founded 0
-	population 1100
+	population 300
 	plan_set default_set
 	faction_creator romans_senate
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -1713,148 +1715,174 @@ settlement
 	}
 }
 
-
 ;	Rome
-character	Decius Maxentius, named character, leader, age 60, , x 155, y 243
-traits GoodCommander 3 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1
+character	Lucius PapiriusCursor, named character, leader, age 63, , x 155, y 243
+traits isPapiriaGens 1 , GoodCommander 1 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1
 ancillaries doctor
 army
-unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
-unit		roman hastati				exp 3 armour 1 weapon_lvl 0
-unit		roman hastati				exp 3 armour 1 weapon_lvl 0
-unit		roman princeps				exp 3 armour 1 weapon_lvl 0
-unit		roman princeps				exp 3 armour 1 weapon_lvl 0
-unit		roman princeps				exp 3 armour 1 weapon_lvl 0
-unit		roman princeps				exp 3 armour 1 weapon_lvl 0
-unit		roman velite				exp 3 armour 1 weapon_lvl 0
-unit		roman velite				exp 3 armour 1 weapon_lvl 0
-unit		roman triarii				exp 3 armour 1 weapon_lvl 0
+unit		roman generals guard cavalry early	exp 7 armour 0 weapon_lvl 1
+unit		roman hastati spear				exp 4 armour 1 weapon_lvl 0
+unit		roman hastati spear				exp 3 armour 1 weapon_lvl 0
+unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
+unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
+unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
+unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
+unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
+unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
+unit		roman leves						exp 3 armour 1 weapon_lvl 0
+unit		roman leves						exp 3 armour 1 weapon_lvl 0
+unit		roman leves						exp 3 armour 1 weapon_lvl 0
+unit		roman leves						exp 3 armour 1 weapon_lvl 0
+unit		roman triarii clipeus			exp 3 armour 1 weapon_lvl 0
+unit		roman triarii clipeus			exp 3 armour 1 weapon_lvl 0
 
-;	Lavinium
-character	Marcus Maxentius, named character, heir, age 30, , x 158, y 239
-traits GoodCommander 2 , NaturalMilitarySkill 2 , PoliticsSkill 1 , GoodAdministrator 1 , Intelligent 1
+;	outside Rome
+character	Spurius PapiriusCursor, named character, age 42, , x 156, y 243
+traits isPapiriaGens 1 , GoodCommander 2 , NaturalMilitarySkill 2 , PoliticsSkill 1 , GoodAdministrator 1 , Intelligent 1
 ancillaries bodyguard
 army
-unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
-unit		roman triarii				exp 3 armour 1 weapon_lvl 0
-unit		roman velite				exp 3 armour 1 weapon_lvl 0
-unit		roman hastati				exp 3 armour 1 weapon_lvl 0
+unit		roman generals guard cavalry early	exp 3 armour 0 weapon_lvl 1
+unit		roman leves						exp 3 armour 1 weapon_lvl 0
 
-;	Veii
-character	Servius Maxentius, named character, age 36, , x 154, y 246
-traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 1 , Intelligent 1
+;	Lavinium
+character	Publius ValeriusLaevinus, named character, heir, age 55, , x 158, y 239
+traits isValeriaGens 1 , GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 1 , Intelligent 1
 ancillaries scribe_ancillary
 army
 unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
-unit		roman velite				exp 3 armour 1 weapon_lvl 0
-unit		roman hastati				exp 3 armour 0 weapon_lvl 0
-unit		roman princeps				exp 3 armour 1 weapon_lvl 0
-unit		roman triarii				exp 3 armour 0 weapon_lvl 0
+unit		roman triarii clipeus			exp 3 armour 1 weapon_lvl 0
+unit		roman leves						exp 3 armour 1 weapon_lvl 0
+unit		roman leves						exp 3 armour 1 weapon_lvl 0
+unit		roman hastati spear				exp 3 armour 1 weapon_lvl 0
 
 ;	Fregellae
-character	Lentulus, named character, age 20, , x 158, y 243
-traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 1 , Intelligent 1
-ancillaries bodyguard
+character	Manius ValeriusMessalla, named character, age 34, , x 158, y 243
+traits isValeriaGens 1 , GoodCommander 1 , GoodAdministrator 1
 army
 unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
 unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 
-;	outside Rome
-character	Flavius Nepos, diplomat, age 30, , x 158, y 243
+;	Privernum
+character	PubliusB ValeriusLaevinus, named character, age 34, , x 163, y 241
+traits isValeriaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Veii
+character	Lucius ValeriusFlaccus, named character, age 31, , x 154, y 246
+traits isValeriaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
+unit		roman leves						exp 3 armour 1 weapon_lvl 0
+unit		roman hastati spear				exp 3 armour 0 weapon_lvl 0
+unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
+unit		roman triarii clipeus			exp 3 armour 0 weapon_lvl 0
+
+;	Caeta
+character	Gaius FuriusPacilus, named character, age 27, , x 163, y 239
+traits isFuriaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 2 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 3 armour 0 weapon_lvl 0
+unit		roman leves						exp 1 armour 0 weapon_lvl 0
+unit		roman leves						exp 1 armour 0 weapon_lvl 0
+
+;	inside Rome
+character	Flavius Nepos, diplomat, age 30, , x 155, y 243
 traits GoodDiplomat 5
 
-character_record		Gaius Maxentius, 	male, command 0, influence 0, management 0, subterfuge 0, age 11, alive, never_a_leader
-character_record		Lentulus Maxentius, 	male, command 0, influence 0, management 0, subterfuge 0, age 7, alive, never_a_leader
-character_record		Publius Maxentius, 	male, command 0, influence 0, management 0, subterfuge 0, age 13, alive, never_a_leader
-character_record		Honoria, 	female, command 0, influence 0, management 0, subterfuge 0, age 50, alive, never_a_leader
-character_record		Licinia, 	female, command 0, influence 0, management 0, subterfuge 0, age 29, alive, never_a_leader
-character_record		Marciana, 	female, command 0, influence 0, management 0, subterfuge 0, age 34, alive, never_a_leader
-character_record		Papiria, 	female, command 0, influence 0, management 0, subterfuge 0, age 5, alive, never_a_leader
-character_record		Prisca, 	female, command 0, influence 0, management 0, subterfuge 0, age 19, alive, never_a_leader
+character_record		Marcus PapiriusCursor, 	male, command 0, influence 0, management 0, subterfuge 0, age 83, dead, never_a_leader
+character_record		LuciusC PapiriusCursor, 	male, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
+character_record		Publius ValeriusFlaccus, 	male, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
+character_record		Marcus ValeriusLaevinus, 	male, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
+character_record		Quintus FuriusPacilus, 	male, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
+character_record		Marcus ValeriusMessalla, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
+character_record		Servilia, 	female, command 0, influence 0, management 0, subterfuge 0, age 81, dead, never_a_leader
+character_record		Urgulania, 	female, command 0, influence 0, management 0, subterfuge 0, age 60, alive, never_a_leader
+character_record		Ulpia, 	female, command 0, influence 0, management 0, subterfuge 0, age 39, alive, never_a_leader
+character_record		Orbiana, 	female, command 0, influence 0, management 0, subterfuge 0, age 51, alive, never_a_leader
+character_record		Sempronia, 	female, command 0, influence 0, management 0, subterfuge 0, age 31, alive, never_a_leader
+character_record		Gnaea, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
+character_record		Antistia, 	female, command 0, influence 0, management 0, subterfuge 0, age 27, alive, never_a_leader
+character_record		Statia, 	female, command 0, influence 0, management 0, subterfuge 0, age 26, alive, never_a_leader
+character_record		Spuria PapiriusCursor, 	female, command 0, influence 0, management 0, subterfuge 0, age 21, alive, never_a_leader
+character_record		Fabia ValeriusLaevinus, 	female, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
+character_record		Helvia ValeriusFlaccus, 	female, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
+character_record		Honoria FuriusPacilus, 	female, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
+character_record		Messalina ValeriusMessalla, 	female, command 0, influence 0, management 0, subterfuge 0, age 5, alive, never_a_leader
 
-relative 	Decius Maxentius, 	Honoria,		Servius Maxentius,	Marcus Maxentius,	Prisca,	end
-relative 	Marcus Maxentius, 	Licinia,		Publius Maxentius,	Gaius Maxentius,	end
-relative 	Servius Maxentius, 	Marciana,		Lentulus Maxentius,	Papiria,	end
+relative 	Marcus PapiriusCursor, 	Servilia,		Lucius PapiriusCursor,	end
+relative 	Lucius PapiriusCursor, 	Urgulania,		Spurius PapiriusCursor,	Spuria PapiriusCursor,	end
+relative 	Spurius PapiriusCursor, 	Ulpia,		LuciusC PapiriusCursor,	end
+relative 	Publius ValeriusLaevinus, 	Orbiana,		PubliusB ValeriusLaevinus,	end
+relative 	Manius ValeriusMessalla, 	Gnaea,		Messalina ValeriusMessalla,	Marcus ValeriusMessalla,	end
+relative 	PubliusB ValeriusLaevinus, 	Sempronia,		Fabia ValeriusLaevinus,	Marcus ValeriusLaevinus,	end
+relative 	Lucius ValeriusFlaccus, 	Antistia,		Publius ValeriusFlaccus,	Helvia ValeriusFlaccus,	end
+relative 	Gaius FuriusPacilus, 	Statia,		Honoria FuriusPacilus,	Quintus FuriusPacilus,	end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;   UNIFIED ROMANS FACTION    ;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;     UNIFIED ROMANS END      ;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;-------------- 4$b - Macedonia ---------------
 faction	macedon, fortified_napoleon
-denari	7500
+denari	1397
 ;--------- 4$b.a - Greece ----------
 settlement
 {
-	level city
+	level large_town
 	region Macedonia_R
 
 	year_founded 0
-	population 7020
+	population 3000
 	plan_set default_set
 	faction_creator macedon
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_polis greek_polis
 	}
 	building
 	{
-		type defenses stone_wall
+		type core_building governors_villa
 	}
 	building
 	{
-		type barracks city_barracks
+		type barracks militia_barracks
 	}
 	building
 	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
+		type defenses wooden_pallisade
 	}
 	building
 	{
 		type hinterland_roads roads
 	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
-	building
-	{
-		type port_buildings port
-	}
 }
 
 settlement
 {
-	level city
+	level large_town
 	region Corinthia_R
 
 	year_founded 0
-	population 6030
+	population 2110
 	plan_set default_set
 	faction_creator macedon
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
+		type core_building governors_villa
 	}
 	building
 	{
@@ -1862,19 +1890,7 @@ settlement
 	}
 	building
 	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
+		type market trader
 	}
 	building
 	{
@@ -1882,357 +1898,130 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
+		type hinterland_farms farms
 	}
 	building
 	{
 		type port_buildings port
 	}
 }
-
-settlement
-{
-	level city
-	region Bisaltia_R
-
-	year_founded 0
-	population 3490
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
-}
-
-settlement
-{
-	level city
-	region Sintice_R
-
-	year_founded 0
-	population 4581
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
-}
-settlement
-{
-	level city
-	region Chalcidice_R
-
-	year_founded 0
-	population 5300
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
-}
-
 settlement
 {
 	level town
-	region Dassaretis_R
+	region Amphipolis_R
 
 	year_founded 0
-	population 1200
+	population 990
 	plan_set default_set
 	faction_creator macedon
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
 	building
 	{
 		type core_building governors_house
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses wooden_pallisade
 	}
 }
-
 settlement
 {
 	level town
-	region Lyncestis_R
+	region Paroecopolis_R
 
 	year_founded 0
-	population 1457
+	population 500
 	plan_set default_set
 	faction_creator macedon
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
 	building
 	{
 		type core_building governors_house
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses wooden_pallisade
 	}
 }
+settlement
+{
+	level town
+	region Cassandreia_R
 
+	year_founded 0
+	population 705
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
+	region Demetrias_R
+
+	year_founded 0
+	population 1010
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
 settlement
 {
 	level city
-	region Magnesia_R
+	region Dion_R
 
 	year_founded 0
-	population 5040
+	population 700
 	plan_set default_set
 	faction_creator macedon
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
-}
-
-settlement
-{
-	level town
-	region Orestis_R
-
-	year_founded 0
-	population 1500
-	plan_set default_set
-	faction_creator macedon
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
 	building
 	{
 		type core_building governors_house
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses wooden_pallisade
 	}
 }
-
-
-settlement
-{
-	level city
-	region Pieria_R
-
-	year_founded 0
-	population 4980
-	plan_set default_set
-	faction_creator macedon
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
-}
-
-settlement
-{
-	level town
-	region Elimiotis_R
-
-	year_founded 0
-	population 1500
-	plan_set default_set
-	faction_creator macedon
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_wall
-	}
-}
-
-
 settlement
 {
 	level city
@@ -12137,6 +11926,65 @@ settlement
 
 	year_founded 0
 	population 1400
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+settlement
+{
+	level town
+	region ArgosOrestikon_R
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+settlement
+{
+	level town
+	region Elimiotis_R
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+
+}
+
+settlement
+{
+	level town
+	region Lykhnidos_R
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region HeracleaLyncestis_R
+
+	year_founded 0
+	population 900
 	plan_set default_set
 	faction_creator macedon
 	building

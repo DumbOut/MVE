@@ -8295,7 +8295,7 @@ relative 	Gaius FuriusPacilus, 	Statia,		Honoria FuriusPacilus,	Quintus FuriusPa
 
 ;-------------- 4$b - Macedonia ---------------
 faction	macedon, fortified_napoleon
-denari	4830
+denari	2093
 ;--------- 4$b.a - Greece ----------
 settlement
 {
@@ -37430,7 +37430,7 @@ settlement
 	region Latake_Psyllia_R
 
 	year_founded 0
-	population 310
+	population 300
 	plan_set default_set
 	faction_creator psyllia
 	building
@@ -37456,8 +37456,6 @@ settlement
 	plan_set default_set
 	faction_creator psyllia
 	garrisoned_army
-	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
-	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1

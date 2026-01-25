@@ -1164,15 +1164,6 @@ region
 		}
 	}
 
-	Pieria_R
-	{
-		variant
-		{
-			ethnicity mediterranean
-			distribution 100
-		}
-	}
-
 	Macedonia_R
 	{
 		variant
@@ -1488,16 +1479,7 @@ region
 		}
 	}
 
-	Magnesia_R
-	{
-		variant
-		{
-			ethnicity mediterranean
-			distribution 100
-		}
-	}
-
-	Lyncestis_R
+	Demetrias_R
 	{
 		variant
 		{
@@ -1660,27 +1642,7 @@ region
 		}
 	}
 
-	Chalcidice_R
-	{
-
-		variant
-		{
-			ethnicity mediterranean
-			distribution 100
-		}
-	}
-
-	Orestis_R
-	{
-
-		variant
-		{
-			ethnicity mediterranean
-			distribution 100
-		}
-	}
-
-	Dassaretis_R
+	Cassandreia_R
 	{
 
 		variant
@@ -1728,7 +1690,7 @@ region
 		}
 	}
 
-	Sintice_R
+	Paroecopolis_R
 	{
 
 		variant
@@ -1736,21 +1698,6 @@ region
 			ethnicity mediterranean
 			distribution 100
 		}
-	}
-
-	Bisaltia_R
-	{
-
-		variant
-		{
-			ethnicity mediterranean
-			distribution 85
-		}
-		variant
-		{
-			ethnicity caucasiandark
-			distribution 15
-		}		
 	}
 
 	Cypsela_R
@@ -8989,14 +8936,6 @@ region
 		}
 	}
 	Argos_R
-	{
-		variant
-		{
-			ethnicity mediterranean
-			distribution 100
-		}
-	}
-	Cassandreia_R
 	{
 		variant
 		{
