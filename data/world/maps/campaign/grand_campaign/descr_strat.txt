@@ -796,7 +796,38 @@ settlement
 	region Arpi_R
 
 	year_founded 0
-	population 2600
+	population 1800
+	plan_set default_set
+	faction_creator romans_brutii
+	building
+	{
+		type hinterland_roman_colonia_latina roman_colonia_latina
+	}
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Venusia_R
+
+	year_founded 0
+	population 1400
 	plan_set default_set
 	faction_creator romans_brutii
 	building
@@ -809,45 +840,6 @@ settlement
 	}
 	building
 	{
-		type equestrian stables
-	}
-	building
-	{
-		type barracks muster_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type port_buildings port
-	}
-}
-
-settlement
-{
-	level large_town
-	region Venusia_R
-
-	year_founded 0
-	population 3000
-	plan_set default_set
-	faction_creator romans_brutii
-	building
-	{
-		type hinterland_roman_colonia_latina roman_colonia_latina
-	}
-	building
-	{
 		type barracks muster_field
 	}
 	building
@@ -858,14 +850,6 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
 }
 
 settlement
@@ -874,13 +858,10 @@ settlement
 	region Potentia_R
 
 	year_founded 0
-	population 1900
+	population 600
 	plan_set default_set
 	faction_creator romans_brutii
 ;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_civitas roman_civitas
@@ -901,14 +882,10 @@ settlement
 	region Cosentia_R
 
 	year_founded 0
-	population 1400
+	population 350
 	plan_set default_set
 	faction_creator romans_brutii
 ;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_colonia_latina roman_colonia_latina
@@ -929,15 +906,10 @@ settlement
 	region Consilinum_R
 
 	year_founded 0
-	population 1400
+	population 320
 	plan_set default_set
 	faction_creator romans_brutii
 ;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_civitas roman_civitas_foederata
@@ -958,13 +930,10 @@ settlement
 	region Grumentum_R
 
 	year_founded 0
-	population 1400
+	population 310
 	plan_set default_set
 	faction_creator romans_brutii
 ;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_civitas roman_civitas_foederata
@@ -985,13 +954,10 @@ settlement
 	region Stiglanium_R
 
 	year_founded 0
-	population 1000
+	population 300
 	plan_set default_set
 	faction_creator romans_brutii
 ;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_civitas roman_civitas
@@ -999,10 +965,6 @@ settlement
 	building
 	{
 		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
 	}
 }
 
@@ -1012,13 +974,10 @@ settlement
 	region Histonium_R
 
 	year_founded 0
-	population 1200
+	population 340
 	plan_set default_set
 	faction_creator romans_brutii
 ;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_civitas roman_civitas
@@ -1034,89 +993,148 @@ settlement
 }
 
 ;	Arpi
-character	Tiberius Brutus, named character, leader, age 52, , x 176, y 242, portrait_index 227
-traits GoodCommander 3 , NaturalMilitarySkill 1 , GoodAttacker 2 , PoliticsSkill 2 , Intelligent 1
+character	QuintusB FabiusMaximus, named character, leader, age 74, , x 176, y 242, portrait_index 227
+traits isFabiaGens 1 , GoodCommander 1 , NaturalMilitarySkill 1 , GoodAttacker 1 , PoliticsSkill 2 , Intelligent 1
 ancillaries drillmaster
 army
 unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 0 armour 0 weapon_lvl 0
-unit		roman velite				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
 
 ;	outside Arpi
-character	Aulus Brutus, named character, heir, age 34, , x 176, y 241
-traits GoodCommander 2 , PoliticsSkill 3 , Rabblerouser 2 , GoodAdministrator 4
-ancillaries quartermaster
-army
-unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 0 armour 0 weapon_lvl 0
-unit		roman velite				exp 0 armour 0 weapon_lvl 0
-
-;	outside Arpi
-character	Amulius Brutus, named character, age 31, , x 175, y 242
-traits GoodCommander 1 , NaturalMilitarySkill 2 , PoliticsSkill 1 , Intelligent 2
+character	QuintusC FabiusMaximus, named character, age 44, , x 175, y 243
+traits isFabiaGens 1 , GoodCommander 1 , GoodAdministrator 2 , PoliticsSkill 1 , Intelligent 2 , MathematicsSkill 2
 ancillaries doctor
 army
-unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
-unit		roman light cavalry			exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 0 armour 0 weapon_lvl 0
-unit		roman hastati				exp 0 armour 0 weapon_lvl 0
-unit		roman hastati				exp 0 armour 0 weapon_lvl 0
-unit		roman hastati				exp 0 armour 0 weapon_lvl 0
-unit		roman velite				exp 0 armour 0 weapon_lvl 0
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman light cavalry				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 0 armour 0 weapon_lvl 0
+unit		roman leves						exp 0 armour 0 weapon_lvl 0
 
-;	Venusia
-character	Vibius Brutus, named character, age 30, , x 177, y 237
-traits GoodCommander 2 , GoodAdministrator 4 , PoliticsSkill 1 , Intelligent 2 , MathematicsSkill 2
+;	Stiglanium
+character	GaiusC FabiusPictor, named character, age 43, , x 182, y 235
+traits isFabiaGens 1 , GoodCommander 1 , PoliticsSkill 2 , Rabblerouser 2 , GoodAdministrator 2
 army
 unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 0 armour 0 weapon_lvl 0
-unit		roman velite				exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 
-;	inside Venusia
-character	Luca Antonius, spy, age 23, , x 177, y 237
-traits GoodSpy 4
+;	outside Stiglanium
+character	QuintusD FabiusMaximus, named character, age 41, , x 181, y 235
+traits isFabiaGens 1 , GoodCommander 1 , NaturalMilitarySkill 2 , PoliticsSkill 1 , Intelligent 2
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
+unit		roman leves						exp 0 armour 0 weapon_lvl 0
 
-;	outside Arpi
-character	Caius Flaminius, diplomat, age 23, , x 175, y 242
+;	Venusia
+character	Numerius FabiusPictor, named character, age 39, , x 177, y 237
+traits isFabiaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 0 armour 0 weapon_lvl 0
+unit		roman leves						exp 0 armour 0 weapon_lvl 0
+
+;	outside Venusia
+character	QuintusE FabiusPictor, named character, age 20, , x 178, y 237
+traits isFabiaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
+
+;	outside Venusia
+character	Paullus FabiusPictor, named character, age 18, , x 179, y 237
+traits isFabiaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
+
+;	Grumentum
+character	Decimus JuniusBrutus, named character, age 61, , x 181, y 231
+traits isJuniaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Consilinum
+character	DecimusB JuniusBrutus, named character, age 31, , x 180, y 229
+traits isJuniaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Potentia
+character	Marcus JuniusBrutus, named character, age 30, , x 178, y 234
+traits isJuniaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Histonium
+character	Decimus JuniusPera, named character, age 36, , x 171, y 244
+traits isJuniaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Arpi
+character	Caius Flaminius, diplomat, age 23, , x 176, y 242
 traits GoodDiplomat 3
 
+;	Arpi
+character	Luca Antonius, spy, age 23, , x 176, y 242
+traits GoodSpy 4
+
 ;	outside Taras
-character	Appius Attius, admiral, age 29, , x 174, y 227
+character	Marcus Attius, admiral, age 29, , x 182, y 241
 army
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
-unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
+character_record		GaiusB FabiusPictor, 	male, command 0, influence 0, management 0, subterfuge 0, age 87, dead, never_a_leader
+character_record		Caeso FabiusPictor, 	male, command 0, influence 0, management 0, subterfuge 0, age 12, alive, never_a_leader
+character_record		QuintusF FabiusMaximus, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		Marcus JuniusPera, 	male, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
+character_record		Lucius JuniusBrutus, 	male, command 0, influence 0, management 0, subterfuge 0, age 5, alive, never_a_leader
+character_record		Marcia, 	female, command 0, influence 0, management 0, subterfuge 0, age 83, dead, never_a_leader
+character_record		Porcia, 	female, command 0, influence 0, management 0, subterfuge 0, age 70, alive, never_a_leader
+character_record		Quarta, 	female, command 0, influence 0, management 0, subterfuge 0, age 57, alive, never_a_leader
+character_record		Ocellina, 	female, command 0, influence 0, management 0, subterfuge 0, age 42, alive, never_a_leader
+character_record		Fulvia, 	female, command 0, influence 0, management 0, subterfuge 0, age 40, alive, never_a_leader
+character_record		Terentia, 	female, command 0, influence 0, management 0, subterfuge 0, age 37, alive, never_a_leader
+character_record		Aula, 	female, command 0, influence 0, management 0, subterfuge 0, age 35, alive, never_a_leader
+character_record		Cornelia, 	female, command 0, influence 0, management 0, subterfuge 0, age 33, alive, never_a_leader
+character_record		Mania, 	female, command 0, influence 0, management 0, subterfuge 0, age 28, alive, never_a_leader
+character_record		Atia, 	female, command 0, influence 0, management 0, subterfuge 0, age 26, alive, never_a_leader
+character_record		Lucia FabiusPictor, 	female, command 0, influence 0, management 0, subterfuge 0, age 25, alive, never_a_leader
+character_record		Sexta FabiusPictor, 	female, command 0, influence 0, management 0, subterfuge 0, age 23, alive, never_a_leader
+character_record		Paulina FabiusMaximus, 	female, command 0, influence 0, management 0, subterfuge 0, age 21, alive, never_a_leader
+character_record		Ceacilia FabiusMaximus, 	female, command 0, influence 0, management 0, subterfuge 0, age 20, alive, never_a_leader
+character_record		Vistilia FabiusPictor, 	female, command 0, influence 0, management 0, subterfuge 0, age 17, alive, never_a_leader
+character_record		Turia FabiusPictor, 	female, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
+character_record		Volusa JuniusPera, 	female, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		Mamerca JuniusBrutus, 	female, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
 
-character_record		Cassius Brutus, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
-character_record		Titus Brutus, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
-character_record		Cornelius Brutus, 	male, command 0, influence 0, management 0, subterfuge 0, age 7, alive, never_a_leader
-character_record		Oppius Brutus, 	male, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
-character_record		Galla, 	female, command 0, influence 0, management 0, subterfuge 0, age 50, alive, never_a_leader
-character_record		Hostia, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
-character_record		Lucilla, 	female, command 0, influence 0, management 0, subterfuge 0, age 28, alive, never_a_leader
-character_record		Paulina, 	female, command 0, influence 0, management 0, subterfuge 0, age 12, alive, never_a_leader
-
-relative 	Tiberius Brutus, 	Galla,		Aulus Brutus,	Amulius Brutus,	Vibius Brutus,	end
-relative 	Aulus Brutus, 	Hostia,		Paulina,	Titus Brutus,	Oppius Brutus,	end
-relative 	Amulius Brutus, 	Lucilla,		Cassius Brutus,	Cornelius Brutus,	end
+relative 	GaiusB FabiusPictor,		Marcia,		GaiusC FabiusPictor,	Numerius FabiusPictor,	end
+relative 	QuintusB FabiusMaximus,		Porcia,		QuintusC FabiusMaximus,	QuintusD FabiusMaximus,	end
+relative 	QuintusC FabiusMaximus,		Fulvia,		QuintusF FabiusMaximus,	end
+relative 	GaiusC FabiusPictor,		Ocellina,		Lucia FabiusPictor,	Sexta FabiusPictor,	QuintusE FabiusPictor,	end
+relative 	QuintusD FabiusMaximus,		Terentia,		Paulina FabiusMaximus,	Ceacilia FabiusMaximus,	end
+relative 	Numerius FabiusPictor,		Aula,		Paullus FabiusPictor,	Vistilia FabiusPictor,	Turia FabiusPictor,	Caeso FabiusPictor,	end
+relative 	Decimus JuniusBrutus,		Quarta,			DecimusB JuniusBrutus,	Marcus JuniusBrutus,	end
+relative 	Decimus JuniusPera,		Cornelia,		Volusa JuniusPera,	Marcus JuniusPera,	end
+relative 	DecimusB JuniusBrutus,		Mania,			Lucius JuniusBrutus,	end
+relative 	Marcus JuniusBrutus,		Atia,			Mamerca JuniusBrutus,	end
 
 faction	romans_scipii, bureaucrat_napoleon
 superfaction romans_senate
-denari	7500
+denari	205
 settlement
 {
 	level large_town
 	region Campania
 
 	year_founded 0
-	population 4800
+	population 4200
 	plan_set default_set
 	faction_creator romans_scipii
 	building
@@ -1125,11 +1143,11 @@ settlement
 	}
 	building
 	{
-		type barracks militia_barracks
+		type core_building governors_villa
 	}
 	building
 	{
-		type core_building governors_villa
+		type barracks militia_barracks
 	}
 	building
 	{
@@ -1138,14 +1156,6 @@ settlement
 	building
 	{
 		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+1
-	}
-	building
-	{
-		type port_buildings port
 	}
 }
 settlement
@@ -1154,32 +1164,20 @@ settlement
 	region Bruttium
 
 	year_founded 0
-	population 4300
+	population 1000
 	plan_set default_set
 	faction_creator romans_scipii
 	building
 	{
 		type hinterland_roman_civitas roman_civitas_libera
-	}	
-	building
-	{
-		type barracks muster_field
 	}
 	building
 	{
 		type core_building governors_villa
-	}
+	}	
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms
 	}
 }
 settlement
@@ -1188,7 +1186,7 @@ settlement
 	region Rhegium_R
 
 	year_founded 0
-	population 3500
+	population 950
 	plan_set default_set
 	faction_creator romans_scipii
 	building
@@ -1197,19 +1195,15 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
-	}
-	building
-	{
 		type core_building governors_villa
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type barracks muster_field
 	}
 	building
 	{
-		type port_buildings port
+		type defenses wooden_pallisade
 	}
 }
 settlement
@@ -1218,7 +1212,7 @@ settlement
 	region Bovianum_R
 
 	year_founded 0
-	population 1700
+	population 300
 	plan_set default_set
 	faction_creator romans_scipii
 	building
@@ -1241,12 +1235,11 @@ settlement
 	region Abellinum_R
 
 	year_founded 0
-	population 1400
+	population 310
 	plan_set default_set
 	faction_creator romans_scipii
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -1269,13 +1262,10 @@ settlement
 	region Saticula_R
 
 	year_founded 0
-	population 1400
+	population 305
 	plan_set default_set
 	faction_creator romans_scipii
 ;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_civitas roman_civitas
@@ -1296,13 +1286,10 @@ settlement
 	region Venafrum_R
 
 	year_founded 0
-	population 1400
+	population 500
 	plan_set default_set
 	faction_creator romans_scipii
 ;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_civitas roman_civitas
@@ -1323,16 +1310,13 @@ settlement
 	region Nola_R
 
 	year_founded 0
-	population 1400
+	population 300
 	plan_set default_set
 	faction_creator romans_scipii
 ;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
-		type hinterland_roman_civitas roman_civitas
+		type hinterland_roman_colonia roman_colonia
 	}
 	building
 	{
@@ -1345,89 +1329,135 @@ settlement
 }
 
 ;	Rhegium
-character	Cornelius Scipio, named character, leader, age 54, , x 178, y 211, portrait_index 195
-traits GoodCommander 2 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1 , GoodInfantryGeneral 1
+character	Tiberius CorneliusLentulus, named character, leader, age 67, , x 178, y 211, portrait_index 195
+traits isCorneliaGens 1 , GoodCommander 2 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1 , GoodInfantryGeneral 1
 ancillaries aged_retainer
 army
 unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 0 armour 0 weapon_lvl 0
-unit		roman hastati				exp 0 armour 0 weapon_lvl 0
-unit		roman hastati				exp 0 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-
-;	outside Rhegium
-character	Quintus Scipio, named character, age 35, , x 179, y 211
-traits NaturalMilitarySkill 1 , PoliticsSkill 1 , Intelligent 1 , Generous 1
-army
-unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-unit		roman archer				exp 2 armour 0 weapon_lvl 0
-unit		roman velite				exp 0 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
 
 ;	Capua
-character	Julianus Scipio, named character, heir, age 36, , x 167, y 236
-traits GoodCommander 2 , NaturalMilitarySkill 3 , PoliticsSkill 1 , GoodRiskyAttacker 1
+character	Lucius CorneliusScipio, named character, heir, age 65, , x 167, y 236
+traits isCorneliaGens 1 , GoodCommander 1 , NaturalMilitarySkill 3 , PoliticsSkill 1 , GoodRiskyAttacker 1
 ancillaries drillmaster
 army
 unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-
-;	outside Capua
-character	Gaius Scipio, named character, age 29, , x 168, y 235
-traits NaturalMilitarySkill 3 , PoliticsSkill 1 , Intelligent 1 , Generous 1 , AuthoritarianRomanVirtue 2
-army
-unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 2 armour 0 weapon_lvl 0
 
 ;	Croton
-character	Marcus, general, age 20, , x 187, y 221
+character	Publius CorneliusDolabella, named character, age 56, , x 187, y 221
+traits isCorneliaGens 1 , NaturalMilitarySkill 1 , PoliticsSkill 1 , Intelligent 1 , Generous 1
 army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
 unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Nola
+character	Lucius CorneliusLentulus, named character, age 48, , x 170, y 237 
+traits isCorneliaGens 1 , NaturalMilitarySkill 3 , PoliticsSkill 1 , Intelligent 1 , Generous 1 , AuthoritarianRomanVirtue 2
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 2 armour 0 weapon_lvl 0
+unit		roman archer					exp 2 armour 0 weapon_lvl 0
+unit		roman leves						exp 0 armour 0 weapon_lvl 0
+
+;	outside Croton
+character	Lucius CorneliusDolabella, named character, age 34, , x 188, y 221
+traits isCorneliaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+
+;	outside Capua
+character	LuciusB CorneliusScipio, named character, age 28, , x 167, y 237
+traits isCorneliaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
+
+;	Venafrum
+character	Gnaeus CorneliusScipio, named character, age 27, , x 169, y 239
+traits isCorneliaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
 unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Abellinum
+character	LuciusB CorneliusLentulus, named character, age 16, , x 172, y 236
+traits isCorneliaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
 unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 
 ;	Bovianum
-character	Marcus, general, age 20, , x 168, y 241
+character	Titus ManliusTorquatus, named character, age 54, , x 242, y 321
+traits isManliaGens 1 , GoodCommander 1 , GoodAdministrator 1
 army
-unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+
+;	outside Bovianum
+character	TitusB ManliusTorquatus, named character, age 32, , x 169, y 242
+traits isManliaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
 unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 
-;	outside Capua
-character	Quintus Caecus, diplomat, age 26, , x 167, y 237
+;	outside Bovianum 2
+character	Aulus ManliusTorquatus, named character, age 24, , x 170, y 241
+traits isManliaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
+
+;	inside Capua
+character	Quintus Caecus, diplomat, age 26, , x 167, y 236
 traits GoodDiplomat 2
 
-;	outside Rhegium
-character	Aulus Ovidius, spy, age 20, , x 178, y 212
+;	inside Capua
+character	Aulus Ovidius, spy, age 20, , x 167, y 236
 traits GoodSpy 3
 
-;	outside Capua
-character	Aulus Volesus, admiral, age 22, , x 165, y 233
+;	Gulf of Italy
+character	Aulus Volesus, admiral, age 22, , x 177, y 221
 army
+unit		naval biremes				exp 1 armour 0 weapon_lvl 0
+unit		naval biremes				exp 1 armour 0 weapon_lvl 0
 unit		naval biremes				exp 1 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
-character_record		Aulus Scipio, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
-character_record		Flavius Scipio, 	male, command 0, influence 0, management 0, subterfuge 0, age 11, alive, never_a_leader
-character_record		Lucius Scipio, 	male, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
-character_record		Publius Scipio, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
-character_record		Metella, 	female, command 0, influence 0, management 0, subterfuge 0, age 52, alive, never_a_leader
-character_record		Antistia, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
-character_record		Crispina, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
-character_record		Placidia, 	female, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
+character_record		Publius CorneliusLentulus, 	male, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
+character_record		TitusC ManliusTorquatus, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		PubliusB CorneliusScipio, 	male, command 0, influence 0, management 0, subterfuge 0, age 4, alive, never_a_leader
+character_record		GnaeusB CorneliusScipio, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
+character_record		Marcus CorneliusDolabella, 	male, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
+character_record		Publius CorneliusScipio, 	male, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
+character_record		Fausta, 	female, command 0, influence 0, management 0, subterfuge 0, age 65, alive, never_a_leader
+character_record		Poppaea, 	female, command 0, influence 0, management 0, subterfuge 0, age 64, alive, never_a_leader
+character_record		Gaia, 	female, command 0, influence 0, management 0, subterfuge 0, age 52, alive, never_a_leader
+character_record		Vopisca, 	female, command 0, influence 0, management 0, subterfuge 0, age 51, alive, never_a_leader
+character_record		Severa, 	female, command 0, influence 0, management 0, subterfuge 0, age 31, alive, never_a_leader
+character_record		Leontia, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
+character_record		Faustina, 	female, command 0, influence 0, management 0, subterfuge 0, age 28, alive, never_a_leader
+character_record		Publia, 	female, command 0, influence 0, management 0, subterfuge 0, age 27, alive, never_a_leader
+character_record		Pomponia, 	female, command 0, influence 0, management 0, subterfuge 0, age 24, alive, never_a_leader
+character_record		Caesonia CorneliusLentulus, 	female, command 0, influence 0, management 0, subterfuge 0, age 19, alive, never_a_leader
+character_record		Drusilla CorneliusLentulus, 	female, command 0, influence 0, management 0, subterfuge 0, age 18, alive, never_a_leader
+character_record		Metella CorneliusDolabella, 	female, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
+character_record		Lepida CorneliusDolabella, 	female, command 0, influence 0, management 0, subterfuge 0, age 13, alive, never_a_leader
+character_record		Plautilla ManliusTorquatus, 	female, command 0, influence 0, management 0, subterfuge 0, age 11, alive, never_a_leader
+character_record		Eutropia CorneliusScipio, 	female, command 0, influence 0, management 0, subterfuge 0, age 5, alive, never_a_leader
+character_record		Tertia CorneliusScipio, 	female, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
 
-relative 	Cornelius Scipio, 	Metella,		Julianus Scipio,	Quintus Scipio,	Gaius Scipio,	Aulus Scipio,	end
-relative 	Julianus Scipio, 	Antistia,		Flavius Scipio,	Lucius Scipio,	end
-relative 	Quintus Scipio, 	Crispina,		Placidia,	Publius Scipio,	end
-
+relative 	Tiberius CorneliusLentulus, 	Fausta,		Lucius CorneliusLentulus,	Caesonia CorneliusLentulus,	Drusilla CorneliusLentulus,	end
+relative 	Publius CorneliusDolabella, 	Vopisca,		Lucius CorneliusDolabella,	end
+relative 	Lucius CorneliusDolabella, 	Severa,		Metella CorneliusDolabella,	Lepida CorneliusDolabella,	Marcus CorneliusDolabella,	end
+relative 	Lucius CorneliusLentulus, 	Faustina,		LuciusB CorneliusLentulus,	Publius CorneliusLentulus,	end
+relative 	Lucius CorneliusScipio, 	Poppaea,		LuciusB CorneliusScipio,	Gnaeus CorneliusScipio,	end
+relative 	LuciusB CorneliusScipio, 	Pomponia,		GnaeusB CorneliusScipio,	Publius CorneliusScipio,	end
+relative 	Gnaeus CorneliusScipio, 	Publia,		Eutropia CorneliusScipio,	PubliusB CorneliusScipio,	Tertia CorneliusScipio,	end
+relative 	Titus ManliusTorquatus, 	Gaia,		TitusB ManliusTorquatus,	Aulus ManliusTorquatus,	end
+relative 	TitusB ManliusTorquatus, 	Leontia,		Plautilla ManliusTorquatus,	TitusC ManliusTorquatus,	end
 
 faction	romans_senate, comfortable_napoleon
 denari	25000
