@@ -84,7 +84,7 @@ end_monitor
 ; main script – only fires when counter hits 1
 monitor_event FactionTurnStart FactionType slave
 	if I_CompareCounter money_cycle = 1
-		console_command add_money slave -100999999
+		console_command add_money slave -101999999
 		;;; Starting Big Empire Penalty ;;
 		console_command add_money carthage -2010
 		console_command add_money india -7000
