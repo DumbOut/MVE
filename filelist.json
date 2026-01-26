@@ -10877,7 +10877,7 @@
 	},
 	{
 		"filename": "data\/data_controlled_variables.json",
-		"checksum": 1556330927
+		"checksum": 1879209899
 	},
 	{
 		"filename": "data\/descr_aerial_map_ground_types.txt",
@@ -10913,7 +10913,7 @@
 	},
 	{
 		"filename": "data\/descr_character.txt",
-		"checksum": 3972001225
+		"checksum": 401480035
 	},
 	{
 		"filename": "data\/descr_cultures.txt",
@@ -100113,7 +100113,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 1031969115
+		"checksum": 2232675206
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
@@ -100144,10 +100144,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_ardiaei.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_armenia.tga",
 		"checksum": "Blacklisted"
 	},
@@ -100157,10 +100153,6 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_bosporus.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_britons.tga",
 		"checksum": "Blacklisted"
 	},
 	{
