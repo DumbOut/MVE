@@ -8967,14 +8967,6 @@ region
 			distribution 100
 		}
 	}
-	Demetrias_R
-	{
-		variant
-		{
-			ethnicity mediterranean
-			distribution 100
-		}
-	}
 	Dion_R
 	{
 		variant

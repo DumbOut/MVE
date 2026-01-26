@@ -30016,7 +30016,7 @@ unit		greek archer				exp 4 armour 0 weapon_lvl 3
 
 ;	Outside Teion
 character	Madduwatta Acamides, named character, heir, age 16, , x 416, y 344
-traits GoodCommander5, GoodAdministrator 4, GoodTrader 2, Intelligent 1, Austere 1, GoodDefender 2
+traits GoodCommander 5, GoodAdministrator 4, GoodTrader 2, Intelligent 1, Austere 1, GoodDefender 2
 army
 unit		greek general's guard cavalry early	exp 8 armour 9 weapon_lvl 9
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -30030,14 +30030,14 @@ relative 	Madduwatta Acamides, 	Circe,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction troezen, greek_passive
-denari	130
+denari	120
 settlement
 {
 	level town
 	region Troezen_R
 
 	year_founded 0
-	population 500
+	population 400
 	plan_set default_set
 	faction_creator troezen
 	building
