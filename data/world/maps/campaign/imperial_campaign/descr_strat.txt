@@ -7729,7 +7729,7 @@ relative 	Marcus JuniusBrutus,		Atia,			Mamerca JuniusBrutus,	end
 
 faction	romans_scipii, bureaucrat_napoleon
 superfaction romans_senate
-denari	408
+denari	308
 settlement
 {
 	level large_town
@@ -8054,16 +8054,15 @@ relative 	Gnaeus CorneliusScipio, 	Publia,		Eutropia CorneliusScipio,	PubliusB C
 relative 	Titus ManliusTorquatus, 	Gaia,		TitusB ManliusTorquatus,	Aulus ManliusTorquatus,	end
 relative 	TitusB ManliusTorquatus, 	Leontia,		Plautilla ManliusTorquatus,	TitusC ManliusTorquatus,	end
 
-
 faction	romans_senate, comfortable_napoleon
-denari	2900
+denari	1000
 settlement
 {
 	level city
 	region Latium
 
 	year_founded 0
-	population 7500
+	population 7200
 	plan_set default_set
 	faction_creator romans_senate
 	building
@@ -8121,7 +8120,7 @@ settlement
 	region Veii_R
 
 	year_founded 0
-	population 1010
+	population 900
 	plan_set default_set
 	faction_creator romans_senate
 	building
@@ -8143,7 +8142,7 @@ settlement
 	region Antium_R
 
 	year_founded 0
-	population 1000
+	population 900
 	plan_set default_set
 	faction_creator romans_senate
 	building
@@ -8165,7 +8164,7 @@ settlement
 	region Fregellae_R
 
 	year_founded 0
-	population 810
+	population 700
 	plan_set default_set
 	faction_creator romans_senate
 	building
@@ -8199,7 +8198,7 @@ unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
 unit		roman leves						exp 3 armour 1 weapon_lvl 0
 unit		roman leves						exp 3 armour 1 weapon_lvl 0
 unit		roman leves						exp 3 armour 1 weapon_lvl 0
-unit		roman leves						exp 3 armour 1 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 unit		roman triarii clipeus			exp 3 armour 1 weapon_lvl 0
 
 ;	outside Rome
@@ -8208,8 +8207,7 @@ traits isPapiriaGens 1 , GoodCommander 2 , NaturalMilitarySkill 2 , PoliticsSkil
 ancillaries bodyguard
 army
 unit		roman generals guard cavalry early	exp 3 armour 0 weapon_lvl 1
-unit		roman leves						exp 3 armour 1 weapon_lvl 0
-unit		roman leves						exp 3 armour 1 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 
 ;	Antium
 character	Publius ValeriusLaevinus, named character, heir, age 55, , x 222, y 325
@@ -8218,7 +8216,7 @@ ancillaries scribe_ancillary
 army
 unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
 unit		roman triarii clipeus			exp 3 armour 1 weapon_lvl 0
-unit		roman leves						exp 3 armour 1 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 unit		roman hastati spear				exp 3 armour 1 weapon_lvl 0
 
 ;	Fregellae
@@ -8284,7 +8282,6 @@ relative 	PubliusB ValeriusLaevinus, 	Sempronia,		Fabia ValeriusLaevinus,	Marcus
 relative 	Lucius ValeriusFlaccus, 	Antistia,		Publius ValeriusFlaccus,	Helvia ValeriusFlaccus,	end
 relative 	Gaius FuriusPacilus, 	Statia,		Honoria FuriusPacilus,	Quintus FuriusPacilus,	end
 
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;   UNIFIED ROMANS FACTION    ;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -8295,7 +8292,7 @@ relative 	Gaius FuriusPacilus, 	Statia,		Honoria FuriusPacilus,	Quintus FuriusPa
 
 ;-------------- 4$b - Macedonia ---------------
 faction	macedon, fortified_napoleon
-denari	2093
+denari	1040
 ;--------- 4$b.a - Greece ----------
 settlement
 {
@@ -8337,7 +8334,7 @@ settlement
 	region Peloponnesus
 
 	year_founded 0
-	population 3000
+	population 2950
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -8375,7 +8372,7 @@ settlement
 	region Amphipolis_R
 
 	year_founded 0
-	population 1100
+	population 900
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -8389,10 +8386,6 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type port_buildings port
 	}
 }
 settlement
@@ -8414,7 +8407,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses wooden_pallisade
 	}
 }
 settlement
@@ -8467,10 +8460,6 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type port_buildings port
 	}
 }
 settlement
@@ -8780,7 +8769,7 @@ relative 	Ameinias Iolaides, 	Caleope Antigonides,	end
 
 ;-------------- 4$c - Ptolemaic Egypt ---------------
 faction	egypt, religious_caesar
-denari	4800
+denari	2200
 ;--------- 4$c.a - Lower Egypt ----------
 settlement
 {
@@ -10615,7 +10604,7 @@ relative 	Ptolemy Lysimachides, 	Iphigenia,		LysimachusC Lysimachides,	Epigonus 
 faction	seleucid, balanced_stalin
 ai_do_not_attack_faction antiochea_taocene
 ai_do_not_attack_faction bactria
-denari	10003
+denari	7810
 ;--------- 4$d.a - Syria ----------
 settlement
 {
@@ -10623,7 +10612,7 @@ settlement
 	region Syria
 
 	year_founded 0
-	population 13990
+	population 13190
 	plan_set default_set
 	faction_creator seleucid
 	building
@@ -10689,16 +10678,13 @@ settlement
 	region ApameaOrontes_R
 
 	year_founded 0
-	population 2000
+	population 1600
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -10843,7 +10829,7 @@ settlement
 	region Edessa_R
 
 	year_founded 0
-	population 1000
+	population 960
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -10852,8 +10838,6 @@ settlement
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1		
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
-	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1	
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	building
@@ -10863,10 +10847,6 @@ settlement
 	building
 	{
 		type core_building governors_house
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 	building
 	{
@@ -10921,7 +10901,6 @@ settlement
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -10959,10 +10938,6 @@ settlement
 	building
 	{
 		type core_building governors_house
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 	building
 	{
@@ -11031,7 +11006,7 @@ settlement
 	region Nineveh_R
 
 	year_founded 0
-	population 1200
+	population 900
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11067,7 +11042,6 @@ settlement
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
-	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
@@ -11089,10 +11063,6 @@ settlement
 	}
 	building
 	{
-		type hinterland_roads roads
-	}
-	building
-	{
 		type defenses wooden_pallisade
 	}
 }
@@ -11102,7 +11072,7 @@ settlement
 	region AntiochiaArabis_R		;;;;; Resaina
 
 	year_founded 0
-	population 1100
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11121,10 +11091,6 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 settlement
@@ -11161,7 +11127,7 @@ settlement
 	region Arbela_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11185,7 +11151,7 @@ settlement
 	region Arrapha_R
 
 	year_founded 0
-	population 1000
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11209,7 +11175,7 @@ settlement
 	region Nisibis_R		;;;;; Antiochia Mygdonia
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11229,10 +11195,6 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type hinterland_roads roads
-	}
 }
 settlement
 {
@@ -11240,12 +11202,10 @@ settlement
 	region Sareisa_R
 
 	year_founded 0
-	population 1200
+	population 900
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
@@ -11276,7 +11236,6 @@ settlement
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 1
 	building
 	{
@@ -11299,7 +11258,7 @@ settlement
 	region Babylonia
 
 	year_founded 0
-	population 9600
+	population 9520
 	plan_set default_set
 	faction_creator seleucid
 	building
@@ -11382,7 +11341,6 @@ settlement
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
@@ -11409,10 +11367,11 @@ settlement
 	region AntiochiaSittacene_R
 
 	year_founded 0
-	population 1500
+	population 1200
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
+	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
@@ -11463,7 +11422,7 @@ settlement
 	region CharaxSpasinu_R
 
 	year_founded 0
-	population 1500
+	population 1300
 	plan_set default_set
 	faction_creator seleucid
 	building
@@ -11489,7 +11448,7 @@ settlement
 	region Apphana_R
 
 	year_founded 0
-	population 404
+	population 300
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11501,18 +11460,6 @@ settlement
 	building
 	{
 		type core_building governors_house
-	}	
-	building
-	{
-		type hinterland_greek_polis greek_polis
-	}
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type port_buildings port
 	}
 }
 settlement
@@ -11521,11 +11468,11 @@ settlement
 	region Diridotis_R
 
 	year_founded 0
-	population 450
+	population 300
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 1
+	unit	greek hoplite militia		exp 2 armour 0 weapon_lvl 1
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -11534,10 +11481,6 @@ settlement
 	{
 		type core_building governors_house
 	}
-	building
-	{
-		type port_buildings port
-	}
 }
 settlement
 {
@@ -11545,7 +11488,7 @@ settlement
 	region Opis_R
 
 	year_founded 0
-	population 1500
+	population 1100
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11569,7 +11512,7 @@ settlement
 	region Orkhoe_R
 
 	year_founded 0
-	population 1450
+	population 1250
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11593,7 +11536,7 @@ settlement
 	region Birtha_R
 
 	year_founded 0
-	population 1000
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11610,10 +11553,6 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type hinterland_roads roads
-	}
 }
 settlement
 {
@@ -11621,7 +11560,7 @@ settlement
 	region Chala_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11645,7 +11584,7 @@ settlement
 	region Girsu_R
 
 	year_founded 0
-	population 1200
+	population 800
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11693,7 +11632,7 @@ settlement
 	region Artemita_R
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11769,7 +11708,7 @@ settlement
 	region Isiopolis_R
 
 	year_founded 0
-	population 900
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11834,10 +11773,6 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type port_buildings port
-	}
 }
 settlement
 {
@@ -11845,7 +11780,7 @@ settlement
 	region Cilicia
 
 	year_founded 0
-	population 1800
+	population 1100
 	plan_set default_set
 	faction_creator seleucid
 	building
@@ -11871,7 +11806,7 @@ settlement
 	region Iconium_R
 
 	year_founded 0
-	population 1800
+	population 1200
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11917,7 +11852,7 @@ settlement
 	region Adana_R		;;;;; Antiochia Sarus
 
 	year_founded 0
-	population 1400
+	population 890
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11932,10 +11867,6 @@ settlement
 	}
 	building
 	{
-		type hinterland_roads roads
-	}
-	building
-	{
 		type defenses wooden_pallisade
 	}
 }
@@ -11945,7 +11876,7 @@ settlement
 	region Dascylium_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11969,7 +11900,7 @@ settlement
 	region Laranda_R
 
 	year_founded 0
-	population 1400
+	population 1100
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -11994,7 +11925,7 @@ settlement
 	region ApameaMaeandrum_R
 
 	year_founded 0
-	population 1300
+	population 1200
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -12067,7 +11998,7 @@ settlement
 	region Smyrna_R
 
 	year_founded 0
-	population 1300
+	population 1100
 	plan_set default_set
 	faction_creator seleucid
 	building
@@ -12719,7 +12650,7 @@ settlement
 	region Denabaran_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -12743,7 +12674,7 @@ settlement
 	region Niguza_R
 
 	year_founded 0
-	population 1200
+	population 800
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -12767,7 +12698,7 @@ settlement
 	region SeleuciaHedyphon_R
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
@@ -14147,7 +14078,7 @@ relative 	Adaeus Mydides, 	Circe,		Pylaemenes Mydides,	end
 ;-------------- 4$e - Carthage ---------------
 faction	carthage, balanced_smith
 ;;ai_do_not_attack_faction numidia
-denari	11020
+denari	10015
 ;--------- 4$e.a - Africa ----------
 settlement
 {
@@ -15833,7 +15764,7 @@ relative 	Theophanes Barca, 	Sotera,		Hamalcar Barca,	end
 
 ;-------------- 4$f - Parthia ---------------
 faction	parthia, balanced_genghis
-denari	6000
+denari	3400
 ;--------- 4$f.a - Caspian Steppe ----------
 settlement
 {
@@ -16051,7 +15982,7 @@ relative 	Phraotes Aparni, 	Nabunaita,		Thuxra Aparni,	end
 
 ;-------------- 4$g - Pontus ---------------
 faction	pontus, trader_napoleon
-denari	3530
+denari	2530
 ;--------- 4$g.a - Anatolia ---------
 settlement
 {
@@ -16256,10 +16187,9 @@ relative 	Mithradates Mithridatides, 	Laodice,		Ariobarzanes Mithridatides,	Hera
 relative 	Ariobarzanes Mithridatides, 	Pythodoris,		Dynamis,	Gepaepyris,	MithradatesB Mithridatides,	end
 relative 	Herakles Mithridatides, 	Antonia,		Dionysos Mithridatides,	Rhescuporis Mithridatides,	end
 
-
 ;-------------- 4$h - Gauls ---------------
 faction	gauls, religious_smith
-denari	3000
+denari	2100
 ;--------- 4$h.a - Gaul ---------
 settlement
 {
@@ -18212,7 +18142,7 @@ relative 	Gentza Meidubrigensi, 	Barita,	end
 relative 	Kemen Elbocori, 	Huctia,	end
 
 faction	thrace, sailor_napoleon
-denari	1300
+denari	1200
 settlement
 {
 	level large_town
@@ -18245,7 +18175,7 @@ settlement
 	region Kabyle_R
 
 	year_founded 0
-	population 1600
+	population 1500
 	plan_set default_set
 	faction_creator thrace
 	building
@@ -18813,14 +18743,14 @@ relative 	Lutgardis Reudigni, 	Eponina,	end
 
 faction	vandals, germanic_passive
 dead_until_resurrected
-denari	300
+denari	-300
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;           DANYMOK FACTIONS             ;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	nabataea, fortified_napoleon
-denari	7710
+denari	7010
 settlement
 {
 	level city
@@ -18911,7 +18841,7 @@ settlement
 	region Aila_R
 
 	year_founded 0
-	population 800
+	population 605
 	plan_set default_set
 	faction_creator nabataea
 	building
@@ -18957,7 +18887,6 @@ settlement
 	unit	arab levy		exp 0 armour 0 weapon_lvl 0
 	unit	arab levy		exp 0 armour 0 weapon_lvl 0
 	unit	arab levy		exp 0 armour 0 weapon_lvl 0
-	unit	arab levy		exp 0 armour 0 weapon_lvl 0
 	unit	east slinger		exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -18970,7 +18899,7 @@ settlement
 	region Tabawa_R
 
 	year_founded 0
-	population 1300
+	population 1100
 	plan_set default_set
 	faction_creator nabataea
 	building
@@ -19004,7 +18933,7 @@ settlement
 	region Eboda_R
 
 	year_founded 0
-	population 400
+	population 350
 	plan_set default_set
 	faction_creator nabataea
 	garrisoned_army
@@ -19033,7 +18962,7 @@ army
 unit		nabataean generals cavalry		exp 9 armour 3 weapon_lvl 3
 unit		nabataean generals cavalry		exp 9 armour 3 weapon_lvl 3
 unit		nabataean generals cavalry		exp 9 armour 3 weapon_lvl 3
-unit		east clibinarii cataphract	exp 3 armour 0 weapon_lvl 0
+unit		east clibinarii cataphract	exp 3 armour 1 weapon_lvl 0
 unit		east clibinarii cataphract	exp 3 armour 0 weapon_lvl 0
 unit		east clibinarii cataphract	exp 3 armour 0 weapon_lvl 0
 unit		east clibinarii cataphract	exp 3 armour 0 weapon_lvl 0
@@ -19133,10 +19062,9 @@ relative 	Aretas,		Philona,		Yada,	Fatimah,	Obodas,	Murthid,		end
 relative 	Yada,		Hullah,		Hababah,		end
 relative 	Obodas,		Aglaurus,		Massinissa,		end
 
-
 ;	Sparta (not Acarnania)
 faction	acarnania, greek_passive
-denari	5100
+denari	2200
 settlement
 {
 	level city
@@ -19185,7 +19113,7 @@ settlement
 	region Kythera_R
 
 	year_founded 0
-	population 510
+	population 410
 	plan_set default_set
 	faction_creator acarnania
 	building
@@ -19203,10 +19131,6 @@ settlement
 	building
 	{
 		type barracks muster_field
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -19216,7 +19140,7 @@ settlement
 	region Zarax_R
 
 	year_founded 0
-	population 302
+	population 300
 	plan_set default_set
 	faction_creator acarnania
 	building
@@ -19230,14 +19154,6 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -19262,10 +19178,6 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type hinterland_roads roads
-	}
 }
 
 settlement
@@ -19274,7 +19186,7 @@ settlement
 	region Gyntheion_R
 
 	year_founded 0
-	population 304
+	population 300
 	plan_set default_set
 	faction_creator acarnania
 	garrisoned_army
@@ -19292,10 +19204,6 @@ settlement
 	building
 	{
 		type core_building governors_house
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -19305,17 +19213,10 @@ settlement
 	region Tainaron_R
 
 	year_founded 0
-	population 360
+	population 300
 	plan_set default_set
 	faction_creator acarnania
 	garrisoned_army
-	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
-	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
-	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
-	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
-	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
-	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
-	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
 	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
 	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
 	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
@@ -19330,7 +19231,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_roads roads
+		type defenses wooden_pallisade
 	}
 }
 
@@ -19348,7 +19249,7 @@ unit		spartan greek hoplite		exp 0 armour 0 weapon_lvl 0
 unit		spartan greek hoplite		exp 0 armour 0 weapon_lvl 0
 unit		spartan greek hoplite		exp 5 armour 1 weapon_lvl 2
 unit		spartan youths				exp 0 armour 0 weapon_lvl 0
-unit		helot spearmen				exp 0 armour 0 weapon_lvl 2
+unit		spartan youths				exp 0 armour 0 weapon_lvl 0
 unit		helot spearmen				exp 2 armour 0 weapon_lvl 2
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
 unit		merc cretan archers			exp 1 armour 0 weapon_lvl 2
@@ -19362,8 +19263,8 @@ ancillaries playwright, shieldbearer
 army
 unit		spartan royal guard				exp 9 armour 9 weapon_lvl 9
 unit		spartan royal guard				exp 9 armour 9 weapon_lvl 9
-unit		spartan greek hoplite		exp 0 armour 0 weapon_lvl 0
-unit		spartan greek hoplite		exp 0 armour 0 weapon_lvl 0
+unit		spartan greek hoplite		exp 3 armour 0 weapon_lvl 0
+unit		spartan greek hoplite		exp 3 armour 0 weapon_lvl 0
 unit		spartan greek hoplite		exp 5 armour 1 weapon_lvl 2
 unit		skiritai cavalry			exp 0 armour 0 weapon_lvl 0
 unit		spartan youths				exp 0 armour 0 weapon_lvl 0
@@ -19476,14 +19377,14 @@ relative 	Areus Agides, 	Kyra,		AcrotatusB Agides,	end
 relative 	AcrotatusB Agides, 	Chilonis,		end
 
 faction	pergamon, balanced_smith
-denari	8000
+denari	6000
 settlement
 {
 	level city
 	region Phrygia
 
 	year_founded 0
-	population 3995
+	population 3895
 	plan_set default_set
 	faction_creator pergamon
 	building
@@ -19577,7 +19478,7 @@ settlement
 	region Parium_R
 
 	year_founded 0
-	population 710
+	population 500
 	plan_set default_set
 	faction_creator pergamon
 	garrisoned_army
@@ -19604,7 +19505,7 @@ settlement
 	region Priapos_R
 
 	year_founded 0
-	population 420
+	population 402
 	plan_set default_set
 	faction_creator pergamon
 	garrisoned_army
@@ -19634,7 +19535,7 @@ settlement
 	region Zeleia_R
 
 	year_founded 0
-	population 1010
+	population 500
 	plan_set default_set
 	faction_creator pergamon
 	garrisoned_army
@@ -19645,8 +19546,6 @@ settlement
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek archer		exp 4 armour 0 weapon_lvl 1
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -19666,7 +19565,7 @@ character	Philetaerus Attalides, named character, leader, age 71, , x 362, y 306
 traits GoodCommander 3, GoodAdministrator 3
 army
 unit		greek general's guard cavalry early		exp 4 armour 0 weapon_lvl 0
-unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite					exp 3 armour 0 weapon_lvl 0
 unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
@@ -21278,11 +21177,11 @@ unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite					exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite					exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite					exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite					exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite					exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -25781,7 +25680,7 @@ character_record		Spartacus Krobyzoi, 	male, command 0, influence 0, management 
 relative 	Iolaus Krobyzoi, 	Cerzula,		Spartacus Krobyzoi,	end
 
 faction	triballi, celtic_passive
-denari	2000
+denari	1000
 settlement
 {
 	level town
@@ -29980,7 +29879,7 @@ relative 	Phrixos Atraxidae, 	Pelopia,		end
 
 
 faction	sinope, greek_passive
-denari	2000
+denari	1500
 settlement
 {
 	level large_town
@@ -30017,7 +29916,7 @@ settlement
 	region Trapezus_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator sinope
 	building
@@ -30077,7 +29976,6 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 character	Molon, general, age 20, , x 461, y 339
 army
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character_record		Maiandria, 	female, command 0, influence 0, management 0, subterfuge 0, age 35, alive, never_a_leader
@@ -30095,7 +29993,7 @@ settlement
 	region Teion_R
 
 	year_founded 0
-	population 600
+	population 450
 	plan_set default_set
 	faction_creator teion
 	building
@@ -30118,11 +30016,11 @@ traits GoodCommander 4, GoodAdministrator 4, GoodTrader 2, GoodInfantryGeneral 2
 army
 unit		greek general's guard cavalry early	exp 4 armour 9 weapon_lvl 3
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 2
-unit		greek archer				exp 3 armour 0 weapon_lvl 3
+unit		greek archer				exp 4 armour 0 weapon_lvl 3
 
 ;	Outside Teion
 character	Madduwatta Acamides, named character, heir, age 16, , x 416, y 344
-traits GoodCommander 4, GoodAdministrator 4, GoodTrader 2, Intelligent 1, Austere 1, GoodDefender 2
+traits GoodCommander5, GoodAdministrator 4, GoodTrader 2, Intelligent 1, Austere 1, GoodDefender 2
 army
 unit		greek general's guard cavalry early	exp 8 armour 9 weapon_lvl 9
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -30136,7 +30034,7 @@ relative 	Madduwatta Acamides, 	Circe,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction troezen, greek_passive
-denari	200
+denari	130
 settlement
 {
 	level town
@@ -36757,7 +36655,7 @@ relative 	Asentzio Cauci, 	Barita,		end
 
 
 faction	turdetani, iberian_passive
-denari	3500
+denari	1050
 settlement
 {
 	level large_town
@@ -36812,7 +36710,7 @@ settlement
 	region Onoba_R
 
 	year_founded 0
-	population 1000
+	population 700
 	plan_set default_set
 	faction_creator turdetani
 	building
@@ -36830,7 +36728,7 @@ settlement
 	region Urso_R
 
 	year_founded 0
-	population 1000
+	population 600
 	plan_set default_set
 	faction_creator turdetani
 	building
@@ -36869,7 +36767,6 @@ unit		carthaginian peltast			exp 0 armour 0 weapon_lvl 0
 character	Ambon, general, age 20, , x 52, y 268
 army
 unit		carthaginian city militia		exp 0 armour 0 weapon_lvl 0
-unit		carthaginian city militia		exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast			exp 0 armour 0 weapon_lvl 0
 
 character_record		Barita, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
@@ -36878,9 +36775,8 @@ character_record		Aingeru Tartessi, 	male, command 0, influence 0, management 0,
 relative 	Gergori Tartessi, 	Barita,		Aingeru Tartessi,	end
 
 
-
 faction	vascones, iberian_passive
-denari	2000
+denari	1000
 settlement
 {
 	level town
@@ -36918,10 +36814,8 @@ character_record		Lon Vasconi, 	male, command 0, influence 0, management 0, subt
 
 relative 	Bingen Vasconi, 	Cunoarda,		Lon Vasconi,	end
 
-
-
 faction	vettones, iberian_passive
-denari	2000
+denari	900
 settlement
 {
 	level town
@@ -36968,7 +36862,7 @@ settlement
 	region Turgalium_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator vettones
 	building
@@ -37015,9 +36909,8 @@ relative 	Avaros Coerensi, 	Esselta,		Arganthonios Coerensi,	end
 relative 	Gaizka Caluri, 	Boudecea,	end
 relative 	Kerbasi Calontiensi, 	Cartimandua,	end
 
-
 faction	emporion, greek_passive
-denari	2100
+denari	1300
 settlement
 {
 	level large_town
@@ -37050,7 +36943,7 @@ settlement
 	region Hemeroskopeion_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator emporion
 	garrisoned_army
@@ -37086,10 +36979,9 @@ character_record		Pittacus Amphides, 	male, command 0, influence 0, management 0
 
 relative 	Linus Amphides, 	Hermine,		Pittacus Amphides,	end
 
-
 ;	Suessetani
 faction	suessiones, celtic_passive
-denari	3000
+denari	1000
 settlement
 {
 	level town
@@ -37120,15 +37012,11 @@ army
 unit		barb chieftain cavalry early gaul	exp 1 armour 0 weapon_lvl 0
 unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
 unit		barbarian archer warband		exp 0 armour 0 weapon_lvl 0
-unit		barbarian archer warband		exp 0 armour 0 weapon_lvl 0
 
 character_record		Huctia, 	female, command 0, influence 0, management 0, subterfuge 0, age 34, alive, never_a_leader
 character_record		Dejotarus Suessetani, 		male, command 0, influence 0, management 0, subterfuge 0, age 12, alive, never_a_leader
 
 relative 	Ambiorix Suessetani, 	Huctia,		Dejotarus Suessetani,	end
-
-
-
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -37140,7 +37028,7 @@ relative 	Ambiorix Suessetani, 	Huctia,		Dejotarus Suessetani,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	gaetuli, desert_passive
-denari	2000
+denari	1100
 settlement
 {
 	level town
@@ -37169,7 +37057,7 @@ settlement
 	region OasisAghlan_R
 
 	year_founded 0
-	population 1500
+	population 1200
 	plan_set default_set
 	faction_creator gaetuli
 	building
@@ -37227,7 +37115,7 @@ settlement
 	region Tucrumuda_R
 
 	year_founded 0
-	population 1000
+	population 900
 	plan_set default_set
 	faction_creator gaetuli
 	building
@@ -37460,10 +37348,7 @@ settlement
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
-	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
-	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian javelinmen				exp 1 armour 0 weapon_lvl 0
-	unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -37516,9 +37401,6 @@ settlement
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
-	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
-	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
-	unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 	unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -37546,8 +37428,6 @@ unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 1
 unit		numidian desert warriors		exp 0 armour 0 weapon_lvl 0
 unit		numidian desert warriors		exp 0 armour 0 weapon_lvl 0
 unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 0
-unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 0
-unit		numidian desert warriors		exp 3 armour 0 weapon_lvl 0
 unit		numidian desert warriors		exp 1 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 3 armour 0 weapon_lvl 2
 
@@ -37564,14 +37444,14 @@ character_record		Baramunes Qkhepersptahikid, 	male, command 8, influence 1, man
 relative 	Tefneferas Qkhepersptahikid, 	Gurkheperta Feramunika, 	Nankhsptahos Qkhepersptahikid, 	Lemkheperes Qkhepersptahikid, 	Qasraaios Qkhepersptahikid, 	Baramunes Qkhepersptahikid, 	end
 
 faction	massylii, desert_passive
-denari	500
+denari	400
 settlement
 {
 	level town
 	region Thugga_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator massylii
 	building
@@ -37589,7 +37469,7 @@ settlement
 	region Sahara
 
 	year_founded 0
-	population 2300
+	population 2000
 	plan_set default_set
 	faction_creator massylii
 	building
@@ -37611,7 +37491,7 @@ settlement
 	region Mascula_R
 
 	year_founded 0
-	population 1800
+	population 1100
 	plan_set default_set
 	faction_creator massylii
 	building
@@ -37629,7 +37509,7 @@ settlement
 	region Theveste_R
 
 	year_founded 0
-	population 1800
+	population 1200
 	plan_set default_set
 	faction_creator massylii
 	building
@@ -37647,7 +37527,7 @@ settlement
 	region Sicca_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator massylii
 	building
@@ -37747,10 +37627,8 @@ character_record		Oesalces, 	male, command 0, influence 0, management 0, subterf
 
 relative 	Zelalsen, 	Polymede,		Gaia,	Oesalces,	end
 
-
-
 faction	mauri, desert_passive
-denari	2000
+denari	1000
 settlement
 {
 	level large_town
@@ -38330,9 +38208,8 @@ character_record		Yad_il Gaylan, 	male, command 0, influence 0, management 0, su
 relative 	Yad_ab Gaylan, 	Elissa,		Yad_il Gaylan,		end
 
 
-
 faction	lihyan, desert_passive
-denari	2000
+denari	1100
 settlement
 {
 	level town
@@ -38379,7 +38256,7 @@ settlement
 	region Charmutha_R
 
 	year_founded 0
-	population 600
+	population 500
 	plan_set default_set
 	faction_creator lihyan
 	building
@@ -38443,9 +38320,8 @@ character_record		Tabnit Karab, 	male, command 0, influence 0, management 0, sub
 relative 	Balshillek Karab, 	Protogonia,		Tabnit Karab,		end
 
 
-
 faction	mascat, desert_passive
-denari	2000
+denari	1000
 settlement
 {
 	level town
@@ -38581,9 +38457,8 @@ character_record		Karib Yashur, 	male, command 0, influence 0, management 0, sub
 relative 	Zamir Yashur, 	Polymede,		Karib Yashur,		end
 
 
-
 faction	minaea, desert_passive
-denari	2000
+denari	1000
 settlement
 {
 	level town
@@ -39465,9 +39340,8 @@ character_record		Isemne, 	male, command 0, influence 0, management 0, subterfug
 
 relative 	Tamal, 	Mkehnye,		Isemne,		end
 
-
 faction	kush, desert_passive
-denari	3000
+denari	2900
 settlement
 {
 	level large_town
@@ -39501,6 +39375,9 @@ settlement
 	faction_creator kush
 	garrisoned_army
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
 	unit	egyptian peltast		exp 0 armour 0 weapon_lvl 0
 	unit	egyptian cavalry		exp 0 armour 0 weapon_lvl 0
 	unit	egyptian cavalry		exp 0 armour 0 weapon_lvl 0
@@ -39523,7 +39400,7 @@ settlement
 	region Pachoras_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator kush
 	garrisoned_army
@@ -39544,7 +39421,7 @@ settlement
 	region Patinga_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator kush
 	garrisoned_army
@@ -39605,7 +39482,7 @@ settlement
 	region Paroa_R
 
 	year_founded 0
-	population 950
+	population 910
 	plan_set default_set
 	faction_creator kush
 	garrisoned_army
@@ -39706,7 +39583,7 @@ settlement
 	region Morou_R
 
 	year_founded 0
-	population 400
+	population 300
 	plan_set default_set
 	faction_creator kush
 	garrisoned_army
@@ -39817,7 +39694,7 @@ settlement
 	region Pataliputra_R
 
 	year_founded 0
-	population 1025
+	population 1015
 	plan_set default_set
 	faction_creator india
 	building
@@ -39858,24 +39735,6 @@ settlement
 
 	year_founded 0
 	population 600
-	plan_set default_set
-	faction_creator india
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-	level town
-	region Haritakivan_R
-
-	year_founded 0
-	population 700
 	plan_set default_set
 	faction_creator india
 	building
@@ -40199,16 +40058,12 @@ settlement
 	region Hastinapura_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator india
 	building
 	{
 		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
 	}
 }
 settlement
@@ -42156,11 +42011,6 @@ character	Pasenadi, diplomat, age 22, , x 810, y 311
 traits GoodDiplomat 1
 
 ;;		GENERIC GARRISONS
-
-;	Haritakivan
-character	Taharqa, general, age 20, , x 970, y 244
-army
-unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 
 ;	Thorax
 character	Taharqa, general, age 20, , x 825, y 206
@@ -46591,7 +46441,7 @@ settlement
 	region Pundranagara_R
 
 	year_founded 0
-	population 380
+	population 310
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
@@ -46612,6 +46462,27 @@ settlement
 
 	year_founded 0
 	population 350
+	plan_set default_set
+	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
+	region Haritakivan_R
+
+	year_founded 0
+	population 440
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
