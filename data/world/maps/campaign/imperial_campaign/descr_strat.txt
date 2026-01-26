@@ -26628,7 +26628,7 @@ relative 	Argishti, 	Serapia,		Arkha,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	apuli, dacian_passive
-denari	2300
+denari	2000
 settlement
 {
 	level large_town
@@ -26665,7 +26665,7 @@ settlement
 	region Sarmizegetusa_R
 
 	year_founded 0
-	population 700
+	population 600
 	plan_set default_set
 	faction_creator apuli
 	building
@@ -26707,7 +26707,6 @@ character_record		Scylurus Apuli, 	male, command 0, influence 0, management 0, s
 
 relative 	Skunxa Apuli, 	Devnet,		Scyles Apuli,	end
 relative 	Scyles Apuli, 	Birkita,	Fallon,	Scylurus Apuli,	end
-
 
 
 faction	biephi, dacian_passive
