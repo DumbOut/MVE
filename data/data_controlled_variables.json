@@ -1,5 +1,5 @@
 {
-  "order_income_bonus_start": 4,
+  "order_income_bonus_start": 3,
   "order_income_bonus_multiplier": 0.00004,
   "order_construction_bonus_threshold": 180,
   "order_recruitment_bonus_threshold": 180,
