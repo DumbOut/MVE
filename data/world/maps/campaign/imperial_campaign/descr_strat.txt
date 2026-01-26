@@ -14078,7 +14078,7 @@ relative 	Adaeus Mydides, 	Circe,		Pylaemenes Mydides,	end
 ;-------------- 4$e - Carthage ---------------
 faction	carthage, balanced_smith
 ;;ai_do_not_attack_faction numidia
-denari	10015
+denari	9800
 ;--------- 4$e.a - Africa ----------
 settlement
 {

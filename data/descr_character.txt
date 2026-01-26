@@ -41,7 +41,7 @@
 ;
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-starting_action_points	185
+starting_action_points	155
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 type			named character
@@ -6129,7 +6129,7 @@ strat_model		assassin_greek
 
 type			diplomat
 
-actions			moving_normal, diplomacy, bribe 
+actions			moving_normal, diplomacy
 wage_base		50
 
 faction			romans_julii
