@@ -6308,7 +6308,7 @@ building barracks
 				taxable_income_bonus bonus -25 requires size9
 				taxable_income_bonus bonus -30 requires size10
 			}
-			construction  16 
+			construction  18
 			cost  64000 
 			settlement_min huge_city
 			upgrades

@@ -24039,5 +24039,5 @@ stat_mental      7, normal, trained
 stat_charge_dist 60
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 742, 220, 110, 120, 740
+stat_cost        1, 730, 218, 110, 120, 740
 ownership        burgundii, slave

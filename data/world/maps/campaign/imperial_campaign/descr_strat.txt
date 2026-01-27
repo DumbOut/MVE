@@ -18540,14 +18540,14 @@ character_record		Adelhaide Batavi, 	male, command 0, influence 0, management 0,
 relative 	Eraric Batavi, 	Eberharde,		Adelhaide Batavi,	end
 
 faction	goths, germanic_passive
-denari	2300
+denari	2000
 settlement
 {
 	level town
 	region Gutonium_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator goths
 	building
@@ -18569,7 +18569,7 @@ settlement
 	region Soulonium_R
 
 	year_founded 0
-	population 800
+	population 600
 	plan_set default_set
 	faction_creator goths
 	building
