@@ -1807,19 +1807,7 @@ settlement
 	}
 	building
 	{
-		type barracks militia_barracks
-	}
-	building
-	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -1843,18 +1831,6 @@ settlement
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type market trader
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms
 	}
 }
 settlement
@@ -1939,10 +1915,6 @@ settlement
 	building
 	{
 		type core_building governors_house
-	}
-	building
-	{
-		type barracks muster_field
 	}
 	building
 	{
@@ -2049,11 +2021,8 @@ traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodRiskyAttacker 2 , PublicFa
 ancillaries shieldbearer
 army
 unit		greek general's guard cavalry early		exp 2 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
 unit		greek heavy cavalry					exp 1 armour 0 weapon_lvl 0
 unit		greek heavy cavalry					exp 1 armour 0 weapon_lvl 0
-unit		greek light lancer					exp 0 armour 0 weapon_lvl 0
 
 ;	Demetrias
 character	DemetriusB Antigonides, named character, heir, age 45, , x 226, y 226
@@ -2061,10 +2030,6 @@ traits GoodCommander 1 , NaturalMilitarySkill 2 , PublicFaith 1 , MathematicsSki
 ancillaries actor
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek light lancer					exp 0 armour 0 weapon_lvl 0
-unit		greek archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Corinth
 character	Craterus Antigonides, named character, age 49, , x 227, y 213
@@ -2074,9 +2039,6 @@ army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 unit		merc greek hoplites					exp 0 armour 0 weapon_lvl 0
 unit		merc greek hoplites					exp 0 armour 0 weapon_lvl 0
-unit		greek light lancer					exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 ;	Amphipolis
 character	Corrhabus Antigonides, named character, age 47, , x 232, y 240
