@@ -412,7 +412,7 @@ settlement
 	region Etruria
 
 	year_founded 0
-	population 3300
+	population 3100
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -446,7 +446,7 @@ settlement
 	region Corfinium_R
 
 	year_founded 0
-	population 600
+	population 520
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -1127,7 +1127,7 @@ relative 	Marcus JuniusBrutus,		Atia,			Mamerca JuniusBrutus,	end
 
 faction	romans_scipii, bureaucrat_napoleon
 superfaction romans_senate
-denari	205
+denari	195
 settlement
 {
 	level large_town
@@ -1190,7 +1190,7 @@ settlement
 	region Rhegium_R
 
 	year_founded 0
-	population 650
+	population 500
 	plan_set default_set
 	faction_creator romans_scipii
 	building
@@ -1220,7 +1220,6 @@ settlement
 	plan_set default_set
 	faction_creator romans_scipii
 	building
-	building
 	{
 		type hinterland_roman_civitas roman_civitas
 	}
@@ -1236,12 +1235,13 @@ settlement
 	region Abellinum_R
 
 	year_founded 0
-	population 400
+	population 300
 	plan_set default_set
 	faction_creator romans_scipii
-;;;;;;;;;Garrison;;;;;;;;;
+;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	building
+	unit		roman leves						exp 0 armour 0 weapon_lvl 0
+	unit		roman leves						exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_civitas roman_civitas
@@ -1262,7 +1262,10 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator romans_scipii
-;;;;;;;;;Garrison;;;;;;;;;
+;;;;;;;Garrison;;;;;;;;;
+	garrisoned_army
+	unit		roman leves						exp 0 armour 0 weapon_lvl 0
+	unit		roman leves						exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_civitas roman_civitas
@@ -1282,8 +1285,6 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator romans_scipii
-;;;;;;;;;Garrison;;;;;;;;;
-	building
 	building
 	{
 		type hinterland_roman_civitas roman_civitas
@@ -1300,10 +1301,9 @@ settlement
 	region Nola_R
 
 	year_founded 0
-	population 310
+	population 300
 	plan_set default_set
 	faction_creator romans_scipii
-;;;;;;;;;Garrison;;;;;;;;;
 	building
 	{
 		type hinterland_roman_colonia roman_colonia
@@ -1412,11 +1412,8 @@ traits GoodSpy 3
 character	Aulus Volesus, admiral, age 22, , x 166, y 233
 army
 unit		naval biremes				exp 2 armour 0 weapon_lvl 0
-unit		naval biremes				exp 2 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
-unit		naval biremes				exp 0 armour 0 weapon_lvl 0
-
 
 character_record		Publius CorneliusLentulus, 	male, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
 character_record		TitusC ManliusTorquatus, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
@@ -1452,7 +1449,7 @@ relative 	Titus ManliusTorquatus, 	Gaia,		TitusB ManliusTorquatus,	Aulus Manlius
 relative 	TitusB ManliusTorquatus, 	Leontia,		Plautilla ManliusTorquatus,	TitusC ManliusTorquatus,	end
 
 faction	romans_senate, comfortable_napoleon
-denari	550
+denari	540
 settlement
 {
 	level city
@@ -1547,7 +1544,7 @@ settlement
 	region Fregellae_R
 
 	year_founded 0
-	population 320
+	population 310
 	plan_set default_set
 	faction_creator romans_senate
 	building
@@ -1570,11 +1567,12 @@ settlement
 	region Casinum_R
 
 	year_founded 0
-	population 340
+	population 310
 	plan_set default_set
 	faction_creator romans_senate
-;;;;;;;;;Garrison;;;;;;;;;
+;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
+	unit		roman leves						exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_colonia roman_colonia
@@ -1598,10 +1596,9 @@ settlement
 	population 310
 	plan_set default_set
 	faction_creator romans_senate
-;;;;;;;;;Garrison;;;;;;;;;
+;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
-	unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
+	unit		roman leves						exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_colonia roman_colonia
@@ -1622,9 +1619,12 @@ settlement
 	region Caeta_R
 
 	year_founded 0
-	population 330
+	population 300
 	plan_set default_set
 	faction_creator romans_senate
+;;;;;;;Garrison;;;;;;;;;
+	garrisoned_army
+	unit		roman leves						exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_colonia roman_colonia
@@ -1644,6 +1644,10 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator romans_senate
+;;;;;;;Garrison;;;;;;;;;
+	garrisoned_army
+	unit		roman leves						exp 0 armour 0 weapon_lvl 0
+	unit		roman leves						exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_civitas roman_civitas
@@ -1667,8 +1671,10 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator romans_senate
-;;;;;;;;;Garrison;;;;;;;;;
+;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
+	unit		roman leves						exp 0 armour 0 weapon_lvl 0
+	unit		roman leves						exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_colonia roman_colonia
@@ -1676,10 +1682,6 @@ settlement
 	building
 	{
 		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
 	}
 }
 
@@ -1691,8 +1693,6 @@ army
 unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
 unit		roman hastati spear				exp 3 armour 1 weapon_lvl 0
 unit		roman hastati spear				exp 3 armour 1 weapon_lvl 0
-unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
-unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
 unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
 unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
 unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
@@ -1723,7 +1723,6 @@ character	Manius ValeriusMessalla, named character, age 34, , x 228, y 327
 traits isValeriaGens 1 , GoodCommander 1 , GoodAdministrator 1
 army
 unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
-unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 
 ;	outside Lavinium
@@ -1791,7 +1790,7 @@ relative 	Gaius FuriusPacilus, 	Statia,		Honoria FuriusPacilus,	Quintus FuriusPa
 
 ;-------------- 4$b - Macedonia ---------------
 faction	macedon, fortified_napoleon
-denari	1397
+denari	1297
 ;--------- 4$b.a - Greece ----------
 settlement
 {
@@ -1912,7 +1911,7 @@ settlement
 	region Cassandreia_R
 
 	year_founded 0
-	population 705
+	population 600
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -1934,7 +1933,7 @@ settlement
 	region Demetrias_R
 
 	year_founded 0
-	population 1010
+	population 800
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -1956,7 +1955,7 @@ settlement
 }
 settlement
 {
-	level city
+	level town
 	region Dion_R
 
 	year_founded 0
@@ -1981,208 +1980,102 @@ settlement
 }
 settlement
 {
-	level city
+	level town
 	region Euboea_R
 
 	year_founded 0
-	population 6043
+	population 990
 	plan_set default_set
 	faction_creator macedon
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_polis greek_polis
 	}
 	building
 	{
-		type defenses stone_wall
+		type core_building governors_house
 	}
 	building
 	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
-	building
-	{
-		type port_buildings port
+		type defenses wooden_pallisade
 	}
 }
-
 settlement
 {
-	level city
+	level town
 	region Mygdonia_R
 
 	year_founded 0
-	population 6100
+	population 1125
 	plan_set default_set
 	faction_creator macedon
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_polis greek_polis
 	}
 	building
 	{
-		type defenses stone_wall
+		type core_building governors_house
 	}
 	building
 	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
-	building
-	{
-		type port_buildings port
+		type defenses wooden_pallisade
 	}
 }
 
 settlement
 {
-	level city
+	level town
 	region Maroneia_R
 
 	year_founded 0
-	population 5000
+	population 820
 	plan_set default_set
 	faction_creator macedon
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_polis greek_polis
 	}
 	building
 	{
-		type defenses stone_wall
+		type core_building governors_house
 	}
 	building
 	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
-	building
-	{
-		type port_buildings port
+		type defenses wooden_pallisade
 	}
 }
 
-
 ;--------- 4$b/a Historical Characters ----------
 ;	Thessalonica
-character	AntigonosB Antigonides, named character, leader, age 48, , x 226, y 237, portrait_index 000
-traits GoodCommander 4 , NaturalMilitarySkill 3 , GoodRiskyAttacker 2 , PublicFaith 1 , GoodAdministrator 4 , Intelligent 1
+character	AntigonosB Antigonides, named character, leader, age 48, , x 320, y 321, portrait_index 000
+traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodRiskyAttacker 2 , PublicFaith 1 , GoodAdministrator 1 , Intelligent 1
 ancillaries shieldbearer
 army
 unit		greek general's guard cavalry early		exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
-unit		greek heavy cavalry					exp 1 armour 0 weapon_lvl 0
-unit		greek heavy cavalry					exp 1 armour 0 weapon_lvl 0
 unit		greek heavy cavalry					exp 1 armour 0 weapon_lvl 0
 unit		greek heavy cavalry					exp 1 armour 0 weapon_lvl 0
 unit		greek light lancer					exp 0 armour 0 weapon_lvl 0
 
 ;	Demetrias
-character	DemetriusB Antigonides, named character, heir, age 45, , x 226, y 226
-traits GoodCommander 4 , NaturalMilitarySkill 2 , PublicFaith 1 , MathematicsSkill 1 , Intelligent 1 , Generous 1
+character	DemetriusB Antigonides, named character, heir, age 45, , x 320, y 305
+traits GoodCommander 1 , NaturalMilitarySkill 2 , PublicFaith 1 , MathematicsSkill 1 , Intelligent 1 , Generous 1
 ancillaries actor
 army
-unit		greek general's guard cavalry early		exp 2 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek light lancer					exp 0 armour 0 weapon_lvl 0
 unit		greek light lancer					exp 0 armour 0 weapon_lvl 0
 unit		greek archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Corinth
-character	Craterus Antigonides, named character, age 49, , x 227, y 213
-traits NaturalMilitarySkill 2 , PublicFaith 1 , GoodAdministrator 4
+character	Craterus Antigonides, named character, age 49, , x 322, y 287
+traits NaturalMilitarySkill 2 , PublicFaith 1 , GoodAdministrator 2
 ancillaries treasurer
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
-unit		merc greek hoplites					exp 0 armour 0 weapon_lvl 0
-unit		merc greek hoplites					exp 0 armour 0 weapon_lvl 0
 unit		merc greek hoplites					exp 0 armour 0 weapon_lvl 0
 unit		merc greek hoplites					exp 0 armour 0 weapon_lvl 0
 unit		greek light lancer					exp 0 armour 0 weapon_lvl 0
@@ -2190,91 +2083,76 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 ;	Amphipolis
-character	Corrhabus Antigonides, named character, age 47, , x 232, y 240
-traits GoodAdministrator 4
+character	Corrhabus Antigonides, named character, age 47, , x 329, y 324
+traits GoodAdministrator 1
 ancillaries tutor
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 ;	Heraclea Sintike
-character	Gyras Antigonides, named character, age 44, , x 228, y 245
-traits GoodCommander 4, GoodAdministrator 4
+character	Gyras Antigonides, named character, age 44, , x 321, y 331
+traits GoodCommander 1, GoodAdministrator 1
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 ;	outside Corinth
-character	Alexander Antigonides, named character, age 31, , x 226, y 213
-traits GoodCommander 4
+character	Alexander Antigonides, named character, age 31, , x 321, y 287
+traits GoodCommander 1
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 ;	outside Thessalonica
-character	Alcyoneus Antigonides, named character, age 18, , x 226, y 238
-traits GoodCommander 4
+character	Alcyoneus Antigonides, named character, age 18, , x 321, y 322
+traits GoodCommander 1
 army
-unit		greek general's guard cavalry early		exp 1 armour 2 weapon_lvl 0
+unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 
 ;	Cassandreia
-character	Ameinias Iolaides, named character, age 23, , x 229, y 234
-traits GoodCommander 4
+character	Ameinias Iolaides, named character, age 23, , x 324, y 315
+traits GoodCommander 1
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 ;--------- 4$b/a2 Made-up Characters ---------
-
 ;	Chalcis
-character	Abreas Antigonides, named character, age 28, , x 231, y 219
-traits GoodAdministrator 4
+character	Abreas Antigonides, named character, age 28, , x 330, y 294
+traits GoodAdministrator 1
+army
+unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	outside Demetrias
+character	Deukalos Antigonides, named character, age 24, , x 319, y 303
+traits GoodAdministrator 1
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-;	outside Demetrias
-character	Deukalos Antigonides, named character, age 24, , x 225, y 226
-traits GoodAdministrator 3
-army
-unit		greek general's guard cavalry early		exp 1 armour 1 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 ;	outside Heraclea Sintike
-character	Damasos Antigonides, named character, age 20, , x 229, y 245
-traits GoodCommander 4
+character	Damasos Antigonides, named character, age 20, , x 324, y 327
+traits GoodCommander 2
 army
-unit		greek general's guard cavalry early		exp 1 armour 4 weapon_lvl 4
+unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 
 ;--------- 4$b/b Generals ---------
-
+;--------- 4$b/c Captains ---------
 ;--------- 4$b/d Admirals ---------
 ;	Amphipolis
-character	Melotas, admiral, age 30, , x 226, y 232
+character	Melotas, admiral, age 30, , x 329, y 322
 army
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
 ;--------- 4$b/e Agents ---------
 ;	outside Thessalonica
-character	Carpus of Pylos, diplomat, age 20, , x 228, y 238
+character	Carpus of Pylos, diplomat, age 20, , x 319, y 322
 traits GoodDiplomat 3
 ancillaries wine_steward
-
-;	outside Pella
-character	Aegisthes of Larissa, spy, age 20, , x 227, y 238
-traits GoodSpy 2
-ancillaries dancer
 
 ;--------- 4$b/f Family Info ---------
 character_record		Antigonos Antigonides, 	male, command 0, influence 0, management 0, subterfuge 0, age 110, dead, past_leader
@@ -2308,20 +2186,24 @@ relative 	Ameinias Iolaides, 	Caleope Antigonides,	end
 
 ;-------------- 4$c - Ptolemaic Egypt ---------------
 faction	egypt, religious_caesar
-denari	7500
+denari	2000
 ;--------- 4$c.a - Lower Egypt ----------
 settlement
 {
-	level city
+	level large_town
 	region Nile_Delta
 
 	year_founded 0
-	population 7200
+	population 3000
 	plan_set default_set
 	faction_creator egypt
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
+		type core_building governors_villa
 	}
 	building
 	{
@@ -2329,19 +2211,11 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
-	}
-	building
-	{
-		type missiles practice_field
+		type port_buildings port
 	}
 	building
 	{
 		type market trader
-	}
-	building
-	{
-		type temple_of_law temple_of_law_shrine
 	}
 	building
 	{
@@ -2354,54 +2228,32 @@ settlement
 }
 settlement
 {
-	level city
+	level town
 	region Gynaecopolites_R
 
 	year_founded 0
-	population 6000
+	population 1300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_polis greek_polis
 	}
 	building
 	{
-		type defenses stone_wall
+		type core_building governors_house
 	}
 	building
 	{
-		type barracks muster_field
-	}
-	building
-	{
-		type missiles practice_field
+		type defenses wooden_pallisade
 	}
 	building
 	{
 		type market trader
 	}
-	building
-	{
-		type temple_of_law temple_of_law_shrine
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
 }
-
 settlement
 {
 	level city
@@ -2451,13 +2303,16 @@ settlement
 	region Heliopolites_R
 
 	year_founded 0
-	population 2200
+	population 320
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
 	building
 	{
 		type core_building governors_house
@@ -2466,28 +2321,51 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type hinterland_farms farms
-	}
 }
 
 settlement
 {
-	level city
+	level town
 	region Thebais
 
 	year_founded 0
-	population 6000
+	population 810
 	plan_set default_set
 	faction_creator egypt
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_katoikia greek_katoikia
 	}
 	building
 	{
-		type defenses stone_wall
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+;--------- 4$c.b - Upper Egypt ----------
+
+settlement
+{
+	level large_town
+	region Thinites_R
+
+	year_founded 0
+	population 1210
+	plan_set default_set
+	faction_creator egypt
+;;;;;;;;;Garrison;;;;;;;;;
+	garrisoned_army
+	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
+		type core_building governors_villa
 	}
 	building
 	{
@@ -2499,45 +2377,19 @@ settlement
 	}
 	building
 	{
-		type market trader
-	}
-	building
-	{
-		type temple_of_law temple_of_law_shrine
-	}
-	building
-	{
 		type hinterland_roads roads
 	}
 	building
 	{
-		type hinterland_farms farms
+		type temple_of_justice temple_of_justice_temple
 	}
-}
-
-settlement
-{
-	level town
-	region Thinites_R
-
-	year_founded 0
-	population 1800
-	plan_set default_set
-	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_farms farms
 	}
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
 	}
 }
 
@@ -2547,15 +2399,20 @@ settlement
 	region Panopolites_R
 
 	year_founded 0
-	population 1900
+	population 1000
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian peltast		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
 	building
 	{
 		type core_building governors_house
@@ -2564,63 +2421,35 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type hinterland_farms farms
-	}
 }
 
 settlement
 {
-	level city
+	level town
 	region Sethroites_R
 
 	year_founded 0
-	population 7000
+	population 600
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian peltast		exp 0 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_katoikia greek_katoikia
 	}
 	building
 	{
-		type defenses stone_wall
+		type core_building governors_house
 	}
 	building
 	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
+		type defenses wooden_pallisade
 	}
 }
 
@@ -2630,14 +2459,20 @@ settlement
 	region Rhaithou_R
 
 	year_founded 0
-	population 1800
+	population 700
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian peltast		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
 	building
 	{
 		type core_building governors_house
@@ -2646,115 +2481,63 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type hinterland_farms farms
-	}
 }
-
 settlement
 {
-	level city
+	level town
 	region Saites_R
 
 	year_founded 0
-	population 5000
+	population 900
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian peltast		exp 0 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_katoikia greek_katoikia
 	}
 	building
 	{
-		type defenses stone_wall
+		type core_building governors_house
 	}
 	building
 	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
+		type defenses wooden_pallisade
 	}
 }
-
 settlement
 {
-	level city
+	level town
 	region Athribites_R
 
 	year_founded 0
-	population 5000
+	population 700
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian peltast		exp 0 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_katoikia greek_katoikia
 	}
 	building
 	{
-		type defenses stone_wall
+		type core_building governors_house
 	}
 	building
 	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
+		type defenses wooden_pallisade
 	}
 }
 
@@ -2764,14 +2547,20 @@ settlement
 	region Tanites_R
 
 	year_founded 0
-	population 1800
+	population 600
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian peltast		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
 	building
 	{
 		type core_building governors_house
@@ -2779,10 +2568,6 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
 	}
 }
 
@@ -2792,79 +2577,48 @@ settlement
 	region Prosopites_R
 
 	year_founded 0
-	population 1500
+	population 400
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian peltast		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
 	building
 	{
 		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
 	}
 }
 
 settlement
 {
-	level city
+	level town
 	region Moeris_R
 
 	year_founded 0
-	population 5000
+	population 400
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	egyptian peltast		exp 0 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_katoikia greek_katoikia
 	}
 	building
 	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
+		type core_building governors_house
 	}
 }
+
 
 settlement
 {
@@ -2872,15 +2626,17 @@ settlement
 	region Ancyronpolites_R
 
 	year_founded 0
-	population 2100
+	population 400
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
 	building
 	{
 		type core_building governors_house
@@ -2889,27 +2645,23 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type hinterland_farms farms
-	}
 }
+
 settlement
 {
 	level town
 	region Oxyrhynchus_R
 
 	year_founded 0
-	population 1750
+	population 1000
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
 	building
 	{
 		type core_building governors_house
@@ -2917,10 +2669,6 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
 	}
 }
 
@@ -2930,17 +2678,9 @@ settlement
 	region Hermopolites_R
 
 	year_founded 0
-	population 5300
+	population 3300
 	plan_set default_set
 	faction_creator egypt
-	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_palace
@@ -2981,56 +2721,27 @@ settlement
 
 settlement
 {
-	level city
+	level town
 	region Antaeopolites_R
 
 	year_founded 0
-	population 5060
+	population 700
 	plan_set default_set
-	faction_creator egypt
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_katoikia greek_katoikia
 	}
 	building
 	{
-		type defenses stone_wall
+		type core_building governors_house
 	}
 	building
 	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
+		type defenses wooden_pallisade
 	}
 }
 
@@ -3040,15 +2751,16 @@ settlement
 	region Alabastronopolites_R
 
 	year_founded 0
-	population 1348
+	population 700
 	plan_set default_set
-	faction_creator egypt
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
 	building
 	{
 		type core_building governors_house
@@ -3057,64 +2769,31 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type hinterland_farms farms
-	}
 }
 
 settlement
 {
-	level city
+	level town
 	region Apollinopolites_R
 
 	year_founded 0
-	population 5004
+	population 500
 	plan_set default_set
-	faction_creator egypt
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_katoikia greek_katoikia
 	}
 	building
 	{
-		type defenses stone_wall
+		type core_building governors_house
 	}
 	building
 	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
+		type defenses wooden_pallisade
 	}
 }
 
@@ -3124,14 +2803,16 @@ settlement
 	region Philotera_R
 
 	year_founded 0
-	population 1400
+	population 500
 	plan_set default_set
-	faction_creator egypt
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
 	building
 	{
 		type core_building governors_house
@@ -3139,10 +2820,6 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
 	}
 }
 
@@ -3152,9 +2829,8 @@ settlement
 	region Syene_R
 
 	year_founded 0
-	population 1290
+	population 400
 	plan_set default_set
-	faction_creator egypt
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
@@ -3163,15 +2839,15 @@ settlement
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
+	building
+	{
 		type core_building governors_house
 	}
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
 	}
 }
 
@@ -3181,17 +2857,18 @@ settlement
 	region MyosHormos_R
 
 	year_founded 0
-	population 1650
+	population 400
 	plan_set default_set
-	faction_creator egypt
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nubian spearmen		exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
 	building
 	{
 		type core_building governors_house
@@ -3199,10 +2876,6 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
 	}
 }
 
@@ -3212,15 +2885,18 @@ settlement
 	region BereniceTroglodytica_R
 
 	year_founded 0
-	population 1400
+	population 400
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nubian spearmen		exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
 	building
 	{
 		type core_building governors_house
@@ -3228,10 +2904,6 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
 	}
 }
 
@@ -3241,14 +2913,18 @@ settlement
 	region Lycopolites_R
 
 	year_founded 0
-	population 1800
+	population 400
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nubian spearmen			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
 	building
 	{
 		type core_building governors_house
@@ -3256,10 +2932,6 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
 	}
 }
 
@@ -3269,7 +2941,7 @@ settlement
 	region Oasis_Magna_R
 
 	year_founded 0
-	population 1800
+	population 430
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -3281,25 +2953,24 @@ settlement
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
+	building
+	{
 		type core_building governors_house
 	}
 	building
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type hinterland_farms farms
-	}
 }
-
 settlement
 {
 	level town
 	region Oasis_Parva_R
 
 	year_founded 0
-	population 1800
+	population 430
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -3311,15 +2982,11 @@ settlement
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
+	building
+	{
 		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
 	}
 }
 
@@ -3329,122 +2996,84 @@ settlement
 	region Pachoras_R
 
 	year_founded 0
-	population 1800
+	population 430
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nubian spearmen			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nubian spearmen			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
-
+	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
 	building
 	{
 		type core_building governors_house
 	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
 }
+
 
 settlement
 {
-	level city
+	level town
 	region BerenicePanchrysos_R
 
 	year_founded 0
-	population 4500
+	population 430
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nubian spearmen			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nubian spearmen			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nubian spearmen			exp 2 armour 0 weapon_lvl 0
+	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_katoikia greek_katoikia
 	}
 	building
 	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
+		type core_building governors_house
 	}
 }
-
 settlement
 {
 	level town
 	region ArsinoeClysma_R
 
 	year_founded 0
-	population 1800
+	population 430
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nubian spearmen			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nubian spearmen			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nubian spearmen			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
 	building
 	{
 		type core_building governors_house
 	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
 }
-
 settlement
 {
 	level town
 	region Heroopolites_R
 
 	year_founded 0
-	population 1800
+	population 430
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -3452,8 +3081,77 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nubian spearmen			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nubian spearmen			exp 2 armour 0 weapon_lvl 0
-	unit		egyptian nubian spearmen			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
+	building
+	{
+		type core_building governors_house
+	}
+}
+;--------- 4$c.e - Greece / Aegean ----------
+settlement
+{
+	level town
+	region Lesbos_R
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+;--------- 4$c.c - Levant ----------
+settlement
+{
+	level town
+	region Byblos_R
+
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
+	}
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
+	region Coele_Syria
+
+	year_founded 0
+	population 1100
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type hinterland_greek_phrourion greek_phrourion
+	}
 	building
 	{
 		type core_building governors_house
@@ -3464,382 +3162,63 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type barracks muster_field
 	}
 }
 settlement
 {
-	level city
-	region Patara_R
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator egypt
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
-}
-
-settlement
-{
-	level city
-	region Perge_R
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
-}
-
-settlement
-{
-	level city
-	region Side_R
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
-}
-
-settlement
-{
-	level city
-	region Lesbos_R
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
-}
-
-settlement
-{
-	level city
-	region Byblos_R
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
-}
-
-settlement
-{
-	level city
-	region Coele_Syria
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator egypt
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
-}
-
-settlement
-{
-	level city
+	level large_town
 	region Phoenicia
 
 	year_founded 0
-	population 5000
+	population 4500
 	plan_set default_set
 	faction_creator egypt
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type defenses stone_wall
+		type core_building governors_villa
 	}
 	building
 	{
-		type barracks city_barracks
+		type defenses wooden_wall
 	}
 	building
 	{
-		type missiles practice_field
+		type barracks muster_field
 	}
 	building
 	{
-		type smith blacksmith
+		type port_buildings port
 	}
 	building
 	{
-		type market forum
+		type market market
 	}
 	building
 	{
 		type hinterland_roads roads
 	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
 }
-
 settlement
 {
-	level city
+	level large_town
 	region Ptolemais_R
 
 	year_founded 0
-	population 5000
+	population 2000
 	plan_set default_set
 	faction_creator egypt
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
+		type core_building governors_villa
 	}
 	building
 	{
@@ -3847,241 +3226,181 @@ settlement
 	}
 	building
 	{
-		type barracks city_barracks
+		type barracks militia_barracks
 	}
 	building
 	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
+		type port_buildings port
 	}
 }
-
 settlement
 {
-	level city
+	level town
 	region Gaza_R
 
 	year_founded 0
-	population 5000
+	population 500
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_katoikia greek_katoikia
 	}
 	building
 	{
-		type defenses stone_wall
+		type core_building governors_house
 	}
 	building
 	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
+		type defenses wooden_pallisade
 	}
 }
-
 settlement
 {
-	level city
+	level large_town
 	region Judaea
 
 	year_founded 0
-	population 6000
+	population 2900
 	plan_set default_set
 	faction_creator egypt
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type defenses stone_wall
+		type core_building governors_villa
 	}
 	building
 	{
-		type barracks city_barracks
+		type defenses wooden_pallisade
 	}
 	building
 	{
 		type missiles practice_field
 	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
 }
-
+;--------- 4$c.d - Anatolia ----------
 settlement
 {
-	level city
+	level town
 	region Lycia
 
 	year_founded 0
-	population 7010
+	population 1000
 	plan_set default_set
 	faction_creator egypt
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_polis greek_polis
 	}
 	building
 	{
-		type defenses stone_wall
+		type core_building governors_house
 	}
 	building
 	{
-		type barracks city_barracks
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
+	region Patara_R
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type missiles practice_field
+		type core_building governors_house
 	}
 	building
 	{
-		type smith blacksmith
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
+	region Perge_R
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type hinterland_greek_katoikia greek_katoikia
 	}
 	building
 	{
-		type market forum
+		type core_building governors_house
 	}
 	building
 	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
+		type defenses wooden_pallisade
 	}
 }
 
 settlement
 {
-	level city
+	level town
+	region Side_R
+
+	year_founded 0
+	population 1100
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
 	region Cnidus_R
 
 	year_founded 0
-	population 6000
+	population 400
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_palace
+		type hinterland_greek_polis greek_polis
 	}
 	building
 	{
-		type defenses stone_wall
+		type core_building governors_house
 	}
 	building
 	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
+		type defenses wooden_pallisade
 	}
 }
 
 ;--------- 4$c/a Historical Characters ----------
 ;	Alexandria
-character	PtolemyC Ptolemeides, named character, leader, age 37, , x 280, y 161, portrait_index 082
-traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , MathematicsSkill 2
+character	PtolemyC Ptolemeides, named character, leader, age 37, , x 398, y 214, portrait_index 082
+traits GoodCommander 3 , NaturalMilitarySkill 2 , PublicFaith 2 , MathematicsSkill 2
 ancillaries librarian, master_embalmer
 army
-unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early egypt	exp 3 armour 0 weapon_lvl 0
 unit		greek pikemen						exp 1 armour 0 weapon_lvl 0
 unit		greek pikemen						exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
@@ -4091,17 +3410,17 @@ unit		egyptian archer						exp 0 armour 0 weapon_lvl 0
 unit		egyptian peasant					exp 0 armour 0 weapon_lvl 0
 
 ;	Memphis
-character	Meleager Ptolemeides, named character, heir, age 44, , x 291, y 152
-traits StrategicSkill 2 , NaturalMilitarySkill 1 , PublicFaith 3
+character	Meleager Ptolemeides, named character, heir, age 44, , x 412, y 200
+traits StrategicSkill 2 , NaturalMilitarySkill 3 , PublicFaith 3
 ancillaries magician
 army
-unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early egypt	exp 3 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer						exp 0 armour 0 weapon_lvl 0
 unit		egyptian peasant					exp 0 armour 0 weapon_lvl 0
 
 ;	Pelusium
-character	Leontiscus Ptolemeides, named character, age 55, , x 300, y 162
+character	Leontiscus Ptolemeides, named character, age 55, , x 424, y 214
 traits NaturalMilitarySkill 1 , PublicFaith 1 , GoodAdministrator 1
 ancillaries master_of_archers
 army
@@ -4112,19 +3431,19 @@ unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
 unit		egyptian peasant					exp 0 armour 0 weapon_lvl 0
 
 ;	outside Memphis
-character	Alexander Antigonides, named character, age 46, , x 288, y 153
+character	Alexander Antigonides, named character, age 46, , x 410, y 203
 traits GoodCommander 1
 army
 unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
 
 ;	outside Alexandria
-character	Sosibius Pixodarides, named character, age 32, , x 280, y 150
-traits GoodCommander 2, NaturalMilitarySkill 1
+character	Sosibius Pixodarides, named character, age 32, , x 402, y 210
+traits GoodCommander 2, NaturalMilitarySkill 2
 army
-unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early egypt	exp 2 armour 0 weapon_lvl 0
 
 ;	Halicarnassus
-character	Pelops Alexandrides, named character, age 27, , x 259, y 208
+character	Pelops Alexandrides, named character, age 27, , x 366, y 280
 army
 unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
@@ -4133,15 +3452,16 @@ unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
 
 ;	Patara
-character	Ptolemy Lysimachides, named character, age 22, , x 273, y 203
+character	Ptolemy Lysimachides, named character, age 22, , x 386, y 273
 army
 unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
 
 ;--------- 4$c/a2 Made-up Characters ----------
 ;	Jerusalem
-character	Arcesilaus Ptolemeides, named character, age 35, , x 317, y 171
+character	Arcesilaus Ptolemeides, named character, age 35, , x 449, y 227
 traits GoodCommander 1 , PublicFaith 2 , MathematicsSkill 3 , Embezzler 1
 ancillaries mathematician
 army
@@ -4152,7 +3472,7 @@ unit		egyptian archer						exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 ;	Sidon
-character	Memnon Ptolemeides, named character, age 26, , x 317, y 185
+character	Memnon Ptolemeides, named character, age 26, , x 449, y 247
 traits GoodCommander 1, GoodAdministrator 1
 army
 unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
@@ -4162,50 +3482,201 @@ unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
 
 ;	outside Jereusalem
-character	Hermolaos Ptolemeides, named character, age 16, , x 316, y 171
+character	Hermolaos Ptolemeides, named character, age 16, , x 450, y 226
 army
 unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
 
 ;	Ptolemais Hermeiou
-character	BleitorB Mazaka, named character, age 36, , x 297, y 125
+character	BleitorB Mazaka, named character, age 36, , x 422, y 161
 traits GoodCommander 1, GoodAdministrator 1
 army
 unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen			exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer					exp 0 armour 0 weapon_lvl 0
-unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
-
 
 ;--------- 4$c/b Generals ----------
+;--------- 4$c/c Captains ----------
+;------ Levant -------
+;	Byblos
+character	Neferet, general, age 20, , x 450, y 254
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
 
-;--------- 4$c/c Captains ---------- ; field captains can be inserted here if needed
+;	Characmoba
+character	Neferet, general, age 20, , x 456, y 220
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	Damascus
+character	Neferet, general, age 20, , x 458, y 248
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+
+;	Gadara
+character	Neferet, general, age 20, , x 453, y 236
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	Gaza
+character	Neferet, general, age 20, , x 442, y 222
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	Rhinokolura
+character	Neferet, general, age 20, , x 436, y 217
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	Ioppe
+character	Neferet, general, age 20, , x 444, y 228
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	Paneas
+character	Neferet, general, age 20, , x 452, y 242
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	Philadelphia
+character	Neferet, general, age 20, , x 457, y 230
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+
+;	Ptolemais
+character	Neferet, general, age 20, , x 447, y 239
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	Tripolis
+character	Neferet, general, age 20, , x 452, y 258
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+
+;	Tyre
+character	Neferet, general, age 20, , x 448, y 243
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;------ Anatolia -------
+;	Coracesium
+character	Neferet, general, age 20, , x 411, y 279
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	Erythrae
+character	Neferet, general, age 20, , x 361, y 288
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+
+;	Knidos
+character	Neferet, general, age 20, , x 367, y 276
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	Limyra
+character	Neferet, general, age 20, , x 394, y 275
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	Perge
+character	Neferet, general, age 20, , x 399, y 282
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+
+;	Side
+character	Neferet, general, age 20, , x 406, y 281
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;------ Greece / Aegean -------
+;	Ainos
+character	Neferet, general, age 20, , x 350, y 324
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	Itanos
+character	Neferet, general, age 20, , x 357, y 257
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+
+;	Mytilene
+character	Neferet, general, age 20, , x 356, y 305
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+
+;	Samos
+character	Neferet, general, age 20, , x 356, y 295
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;------ Libya -------
+;	Siwa
+character	Neferet, general, age 20, , x 357, y 187
+army
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+
+;	Hibis
+character	Neferet, general, age 20, , x 411, y 149
+army
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+
+;	Parva
+character	Neferet, general, age 20, , x 391, y 181
+army
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+
+
+;------ Misc -------
+;	Ptolemais Theron
+character	Neferet, general, age 20, , x 497, y 78
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
+
+;	Berenice Deires
+character	Neferet, general, age 20, , x 558, y 24
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
 
 ;--------- 4$c/d Admirals ----------
-;	Patara Harbor
-character	Timosthenes of Rhodes, admiral, age 36, , x 276, y 202
+;	Itanos Harbor
+character	Timosthenes of Rhodes, admiral, age 36, , x 356, y 257
 army
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
 ;	Sidon Harbor
-character	Aristarchos, admiral, age 29, , x 315, y 184
+character	Aristarchos, admiral, age 29, , x 448, y 249
 army
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
 ;	Alexandria Harbor
-character	Patroclus, admiral, age 29, , x 279, y 161
+character	Patroclus, admiral, age 29, , x 396, y 213
 army
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
 ;--------- 4$c/e Agents ----------
 ;	Alexandria
-character	Philipos, diplomat, age 20, , x 280, y 161
+character	Philipos, diplomat, age 20, , x 397, y 210
 traits GoodDiplomat 2
 
 ;	outside Jerusalem
-character	Tymnes, spy, age 20, , x 316, y 169
+character	Tymnes, spy, age 20, , x 446, y 229
 traits GoodSpy 3
 ancillaries poisoner
 
