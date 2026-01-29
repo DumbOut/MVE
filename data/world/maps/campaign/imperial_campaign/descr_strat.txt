@@ -10252,7 +10252,7 @@ settlement
 	region Amathous_R
 
 	year_founded 0
-	population 960
+	population 660
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army

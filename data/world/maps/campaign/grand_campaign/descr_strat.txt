@@ -1790,7 +1790,7 @@ relative 	Gaius FuriusPacilus, 	Statia,		Honoria FuriusPacilus,	Quintus FuriusPa
 
 ;-------------- 4$b - Macedonia ---------------
 faction	macedon, fortified_napoleon
-denari	1297
+denari	1010
 ;--------- 4$b.a - Greece ----------
 settlement
 {
@@ -1816,6 +1816,10 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type equestrian stables
 	}
 	building
 	{
@@ -1855,10 +1859,6 @@ settlement
 	building
 	{
 		type hinterland_farms farms
-	}
-	building
-	{
-		type port_buildings port
 	}
 }
 settlement
@@ -1959,7 +1959,7 @@ settlement
 	region Dion_R
 
 	year_founded 0
-	population 700
+	population 600
 	plan_set default_set
 	faction_creator macedon
 	garrisoned_army
@@ -3355,7 +3355,7 @@ settlement
 	region Side_R
 
 	year_founded 0
-	population 1100
+	population 900
 	plan_set default_set
 	faction_creator egypt
 	building
