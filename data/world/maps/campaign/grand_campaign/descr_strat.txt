@@ -1794,7 +1794,7 @@ settlement
 	region Macedonia_R
 
 	year_founded 0
-	population 3000
+	population 1500
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -1829,7 +1829,7 @@ settlement
 	region Corinthia_R
 
 	year_founded 0
-	population 2110
+	population 1000
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -1863,7 +1863,7 @@ settlement
 	region Amphipolis_R
 
 	year_founded 0
-	population 990
+	population 500
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -1885,7 +1885,7 @@ settlement
 	region Paroecopolis_R
 
 	year_founded 0
-	population 500
+	population 250
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -1907,7 +1907,7 @@ settlement
 	region Cassandreia_R
 
 	year_founded 0
-	population 600
+	population 300
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -1929,7 +1929,7 @@ settlement
 	region Demetrias_R
 
 	year_founded 0
-	population 800
+	population 400
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -1955,7 +1955,7 @@ settlement
 	region Dion_R
 
 	year_founded 0
-	population 600
+	population 300
 	plan_set default_set
 	faction_creator macedon
 	garrisoned_army
@@ -1980,7 +1980,7 @@ settlement
 	region Euboea_R
 
 	year_founded 0
-	population 990
+	population 500
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -2002,7 +2002,7 @@ settlement
 	region Mygdonia_R
 
 	year_founded 0
-	population 1125
+	population 550
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -2025,7 +2025,7 @@ settlement
 	region Maroneia_R
 
 	year_founded 0
-	population 820
+	population 400
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -2044,7 +2044,7 @@ settlement
 
 ;--------- 4$b/a Historical Characters ----------
 ;	Thessalonica
-character	AntigonosB Antigonides, named character, leader, age 48, , x 320, y 321, portrait_index 000
+character	AntigonosB Antigonides, named character, leader, age 48, , x 226, y 237, portrait_index 000
 traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodRiskyAttacker 2 , PublicFaith 1 , GoodAdministrator 1 , Intelligent 1
 ancillaries shieldbearer
 army
@@ -2056,7 +2056,7 @@ unit		greek heavy cavalry					exp 1 armour 0 weapon_lvl 0
 unit		greek light lancer					exp 0 armour 0 weapon_lvl 0
 
 ;	Demetrias
-character	DemetriusB Antigonides, named character, heir, age 45, , x 320, y 305
+character	DemetriusB Antigonides, named character, heir, age 45, , x 226, y 226
 traits GoodCommander 1 , NaturalMilitarySkill 2 , PublicFaith 1 , MathematicsSkill 1 , Intelligent 1 , Generous 1
 ancillaries actor
 army
@@ -2067,7 +2067,7 @@ unit		greek light lancer					exp 0 armour 0 weapon_lvl 0
 unit		greek archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Corinth
-character	Craterus Antigonides, named character, age 49, , x 322, y 287
+character	Craterus Antigonides, named character, age 49, , x 227, y 213
 traits NaturalMilitarySkill 2 , PublicFaith 1 , GoodAdministrator 2
 ancillaries treasurer
 army
@@ -2079,34 +2079,34 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 ;	Amphipolis
-character	Corrhabus Antigonides, named character, age 47, , x 329, y 324
+character	Corrhabus Antigonides, named character, age 47, , x 232, y 240
 traits GoodAdministrator 1
 ancillaries tutor
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
-;	Heraclea Sintike
-character	Gyras Antigonides, named character, age 44, , x 321, y 331
+;	Paroecopolis
+character	Gyras Antigonides, named character, age 44, , x 228, y 245
 traits GoodCommander 1, GoodAdministrator 1
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 ;	outside Corinth
-character	Alexander Antigonides, named character, age 31, , x 321, y 287
+character	Alexander Antigonides, named character, age 31, , x 226, y 213
 traits GoodCommander 1
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 
 ;	outside Thessalonica
-character	Alcyoneus Antigonides, named character, age 18, , x 321, y 322
+character	Alcyoneus Antigonides, named character, age 18, , x 225, y 238
 traits GoodCommander 1
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 
 ;	Cassandreia
-character	Ameinias Iolaides, named character, age 23, , x 324, y 315
+character	Ameinias Iolaides, named character, age 23, , x 229, y 234
 traits GoodCommander 1
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
@@ -2115,22 +2115,22 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 ;--------- 4$b/a2 Made-up Characters ---------
 ;	Chalcis
-character	Abreas Antigonides, named character, age 28, , x 330, y 294
+character	Abreas Antigonides, named character, age 28, , x 231, y 219
 traits GoodAdministrator 1
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 ;	outside Demetrias
-character	Deukalos Antigonides, named character, age 24, , x 319, y 303
+character	Deukalos Antigonides, named character, age 24, , x 224, y 226
 traits GoodAdministrator 1
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
-;	outside Heraclea Sintike
-character	Damasos Antigonides, named character, age 20, , x 324, y 327
+;	outside Paroecopolis
+character	Damasos Antigonides, named character, age 20, , x 227, y 247
 traits GoodCommander 2
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
@@ -2141,12 +2141,15 @@ unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 ;	Amphipolis
 character	Melotas, admiral, age 30, , x 329, y 322
 army
+unit		naval biremes				exp 2 armour 0 weapon_lvl 0
+unit		naval biremes				exp 2 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
 ;--------- 4$b/e Agents ---------
-;	outside Thessalonica
-character	Carpus of Pylos, diplomat, age 20, , x 319, y 322
+;	Thessalonica
+character	Carpus of Pylos, diplomat, age 20, , x 226, y 237
 traits GoodDiplomat 3
 ancillaries wine_steward
 
