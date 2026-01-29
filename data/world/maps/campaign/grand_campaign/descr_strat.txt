@@ -6950,183 +6950,99 @@ settlement
 
 ;--------- 4$d/a Historical Characters ----------
 ;	Antioch
-character	AntiochusB Seleucides, named character, leader, age 52, , x 322, y 211, portrait_index 028 ;;or 165?
-traits GoodCommander 4 , NaturalMilitarySkill 2 , PublicFaith 2 , GoodAdministrator 4
-ancillaries heroic_saviour
+character	AntiochusB Seleucides, named character, leader, age 52, , x 453, y 280, portrait_index 028 ;;or 165?
+traits GoodCommander 5 , NaturalMilitarySkill 4 , Warlord 4 , PublicFaith 2 , GoodAdministrator 4
+ancillaries heroic_saviour, shieldbearer
 army
-unit		greek general's guard cavalry early	exp 9 armour 9 weapon_lvl 9
-unit		greek general's guard cavalry early	exp 9 armour 9 weapon_lvl 9
-unit		greek cavalry					exp 6 armour 0 weapon_lvl 5
-unit		greek cavalry					exp 6 armour 0 weapon_lvl 5
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 6
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 6
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek cavalry					exp 0 armour 0 weapon_lvl 0
-unit		greek archer					exp 9 armour 2 weapon_lvl 9
-unit		greek archer					exp 9 armour 2 weapon_lvl 9
-unit		greek archer					exp 9 armour 2 weapon_lvl 9
-
+unit		greek general's guard cavalry early	exp 9 armour 3 weapon_lvl 3
+unit		greek general's guard cavalry early	exp 9 armour 3 weapon_lvl 3
+unit		greek general's guard cavalry early	exp 9 armour 3 weapon_lvl 3
+unit		greek general's guard cavalry early	exp 9 armour 3 weapon_lvl 3
+unit		greek general's guard cavalry early	exp 9 armour 3 weapon_lvl 3
+unit		greek cavalry					exp 3 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 3 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
 ;	Seleucia
-character	SeleucusB Seleucides, named character, heir, age 18, , x 380, y 189
-traits Aesthetic 2 , GoodAdministrator 4 , Intelligent 3 , GoodCommander 4 , GoodDefender 2 , GoodRiskyAttacker 2 , PublicFaith 2
+character	SeleucusB Seleucides, named character, heir, age 18, , x 537, y 254
+traits Aesthetic 2 , GoodAdministrator 4 , Intelligent 3 , Embezzler 1, NaturalMilitarySkill 4 , Warlord 4 , GoodInfantryGeneral 2 , GoodCommander 5
 ancillaries exotic_slave, biographer
 army
-unit		greek general's guard cavalry early	exp 9 armour 9 weapon_lvl 9
-unit		greek general's guard cavalry early	exp 9 armour 9 weapon_lvl 9
+unit		greek general's guard cavalry early	exp 1 armour 0 weapon_lvl 0
 unit		greek cavalry					exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry					exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 9 armour 5 weapon_lvl 9
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 6
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
-unit		greek archer					exp 9 armour 2 weapon_lvl 9
 
 ;	Ephesus
-character	Achaeus Seleucides, named character, age 50, , x 258, y 216
-traits GoodAdministrator 4 , Intelligent 1 , GoodDefender 3 , GoodAttacker 2 , GoodCommander 4 , PublicFaith 2
+character	Achaeus Seleucides, named character, age 50, , x 365, y 290
+traits GoodAdministrator 4 , Intelligent 1
 ancillaries desert_scout
 army
-unit		greek general's guard cavalry early	exp 9 armour 9 weapon_lvl 9
-unit		greek general's guard cavalry early	exp 9 armour 9 weapon_lvl 9
-unit		greek general's guard cavalry early	exp 2 armour 0 weapon_lvl 2
-unit		greek cavalry					exp 0 armour 0 weapon_lvl 0
-unit		greek cavalry					exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 9 armour 5 weapon_lvl 9
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 6
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
+unit		greek general's guard cavalry early	exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek peltast					exp 0 armour 0 weapon_lvl 0
-unit		greek archer					exp 9 armour 2 weapon_lvl 9
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek peasant					exp 0 armour 0 weapon_lvl 0
 
 ;	Smyrna
-character	Alexander Seleucides, named character, age 29, , x 256, y 211
-traits Aesthetic 2 , GoodAdministrator 4 , Intelligent 3 , GoodCommander 4 , GoodDefender 2 , GoodRiskyAttacker 2 , PublicFaith 2 , GoodAttacker 2
-ancillaries mentor
+character	Alexander Seleucides, named character, age 29, , x 363, y 296
+traits Intelligent 2 , Energetic 1, GoodCommander 3
+ancillaries mentor, shieldbearer
 army
-unit		greek general's guard cavalry early	exp 9 armour 9 weapon_lvl 9
-unit		greek general's guard cavalry early	exp 2 armour 0 weapon_lvl 2
-unit		greek cavalry					exp 0 armour 0 weapon_lvl 0
-unit		greek cavalry					exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 9 armour 5 weapon_lvl 9
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 6
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
+unit		greek general's guard cavalry early	exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+
+;	Laodicea Lycus
+character	Andromachus Seleucides, named character, age 16, , x 382, y 291
+traits GoodAdministrator 4, Intelligent 1, Warlord 4, GoodCommander 5
+ancillaries mentor, bodyguard
+army
+unit		greek general's guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+
+;	Ecbatana
+character	Alexander Molides, named character, age 22, , x 574, y 280
+traits GoodCommander 5, GoodAdministrator 4, Warlord 4, GoodBuilder 2
+army
+unit		greek general's guard cavalry early	exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
-unit		greek archer					exp 9 armour 2 weapon_lvl 9
-
-; Tyana
-character	Andromachus Seleucides, named character, age 16, , x 307, y 220
-traits Aesthetic 2 , GoodAdministrator 4 , Intelligent 3 , GoodCommander 4 , GoodDefender 2 , GoodRiskyAttacker 2 , PublicFaith 2 , GoodAttacker 3
-ancillaries mentor
-army
-unit		greek general's guard cavalry early	exp 9 armour 9 weapon_lvl 9
-unit		greek hoplite militia			exp 9 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek peltast					exp 0 armour 0 weapon_lvl 0
-unit		greek archer					exp 9 armour 2 weapon_lvl 9
-
-
-;	Arethusa
-character	Alexander Molides, named character, age 22, , x 325, y 196
-traits Aesthetic 2 , GoodAdministrator 4 , Intelligent 3 , GoodCommander 4 , GoodDefender 2 , GoodRiskyAttacker 2 , PublicFaith 2 , GoodAttacker 3
-ancillaries mentor
-army
-unit		greek general's guard cavalry early	exp 9 armour 9 weapon_lvl 9
-unit		greek hoplite militia			exp 9 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek peltast					exp 0 armour 0 weapon_lvl 0
-unit		greek archer					exp 9 armour 2 weapon_lvl 9
 
 ;	Tarsus
-character	Alexander Lysimachides, named character, age 18, , x 308, y 213
-traits Aesthetic 2 , GoodAdministrator 2 , Intelligent 3 , GoodCommander 2 , GoodDefender 1 , PublicFaith 1 , Embezzler 2
-ancillaries mentor
+character	Alexander Lysimachides, named character, age 18, , x 438, y 287
+traits GoodCommander 4, GoodAdministrator 2
 army
-unit		greek general's guard cavalry early	exp 5 armour 4 weapon_lvl 4
-unit		greek hoplite militia			exp 9 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 4
+unit		greek general's guard cavalry early	exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek peltast					exp 0 armour 0 weapon_lvl 0
-unit		greek archer					exp 9 armour 2 weapon_lvl 9
 
 ;	Charax Spasinu
-character	Noumenios Dioklides, named character, age 20, , x 403, y 175
+character	Noumenios Dioklides, named character, age 20, , x 572, y 233
 traits GoodCommander 2, GoodAdministrator 1
 army
 unit		greek general's guard cavalry early	exp 1 armour 0 weapon_lvl 0
@@ -7134,50 +7050,39 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 
-;	Dura-Europos
-character	Hermeias Arcidamides, named_character, age 18, , x 351, y 198
+;	Arethusa
+character	Hermeias Arcidamides, named_character, age 18, , x 460, y 264
 traits GoodCommander 1, GoodAdministrator 1
 army
 unit		greek general's guard cavalry early	exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 
-;	Parbara
-character	Andragoras Garshta, named character, age 30, , x 467, y 299
-traits GoodCommander 1, GoodAdministrator 1
+;	Outside Arethusa
+character	Andragoras Garshta, named character, age 30, , x 461, y 264
+traits GoodCommander 2, GoodAdministrator 1
 army
 unit		greek general's guard cavalry early	exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peasant					exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
-;	Persepolis
-character	Oborzos Artaxas, named character, age 24, , x 441, y 173
+;	Outside Arethusa 2
+character	Oborzos Artaxas, named character, age 24, , x 462, y 264
 traits GoodCommander 1, GoodAdministrator 1
 army
 unit		greek general's guard cavalry early	exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 
 ;--------- 4$d/a2 Made-up Characters ----------
 ;	Sardis
-character	Lysias Assandrides, named character, age 25, , x 262, y 221 
-traits GoodCommander 2, GoodAdministrator 2
+character	Lysias Assandrides, named character, age 25, , x 371, y 299 
+traits GoodCommander 5, GoodAdministrator 2
 army
 unit		greek general's guard cavalry early	exp 1 armour 0 weapon_lvl 0
 unit		greek cavalry					exp 1 armour 0 weapon_lvl 0
@@ -7187,13 +7092,23 @@ unit		greek peltast					exp 1 armour 0 weapon_lvl 0
 
 ;--------- 4$d/b Generals ----------
 ;	Maroneia
-character	Adaeus Mydides, named character, age 53, , x 249, y 242
-traits GoodAdministrator 1, Intelligent 1
+character	Adaeus Mydides, named character, age 53, , x 344, y 326
+traits GoodAdministrator 3, Intelligent 2
 ancillaries poet
 army
 unit		greek general's guard cavalry early	exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
+
+;	outside Maroneia
+character	Pylaemenes Mydides, named character, age 24, , x 345, y 327
+traits GoodCommander 5, GoodAdministrator 3, Warlord 4 , NaturalMilitarySkill 3
+army
+unit		greek general's guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -7203,13 +7118,40 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 
-;	outside Maroneia
-character	Pylaemenes Mydides, named character, age 24, , x 250, y 241
-traits GoodCommander 4, GoodAdministrator 4 , PublicFaith 2 , GoodDefender 2
+;--------- 4$d/c Captains ----------
+;--------- 4$d/d Admirals ----------
+;	Propontus
+character	Euthydemus, admiral, age 20, , x 362, y 323
 army
-unit		greek general's guard cavalry early	exp 7 armour 8 weapon_lvl 8
-unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 9 armour 9 weapon_lvl 9
+unit		naval biremes				exp 9 armour 9 weapon_lvl 9
+unit		naval biremes				exp 9 armour 9 weapon_lvl 9
+unit		naval biremes				exp 9 armour 9 weapon_lvl 9
+unit		naval biremes				exp 9 armour 9 weapon_lvl 9
+unit		naval biremes				exp 1 armour 0 weapon_lvl 1
+unit		naval biremes				exp 1 armour 0 weapon_lvl 1
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 1 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+
+;--------- 4$d/e Agents ----------
+;	outside Antioch
+character	Attalus, diplomat, age 20, , x 453, y 278
+traits GoodDiplomat 5
+
+;	outside Antiochia Margiana
+character	Deimachus, diplomat, age 22, , x 700, y 339
+traits GoodDiplomat 4
+
+;	outside Seleucia
+character	Philip, spy, age 20, , x 536, y 255
+traits GoodSpy 3
 
 ;--------- 4$d/f Family Info ----------
 character_record		Laodice, 	female, command 0, influence 0, management 0, subterfuge 0, age 106, dead, never_a_leader
@@ -7248,6 +7190,8 @@ character_record		AlexanderB Molides, 	male, command 0, influence 0, management 
 ;;SARDES
 character_record		Lampito, 	female, command 0, influence 0, management 0, subterfuge 0, age 24, alive, never_a_leader
 character_record		Androdamos Assandrides, 	male, command 0, influence 0, management 0, subterfuge 0, age 4, alive, never_a_leader
+;;MARONEIA
+character_record		Circe, 	female, command 0, influence 0, management 0, subterfuge 0, age 50, alive, never_a_leader
 
 relative	Antiochus Seleucides, 		Laodice,		Seleucus Seleucides,	Didymeia Seleucides,	end
 relative 	Seleucus Seleucides, 		Apama,		AntiochusB Seleucides,	Achaeus Seleucides,	Phila,	end
@@ -7261,6 +7205,8 @@ relative 	Lysimachus Lysimachides, 	Amestris,		Agathocles Lysimachides,	Lysimach
 relative 	Agathocles Lysimachides, 	Lysandra,		Damiskos Lysimachides,	Karopophores Lysimachides,	Althea,	Pentheus Lysimachides,	end
 ;;SARDES
 relative 	Lysias Assandrides, 	Lampito,		Androdamos Assandrides,	end
+;;MARONEIA
+relative 	Adaeus Mydides, 	Circe,		Pylaemenes Mydides,	end
 
 
 ;;;;; SLAVE ;;;;;
