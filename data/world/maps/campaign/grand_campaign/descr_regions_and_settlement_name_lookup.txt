@@ -1,4 +1,4 @@
-﻿Dumna_R
+Dumna_R
 Caledonica
 Dumna
 Tarvodubron_R
@@ -665,7 +665,6 @@ Lykhnidos_R
 Lykhnidos
 Demetrias_R
 Demetrias
-ArgosOrestikon_R
 ArgosOrestikon_R
 Macedonia_R
 Pella
