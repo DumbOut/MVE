@@ -465,10 +465,6 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type hinterland_farms farms
-	}
 }
 settlement
 {
