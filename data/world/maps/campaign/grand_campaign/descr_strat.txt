@@ -3543,7 +3543,7 @@ relative 	Ptolemy Lysimachides, 	Iphigenia,		LysimachusC Lysimachides,	Epigonus 
 
 ;-------------- 4$d - Seleucid Empire ---------------
 faction	seleucid, balanced_stalin
-denari	12000
+denari	4000
 ;--------- 4$d.a - Syria ----------
 settlement
 {
@@ -3551,9 +3551,13 @@ settlement
 	region Syria
 
 	year_founded 0
-	population 9500
+	population 4500
 	plan_set default_set
 	faction_creator seleucid
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
 	building
 	{
 		type core_building governors_palace
@@ -3561,34 +3565,6 @@ settlement
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -3599,9 +3575,13 @@ settlement
 	region Ionia
 
 	year_founded 0
-	population 8400
+	population 2000
 	plan_set default_set
 	faction_creator seleucid
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
 	building
 	{
 		type core_building governors_palace
@@ -3609,34 +3589,6 @@ settlement
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -3649,6 +3601,10 @@ settlement
 	population 900
 	plan_set default_set
 	faction_creator seleucid
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -3665,9 +3621,13 @@ settlement
 	region Ephesus_R
 
 	year_founded 0
-	population 7650
+	population 3500
 	plan_set default_set
 	faction_creator seleucid
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
 	building
 	{
 		type core_building governors_palace
@@ -3675,34 +3635,6 @@ settlement
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -3712,9 +3644,13 @@ settlement
 	region Cilicia
 
 	year_founded 0
-	population 1990
+	population 1000
 	plan_set default_set
 	faction_creator seleucid
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_villa
@@ -3735,9 +3671,13 @@ settlement
 	region Tyana_R
 
 	year_founded 0
-	population 1500
+	population 750
 	plan_set default_set
 	faction_creator seleucid
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -3754,9 +3694,13 @@ settlement
 	region Smyrna_R
 
 	year_founded 0
-	population 7650
+	population 3550
 	plan_set default_set
 	faction_creator seleucid
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
 	building
 	{
 		type core_building governors_palace
@@ -3764,34 +3708,6 @@ settlement
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -3802,7 +3718,7 @@ settlement
 	region ApameaOrontes_R
 
 	year_founded 0
-	population 2400
+	population 1100
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -3811,14 +3727,13 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_villa
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_villa
 	}
 	building
 	{
@@ -3831,7 +3746,7 @@ settlement
 	region Laodicea_R
 
 	year_founded 0
-	population 2400
+	population 1200
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -3840,14 +3755,13 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_villa
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_villa
 	}
 	building
 	{
@@ -3860,7 +3774,7 @@ settlement
 	region Carcemish_R
 
 	year_founded 0
-	population 1100
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -3869,11 +3783,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_villa
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_villa
 	}
 	building
 	{
@@ -3886,7 +3800,7 @@ settlement
 	region Telmenissos_R
 
 	year_founded 0
-	population 1200
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -3895,11 +3809,11 @@ settlement
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_villa
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_villa
 	}
 	building
 	{
@@ -3912,7 +3826,7 @@ settlement
 	region Adana_R
 
 	year_founded 0
-	population 1910
+	population 750
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -3921,11 +3835,11 @@ settlement
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_villa
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_villa
 	}
 	building
 	{
@@ -3938,7 +3852,7 @@ settlement
 	region SeleuciaPieria_R
 
 	year_founded 0
-	population 2090
+	population 900
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -3947,22 +3861,17 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_villa
 	}
 	building
 	{
-		type hinterland_roads roads
-	}
-	building
-	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type port_buildings port
 	}
 }
 settlement
@@ -3971,7 +3880,7 @@ settlement
 	region Besalatha_R
 
 	year_founded 0
-	population 780
+	population 350
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -3979,11 +3888,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 	building
 	{
@@ -3996,7 +3905,7 @@ settlement
 	region Samal_R
 
 	year_founded 0
-	population 1000
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4004,11 +3913,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 	building
 	{
@@ -4021,7 +3930,7 @@ settlement
 	region ApameaZeugma_R
 
 	year_founded 0
-	population 480
+	population 200
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4029,11 +3938,11 @@ settlement
 	unit		greek hoplite militia			exp 3 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 }
 settlement
@@ -4042,7 +3951,7 @@ settlement
 	region Kastabala_R
 
 	year_founded 0
-	population 600
+	population 300
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4050,11 +3959,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 	building
 	{
@@ -4067,7 +3976,7 @@ settlement
 	region Saggaratum_R
 
 	year_founded 0
-	population 1190
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4075,11 +3984,11 @@ settlement
 	unit		greek hoplite militia			exp 4 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 }
 settlement
@@ -4088,7 +3997,7 @@ settlement
 	region Khindanu_R
 
 	year_founded 0
-	population 800
+	population 400
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4096,11 +4005,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 	building
 	{
@@ -4123,10 +4032,6 @@ settlement
 	{
 		type core_building governors_house
 	}
-	building
-	{
-		type hinterland_roads roads
-	}
 }
 settlement
 {
@@ -4134,7 +4039,7 @@ settlement
 	region Ganibatum_R
 
 	year_founded 0
-	population 980
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4142,11 +4047,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 }
 settlement
@@ -4155,7 +4060,7 @@ settlement
 	region Nemed_Ishtar_R
 
 	year_founded 0
-	population 800
+	population 400
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4163,11 +4068,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 }
 settlement
@@ -4176,7 +4081,7 @@ settlement
 	region Nemru_R
 
 	year_founded 0
-	population 550
+	population 250
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4184,11 +4089,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 }
 settlement
@@ -4197,7 +4102,7 @@ settlement
 	region Tyba_R
 
 	year_founded 0
-	population 570
+	population 300
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4205,11 +4110,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 }
 settlement
@@ -4218,7 +4123,7 @@ settlement
 	region Tabal_R
 
 	year_founded 0
-	population 520
+	population 250
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4226,11 +4131,11 @@ settlement
 	unit		greek hoplite militia			exp 3 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 }
 settlement
@@ -4239,7 +4144,7 @@ settlement
 	region Erana_R
 
 	year_founded 0
-	population 450
+	population 200
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4247,11 +4152,11 @@ settlement
 	unit		greek hoplite militia			exp 4 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 }
 settlement
@@ -4260,7 +4165,7 @@ settlement
 	region Pharnake_R
 
 	year_founded 0
-	population 1210
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4268,11 +4173,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 	building
 	{
@@ -4285,7 +4190,7 @@ settlement
 	region Doliche_R
 
 	year_founded 0
-	population 1020
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4293,11 +4198,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 	building
 	{
@@ -4310,7 +4215,7 @@ settlement
 	region Oiniandos_R
 
 	year_founded 0
-	population 700
+	population 350
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4318,11 +4223,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 }
 settlement
@@ -4331,7 +4236,7 @@ settlement
 	region Shugab_R
 
 	year_founded 0
-	population 450
+	population 230
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4339,11 +4244,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 }
 settlement
@@ -4352,7 +4257,7 @@ settlement
 	region Rhabaine_R
 
 	year_founded 0
-	population 400
+	population 200
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4360,11 +4265,11 @@ settlement
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 }
 settlement
@@ -4373,7 +4278,7 @@ settlement
 	region Theleda_R
 
 	year_founded 0
-	population 1000
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4381,11 +4286,11 @@ settlement
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 }
 settlement
@@ -4394,7 +4299,7 @@ settlement
 	region Palaeopolis_R
 
 	year_founded 0
-	population 1000
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4403,11 +4308,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_villa
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_villa
 	}
 	building
 	{
@@ -4420,7 +4325,7 @@ settlement
 	region Leuke_Akte_R
 
 	year_founded 0
-	population 900
+	population 450
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4430,11 +4335,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_villa
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_villa
 	}
 	building
 	{
@@ -4447,7 +4352,7 @@ settlement
 	region Issos_R
 
 	year_founded 0
-	population 1300
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4457,11 +4362,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_villa
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_villa
 	}
 	building
 	{
@@ -4474,7 +4379,7 @@ settlement
 	region SigonBeloi_R
 
 	year_founded 0
-	population 700
+	population 450
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4484,11 +4389,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_villa
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_villa
 	}
 }
 
@@ -4498,7 +4403,7 @@ settlement
 	region Ḫaturpīr_R
 
 	year_founded 0
-	population 670
+	population 300
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4507,11 +4412,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_villa
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_villa
 	}
 }
 
@@ -4521,7 +4426,7 @@ settlement
 	region Šīsḫimhunna_R
 
 	year_founded 0
-	population 450
+	population 200
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4529,11 +4434,11 @@ settlement
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 }
 
@@ -4543,13 +4448,17 @@ settlement
 	region Arethusa_R
 
 	year_founded 0
-	population 1000
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -4565,7 +4474,7 @@ settlement
 	region Edessa_R
 
 	year_founded 0
-	population 1000
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4575,11 +4484,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 	building
 	{
@@ -4592,7 +4501,7 @@ settlement
 	region Hierapolis_R
 
 	year_founded 0
-	population 970
+	population 450
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4602,11 +4511,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 	building
 	{
@@ -4620,7 +4529,7 @@ settlement
 	region Samosata_R
 
 	year_founded 0
-	population 2000
+	population 1000
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4629,14 +4538,13 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 	building
 	{
@@ -4649,7 +4557,7 @@ settlement
 	region Nikephorion_R
 
 	year_founded 0
-	population 800
+	population 400
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4657,7 +4565,10 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -4674,7 +4585,7 @@ settlement
 	region Nineveh_R
 
 	year_founded 0
-	population 900
+	population 450
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4683,14 +4594,13 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 	building
 	{
@@ -4703,7 +4613,7 @@ settlement
 	region Assyria
 
 	year_founded 0
-	population 1760
+	population 900
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4713,9 +4623,10 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
 	building
 	{
 		type core_building governors_palace
@@ -4723,34 +4634,6 @@ settlement
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -4770,11 +4653,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 	building
 	{
@@ -4787,7 +4670,7 @@ settlement
 	region Arbela_R
 
 	year_founded 0
-	population 1100
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4795,6 +4678,10 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -4810,7 +4697,7 @@ settlement
 	region Dura_R
 
 	year_founded 0
-	population 1200
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4821,11 +4708,11 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 	building
 	{
@@ -4838,7 +4725,7 @@ settlement
 	region Nisibis_R
 
 	year_founded 0
-	population 1200
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4846,6 +4733,10 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -4854,10 +4745,6 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type hinterland_roads roads
-	}
 }
 settlement
 {
@@ -4865,7 +4752,7 @@ settlement
 	region Sareisa_R
 
 	year_founded 0
-	population 1200
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4874,6 +4761,10 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -4891,9 +4782,13 @@ settlement
 	region Babylonia
 
 	year_founded 0
-	population 4340
+	population 2000
 	plan_set default_set
 	faction_creator seleucid
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
 	building
 	{
 		type core_building governors_palace
@@ -4901,34 +4796,6 @@ settlement
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 settlement
@@ -4937,9 +4804,13 @@ settlement
 	region Babylon_R
 
 	year_founded 0
-	population 3960
+	population 2000
 	plan_set default_set
 	faction_creator seleucid
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
 	building
 	{
 		type core_building governors_palace
@@ -4948,34 +4819,6 @@ settlement
 	{
 		type defenses stone_wall
 	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
 }
 settlement
 {
@@ -4983,7 +4826,7 @@ settlement
 	region ApameaSittacene_R
 
 	year_founded 0
-	population 1500
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4991,7 +4834,10 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -5007,7 +4853,7 @@ settlement
 	region CharaxSpasinu_R
 
 	year_founded 0
-	population 2000
+	population 1000
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5015,7 +4861,10 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -5023,10 +4872,6 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type port_buildings port
 	}
 }
 settlement
@@ -5043,7 +4888,10 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
 	building
 	{
 		type core_building governors_palace
@@ -5051,34 +4899,6 @@ settlement
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -5097,7 +4917,10 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -5122,15 +4945,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
 		type core_building governors_house
 	}
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -5149,6 +4972,10 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
 		type core_building governors_house
 	}
 	building
@@ -5164,7 +4991,7 @@ settlement
 	region Isiopolis_R
 
 	year_founded 0
-	population 1500
+	population 750
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5173,15 +5000,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
 		type core_building governors_house
 	}
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -5193,7 +5020,7 @@ settlement
 	region Artacana_R
 
 	year_founded 0
-	population 1200
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5202,15 +5029,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
 		type core_building governors_house
 	}
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -5221,7 +5048,7 @@ settlement
 	region Elymais
 
 	year_founded 0
-	population 2900
+	population 1200
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5230,7 +5057,10 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
 	building
 	{
 		type core_building governors_palace
@@ -5238,34 +5068,6 @@ settlement
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -5275,7 +5077,7 @@ settlement
 	region SeleuciaHedyphon_R
 
 	year_founded 0
-	population 1400
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5284,7 +5086,10 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
 	building
 	{
 		type core_building governors_palace
@@ -5292,34 +5097,6 @@ settlement
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -5330,7 +5107,7 @@ settlement
 	region AntiochiaPersis_R
 
 	year_founded 0
-	population 1400
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5340,39 +5117,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
 		type core_building governors_palace
 	}
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -5383,12 +5136,16 @@ settlement
 	region Siraf_R
 
 	year_founded 0
-	population 1130
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -5401,7 +5158,7 @@ settlement
 	region Persepolis_R
 
 	year_founded 0
-	population 1400
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5410,7 +5167,10 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
 	building
 	{
 		type core_building governors_palace
@@ -5418,34 +5178,6 @@ settlement
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -5455,7 +5187,7 @@ settlement
 	region Pasargadae_R
 
 	year_founded 0
-	population 3400
+	population 1700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5467,39 +5199,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
 		type core_building governors_palace
 	}
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -5510,12 +5218,16 @@ settlement
 	region Amol_R
 
 	year_founded 0
-	population 1490
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -5528,12 +5240,16 @@ settlement
 	region Zadracarta_R
 
 	year_founded 0
-	population 1780
+	population 900
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -5546,12 +5262,16 @@ settlement
 	region Tastache_R
 
 	year_founded 0
-	population 1780
+	population 800
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -5565,12 +5285,16 @@ settlement
 	region Susia_R
 
 	year_founded 0
-	population 1780
+	population 800
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -5584,12 +5308,16 @@ settlement
 	region Sarakhs_R
 
 	year_founded 0
-	population 1430
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -5603,12 +5331,16 @@ settlement
 	region Iasonium_R
 
 	year_founded 0
-	population 1540
+	population 800
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -5622,12 +5354,16 @@ settlement
 	region Sabarz_R
 
 	year_founded 0
-	population 1100
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -5641,12 +5377,16 @@ settlement
 	region Zamuchana_R
 
 	year_founded 0
-	population 1430
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -5667,7 +5407,10 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
 	building
 	{
 		type core_building governors_palace
@@ -5675,34 +5418,6 @@ settlement
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -5713,7 +5428,7 @@ settlement
 	region AlexandriaProphthasia_R
 
 	year_founded 0
-	population 2310
+	population 1000
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5722,39 +5437,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
 		type core_building governors_palace
 	}
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -5765,12 +5456,16 @@ settlement
 	region Tatacene_R
 
 	year_founded 0
-	population 1430
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -5783,12 +5478,16 @@ settlement
 	region Assak_R
 
 	year_founded 0
-	population 1400
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -5801,7 +5500,7 @@ settlement
 	region Hecatompylos_R
 
 	year_founded 0
-	population 3210
+	population 1500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5812,39 +5511,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
 		type core_building governors_palace
 	}
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -5855,7 +5530,7 @@ settlement
 	region Europus_R
 
 	year_founded 0
-	population 2980
+	population 1500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5864,39 +5539,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
 		type core_building governors_palace
 	}
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -5906,12 +5557,16 @@ settlement
 	region Kumandan_R
 
 	year_founded 0
-	population 1540
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -5924,12 +5579,16 @@ settlement
 	region Issatis_R
 
 	year_founded 0
-	population 1540
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -5943,7 +5602,7 @@ settlement
 	region Bam_R
 
 	year_founded 0
-	population 3100
+	population 1550
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5952,39 +5611,15 @@ settlement
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
 		type core_building governors_palace
 	}
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -5995,12 +5630,16 @@ settlement
 	region Kamtina_R
 
 	year_founded 0
-	population 1340
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -6014,12 +5653,16 @@ settlement
 	region Neh_R
 
 	year_founded 0
-	population 1200
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -6033,12 +5676,16 @@ settlement
 	region Tabai_R
 
 	year_founded 0
-	population 1650
+	population 800
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -6052,12 +5699,16 @@ settlement
 	region Pantyene_R
 
 	year_founded 0
-	population 1400
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -6070,12 +5721,16 @@ settlement
 	region Archiotis_R
 
 	year_founded 0
-	population 1320
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -6088,12 +5743,16 @@ settlement
 	region Denabaran_R
 
 	year_founded 0
-	population 1400
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -6106,12 +5765,16 @@ settlement
 	region Apphana_R
 
 	year_founded 0
-	population 1100
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -6124,7 +5787,7 @@ settlement
 	region Teredon_R
 
 	year_founded 0
-	population 2870
+	population 1400
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -6134,39 +5797,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
 		type core_building governors_palace
 	}
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -6177,12 +5816,16 @@ settlement
 	region Arakia_R
 
 	year_founded 0
-	population 1050
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -6195,12 +5838,16 @@ settlement
 	region Harmozeia_R
 
 	year_founded 0
-	population 1320
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -6213,7 +5860,7 @@ settlement
 	region Aspadana_R
 
 	year_founded 0
-	population 2150
+	population 1000
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -6223,39 +5870,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
 		type core_building governors_palace
 	}
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -6265,7 +5888,7 @@ settlement
 	region AlexandriaOpiana_R
 
 	year_founded 0
-	population 2470
+	population 1200
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -6275,39 +5898,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
 		type core_building governors_palace
 	}
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -6326,39 +5925,15 @@ settlement
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
 		type core_building governors_palace
 	}
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -6369,7 +5944,7 @@ settlement
 	region Bamiyan_R
 
 	year_founded 0
-	population 2085
+	population 1000
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -6377,7 +5952,10 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
-	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
 	building
 	{
 		type core_building governors_palace
@@ -6385,34 +5963,6 @@ settlement
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -6422,7 +5972,7 @@ settlement
 	region AntiochiaMargiana_R
 
 	year_founded 0
-	population 2010
+	population 1000
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -6431,39 +5981,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
 		type core_building governors_palace
 	}
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type barracks city_barracks
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+2
-	}
-	building
-	{
-		type hinterland_mines mines+1
 	}
 }
 
@@ -6474,7 +6000,7 @@ settlement
 	region AlexandriaCarmania_R
 
 	year_founded 0
-	population 1200
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -6483,15 +6009,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
 		type core_building governors_house
 	}
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -6502,7 +6028,7 @@ settlement
 
 
 	year_founded 0
-	population 1200
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -6510,15 +6036,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
 		type core_building governors_house
 	}
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -6528,7 +6054,7 @@ settlement
 	region Parbara_R
 
 	year_founded 0
-	population 1200
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -6537,15 +6063,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
 		type core_building governors_house
 	}
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -6555,12 +6081,16 @@ settlement
 	region Zranka_R
 
 	year_founded 0
-	population 700
+	population 300
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -6573,12 +6103,16 @@ settlement
 	region Arana_R
 
 	year_founded 0
-	population 908
+	population 450
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 3 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
 	building
 	{
 		type core_building governors_house
@@ -6591,7 +6125,7 @@ settlement
 	region Tisa_R
 
 	year_founded 0
-	population 1340
+	population 700
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -6599,15 +6133,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
 		type core_building governors_house
 	}
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -6617,7 +6151,7 @@ settlement
 	region Pura_R
 
 	year_founded 0
-	population 1600
+	population 800
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -6626,15 +6160,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
 		type core_building governors_house
 	}
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -6644,7 +6178,7 @@ settlement
 	region Sigal_R
 
 	year_founded 0
-	population 1130
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -6653,15 +6187,15 @@ settlement
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
 		type core_building governors_house
 	}
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -6671,7 +6205,7 @@ settlement
 	region Apologos_Emporion_R
 
 	year_founded 0
-	population 1130
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -6680,15 +6214,15 @@ settlement
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
 		type core_building governors_house
 	}
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -6698,7 +6232,7 @@ settlement
 	region Dumurnabesh_R
 
 	year_founded 0
-	population 1020
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -6707,15 +6241,15 @@ settlement
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
 		type core_building governors_house
 	}
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -6726,7 +6260,7 @@ settlement
 	region Alugilurtu_R
 
 	year_founded 0
-	population 1020
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -6735,15 +6269,15 @@ settlement
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
 		type core_building governors_house
 	}
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -6755,7 +6289,7 @@ settlement
 	region Hawmah_R
 
 	year_founded 0
-	population 801
+	population 400
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -6763,17 +6297,17 @@ settlement
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	building
 	{
-		type core_building governors_house
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
-		type hinterland_roads roads
+		type core_building governors_house
 	}
 }
 
 ;--------- 4$d/a Historical Characters ----------
 ;	Antioch
-character	AntiochusB Seleucides, named character, leader, age 52, , x 453, y 280, portrait_index 028 ;;or 165?
+character	AntiochusB Seleucides, named character, leader, age 52, , x 322, y 210, portrait_index 028 ;;or 165?
 traits GoodCommander 5 , NaturalMilitarySkill 4 , Warlord 4 , PublicFaith 2 , GoodAdministrator 4
 ancillaries heroic_saviour, shieldbearer
 army
@@ -6798,7 +6332,7 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
 ;	Seleucia
-character	SeleucusB Seleucides, named character, heir, age 18, , x 537, y 254
+character	SeleucusB Seleucides, named character, heir, age 18, , x 380, y 184
 traits Aesthetic 2 , GoodAdministrator 4 , Intelligent 3 , Embezzler 1, NaturalMilitarySkill 4 , Warlord 4 , GoodInfantryGeneral 2 , GoodCommander 5
 ancillaries exotic_slave, biographer
 army
@@ -6814,7 +6348,7 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
 ;	Ephesus
-character	Achaeus Seleucides, named character, age 50, , x 365, y 290
+character	Achaeus Seleucides, named character, age 50, , x 258, y 216
 traits GoodAdministrator 4 , Intelligent 1
 ancillaries desert_scout
 army
@@ -6827,7 +6361,7 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peasant					exp 0 armour 0 weapon_lvl 0
 
 ;	Smyrna
-character	Alexander Seleucides, named character, age 29, , x 363, y 296
+character	Alexander Seleucides, named character, age 29, , x 256, y 220
 traits Intelligent 2 , Energetic 1, GoodCommander 3
 ancillaries mentor, shieldbearer
 army
@@ -6836,7 +6370,7 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 
 ;	Laodicea Lycus
-character	Andromachus Seleucides, named character, age 16, , x 382, y 291
+character	Andromachus Seleucides, named character, age 16, , x 269, y 216
 traits GoodAdministrator 4, Intelligent 1, Warlord 4, GoodCommander 5
 ancillaries mentor, bodyguard
 army
@@ -6854,7 +6388,7 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
 ;	Tarsus
-character	Alexander Lysimachides, named character, age 18, , x 438, y 287
+character	Alexander Lysimachides, named character, age 18, , x 309, y 213
 traits GoodCommander 4, GoodAdministrator 2
 army
 unit		greek general's guard cavalry early	exp 1 armour 0 weapon_lvl 0
