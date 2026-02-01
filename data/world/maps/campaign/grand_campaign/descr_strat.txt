@@ -3543,11 +3543,13 @@ relative 	Ptolemy Lysimachides, 	Iphigenia,		LysimachusC Lysimachides,	Epigonus 
 
 ;-------------- 4$d - Seleucid Empire ---------------
 faction	seleucid, balanced_stalin
+ai_do_not_attack_faction antiochea_taocene
+ai_do_not_attack_faction bactria
 denari	4000
 ;--------- 4$d.a - Syria ----------
 settlement
 {
-	level city
+	level huge_city
 	region Syria
 
 	year_founded 0
@@ -3560,14 +3562,57 @@ settlement
 	}
 	building
 	{
-		type core_building governors_palace
+		type core_building proconsuls_palace
 	}
 	building
 	{
-		type defenses stone_wall
+		type defenses epic_stone_wall
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type caravans silk_rd
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type temple_of_alexander temple_of_alexander_pantheon
+	}
+	building
+	{
+		type temple_of_violence temple_of_violence_pantheon
+	}
+	building
+	{
+		type temple_of_victory temple_of_victory_pantheon
+	}
+	building
+	{
+		type temple_of_trade temple_of_trade_pantheon
+	}
+	building
+	{
+		type temple_of_religion temple_of_religion_capital
+	}
+	building
+	{
+		type hinterland_farms farms+4
+	}
+	building
+	{
+		type hinterland_roads highways
 	}
 }
-
 
 settlement
 {
@@ -3584,11 +3629,19 @@ settlement
 	}
 	building
 	{
-		type core_building governors_palace
+		type core_building governors_villa
 	}
 	building
 	{
 		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -3617,11 +3670,11 @@ settlement
 
 settlement
 {
-	level city
+	level large_town
 	region Ephesus_R
 
 	year_founded 0
-	population 3500
+	population 2000
 	plan_set default_set
 	faction_creator seleucid
 	building
@@ -3630,11 +3683,11 @@ settlement
 	}
 	building
 	{
-		type core_building governors_palace
+		type core_building governors_villa
 	}
 	building
 	{
-		type defenses stone_wall
+		type defenses wooden_pallisade
 	}
 }
 
@@ -3654,10 +3707,6 @@ settlement
 	building
 	{
 		type core_building governors_villa
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 	building
 	{
@@ -3690,11 +3739,11 @@ settlement
 
 settlement
 {
-	level city
+	level town
 	region Smyrna_R
 
 	year_founded 0
-	population 3550
+	population 1100
 	plan_set default_set
 	faction_creator seleucid
 	building
@@ -3703,14 +3752,13 @@ settlement
 	}
 	building
 	{
-		type core_building governors_palace
+		type core_building governors_house
 	}
 	building
 	{
-		type defenses stone_wall
+		type defenses wooden_pallisade
 	}
 }
-
 
 settlement
 {
@@ -3800,7 +3848,7 @@ settlement
 	region Telmenissos_R
 
 	year_founded 0
-	population 600
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -3852,7 +3900,7 @@ settlement
 	region SeleuciaPieria_R
 
 	year_founded 0
-	population 900
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -3880,7 +3928,7 @@ settlement
 	region Besalatha_R
 
 	year_founded 0
-	population 350
+	population 310
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -3997,7 +4045,7 @@ settlement
 	region Khindanu_R
 
 	year_founded 0
-	population 400
+	population 300
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4022,7 +4070,7 @@ settlement
 	region Terqa_R
 
 	year_founded 0
-	population 1000
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4030,7 +4078,15 @@ settlement
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
 	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
 		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
 	}
 }
 settlement
@@ -4039,7 +4095,7 @@ settlement
 	region Ganibatum_R
 
 	year_founded 0
-	population 500
+	population 400
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4325,7 +4381,7 @@ settlement
 	region Leuke_Akte_R
 
 	year_founded 0
-	population 450
+	population 400
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4352,7 +4408,7 @@ settlement
 	region Issos_R
 
 	year_founded 0
-	population 700
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4370,7 +4426,7 @@ settlement
 	}
 	building
 	{
-		type defenses stone_wall
+		type defenses wooden_wall
 	}
 }
 settlement
@@ -4379,7 +4435,7 @@ settlement
 	region SigonBeloi_R
 
 	year_founded 0
-	population 450
+	population 300
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4613,7 +4669,7 @@ settlement
 	region Assyria
 
 	year_founded 0
-	population 900
+	population 1000
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4880,7 +4936,7 @@ settlement
 	region Opis_R
 
 	year_founded 0
-	population 2130
+	population 1030
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4963,7 +5019,7 @@ settlement
 	region Chala_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5218,7 +5274,7 @@ settlement
 	region Amol_R
 
 	year_founded 0
-	population 700
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5240,7 +5296,7 @@ settlement
 	region Zadracarta_R
 
 	year_founded 0
-	population 900
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5456,7 +5512,7 @@ settlement
 	region Tatacene_R
 
 	year_founded 0
-	population 700
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5530,7 +5586,7 @@ settlement
 	region Europus_R
 
 	year_founded 0
-	population 1500
+	population 1100
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5557,7 +5613,7 @@ settlement
 	region Kumandan_R
 
 	year_founded 0
-	population 700
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5579,7 +5635,7 @@ settlement
 	region Issatis_R
 
 	year_founded 0
-	population 700
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5602,7 +5658,7 @@ settlement
 	region Bam_R
 
 	year_founded 0
-	population 1550
+	population 1150
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5630,7 +5686,7 @@ settlement
 	region Kamtina_R
 
 	year_founded 0
-	population 700
+	population 600
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5653,7 +5709,7 @@ settlement
 	region Neh_R
 
 	year_founded 0
-	population 600
+	population 500
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -5668,7 +5724,6 @@ settlement
 		type core_building governors_house
 	}
 }
-
 
 settlement
 {
@@ -5691,7 +5746,6 @@ settlement
 		type core_building governors_house
 	}
 }
-
 
 settlement
 {
@@ -5808,7 +5862,6 @@ settlement
 		type defenses stone_wall
 	}
 }
-
 
 settlement
 {
@@ -6280,8 +6333,6 @@ settlement
 		type defenses wooden_pallisade
 	}
 }
-
-
 
 settlement
 {
