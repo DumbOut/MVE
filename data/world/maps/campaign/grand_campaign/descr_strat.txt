@@ -6616,6 +6616,91 @@ relative 	Lysias Assandrides, 	Lampito,		Androdamos Assandrides,	end
 ;;MARONEIA
 relative 	Adaeus Mydides, 	Circe,		Pylaemenes Mydides,	end
 
+;-------------- 4$e - Carthage ---------------
+faction	carthage, balanced_smith
+;;ai_do_not_attack_faction numidia
+denari	8500
+;--------- 4$e.a - Africa ----------
+settlement
+{
+	level city
+	region Africa
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type temple_of_justice temple_of_justice_pantheon
+	}
+	building
+	{
+		type temple_of_healing temple_of_healing_pantheon
+	}
+	building
+	{
+		type temple_of_victory temple_of_victory_pantheon
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+settlement
+{
+	level large_town
+	region Utica_R
+
+	year_founded 0
+	population 2300
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
 
 ;;;;; SLAVE ;;;;;
 
@@ -17891,37 +17976,7 @@ settlement
 settlement
 {
 	level town
-	region Africa
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
 	region Aspis_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Utica_R
 
 	year_founded 0
 	population 1400
