@@ -7442,7 +7442,7 @@ settlement
 	region Arpi_R
 
 	year_founded 0
-	population 3000
+	population 2300
 	plan_set default_set
 	faction_creator romans_brutii
 	building
@@ -7484,7 +7484,7 @@ settlement
 	region Potentia_R
 
 	year_founded 0
-	population 1700
+	population 1400
 	plan_set default_set
 	faction_creator romans_brutii
 	building
@@ -7572,7 +7572,7 @@ settlement
 	region Histonium_R
 
 	year_founded 0
-	population 560
+	population 450
 	plan_set default_set
 	faction_creator romans_brutii
 	building
@@ -7599,8 +7599,8 @@ unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
 unit		roman leves						exp 1 armour 0 weapon_lvl 0
 
 ;	outside Arpi
-character	QuintusC FabiusMaximus, named character, age 44, , x 251, y 326
-traits isFabiaGens 1 , GoodCommander 1 , GoodAdministrator 2 , PoliticsSkill 1 , Intelligent 2 , MathematicsSkill 2
+character	QuintusC FabiusMaximus, named character, heir, age 44, , x 251, y 326
+traits isFabiaGens 1 , GoodCommander 2 , GoodAdministrator 2 , PoliticsSkill 1 , Intelligent 2 , MathematicsSkill 2
 ancillaries doctor
 army
 unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
@@ -7834,7 +7834,7 @@ settlement
 	region Maleventum_R
 
 	year_founded 0
-	population 2500
+	population 2200
 	plan_set default_set
 	faction_creator romans_scipii
 	building
@@ -7882,7 +7882,7 @@ settlement
 	region Hipponion_R
 
 	year_founded 0
-	population 1400
+	population 1000
 	plan_set default_set
 	faction_creator romans_scipii
 	building
@@ -7908,7 +7908,7 @@ settlement
 	region Locri_R
 
 	year_founded 0
-	population 695
+	population 400
 	plan_set default_set
 	faction_creator romans_scipii
 	building
@@ -8120,7 +8120,7 @@ settlement
 	region Veii_R
 
 	year_founded 0
-	population 900
+	population 600
 	plan_set default_set
 	faction_creator romans_senate
 	building
@@ -16506,7 +16506,7 @@ relative 	Inguiomerus Sidini, 	Edith,	end
 relative 	Odovacar Butoni, 	Johanna,	end
 
 faction	britons, trader_henry
-denari	730
+denari	710
 settlement
 {
 	level large_town
@@ -22496,7 +22496,7 @@ relative 	Gaizka Lobetani, 	Verctissa,		Dunixi Lobetani,	end
 relative 	Megaravicos Turboleti, 	Barita,	end
 
 faction	galatia, celtic_passive
-denari	2300
+denari	1400
 settlement
 {
 	level large_town
@@ -22530,10 +22530,6 @@ settlement
 	{
 		type hinterland_farms farms
 	}
-	building
-	{
-		type hinterland_roads roads
-	}
 }
 settlement
 {
@@ -22541,7 +22537,7 @@ settlement
 	region Tavium_R
 
 	year_founded 0
-	population 1800
+	population 1100
 	plan_set default_set
 	faction_creator galatia
 	garrisoned_army
@@ -22564,9 +22560,9 @@ settlement
 	region Pessinus_R
 
 	year_founded 0
-	population 1700
+	population 900
 	plan_set default_set
-	faction_creator galatia
+	faction_creator cappadocia
 	garrisoned_army
 	unit	barb infantry galatia		exp 0 armour 0 weapon_lvl 0
 	unit	barb infantry galatia		exp 0 armour 0 weapon_lvl 0
@@ -22588,7 +22584,7 @@ settlement
 	region Eccobriga_R
 
 	year_founded 0
-	population 1400
+	population 1000
 	plan_set default_set
 	faction_creator galatia
 	building
@@ -22618,9 +22614,9 @@ settlement
 	region Peium_R
 
 	year_founded 0
-	population 430
+	population 400
 	plan_set default_set
-	faction_creator galatia
+	faction_creator paphlagonia
 	building
 	{
 		type core_building governors_house
@@ -22681,7 +22677,7 @@ relative 	Tincommius Tolistobogi, 	Esselt,		Cuniovenda Tolistobogi,	end
 
 
 faction	saka, balanced_genghis
-denari	3020
+denari	3010
 settlement
 {
 	level large_town
@@ -22715,7 +22711,7 @@ settlement
 	region SakaRaukaCamp_R
 
 	year_founded 0
-	population 1600
+	population 1500
 	plan_set default_set
 	faction_creator saka
 	building
@@ -28153,7 +28149,7 @@ relative	DiodotusB Diodotides, 	Helle,		Oreithuia,	end
 relative	Damiskos Basilides, 	Khloris Diodotides,	end
 
 faction	cappadocia, eastern_passive
-denari	1200
+denari	1100
 settlement
 {
 	level large_town
@@ -28186,7 +28182,7 @@ settlement
 	region Melitene_R
 
 	year_founded 0
-	population 1600
+	population 1200
 	plan_set default_set
 	faction_creator cappadocia
 	building
@@ -54712,17 +54708,18 @@ faction_agression	parthia,		700	seleucid
 ; >>>> start of regions section <<<<
 
 ;;new superfaction definition
-;;;;superfaction_setup romans_senate
+superfaction_setup romans_senate
 
 ;;defines who this superfaction will be hostile to by default
-;;;;default_hostile slave
+default_hostile slave
 ;;don't like the factions we're supposed to have our minions attack
-;;;;default_hostile gauls
-;;;;default_hostile acarnania
-;;;;default_hostile carthage
-;;;;default_hostile epirus
-;;;;default_hostile taras
-;;;;default_hostile messapians
+default_hostile boii
+default_hostile ligures
+default_hostile carthage
+default_hostile epirus
+default_hostile taras
+default_hostile messapians
+default_hostile brutii
 
 ;;mission queues, allows you to give factions a specific track of missions
 ;;the mission must ALWAYS be preceeded by the reward or penalty for completing the mission and the amount of turns the player should be given to complete that mission
@@ -54765,29 +54762,20 @@ faction_agression	parthia,		700	seleucid
 ;; Take_City <settlement>
 
 ;;julii first mission should be to capture segesta
-;mission_queue romans_julii
-;{
-;	major_reward 10 Take_City Segesta
-	;;two_triarii 10 Take_City Mediolanum
-	;;major_reward 10 Take_City Caralis
-;}
+mission_queue romans_julii
+{
+	promise_of_appointment 16 Take_City Volsinii
+}
 ;;brutii first mission should be to capture Apollonia
-;mission_queue romans_brutii
-;{
-;	major_reward 10 Take_City Apollonia
-	;;senate_gratitude 10 Get_Map_Info macedon
-;}
+mission_queue romans_brutii
+{
+	promise_of_appointment 10 Take_City Tarentum
+}
 ;;scipii first mission should be to capture Syracuse
-;mission_queue romans_scipii
-;{
-;	major_reward 10 Take_City Syracuse
-	;;one_minor_exotic_unit 10 Declare_War carthage
-	;;two_triarii 10 Take_City Lilybaeum
-	;;senate_gratitude 10 Blockade_Port Carthage
-	;;two_minor_exotic_units 10 Take_City Byzacium
-	;;throw_games 10 Take_City Carthage
-;}
-
+mission_queue romans_scipii
+{
+	promise_of_appointment 18 Take_City Messana
+}
 
 ;------------------- #$ Campaign Script --------------------
 script
