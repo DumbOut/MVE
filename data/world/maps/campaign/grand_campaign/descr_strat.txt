@@ -6703,7 +6703,7 @@ settlement
 }
 
 ;;;;;;;;;; SLAVE/REBELS ;;;;;;;;;;
-;;;;;; Do NOT delete this ;;;;;;;
+;;;;;;;;;; Do NOT delete this ;;;;
 
 faction	slave, balanced_smith
 denari	-2099999990
