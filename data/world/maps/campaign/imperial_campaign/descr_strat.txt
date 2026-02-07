@@ -30239,7 +30239,7 @@ settlement
 	region Rigodonum_R
 
 	year_founded 0
-	population 800
+	population 500
 	plan_set default_set
 	faction_creator brigantes
 	building
@@ -30299,7 +30299,7 @@ settlement
 	region Durovernum_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator cantiaci
 	building
@@ -30335,7 +30335,7 @@ relative 	Prasutagus Cantiaci, 	Esselt,		Iseult,	Verica,	Wotecorix Cantiaci,	end
 
 
 faction	corieltauvi, british_passive
-denari	1400
+denari	1100
 settlement
 {
 	level town
