@@ -30364,7 +30364,7 @@ settlement
 	region LindumCorieltavia_R
 
 	year_founded 0
-	population 900
+	population 800
 	plan_set default_set
 	faction_creator corieltauvi
 	garrisoned_army
@@ -30416,7 +30416,7 @@ character_record		Catavignus Corieltauvi, 		male, command 0, influence 0, manage
 relative 	Cintugnatus Corieltauvi, 	Cartimandua,		Catavignus Corieltauvi,	end
 
 faction	demetae, british_passive
-denari	1000
+denari	800
 settlement
 {
 	level town

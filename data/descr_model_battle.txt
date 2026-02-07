@@ -28363,3 +28363,35 @@ model Indian data/characters/burgundian_heavy_spearmen_1
 no_variation model Indian data/characters/burgundian_heavy_spearmen_1
 model Mediterranean data/characters/burgundian_heavy_spearmen_1
 no_variation model Mediterranean data/characters/burgundian_heavy_spearmen_1
+
+;;--------------------------------------;;
+;;-------New Carthaginian Units---------;;
+;;--------------------------------------;;
+
+; Carthaginian Medium Mazṣaʿim
+
+
+type carthaginian_medium_spearmen_00
+skeleton			fs_spearman, fs_swordsman										; combat spear
+male
+body Default
+angry_face no
+medieval_features no
+tired No
+aged 0.00
+pbr_texture data/characters/textures/generic_pbr.tga
+texture data/characters/textures/carthaginian_medium_spearmen_00_carthage.tga
+model African data/characters/carthaginian_medium_spearmen_00
+no_variation model African data/characters/carthaginian_medium_spearmen_00
+model Arabic data/characters/carthaginian_medium_spearmen_00
+no_variation model Arabic data/characters/carthaginian_medium_spearmen_00
+model Caucasian data/characters/carthaginian_medium_spearmen_00
+no_variation model Caucasian data/characters/carthaginian_medium_spearmen_00
+model EastAsian data/characters/carthaginian_medium_spearmen_00
+no_variation model EastAsian data/characters/carthaginian_medium_spearmen_00
+model Egyptian data/characters/carthaginian_medium_spearmen_00
+no_variation model Egyptian data/characters/carthaginian_medium_spearmen_00
+model Indian data/characters/carthaginian_medium_spearmen_00
+no_variation model Indian data/characters/carthaginian_medium_spearmen_00
+model Mediterranean data/characters/carthaginian_medium_spearmen_00
+no_variation model Mediterranean data/characters/carthaginian_medium_spearmen_00

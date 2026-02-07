@@ -5268,6 +5268,7 @@ building barracks
 				
 				;;;;;;;;;;;   carthage    ;;;;;;;;;;;;
 				recruit "carthaginian city militia"  0
+				recruit "carthaginian medium spearmen 00" 0
 				
 				;;;;;;;;;;;   macedon    ;;;;;;;;;;;;
 				recruit "greek hoplite militia alex"  0  requires alexander
@@ -5438,6 +5439,7 @@ building barracks
 				
 				;;;;;;;;;;;   carthage    ;;;;;;;;;;;;
 				recruit "carthaginian city militia"  0
+				recruit "carthaginian medium spearmen 00" 0
 				recruit "carthaginian infantry"  0
 				
 				;;;;;;;;;;;   macedon    ;;;;;;;;;;;;
@@ -5691,6 +5693,7 @@ building barracks
 				
 				;;;;;;;;;;;   carthage    ;;;;;;;;;;;;
 				recruit "carthaginian city militia"  0
+				recruit "carthaginian medium spearmen 00" 0
 				recruit "carthaginian infantry"  0
 				recruit "carthaginian medium infantry"  0
 				
@@ -6001,6 +6004,7 @@ building barracks
 				
 				;;;;;;;;;;;   carthage    ;;;;;;;;;;;;
 				recruit "carthaginian city militia"  0
+				recruit "carthaginian medium spearmen 00" 0
 				recruit "carthaginian infantry"  1
 				recruit "carthaginian medium infantry"  0
 				recruit "carthaginian heavy infantry"  0
@@ -6321,6 +6325,7 @@ building barracks
 				
 				;;;;;;;;;;;   carthage    ;;;;;;;;;;;;
 				recruit "carthaginian city militia"  0
+				recruit "carthaginian medium spearmen 00" 0
 				recruit "carthaginian infantry"  1
 				recruit "carthaginian medium infantry"  0
 				recruit "carthaginian heavy infantry"  0
