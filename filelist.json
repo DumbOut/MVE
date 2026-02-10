@@ -17665,7 +17665,7 @@
 	},
 	{
 		"filename": "data\/data_controlled_variables.json",
-		"checksum": 898138875
+		"checksum": 1343047066
 	},
 	{
 		"filename": "data\/descr_aerial_map_ground_types.txt",
@@ -17681,7 +17681,7 @@
 	},
 	{
 		"filename": "data\/descr_beliefs.txt",
-		"checksum": 4266484337
+		"checksum": 1184164116
 	},
 	{
 		"filename": "data\/descr_building_battle.txt",
@@ -17853,7 +17853,7 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 1887947019
+		"checksum": 2496495602
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
@@ -41784,6 +41784,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/captain banners\/captain_card_armenia_rebel.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/captain banners\/captain_card_athens.tga",
 		"checksum": "Blacklisted"
 	},
@@ -41796,7 +41800,15 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/captain banners\/captain_card_bosporan_kingdom_rebel.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/captain banners\/captain_card_bosporus.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_card_britons_rebel.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -41805,6 +41817,10 @@
 	},
 	{
 		"filename": "data\/ui\/captain banners\/captain_card_caledonia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_card_carthage_rebel.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -41817,6 +41833,14 @@
 	},
 	{
 		"filename": "data\/ui\/captain banners\/captain_card_cyrene.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_card_dacia_rebel.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_card_egypt_rebel.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -41840,6 +41864,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/captain banners\/captain_card_epirus_rebel.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/captain banners\/captain_card_franks.tga",
 		"checksum": "Blacklisted"
 	},
@@ -41848,7 +41876,15 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/captain banners\/captain_card_gauls_rebel.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/captain banners\/captain_card_goths.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_card_greek_cities_rebel.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -41912,6 +41948,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/captain banners\/captain_card_pontus_rebel.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/captain banners\/captain_card_quaddi.tga",
 		"checksum": "Blacklisted"
 	},
@@ -41920,7 +41960,19 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/captain banners\/captain_card_romans_brutii_rebel.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/captain banners\/captain_card_romans_julii.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_card_romans_scipii_rebel.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_card_romans_senate_rebel.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -41945,6 +41997,10 @@
 	},
 	{
 		"filename": "data\/ui\/captain banners\/captain_card_slavs.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_card_spain_rebel.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -41985,6 +42041,10 @@
 	},
 	{
 		"filename": "data\/ui\/captain banners\/captain_portrait_caledonia.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_portrait_carthage_rebel.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -42032,6 +42092,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/captain banners\/captain_portrait_macedon_rebel.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/captain banners\/captain_portrait_massalia.tga.dds",
 		"checksum": "Blacklisted"
 	},
@@ -42053,6 +42117,14 @@
 	},
 	{
 		"filename": "data\/ui\/captain banners\/captain_portrait_persia.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_portrait_picts_rebel.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_portrait_pontus_rebel.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -55324,6 +55396,18 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/pips\/pip_religion_aquitanian.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/pips\/pip_religion_aquitanian_negative.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/pips\/pip_religion_aquitanian_positive.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/pips\/pip_religion_arab.tga",
 		"checksum": "Blacklisted"
 	},
@@ -55453,6 +55537,18 @@
 	},
 	{
 		"filename": "data\/ui\/pips\/pip_religion_ethiopian_positive.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/pips\/pip_religion_etruscan.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/pips\/pip_religion_etruscan_negative.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/pips\/pip_religion_etruscan_positive.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -62324,18 +62420,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/unit_info\/carthage\/#naval_bireme.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/unit_info\/carthage\/#naval_quinquireme.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/unit_info\/carthage\/#naval_trireme.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/unit_info\/carthage\/assassin.tga",
 		"checksum": "Blacklisted"
 	},
@@ -62396,11 +62480,11 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/unit_info\/carthage\/carthaginian_medium_infantry_00_info.tga",
+		"filename": "data\/ui\/unit_info\/carthage\/carthaginian_medium_infantry_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/unit_info\/carthage\/carthaginian_medium_infantry_info.tga",
+		"filename": "data\/ui\/unit_info\/carthage\/carthaginian_medium_spearmen_00_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -90752,7 +90836,7 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/units\/carthage\/#carthaginian_medium_infantry_00.tga",
+		"filename": "data\/ui\/units\/carthage\/#carthaginian_medium_spearmen_00.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -111612,16 +111696,16 @@
 		"checksum": 1602425415
 	},
 	{
+		"filename": "data\/ui_overrides\/menu\/menu_colours.json",
+		"checksum": 3863098437
+	},
+	{
 		"filename": "data\/ui_overrides\/menu\/new_campaign_choose_faction.xml",
 		"checksum": 2362606935
 	},
 	{
 		"filename": "data\/ui_overrides\/menu\/new_campaign_choose_faction_old.xml",
 		"checksum": 2222553630
-	},
-	{
-		"filename": "data\/ui_overrides\/menu_colours.json",
-		"checksum": 3264055213
 	},
 	{
 		"filename": "data\/ui_overrides\/mergedialog.pos",
@@ -111686,6 +111770,10 @@
 	{
 		"filename": "data\/world\/maps\/base\/descr_terrain.txt",
 		"checksum": 2715582006
+	},
+	{
+		"filename": "data\/world\/maps\/base\/map.rwm",
+		"checksum": 205660932
 	},
 	{
 		"filename": "data\/world\/maps\/base\/map_climates.tga",
@@ -111853,7 +111941,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 1987010840
+		"checksum": 2792062318
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
