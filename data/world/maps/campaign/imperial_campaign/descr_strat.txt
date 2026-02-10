@@ -30455,7 +30455,7 @@ character_record		Orgetorix Demeti, 		male, command 0, influence 0, management 0
 relative 	Matugenus Demeti, 	Cuniovenda,		Orgetorix Demeti,	end
 
 faction	dumnonii, british_passive
-denari	1200
+denari	1100
 settlement
 {
 	level town

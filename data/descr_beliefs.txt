@@ -538,8 +538,8 @@
 		"trait": "IsEtruscan",
 		
 		;;UI icons to use for this
-		"unrest icon": "data/ui/pips/pip_religion_italic_negative.tga",
-		"religion icon":  "data/ui/pips/pip_religion_italic.tga",
+		"unrest icon": "data/ui/pips/pip_religion_etruscan_negative.tga",
+		"religion icon":  "data/ui/pips/pip_religion_etruscan.tga",
 		
 		;;info button button used for the settlement overview panel
 		"info button": "data/ui/buttons/settlementdetailschristianity.tga",
@@ -923,8 +923,8 @@
 		"trait": "IsAquitanian",
 		
 		;;UI icons to use for this
-		"unrest icon": "data/ui/pips/pip_religion_lusitanian_negative.tga",
-		"religion icon":  "data/ui/pips/pip_religion_lusitanian.tga",
+		"unrest icon": "data/ui/pips/pip_religion_aquitanian_negative.tga",
+		"religion icon":  "data/ui/pips/pip_religion_aquitanian.tga",
 		
 		;;info button button used for the settlement overview panel
 		"info button": "data/ui/buttons/settlementdetailschristianity.tga",
