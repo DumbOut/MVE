@@ -9829,7 +9829,7 @@ Torikos_R
 	colchis
 	Colchians
 	132 104 104
-	caucasia, greek_colony
+	caucasia
 	5
 	6
 	caucasian 82 anatolian 18

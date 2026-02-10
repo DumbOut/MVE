@@ -45532,7 +45532,7 @@ settlement
 	faction_creator persis
 	building
 	{
-		type core_building proconsuls_palace
+		type core_building imperial_palace
 	}
 	building
 	{
