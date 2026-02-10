@@ -3154,3 +3154,5 @@ Kythnos_R
 Kythnos
 Syros_R
 Syros
+Torikos_R
+Torikos

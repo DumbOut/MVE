@@ -17701,7 +17701,7 @@
 	},
 	{
 		"filename": "data\/descr_character.txt",
-		"checksum": 430174469
+		"checksum": 702127302
 	},
 	{
 		"filename": "data\/descr_cultures.txt",
@@ -39261,7 +39261,7 @@
 	},
 	{
 		"filename": "data\/text\/imperial_campaign_regions_and_settlement_names.txt",
-		"checksum": 1908162240
+		"checksum": 1557564830
 	},
 	{
 		"filename": "data\/text\/landmarks.txt",
@@ -111761,15 +111761,19 @@
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions.txt",
-		"checksum": 452305738
+		"checksum": 2487989573
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions_and_settlement_name_lookup.txt",
-		"checksum": 1671216907
+		"checksum": 3727965040
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_terrain.txt",
 		"checksum": 2715582006
+	},
+	{
+		"filename": "data\/world\/maps\/base\/gude-2026-02-10.log",
+		"checksum": 0
 	},
 	{
 		"filename": "data\/world\/maps\/base\/map.rwm",
@@ -111845,11 +111849,11 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_regions_and_settlement_name_lookup.txt",
-		"checksum": 2031269818
+		"checksum": 3424360004
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_strat.txt",
-		"checksum": 2874860196
+		"checksum": 3719834081
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_terrain.txt",
@@ -111874,6 +111878,10 @@
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/feral_radar_map_winter.tga",
 		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/grand_campaign\/gude-2026-02-10.log",
+		"checksum": 1528825361
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_climates.tga",
@@ -111941,7 +111949,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 2792062318
+		"checksum": 2755254394
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",

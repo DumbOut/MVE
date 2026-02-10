@@ -46207,6 +46207,24 @@ settlement
 settlement
 {
 	level town
+	region Torikos_R
+
+	year_founded 0
+	population 340
+	plan_set default_set
+	faction_creator colchis
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
 	region Auzacia_R
 
 	year_founded 0

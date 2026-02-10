@@ -358,7 +358,7 @@ trigger_status antigonid_reforms, true
 rebelling_characters_active
 night_battles_enabled
 brigand_spawn_value 300
-pirate_spawn_value 8
+pirate_spawn_value 4
 ;;---unused settings
 ;gladiator_uprising_disabled
 ;show_date_as_turns_remaining
@@ -412,7 +412,7 @@ settlement
 	region Etruria
 
 	year_founded 0
-	population 3100
+	population 3200
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -446,7 +446,7 @@ settlement
 	region Corfinium_R
 
 	year_founded 0
-	population 520
+	population 950
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -599,7 +599,7 @@ settlement
 	region Aquae_Apollinares_R
 
 	year_founded 0
-	population 310
+	population 305
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -789,10 +789,10 @@ denari	135
 settlement
 {
 	level large_town
-	region Arpi_R
+	region Venusia_R
 
 	year_founded 0
-	population 1800
+	population 3000
 	plan_set default_set
 	faction_creator romans_brutii
 	building
@@ -801,11 +801,11 @@ settlement
 	}
 	building
 	{
-		type core_building governors_villa
+		type barracks militia_barracks
 	}
 	building
 	{
-		type barracks militia_barracks
+		type core_building governors_villa
 	}
 	building
 	{
@@ -815,8 +815,49 @@ settlement
 	{
 		type hinterland_roads roads
 	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
+settlement
+{
+	level large_town
+	region Arpi_R
 
+	year_founded 0
+	population 2300
+	plan_set default_set
+	faction_creator romans_brutii
+	building
+	{
+		type hinterland_roman_civitas roman_civitas_libera
+	}
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
 settlement
 {
 	level large_town
@@ -857,7 +898,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator romans_brutii
-;;;;;;;;;Garrison;;;;;;;;;
 	building
 	{
 		type hinterland_roman_civitas roman_civitas
@@ -881,7 +921,6 @@ settlement
 	population 350
 	plan_set default_set
 	faction_creator romans_brutii
-;;;;;;;;;Garrison;;;;;;;;;
 	building
 	{
 		type hinterland_roman_colonia_latina roman_colonia_latina
@@ -902,7 +941,7 @@ settlement
 	region Consilinum_R
 
 	year_founded 0
-	population 320
+	population 300
 	plan_set default_set
 	faction_creator romans_brutii
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -1121,6 +1160,7 @@ relative 	Decimus JuniusPera,		Cornelia,		Volusa JuniusPera,	Marcus JuniusPera,	
 relative 	DecimusB JuniusBrutus,		Mania,			Lucius JuniusBrutus,	end
 relative 	Marcus JuniusBrutus,		Atia,			Mamerca JuniusBrutus,	end
 
+
 faction	romans_scipii, bureaucrat_napoleon
 superfaction romans_senate
 denari	195
@@ -1130,20 +1170,16 @@ settlement
 	region Campania
 
 	year_founded 0
-	population 800
+	population 4800
 	plan_set default_set
 	faction_creator romans_scipii
 	building
 	{
-		type hinterland_roman_civitas roman_civitas_libera
+		type hinterland_roman_municipium roman_municipium
 	}
 	building
 	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
@@ -1152,6 +1188,14 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms+1
 	}
 }
 settlement
@@ -1160,7 +1204,7 @@ settlement
 	region Bruttium
 
 	year_founded 0
-	population 700
+	population 2700
 	plan_set default_set
 	faction_creator romans_scipii
 	building
@@ -1169,15 +1213,23 @@ settlement
 	}
 	building
 	{
-		type core_building governors_villa
-	}
-	building
-	{
 		type barracks muster_field
 	}
 	building
 	{
+		type core_building governors_villa
+	}
+	building
+	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 settlement
@@ -1186,20 +1238,20 @@ settlement
 	region Rhegium_R
 
 	year_founded 0
-	population 500
+	population 3000
 	plan_set default_set
 	faction_creator romans_scipii
 	building
 	{
-		type hinterland_roman_civitas roman_civitas_libera
-	}
-	building
-	{
-		type core_building governors_villa
+		type hinterland_roman_colonia roman_colonia
 	}
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type core_building governors_villa
 	}
 	building
 	{
@@ -1212,19 +1264,22 @@ settlement
 	region Bovianum_R
 
 	year_founded 0
-	population 300
+	population 1000
 	plan_set default_set
 	faction_creator romans_scipii
 	building
 	{
-		type hinterland_roman_civitas roman_civitas
+		type hinterland_roman_civitas roman_civitas_foederata
 	}
 	building
 	{
 		type core_building governors_house
 	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
 }
-
 settlement
 {
 	level town
@@ -1247,8 +1302,6 @@ settlement
 		type core_building governors_house
 	}
 }
-
-
 settlement
 {
 	level town
@@ -1271,7 +1324,6 @@ settlement
 		type core_building governors_house
 	}
 }
-
 settlement
 {
 	level town
@@ -1288,6 +1340,10 @@ settlement
 	building
 	{
 		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
 	}
 }
 
@@ -1445,14 +1501,14 @@ relative 	Titus ManliusTorquatus, 	Gaia,		TitusB ManliusTorquatus,	Aulus Manlius
 relative 	TitusB ManliusTorquatus, 	Leontia,		Plautilla ManliusTorquatus,	TitusC ManliusTorquatus,	end
 
 faction	romans_senate, comfortable_napoleon
-denari	540
+denari	550
 settlement
 {
 	level city
 	region Latium
 
 	year_founded 0
-	population 3000
+	population 7200
 	plan_set default_set
 	faction_creator romans_senate
 	building
@@ -1477,11 +1533,27 @@ settlement
 	}
 	building
 	{
+		type missiles practice_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
 		type hinterland_roads roads
 	}
 	building
 	{
 		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_mines mines+1
 	}
 	building
 	{
@@ -1495,12 +1567,12 @@ settlement
 	region Veii_R
 
 	year_founded 0
-	population 300
+	population 600
 	plan_set default_set
 	faction_creator romans_senate
 	building
 	{
-		type hinterland_roman_colonia roman_colonia
+		type hinterland_roman_civitas roman_civitas
 	}
 	building
 	{
@@ -1715,7 +1787,7 @@ unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 unit		roman hastati spear				exp 3 armour 1 weapon_lvl 0
 
 ;	Fregellae
-character	Manius ValeriusMessalla, named character, age 34, , x 228, y 327
+character	Manius ValeriusMessalla, named character, age 34, , x 158, y 243
 traits isValeriaGens 1 , GoodCommander 1 , GoodAdministrator 1
 army
 unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0

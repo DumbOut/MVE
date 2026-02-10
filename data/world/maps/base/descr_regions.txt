@@ -9823,6 +9823,17 @@ Phasis_R
 	6
 	greek 60 caucasian 40
 
+Torikos_R
+	legion: Lazica
+	Torikos
+	colchis
+	Colchians
+	132 104 104
+	caucasia, greek_colony
+	5
+	6
+	caucasian 82 anatolian 18
+
 Pityus_R
 	legion: Lazica
 	Pityus
