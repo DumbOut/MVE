@@ -2285,6 +2285,21 @@ region
 		}
 	}
 
+	Torikos_R
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+
 	Sitatrea_R
 	{
 		variant

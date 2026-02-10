@@ -17665,7 +17665,7 @@
 	},
 	{
 		"filename": "data\/data_controlled_variables.json",
-		"checksum": 2410077773
+		"checksum": 1156225456
 	},
 	{
 		"filename": "data\/descr_aerial_map_ground_types.txt",
@@ -17701,7 +17701,7 @@
 	},
 	{
 		"filename": "data\/descr_character.txt",
-		"checksum": 702127302
+		"checksum": 741444908
 	},
 	{
 		"filename": "data\/descr_cultures.txt",
@@ -17773,7 +17773,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 1597289991
+		"checksum": 2332819385
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -17805,7 +17805,7 @@
 	},
 	{
 		"filename": "data\/descr_unit_variation.txt",
-		"checksum": 3097344207
+		"checksum": 524961634
 	},
 	{
 		"filename": "data\/enhanced_tweaks\/#kirsi_campaign_map_movement_range_color.json",
@@ -17853,7 +17853,7 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 3637947226
+		"checksum": 206872093
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
@@ -111773,7 +111773,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/base\/gude-2026-02-10.log",
-		"checksum": 0
+		"checksum": 3698049898
 	},
 	{
 		"filename": "data\/world\/maps\/base\/map_climates.tga",
@@ -111945,7 +111945,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 1896489624
+		"checksum": 985111306
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
