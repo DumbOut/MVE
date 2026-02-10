@@ -1,6 +1,6 @@
 {
-  "order_income_bonus_start": 130,
-  "order_income_bonus_multiplier": 0.0036,
+  "order_income_bonus_start": 100,
+  "order_income_bonus_multiplier": 0.0010,
   "order_construction_bonus_threshold": 180,
   "order_recruitment_bonus_threshold": 180,
   "torches_min_sun_angle": 76.666,

@@ -19714,7 +19714,7 @@
 		"description": "SLAVE_DESCR",
 
 		;;culture and (default?) character ethnicity
-		"culture":   "greek",
+		"culture":   "roman",
 		"ethnicity": "mediterranean",
 
 		;;tags for faction groups

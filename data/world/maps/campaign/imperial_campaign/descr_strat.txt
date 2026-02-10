@@ -44046,7 +44046,7 @@ settlement
 	region Davaba_R
 
 	year_founded 0
-	population 350
+	population 400
 	plan_set default_set
 	faction_creator massagetae
 	building
@@ -44144,7 +44144,7 @@ settlement
 	region DerbicesKome_R
 
 	year_founded 0
-	population 350
+	population 400
 	plan_set default_set
 	faction_creator thyssagetae
 	building
@@ -46213,6 +46213,9 @@ settlement
 	population 340
 	plan_set default_set
 	faction_creator colchis
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house

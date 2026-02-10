@@ -111761,7 +111761,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions.txt",
-		"checksum": 2487989573
+		"checksum": 1093396935
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions_and_settlement_name_lookup.txt",
@@ -111774,10 +111774,6 @@
 	{
 		"filename": "data\/world\/maps\/base\/gude-2026-02-10.log",
 		"checksum": 0
-	},
-	{
-		"filename": "data\/world\/maps\/base\/map.rwm",
-		"checksum": 205660932
 	},
 	{
 		"filename": "data\/world\/maps\/base\/map_climates.tga",
@@ -111949,7 +111945,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 2755254394
+		"checksum": 1896489624
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
