@@ -117,8 +117,8 @@ end
 unlockable
 end
 nonplayable
-	slave
 	romans_senate
+	slave
 	;------- WARNING -------
 	; DO NOT MAKE ALL OF THESE FACTIONS PLAYABLE!
 	; ONLY MAKE THE ONES YOU WANT TO PLAY PLAYABLE! TOO MANY MAY CAUSE ISSUES WITH THE UI!
@@ -46177,7 +46177,7 @@ denari	-2000
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	slave, balanced_smith
-denari	-2099999999
+denari	-999999999
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;             SETTLEMENTS                ;;;;;
