@@ -6247,11 +6247,6 @@ dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		diplomat
 
-faction			slave
-dictionary		2
-strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
-strat_model		diplomat
-
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;BARBARIAN;;;;;
 ;;;;;;;;;;;;;;;;;;;
@@ -7581,12 +7576,6 @@ faction			thrace
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		merchant
-
-faction			slave
-dictionary		2
-strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
-strat_model		merchant
-
 
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;BARBARIAN;;;;;
