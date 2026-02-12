@@ -17729,7 +17729,7 @@
 	},
 	{
 		"filename": "data\/descr_model_strat.txt",
-		"checksum": 3695618392
+		"checksum": 3769873408
 	},
 	{
 		"filename": "data\/descr_mount.txt",
@@ -17773,7 +17773,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 3076459769
+		"checksum": 867148290
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -17786,6 +17786,10 @@
 	{
 		"filename": "data\/descr_sm_resources.txt",
 		"checksum": 3799404250
+	},
+	{
+		"filename": "data\/descr_sounds.txt",
+		"checksum": 438136726
 	},
 	{
 		"filename": "data\/descr_standards.txt",
@@ -31636,6 +31640,234 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_battle_end_music.txt",
+		"checksum": 3683405491
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_battle_music_statemachine.txt",
+		"checksum": 3495373571
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_battle_notifications.txt",
+		"checksum": 39183828
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_building.txt",
+		"checksum": 3771603275
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_character_action.txt",
+		"checksum": 2918187152
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_character_vocal.txt",
+		"checksum": 1882572379
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_diplomacy_comment.txt",
+		"checksum": 4107993541
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_generic_unit_anims.txt",
+		"checksum": 2012011510
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_loading_music.txt",
+		"checksum": 2655700891
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_message_events.txt",
+		"checksum": 4251232048
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_prebattle_speech.txt",
+		"checksum": 717392731
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_static_music.txt",
+		"checksum": 1070287413
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_anims.txt",
+		"checksum": 2864718304
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_celebrate.txt",
+		"checksum": 2593400593
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_charge.txt",
+		"checksum": 3457333582
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_collide.txt",
+		"checksum": 923873876
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_confirm.txt",
+		"checksum": 2344548001
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_confirm_single.txt",
+		"checksum": 4128829116
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_fighting.txt",
+		"checksum": 3703448903
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_march.txt",
+		"checksum": 368918457
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_retreating.txt",
+		"checksum": 2417293170
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_routing.txt",
+		"checksum": 1529932448
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_taunting.txt",
+		"checksum": 2301115011
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_voice.txt",
+		"checksum": 485678718
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_warcry.txt",
+		"checksum": 3418077802
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_war_horns.txt",
+		"checksum": 1291653775
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_weapon_hit.txt",
+		"checksum": 3472461572
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/nonroman\/descr_generic_elements.txt",
+		"checksum": 523755099
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/unit_anims\/descr_soundbank_arabic_unit_anims.txt",
+		"checksum": 1921982993
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/unit_anims\/descr_soundbank_barbarian_unit_anims.txt",
+		"checksum": 3186145204
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/unit_anims\/descr_soundbank_female_unit_anims.txt",
+		"checksum": 1318512936
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/unit_anims\/descr_soundbank_greek_unit_anims.txt",
+		"checksum": 1001406843
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/unit_anims\/descr_soundbank_roman_unit_anims.txt",
+		"checksum": 3294951304
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_ai_unit_voices.txt",
+		"checksum": 3984537250
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_barbarian_general_unit_voices.txt",
+		"checksum": 171674378
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_barbarian_unit_voices.txt",
+		"checksum": 4014706322
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_eastern_general_unit_voices.txt",
+		"checksum": 3946016767
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_eastern_unit_voices.txt",
+		"checksum": 1894002088
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_female_unit_voices.txt",
+		"checksum": 509845448
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_greek_general_unit_voices.txt",
+		"checksum": 1908128965
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_greek_unit_voices.txt",
+		"checksum": 1710570031
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_roman_general_unit_voices.txt",
+		"checksum": 682335224
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_roman_unit_voices.txt",
+		"checksum": 3420739259
+	},
+	{
+		"filename": "data\/sounds\/descrs\/descr_bank_sounds.txt",
+		"checksum": 3789622211
+	},
+	{
+		"filename": "data\/sounds\/descrs\/descr_enum_sounds.txt",
+		"checksum": 11373488
+	},
+	{
+		"filename": "data\/sounds\/descrs\/descr_misc_sounds.txt",
+		"checksum": 386648571
+	},
+	{
+		"filename": "data\/sounds\/events.dat",
+		"checksum": 699575183
+	},
+	{
+		"filename": "data\/sounds\/events.idx",
+		"checksum": 2454830579
+	},
+	{
+		"filename": "data\/sounds\/interface.dat.feral",
+		"checksum": 3341149258
+	},
+	{
+		"filename": "data\/sounds\/interface.idx.feral",
+		"checksum": 3416051501
+	},
+	{
+		"filename": "data\/sounds\/manifest_backups_important\/interface_manifest.txt",
+		"checksum": 2590638945
+	},
+	{
+		"filename": "data\/sounds\/manifest_backups_important\/music_manifest.txt",
+		"checksum": 1997848186
+	},
+	{
+		"filename": "data\/sounds\/manifest_backups_important\/sfx_manifest.txt",
+		"checksum": 1160101910
+	},
+	{
+		"filename": "data\/sounds\/music.dat.feral",
+		"checksum": 831954729
+	},
+	{
+		"filename": "data\/sounds\/music.idx.feral",
+		"checksum": 774020955
+	},
+	{
+		"filename": "data\/sounds\/sfx.dat.feral",
+		"checksum": 55049095
+	},
+	{
+		"filename": "data\/sounds\/sfx.idx.feral",
+		"checksum": 953093814
+	},
+	{
 		"filename": "data\/string_overrides\/campaign_descriptions_en.strings",
 		"checksum": 1541989888
 	},
@@ -39013,7 +39245,7 @@
 	},
 	{
 		"filename": "data\/text\/export_buildings.txt",
-		"checksum": 3928084511
+		"checksum": 4265423283
 	},
 	{
 		"filename": "data\/text\/export_prologue.txt",
@@ -111725,7 +111957,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 944520379
+		"checksum": 1116898347
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
