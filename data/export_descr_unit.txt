@@ -4840,7 +4840,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 600, 330, 60, 90, 600
 ownership        kush
-ethnicity egypt, Nile_Delta
+ethnicity kush, Nile_Delta
 rebalance_statblock
 soldier          egyptian_elite_guards_new, 60, 0, 1
 attributes       sea_faring, hide_forest, can_sap, hardy
@@ -4887,7 +4887,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 110, 50, 70, 420
 ownership        kush, cyrene
-ethnicity egypt, Nile_Delta
+ethnicity kush, Nile_Delta
 ethnicity cyrene, Cyrenaica
  
  

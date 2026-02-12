@@ -46177,7 +46177,7 @@ denari	-2000
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	slave, balanced_smith
-denari	-999999999
+denari	-1999999999
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;             SETTLEMENTS                ;;;;;
@@ -46194,7 +46194,7 @@ settlement
 	year_founded 0
 	population 300
 	plan_set default_set
-	faction_creator saka
+	faction_creator india
 	building
 	{
 		type core_building governors_house
@@ -46210,7 +46210,7 @@ settlement
 	region Torikos_R
 
 	year_founded 0
-	population 340
+	population 300
 	plan_set default_set
 	faction_creator colchis
 	garrisoned_army
