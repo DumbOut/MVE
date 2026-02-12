@@ -6855,7 +6855,6 @@ texture messene, data/characters/textures/greek_hoplite_militia_sardes.tga
 texture arcadia, data/characters/textures/greek_hoplite_militia_arcadia.tga
 texture bactria, data/characters/textures/greek_hoplite_militia_bactria.tga
 texture heraclea, data/characters/textures/greek_hoplite_militia_heraclea.tga
-;;;;;texture macedon, data/characters/textures/alex_greek_hoplite_militia_macedon.tga
 texture macedon, data/characters/textures/greek_hoplite_militia_macedon.tga
 texture seleucid, data/characters/textures/greek_hoplite_militia_seleucid.tga
 texture thrace, data/characters/textures/greek_hoplite_militia_thrace.tga
@@ -28395,4 +28394,3 @@ model Indian data/characters/carthaginian_medium_spearmen_00
 no_variation model Indian data/characters/carthaginian_medium_spearmen_00
 model Mediterranean data/characters/carthaginian_medium_spearmen_00
 no_variation model Mediterranean data/characters/carthaginian_medium_spearmen_00
-
