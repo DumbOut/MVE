@@ -2350,8 +2350,8 @@
 		;;faction colours (some base game factions may have hardcoded overrides)
 		"colours":
 		{
-			"primary":   [  191, 189, 145, ],
-			"secondary": [  8,   40,  117, ],
+				"background":      [  0,   0,   0,   ],
+				"font":            [  255, 255, 255, ],
 
 			"family tree":
 			{
@@ -9739,8 +9739,8 @@
 
 			"family tree":
 			{
-				"background":      [  48, 74, 60,   ],
-				"font":            [  161, 135, 93, ],
+				"background":      [  0,   0,   0,   ],
+				"font":            [  255, 255, 255, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -16990,7 +16990,8 @@
 		"culture":   "numidian",
 		"ethnicity": "berber",
 
-		"tags": [ ],
+		;;tags for faction groups
+		"tags": [ "fgroup_farming_temple", ],
 
 		;;namelists
 		"namelists":
@@ -17027,8 +17028,8 @@
 
 			"family tree":
 			{
-				"background":      [  101, 121, 22,   ],
-				"font":            [  22, 179, 218, ],
+				"background":      [  0,   0,   0,   ],
+				"font":            [  255, 255, 255, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -19707,6 +19708,10 @@
 ;;;;;;;;;;;;;;;;;;;   23$ SLAVE   ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;   23$ SLAVE   ;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 	"slave":
 	{
 		;;name and description
@@ -19754,7 +19759,7 @@
 
 			"family tree":
 			{
-				"background":      [  155, 145, 120,   ],
+				"background":      [  0,   0,   0,   ],
 				"font":            [  255, 255, 255, ],
 
 				"selected line":   [  255, 255, 255, ],
@@ -19778,7 +19783,8 @@
 		"default battle ai personality": "default_personality",
 	
 		;;allow this faction to have a functioning family tree
-		"allow reproduction": false, ;;was false
+		"allow reproduction": true, ;;was false
 	},
 ],
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
