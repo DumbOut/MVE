@@ -46,23 +46,6 @@ unit				barb naked fanatics slave
 unit				barb naked fanatics slave
 unit				barb cavalry slave
 unit				barbarian rebel general
-
-rebel_type 			Burgundiones		//Germans
-category			peasant_revolt
-chance				3					
-description			Burgundiones
-unit				barb peasant slave
-unit				barb infantry slave
-unit				burgundian heavy spearmen 1
-unit				burgundian heavy spearmen 1
-unit				burgundian heavy spearmen 1
-unit				burgundian heavy spearmen 1
-unit				burgundian heavy spearmen 1
-unit				burgundian heavy spearmen 1
-unit				burgundian heavy spearmen 1
-unit				barb cavalry slave
-unit				barb cavalry slave
-unit				barbarian rebel general
 					
 rebel_type 			Saxones		//Germans
 category			peasant_revolt
