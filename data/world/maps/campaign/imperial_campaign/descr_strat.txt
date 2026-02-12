@@ -117,8 +117,8 @@ end
 unlockable
 end
 nonplayable
-	romans_senate
 	slave
+	romans_senate
 	;------- WARNING -------
 	; DO NOT MAKE ALL OF THESE FACTIONS PLAYABLE!
 	; ONLY MAKE THE ONES YOU WANT TO PLAY PLAYABLE! TOO MANY MAY CAUSE ISSUES WITH THE UI!
