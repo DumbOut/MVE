@@ -2639,7 +2639,7 @@ category         infantry
 class            missile
 voice_type       Light_1 carthaginian
 voice_indexes    0 1 2
-soldiers         40, 0, 0.8
+soldiers         60, 0, 0.8
 {
 	default
 	{
@@ -2668,7 +2668,7 @@ ownership        iberian, nuragic, carthage, celtiberia, astures, cantabri, carp
 ethnicity spain, Taraconenis
 ethnicity celtiberia, Celtiberia
 rebalance_statblock
-soldiers         40, 0, 0.8
+soldiers         60, 0, 0.8
 {
 	default
 	{
@@ -2701,7 +2701,7 @@ category         infantry
 class            missile
 voice_type       Light_1 carthaginian
 voice_indexes    0 1 2
-soldiers         40, 0, 0.8
+soldiers         60, 0, 0.8
 {
 	default
 	{
@@ -2736,7 +2736,7 @@ category         infantry
 class            missile
 voice_type       Light_1
 voice_indexes    0 1 2
-soldiers         40, 0, 0.8
+soldiers         60, 0, 0.8
 {
 	default
 	{
@@ -2770,7 +2770,7 @@ category         infantry
 class            light
 voice_type       Light_1 carthaginian
 voice_indexes    0 1 2
-soldiers         40, 0, 1
+soldiers         60, 0, 1
 {
 	default
 	{
@@ -2806,7 +2806,7 @@ category         infantry
 class            light
 voice_type       Light_1 carthaginian
 voice_indexes    0 1 2
-soldiers         40, 0, 1
+soldiers         60, 0, 1
 {
 	default
 	{
@@ -2889,7 +2889,7 @@ category         infantry
 class            spearmen
 voice_type       Heavy_1
 voice_indexes    0 1 2
-soldiers         40, 0, 1.3
+soldiers         60, 0, 1.3
 {
 	default
 	{
@@ -2953,7 +2953,7 @@ category         cavalry
 class            light
 voice_type       Medium_1 carthaginian
 voice_indexes    0 1 2
-soldiers         27, 0, 1
+soldiers         60, 0, 1
 {
 	default
 	{
@@ -2990,7 +2990,7 @@ category         cavalry
 class            light
 voice_type       Medium_1 carthaginian
 voice_indexes    0 1 2
-soldiers         27, 0, 1
+soldiers         60, 0, 1
 {
 	default
 	{
@@ -3099,7 +3099,7 @@ category         cavalry
 class            heavy
 voice_type       Heavy_1
 voice_indexes    0 1 2
-soldiers         27, 0, 1
+soldiers         60, 0, 1
 {
 	default
 	{
@@ -3314,7 +3314,7 @@ category         infantry
 class            light
 voice_type       Heavy_1 carthaginian
 voice_indexes    0 1 2
-soldiers         40, 0, 1
+soldiers         60, 0, 1
 {
 	default
 	{
@@ -3378,7 +3378,7 @@ category         infantry
 class            missile
 voice_type       Light_1
 voice_indexes    0 1 2
-soldiers         40, 0, 0.8
+soldiers         60, 0, 0.8
 {
 	default
 	{
@@ -3406,7 +3406,7 @@ stat_cost        1, 180, 170, 20, 30, 180
 ownership        numidia, gaetuli, garamantes, psyllia, massylii, mauri, nasamones, slave
 ethnicity numidia, Numidia
 rebalance_statblock
-soldiers         40, 0, 0.8
+soldiers         60, 0, 0.8
 {
 	default
 	{
@@ -3466,7 +3466,7 @@ category         infantry
 class            heavy
 voice_type       Heavy_1
 voice_indexes    0 1 2
-soldiers         40, 0, 1.3
+soldiers         60, 0, 1.3
 {
 	default
 	{
@@ -3494,7 +3494,7 @@ stat_cost        2, 500, 220, 50, 80, 500
 ownership        numidia
 ethnicity numidia, Numidia
 rebalance_statblock
-soldiers         40, 0, 1.3
+soldiers         60, 0, 1.3
 {
 	default
 	{
@@ -3526,7 +3526,7 @@ category         cavalry
 class            missile
 voice_type       Heavy_1
 voice_indexes    0 1 2
-soldiers         27, 0, 1
+soldiers         60, 0, 1
 {
 	default
 	{
@@ -3923,7 +3923,7 @@ category         infantry
 class            heavy
 voice_type       Heavy_1
 voice_indexes    0 1 2
-soldiers         40, 0, 1.3
+soldiers         60, 0, 1.3
 {
 	default
 	{
@@ -3951,7 +3951,7 @@ stat_cost        2, 500, 220, 50, 80, 500
 ownership        armenia
 ethnicity armenia, Armenia
 rebalance_statblock
-soldiers         40, 0, 1.3
+soldiers         60, 0, 1.3
 {
 	default
 	{
@@ -5416,7 +5416,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 230, 100, 30, 40, 230
-ownership        macedon, egypt, seleucid, greek_cities, akragas, italiotes, neapolis, syracuse, taras, athens, epirus, achea, aetolia, arcadia, argos, boetia, corinth, elis, messene, gortyn, knossos, kydonia, melos, rhodes, thessaly, byzantion, bactria, cyprus, cyrene, pergamon, bosporus, colchis, heraclea, sinope, massalia, emporion, thracian, paeonian, etruscan, egypt, ardiaei, slave
+ownership        slave, antiochea_taocene, teion, troezen, macedon, egypt, seleucid, greek_cities, akragas, italiotes, neapolis, syracuse, taras, athens, epirus, achea, aetolia, arcadia, argos, boetia, corinth, elis, messene, gortyn, knossos, kydonia, melos, rhodes, thessaly, byzantion, bactria, cyprus, cyrene, pergamon, bosporus, colchis, heraclea, sinope, massalia, emporion, thracian, paeonian, etruscan, egypt, ardiaei
 ethnicity greek_cities, Crete
 ethnicity macedon, Macedonia
 ethnicity seleucid, Syria
@@ -5471,7 +5471,7 @@ category         infantry
 class            spearmen
 voice_type       Heavy_1
 voice_indexes    0 1 2
-soldiers         40, 0, 1.3
+soldiers         60, 0, 1.3
 {
 	default
 	{
@@ -6416,7 +6416,7 @@ category         infantry
 class            missile
 voice_type       Light_1
 voice_indexes    0 1 2
-soldiers         40, 0, 0.8
+soldiers         60, 0, 0.8
 {
 	default
 	{
@@ -6448,7 +6448,7 @@ ethnicity romans_julii, Etruria
 ethnicity romans_scipii, Campania
 ethnicity romans_senate, Latium
 rebalance_statblock
-soldiers         40, 0, 0.8
+soldiers         60, 0, 0.8
 {
 	default
 	{
@@ -6482,7 +6482,7 @@ category         infantry
 class            missile
 voice_type       Light_1
 voice_indexes    0 1 2
-soldiers         40, 0, 0.8
+soldiers         60, 0, 0.8
 {
 	default
 	{
@@ -6514,7 +6514,7 @@ ethnicity romans_julii, Etruria
 ethnicity romans_scipii, Campania
 ethnicity romans_senate, Latium
 rebalance_statblock
-soldiers         40, 0, 0.8
+soldiers         60, 0, 0.8
 {
 	default
 	{
@@ -6547,7 +6547,7 @@ category         infantry
 class            light
 voice_type       Light_1
 voice_indexes    0 1 2
-soldiers         40, 0, 1
+soldiers         60, 0, 1
 {
 	default
 	{
@@ -6614,7 +6614,7 @@ category         infantry
 class            heavy
 voice_type       Heavy_1
 voice_indexes    0 1 2
-soldiers         40, 0, 1.3
+soldiers         60, 0, 1.3
 {
 	default
 	{
@@ -6684,7 +6684,7 @@ category         infantry
 class            light
 voice_type       Medium_1
 voice_indexes    0 1 2
-soldiers         40, 0, 1
+soldiers         60, 0, 1
 {
 	default
 	{
@@ -6722,7 +6722,7 @@ category         infantry
 class            heavy
 voice_type       Heavy_1
 voice_indexes    0 1 2
-soldiers         40, 0, 1.3
+soldiers         60, 0, 1.3
 {
 	default
 	{
@@ -6801,7 +6801,7 @@ category         infantry
 class            heavy
 voice_type       Medium_1
 voice_indexes    0 1 2
-soldiers         40, 0, 1.3
+soldiers         60, 0, 1.3
 {
 	default
 	{
@@ -6878,7 +6878,7 @@ category         infantry
 class            heavy
 voice_type       Heavy_1
 voice_indexes    0 1 2
-soldiers         40, 0, 1.3
+soldiers         60, 0, 1.3
 {
 	default
 	{
@@ -6916,7 +6916,7 @@ category         infantry
 class            heavy
 voice_type       Medium_1
 voice_indexes    0 1 2
-soldiers         40, 0, 1.3
+soldiers         60, 0, 1.3
 {
 	default
 	{
@@ -7197,7 +7197,7 @@ category         cavalry
 class            missile
 voice_type       Medium_1
 voice_indexes    0 1 2
-soldiers         27, 0, 1
+soldiers         60, 0, 1
 {
 	default
 	{
@@ -7255,7 +7255,7 @@ category         cavalry
 class            heavy
 voice_type       Medium_1
 voice_indexes    0 1 2
-soldiers         27, 0, 1
+soldiers         60, 0, 1
 {
 	default
 	{
@@ -7294,7 +7294,7 @@ category         cavalry
 class            heavy
 voice_type       Heavy_1
 voice_indexes    0 1 2
-soldiers         27, 0, 1
+soldiers         60, 0, 1
 {
 	default
 	{
@@ -7333,7 +7333,7 @@ category         cavalry
 class            heavy
 voice_type       Heavy_1
 voice_indexes    0 1 2
-soldiers         27, 0, 1
+soldiers         60, 0, 1
 {
 	default
 	{
@@ -8098,7 +8098,7 @@ category         infantry
 class            light
 voice_type       Light_1 barbarian ;; always use barbarian voice type regardless of faction
 voice_indexes    0 1 2
-soldiers         40, 0, 1
+soldiers         60, 0, 1
 {
 	default
 	{
@@ -14380,7 +14380,7 @@ category         cavalry
 class            heavy
 voice_type       Heavy_1
 voice_indexes    0 1 2
-soldiers         27, 0, 1
+soldiers         60, 0, 1
 {
 	default
 	{
@@ -15367,7 +15367,7 @@ category         infantry
 class            missile
 voice_type       Light_1 barbarian
 voice_indexes    0 1 2
-soldiers         40, 0, 0.8
+soldiers         60, 0, 0.8
 {
 	default
 	{
@@ -20856,7 +20856,7 @@ category         infantry
 class            heavy
 voice_type       Heavy_1
 voice_indexes    0 1 2
-soldiers         40, 0, 1.3
+soldiers         60, 0, 1.3
 {
 	default
 	{
@@ -21020,7 +21020,7 @@ category         infantry
 class            light
 voice_type       Light_1
 voice_indexes    0 1 2
-soldiers         40, 0, 1
+soldiers         60, 0, 1
 {
 	default
 	{
