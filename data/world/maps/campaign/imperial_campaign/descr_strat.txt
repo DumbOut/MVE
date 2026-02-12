@@ -112,11 +112,11 @@ playable
 	boii
 	etruscans
 	saba
-	slave
 end
 unlockable
 end
 nonplayable
+	slave
 	romans_senate
 	;------- WARNING -------
 	; DO NOT MAKE ALL OF THESE FACTIONS PLAYABLE!
