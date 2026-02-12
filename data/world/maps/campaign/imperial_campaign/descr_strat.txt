@@ -19103,7 +19103,7 @@ settlement
 	region Kythera_R
 
 	year_founded 0
-	population 410
+	population 400
 	plan_set default_set
 	faction_creator acarnania
 	building
