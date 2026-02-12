@@ -28395,3 +28395,4 @@ model Indian data/characters/carthaginian_medium_spearmen_00
 no_variation model Indian data/characters/carthaginian_medium_spearmen_00
 model Mediterranean data/characters/carthaginian_medium_spearmen_00
 no_variation model Mediterranean data/characters/carthaginian_medium_spearmen_00
+
