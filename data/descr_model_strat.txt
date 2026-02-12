@@ -30,6 +30,8 @@ no_variation model Indian data/characters/Alex_strat_ALEX_alexander_Indian
 model Mediterranean data/characters/Alex_strat_ALEX_alexander_Mediterranean
 no_variation model Mediterranean data/characters/Alex_strat_ALEX_alexander_Mediterranean
 
+
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;ASSASSINS;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -44,7 +46,7 @@ male
 body Bulky
 angry_face yes
 medieval_features no
-tired No
+tired Tired
 aged 0.00
 pbr_texture data/characters/textures/strat_assassin_greek_cities_pbr.tga
 pbr_texture armenia, data/characters/textures/strat_assassin_armenia_pbr.tga
@@ -60,7 +62,7 @@ pbr_texture pontus, data/characters/textures/strat_assassin_armenia_pbr.tga
 pbr_texture scythia, data/characters/textures/strat_assassin_armenia_pbr.tga
 pbr_texture slave, data/characters/textures/strat_assassin_britons_pbr.tga
 pbr_texture spain, data/characters/textures/strat_assassin_britons_pbr.tga
-texture data/characters/textures/strat_assassin_slave.tga
+texture data/characters/textures/strat_assassin_armenia.tga
 texture britons, data/characters/textures/strat_assassin_britons.tga
 texture carthage, data/characters/textures/strat_assassin_carthage.tga
 texture dacia, data/characters/textures/strat_assassin_dacia.tga
@@ -367,7 +369,7 @@ male
 body Bulky
 angry_face yes
 medieval_features no
-tired No
+tired Tired
 aged 0.00
 pbr_texture data/characters/textures/Alex_strat_assassin_britons_pbr.tga
 pbr_texture boii, data/characters/textures/strat_assassin_britons_pbr.tga
@@ -528,7 +530,7 @@ male
 body Bulky
 angry_face yes
 medieval_features no
-tired No
+tired Tired
 aged 0.00
 pbr_texture data/characters/textures/Alex_strat_assassin_britons_pbr.tga
 pbr_texture celtiberia, data/characters/textures/strat_assassin_britons_pbr.tga
@@ -559,7 +561,7 @@ male
 body Bulky
 angry_face yes
 medieval_features no
-tired No
+tired Tired
 aged 0.00
 pbr_texture data/characters/textures/strat_assassin_armenia_pbr.tga
 texture data/characters/textures/strat_assassin_desert_generic.tga
@@ -591,7 +593,7 @@ male
 body Bulky
 angry_face yes
 medieval_features no
-tired No
+tired Tired
 aged 0.00
 pbr_texture data/characters/textures/strat_assassin_greek_cities_pbr.tga
 texture data/characters/textures/strat_assassin_greek_generic.tga
@@ -1634,7 +1636,7 @@ body slave, Skinny
 body spain, Skinny
 angry_face no
 medieval_features no
-tired No
+tired Tired
 aged 0.00
 pbr_texture data/characters/textures/strat_spy_greek_cities_pbr.tga
 pbr_texture armenia, data/characters/textures/strat_spy_armenia_pbr.tga
@@ -1899,7 +1901,7 @@ male
 body Default
 angry_face no
 medieval_features no
-tired No
+tired Tired
 aged 0.00
 pbr_texture data/characters/textures/strat_spy_britons_pbr.tga
 texture data/characters/textures/strat_spy_dacia.tga
@@ -1938,7 +1940,7 @@ male
 body Default
 angry_face no
 medieval_features no
-tired No
+tired Tired
 aged 0.00
 pbr_texture data/characters/textures/strat_spy_britons_pbr.tga
 texture data/characters/textures/strat_spy_slave.tga
@@ -1969,7 +1971,7 @@ male
 body Default
 angry_face no
 medieval_features no
-tired No
+tired Tired
 aged 0.00
 pbr_texture data/characters/textures/strat_spy_armenia_pbr.tga
 texture data/characters/textures/strat_spy_desert_generic.tga
@@ -2002,7 +2004,7 @@ male
 body Default
 angry_face no
 medieval_features no
-tired No
+tired Tired
 aged 0.00
 pbr_texture data/characters/textures/strat_spy_egypt_pbr.tga
 texture data/characters/textures/strat_spy_egypt.tga
@@ -2034,7 +2036,7 @@ male
 body Default
 angry_face no
 medieval_features no
-tired No
+tired Tired
 aged 0.00
 pbr_texture data/characters/textures/strat_spy_greek_cities_pbr.tga
 texture data/characters/textures/strat_spy_greek_generic.tga
@@ -2294,7 +2296,7 @@ male
 body Default
 angry_face no
 medieval_features no
-tired No
+tired Tired
 aged 0.00
 pbr_texture data/characters/textures/strat_sm_barb_general_britons_pbr.tga
 texture data/characters/textures/alex_strat_sm_barb_general_gauls.tga
@@ -2693,7 +2695,7 @@ male
 body SkinnyAthletic
 angry_face no
 medieval_features no
-tired No
+tired Tired
 aged 0.00
 pbr_texture data/characters/textures/strat_sm_egypt_lesser_general_egypt_pbr.tga
 texture data/characters/textures/strat_sm_egypt_lesser_general_egypt.tga
@@ -2727,7 +2729,6 @@ pbr_texture macedon, data/characters/textures/greek_general_pbr.tga
 pbr_texture egypt, data/characters/textures/greek_general_egypt_pbr.tga
 pbr_texture cyrene, data/characters/textures/greek_general_pbr.tga
 texture data/characters/textures/greek_general_greek_generic.tga
-texture slave, data/characters/textures/greek_general_greek_generic.tga
 texture greek_cities, data/characters/textures/greek_general_greek_cities.tga
 texture achea, data/characters/textures/greek_general_achea.tga
 texture aetolia, data/characters/textures/greek_general_aetolia.tga
@@ -3470,7 +3471,7 @@ male
 body SkinnyAthletic
 angry_face no
 medieval_features no
-tired No
+tired Tired
 aged 0.00
 pbr_texture data/characters/textures/egyptian_crew_pbr.tga
 texture data/characters/textures/egyptian_crew.tga
@@ -3498,7 +3499,7 @@ male
 body Default
 angry_face no
 medieval_features no
-tired No
+tired Tired
 aged 0.00
 pbr_texture data/characters/textures/barb_crew_pbr.tga
 pbr_texture saka, data/characters/textures/barb_crew_saka_pbr.tga

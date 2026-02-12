@@ -19482,7 +19482,7 @@
 
 		;;culture and (default?) character ethnicity
 		"culture":   "tocharian",
-		"ethnicity": "eastasian",
+		"ethnicity": "arabic",
 
 		;;tags for faction groups
 		"tags": [ ],
@@ -19632,7 +19632,7 @@
 
 		;;culture and (default?) character ethnicity
 		"culture":   "tocharian",
-		"ethnicity": "eastasian",
+		"ethnicity": "arabic",
 
 		;;tags for faction groups
 		"tags": [ ],
