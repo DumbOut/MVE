@@ -51909,14 +51909,6 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
-;	Cius
-character	sub_faction greek_cities, Iollas, general, age 20, , x 379, y 323
-army
-unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek peltast					exp 0 armour 0 weapon_lvl 0
-
 ;	Dasteira
 character	sub_faction thrace, Ziepyrus, general, age 20, , x 465, y 330
 army
