@@ -17773,7 +17773,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 867148290
+		"checksum": 1118406916
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -31825,11 +31825,11 @@
 	},
 	{
 		"filename": "data\/sounds\/events.dat",
-		"checksum": 3374416458
+		"checksum": 2546611293
 	},
 	{
 		"filename": "data\/sounds\/events.idx",
-		"checksum": 1711775617
+		"checksum": 4100009607
 	},
 	{
 		"filename": "data\/sounds\/interface.dat.feral",
@@ -39237,7 +39237,7 @@
 	},
 	{
 		"filename": "data\/text\/expanded_bi.txt",
-		"checksum": 1495451379
+		"checksum": 192241884
 	},
 	{
 		"filename": "data\/text\/export_ancillaries.txt",
@@ -39253,7 +39253,7 @@
 	},
 	{
 		"filename": "data\/text\/export_units.txt",
-		"checksum": 3682942137
+		"checksum": 729992414
 	},
 	{
 		"filename": "data\/text\/export_vnvs.txt",
@@ -39293,7 +39293,7 @@
 	},
 	{
 		"filename": "data\/text\/names.txt",
-		"checksum": 3652469330
+		"checksum": 3589462795
 	},
 	{
 		"filename": "data\/text\/names_feral.txt",
@@ -112009,7 +112009,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 2493048757
+		"checksum": 3841444537
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
