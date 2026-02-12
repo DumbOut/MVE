@@ -17677,7 +17677,7 @@
 	},
 	{
 		"filename": "data\/descr_banners.txt",
-		"checksum": 1879131168
+		"checksum": 2875391633
 	},
 	{
 		"filename": "data\/descr_beliefs.txt",
@@ -17701,7 +17701,7 @@
 	},
 	{
 		"filename": "data\/descr_character.txt",
-		"checksum": 741444908
+		"checksum": 3942657562
 	},
 	{
 		"filename": "data\/descr_cultures.txt",
@@ -17725,7 +17725,7 @@
 	},
 	{
 		"filename": "data\/descr_model_battle.txt",
-		"checksum": 360729019
+		"checksum": 1122384023
 	},
 	{
 		"filename": "data\/descr_model_strat.txt",
@@ -17773,7 +17773,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 757762001
+		"checksum": 1028872341
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -31513,7 +31513,7 @@
 	},
 	{
 		"filename": "data\/rebel_faction_descr_enums.txt",
-		"checksum": 1048622392
+		"checksum": 1786821437
 	},
 	{
 		"filename": "data\/settlement_plans\/barbarian_city.txt",
@@ -33381,6 +33381,18 @@
 	},
 	{
 		"filename": "data\/terrain\/campaign\/base\/coastline\/coastline_5.cas",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/base\/descr_map_coastlines.txt",
+		"checksum": 3269110316
+	},
+	{
+		"filename": "data\/terrain\/campaign\/base\/frame\/black.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/base\/frame\/frame.cas",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -39141,6 +39153,10 @@
 	},
 	{
 		"filename": "data\/terrain\/campaign\/base\/pieces\/640_lod0.cas",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/base\/river_mesh.cas",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -111761,7 +111777,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions.txt",
-		"checksum": 1093396935
+		"checksum": 1676816017
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions_and_settlement_name_lookup.txt",
