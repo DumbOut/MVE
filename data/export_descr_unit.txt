@@ -5416,7 +5416,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 230, 100, 30, 40, 230
-ownership        macedon, egypt, seleucid, greek_cities, akragas, italiotes, neapolis, syracuse, taras, athens, epirus, achea, aetolia, arcadia, argos, teion, troezen, antiochea_taocene, boetia, corinth, elis, messene, gortyn, knossos, kydonia, melos, rhodes, thessaly, byzantion, bactria, cyprus, cyrene, pergamon, bosporus, colchis, heraclea, sinope, massalia, emporion, thracian, paeonian, etruscan, egypt, ardiaei, slave
+ownership        macedon, egypt, seleucid, greek_cities, akragas, italiotes, neapolis, syracuse, taras, athens, epirus, achea, aetolia, arcadia, argos, boetia, corinth, elis, messene, gortyn, knossos, kydonia, melos, rhodes, thessaly, byzantion, bactria, cyprus, cyrene, pergamon, bosporus, colchis, heraclea, sinope, massalia, emporion, thracian, paeonian, etruscan, egypt, ardiaei, slave
 ethnicity greek_cities, Crete
 ethnicity macedon, Macedonia
 ethnicity seleucid, Syria
@@ -24082,12 +24082,12 @@ stat_pri         10, 4, no, 0, 0, melee, simple, piercing, spear, 25 ,1
 stat_pri_attr    spear, spear_bonus_8
 stat_sec         13, 5, no, 0, 0, melee, simple, piercing, sword, 25 ,1
 stat_sec_attr    no
-stat_pri_armour  7, 12, 5, leather, wood
+stat_pri_armour  9, 12, 5, leather, wood
 stat_sec_armour  0, 0, flesh
 stat_heat        2
-stat_ground      2, 1, 0, -1
+stat_ground      0, -6, 2, 2
 stat_mental      5, normal, trained
-stat_charge_dist 35
+stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 479, 229, 60, 90, 449
