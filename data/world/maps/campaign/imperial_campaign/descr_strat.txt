@@ -112,12 +112,11 @@ playable
 	boii
 	etruscans
 	saba
-	iolei			; sardi
+	slave
 end
 unlockable
 end
 nonplayable
-	slave
 	romans_senate
 	;------- WARNING -------
 	; DO NOT MAKE ALL OF THESE FACTIONS PLAYABLE!
@@ -126,6 +125,7 @@ nonplayable
 	tylis
 	taras
 	india
+	iolei			; sardi
 	kush
 	chola
 	boetia
