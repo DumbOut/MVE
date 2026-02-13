@@ -1186,7 +1186,7 @@ settlement
 	region Bruttium
 
 	year_founded 0
-	population 2700
+	population 2300
 	plan_set default_set
 	faction_creator romans_scipii
 	building
@@ -1295,7 +1295,6 @@ settlement
 	faction_creator romans_scipii
 ;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
-	unit		roman leves						exp 0 armour 0 weapon_lvl 0
 	unit		roman leves						exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -1483,7 +1482,7 @@ relative 	Titus ManliusTorquatus, 	Gaia,		TitusB ManliusTorquatus,	Aulus Manlius
 relative 	TitusB ManliusTorquatus, 	Leontia,		Plautilla ManliusTorquatus,	TitusC ManliusTorquatus,	end
 
 faction	romans_senate, comfortable_napoleon
-denari	550
+denari	450
 settlement
 {
 	level city
@@ -1549,7 +1548,7 @@ settlement
 	region Veii_R
 
 	year_founded 0
-	population 600
+	population 490
 	plan_set default_set
 	faction_creator romans_senate
 	building
@@ -1656,10 +1655,6 @@ settlement
 	building
 	{
 		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
 	}
 }
 
@@ -1840,7 +1835,7 @@ relative 	Gaius FuriusPacilus, 	Statia,		Honoria FuriusPacilus,	Quintus FuriusPa
 
 ;-------------- 4$b - Macedonia ---------------
 faction	macedon, fortified_napoleon
-denari	1010
+denari	1000
 ;--------- 4$b.a - Greece ----------
 settlement
 {
@@ -1848,7 +1843,7 @@ settlement
 	region Macedonia_R
 
 	year_founded 0
-	population 1500
+	population 1600
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -1861,7 +1856,19 @@ settlement
 	}
 	building
 	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -1871,7 +1878,7 @@ settlement
 	region Corinthia_R
 
 	year_founded 0
-	population 1000
+	population 1580
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -1886,6 +1893,18 @@ settlement
 	{
 		type defenses stone_wall
 	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 settlement
 {
@@ -1893,7 +1912,7 @@ settlement
 	region Amphipolis_R
 
 	year_founded 0
-	population 500
+	population 400
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -1915,7 +1934,7 @@ settlement
 	region Paroecopolis_R
 
 	year_founded 0
-	population 250
+	population 300
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -1972,6 +1991,10 @@ settlement
 	}
 	building
 	{
+		type barracks muster_field
+	}
+	building
+	{
 		type defenses wooden_pallisade
 	}
 }
@@ -2006,7 +2029,7 @@ settlement
 	region Euboea_R
 
 	year_founded 0
-	population 500
+	population 510
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -2020,6 +2043,10 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 settlement
@@ -2029,29 +2056,6 @@ settlement
 
 	year_founded 0
 	population 550
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type hinterland_greek_polis greek_polis
-	}
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
-	region Maroneia_R
-
-	year_founded 0
-	population 400
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -2115,8 +2119,8 @@ traits GoodCommander 1
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 
-;	outside Thessalonica
-character	Alcyoneus Antigonides, named character, age 18, , x 225, y 238
+;	Pella
+character	Alcyoneus Antigonides, named character, age 18, , x 222, y 238
 traits GoodCommander 1
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
@@ -2155,7 +2159,7 @@ unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
 ;--------- 4$b/c Captains ---------
 ;--------- 4$b/d Admirals ---------
 ;	Amphipolis
-character	Melotas, admiral, age 30, , x 329, y 322
+character	Melotas, admiral, age 30, , x 232, y 230
 army
 unit		naval biremes				exp 2 armour 0 weapon_lvl 0
 unit		naval biremes				exp 2 armour 0 weapon_lvl 0
@@ -2224,6 +2228,22 @@ settlement
 	{
 		type defenses stone_wall
 	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 settlement
 {
@@ -2255,7 +2275,7 @@ settlement
 	region Memphites_R
 
 	year_founded 0
-	population 300
+	population 6000
 	plan_set default_set
 	faction_creator egypt
 	building
@@ -2269,6 +2289,30 @@ settlement
 	building
 	{
 		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type temple_of_law temple_of_law_shrine
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -2300,24 +2344,48 @@ settlement
 
 settlement
 {
-	level town
+	level city
 	region Thebais
 
 	year_founded 0
-	population 400
+	population 4700
 	plan_set default_set
 	faction_creator egypt
 	building
 	{
-		type hinterland_greek_katoikia greek_katoikia
+		type hinterland_greek_polis greek_polis
 	}
 	building
 	{
-		type core_building governors_house
+		type core_building governors_palace
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type temple_of_law temple_of_law_shrine
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 ;--------- 4$c.b - Upper Egypt ----------
@@ -2389,6 +2457,29 @@ settlement
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
+	}
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Cypsela_R
+
+	year_founded 0
+	population 380
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
 	}
 	building
 	{
@@ -2692,7 +2783,7 @@ settlement
 	region Apollinopolites_R
 
 	year_founded 0
-	population 250
+	population 300
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -2718,7 +2809,7 @@ settlement
 	region Philotera_R
 
 	year_founded 0
-	population 250
+	population 300
 	plan_set default_set
 	faction_creator egypt
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -3116,7 +3207,7 @@ settlement
 	region Gaza_R
 
 	year_founded 0
-	population 250
+	population 300
 	plan_set default_set
 	faction_creator egypt
 	building
@@ -3701,29 +3792,6 @@ settlement
 
 settlement
 {
-	level town
-	region Cypsela_R
-
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator seleucid
-	building
-	{
-		type hinterland_greek_klerouchia greek_klerouchia
-	}
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
 	level large_town
 	region Ephesus_R
 
@@ -3761,6 +3829,29 @@ settlement
 	building
 	{
 		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Maroneia_R
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator seleucid
+	building
+	{
+		type hinterland_greek_polis greek_polis
+	}
+	building
+	{
+		type core_building governors_house
 	}
 	building
 	{
@@ -4191,7 +4282,7 @@ settlement
 	region Nemru_R
 
 	year_founded 0
-	population 250
+	population 300
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
@@ -4233,7 +4324,7 @@ settlement
 	region Tabal_R
 
 	year_founded 0
-	population 250
+	population 300
 	plan_set default_set
 	faction_creator seleucid
 ;;;;;;;;;Garrison;;;;;;;;;
