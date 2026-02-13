@@ -2350,8 +2350,8 @@
 		;;faction colours (some base game factions may have hardcoded overrides)
 		"colours":
 		{
-				"background":      [  0,   0,   0,   ],
-				"font":            [  255, 255, 255, ],
+			"primary":   [  191, 189, 145, ],
+			"secondary": [  8,   40,  117, ],
 
 			"family tree":
 			{

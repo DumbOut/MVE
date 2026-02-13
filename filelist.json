@@ -17725,7 +17725,7 @@
 	},
 	{
 		"filename": "data\/descr_model_battle.txt",
-		"checksum": 3670762672
+		"checksum": 385975281
 	},
 	{
 		"filename": "data\/descr_model_strat.txt",
@@ -17769,11 +17769,11 @@
 	},
 	{
 		"filename": "data\/descr_sm_faction_logos.txt",
-		"checksum": 1140488998
+		"checksum": 2513592505
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 1118406916
+		"checksum": 1144181934
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -17853,7 +17853,7 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 216115671
+		"checksum": 435745302
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
@@ -17865,7 +17865,7 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 921932893
+		"checksum": 1107862156
 	},
 	{
 		"filename": "data\/export_descr_vnvs_enums.txt",
@@ -44764,6 +44764,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/faction_icons\/germans.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/faction_icons\/gerrha.tga",
 		"checksum": "Blacklisted"
 	},
@@ -44777,6 +44781,10 @@
 	},
 	{
 		"filename": "data\/ui\/faction_icons\/goths.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/faction_icons\/greek_cities.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -45240,6 +45248,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/faction_icons\/romans_julii.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/faction_icons\/romans_scipii.tga",
 		"checksum": "Blacklisted"
 	},
@@ -45300,6 +45312,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/faction_icons\/scythia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/faction_icons\/segusiavi.tga",
 		"checksum": "Blacklisted"
 	},
@@ -45337,6 +45353,10 @@
 	},
 	{
 		"filename": "data\/ui\/faction_icons\/slave_barbarian.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/faction_icons\/slave_blank.tga",
 		"checksum": "Blacklisted"
 	},
 	{
