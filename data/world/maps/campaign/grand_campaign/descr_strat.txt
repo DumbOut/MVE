@@ -513,6 +513,10 @@ settlement
 	{
 		type core_building governors_house
 	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
 }
 settlement
 {
@@ -543,7 +547,7 @@ settlement
 	region Tarquinii_R
 
 	year_founded 0
-	population 305
+	population 300
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -607,7 +611,7 @@ settlement
 	region Aquae_Apollinares_R
 
 	year_founded 0
-	population 305
+	population 300
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -866,36 +870,6 @@ settlement
 		type hinterland_farms farms
 	}
 }
-settlement
-{
-	level large_town
-	region Venusia_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator romans_brutii
-	building
-	{
-		type hinterland_roman_civitas roman_civitas_libera
-	}
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type barracks muster_field
-	}
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
 
 settlement
 {
@@ -1017,7 +991,7 @@ settlement
 	region Histonium_R
 
 	year_founded 0
-	population 340
+	population 300
 	plan_set default_set
 	faction_creator romans_brutii
 ;;;;;;;;;Garrison;;;;;;;;;
