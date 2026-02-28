@@ -17826,10 +17826,10 @@ building temple_of_viking
 	icon religion
 	levels temple_of_viking_shrine temple_of_viking_temple temple_of_viking_large_temple 
 	{
-		temple_of_viking_shrine requires factions { anatolian, indian, tamil, barbarian, baltic, brittonic, iberian, germanic, } and no_other_temple 
+		temple_of_viking_shrine requires factions { anatolian, barbarian, baltic, brittonic, iberian, germanic, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { anatolian, indian, tamil, barbarian, baltic, brittonic, iberian, germanic, }
+			ai_destruction_hint requires not factions { anatolian, barbarian, baltic, brittonic, iberian, germanic, }
 
 			capability
 			{
@@ -17904,10 +17904,10 @@ building temple_of_viking
 				temple_of_viking_temple
 			}
 		}
-		temple_of_viking_temple requires factions { anatolian, indian, tamil, barbarian, baltic, brittonic, iberian, germanic, } 
+		temple_of_viking_temple requires factions { anatolian, barbarian, baltic, brittonic, iberian, germanic, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { anatolian, indian, tamil, barbarian, baltic, brittonic, iberian, germanic, }
+			ai_destruction_hint requires not factions { anatolian, barbarian, baltic, brittonic, iberian, germanic, }
 
 			capability
 			{
@@ -17983,10 +17983,10 @@ building temple_of_viking
 				temple_of_viking_large_temple
 			}
 		}
-		temple_of_viking_large_temple requires factions { anatolian, indian, tamil, barbarian, baltic, brittonic, iberian, germanic, } 
+		temple_of_viking_large_temple requires factions { anatolian, barbarian, baltic, brittonic, iberian, germanic, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { anatolian, indian, tamil, barbarian, baltic, brittonic, iberian, germanic, }
+			ai_destruction_hint requires not factions { anatolian, barbarian, baltic, brittonic, iberian, germanic, }
 
 			capability
 			{
@@ -18073,10 +18073,10 @@ building temple_of_horse_2
 	icon religion
 	levels temple_of_horse_2_shrine temple_of_horse_2_temple temple_of_horse_2_large_temple 
 	{
-		temple_of_horse_2_shrine requires factions { anatolian, indian, tamil, barbarian, baltic, dacian, iberian, nomad, } and no_other_temple 
+		temple_of_horse_2_shrine requires factions { anatolian, barbarian, baltic, dacian, iberian, nomad, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { anatolian, indian, tamil, barbarian, baltic, dacian, iberian, nomad, }
+			ai_destruction_hint requires not factions { anatolian, barbarian, baltic, dacian, iberian, nomad, }
 
 			capability
 			{
@@ -18151,10 +18151,10 @@ building temple_of_horse_2
 				temple_of_horse_2_temple
 			}
 		}
-		temple_of_horse_2_temple requires factions { anatolian, indian, tamil, barbarian, baltic, dacian, iberian, nomad, } 
+		temple_of_horse_2_temple requires factions { anatolian, barbarian, baltic, dacian, iberian, nomad, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { anatolian, indian, tamil, barbarian, baltic, dacian, iberian, nomad, }
+			ai_destruction_hint requires not factions { anatolian, barbarian, baltic, dacian, iberian, nomad, }
 
 			capability
 			{
@@ -18229,10 +18229,10 @@ building temple_of_horse_2
 				temple_of_horse_2_large_temple
 			}
 		}
-		temple_of_horse_2_large_temple requires factions { anatolian, indian, tamil, barbarian, baltic, dacian, iberian, nomad, } 
+		temple_of_horse_2_large_temple requires factions { anatolian, barbarian, baltic, dacian, iberian, nomad, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { anatolian, indian, tamil, barbarian, baltic, dacian, iberian, nomad, }
+			ai_destruction_hint requires not factions { anatolian, barbarian, baltic, dacian, iberian, nomad, }
 
 			capability
 			{
@@ -18396,7 +18396,7 @@ building temple_of_alexander
 				taxable_income_bonus bonus -6 requires size10
 			}
 			construction  2 
-			cost  1900  
+			cost  1910  
 			settlement_min town
 			upgrades
 			{
