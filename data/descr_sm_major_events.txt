@@ -44,7 +44,7 @@
 	
 	"message_greek_mechanics":
 	{
-		"affects": [ "greek", ],
+		"affects": [ "all", "-romans_julii", "-romans_brutii", "-romans_scipii", "-romans_senate", ],
 		"global": false,
 		"priority": 100,
 	
@@ -56,6 +56,52 @@
 			
 			"title":	"MESSAGE_GREEK_MECHANICS",
 			"body":		"MESSAGE_GREEK_MECHANICS_BODY",
+			
+			"image":	"messenger",
+		},
+
+		"deactivation":
+		{
+		},
+	},
+	
+	"message_culture_mechanics":
+	{
+		"affects": [ "all", ],
+		"global": false,
+		"priority": 100,
+	
+		"activation":
+		{
+			"trigger conditions": "major_event_scripts/message_mechanics_trigger.txt",
+			
+			"use big panel": false,
+			
+			"title":	"MESSAGE_CULTURE_MECHANICS",
+			"body":		"MESSAGE_CULTURE_MECHANICS_BODY",
+			
+			"image":	"messenger",
+		},
+
+		"deactivation":
+		{
+		},
+	},
+	
+	"message_size_mechanics":
+	{
+		"affects": [ "slave", ],
+		"global": false,
+		"priority": 100,
+	
+		"activation":
+		{
+			"trigger conditions": "major_event_scripts/message_mechanics_trigger.txt",
+			
+			"use big panel": false,
+			
+			"title":	"MESSAGE_SIZE_MECHANICS",
+			"body":		"MESSAGE_SIZE_MECHANICS_BODY",
 			
 			"image":	"messenger",
 		},

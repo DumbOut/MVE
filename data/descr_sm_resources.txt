@@ -1556,6 +1556,34 @@
 	{
 		"subtype": "hidden",
 	},
+	"ariaca":
+	{
+		"subtype": "hidden",
+	},
+	"abiria":
+	{
+		"subtype": "hidden",
+	},
+	"dakinabades":
+	{
+		"subtype": "hidden",
+	},
+	"ganges":
+	{
+		"subtype": "hidden",
+	},
+	"kalinga":
+	{
+		"subtype": "hidden",
+	},
+	"syrastrene":
+	{
+		"subtype": "hidden",
+	},
+	"apulia":
+	{
+		"subtype": "hidden",
+	},
 	"greek_phrourion":
 	{
 		"subtype": "hidden",
@@ -1617,6 +1645,14 @@
 		"subtype": "hidden",
 	},
 	"gov_tributary_state":
+	{
+		"subtype": "hidden",
+	},
+	"triumph_available":
+	{
+		"subtype": "hidden",
+	},
+	"triumph_built":
 	{
 		"subtype": "hidden",
 	},

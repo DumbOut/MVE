@@ -25118,17 +25118,18 @@ faction_agression	parthia,		700	seleucid
 ; >>>> start of regions section <<<<
 
 ;;new superfaction definition
-;;;;superfaction_setup romans_senate
+superfaction_setup romans_senate
 
 ;;defines who this superfaction will be hostile to by default
-;;;;default_hostile slave
+default_hostile slave
 ;;don't like the factions we're supposed to have our minions attack
-;;;;default_hostile gauls
-;;;;default_hostile acarnania
-;;;;default_hostile carthage
-;;;;default_hostile epirus
-;;;;default_hostile taras
-;;;;default_hostile messapians
+default_hostile boii
+default_hostile ligures
+default_hostile carthage
+default_hostile epirus
+default_hostile taras
+default_hostile messapians
+default_hostile brutii
 
 ;;mission queues, allows you to give factions a specific track of missions
 ;;the mission must ALWAYS be preceeded by the reward or penalty for completing the mission and the amount of turns the player should be given to complete that mission
@@ -25171,29 +25172,20 @@ faction_agression	parthia,		700	seleucid
 ;; Take_City <settlement>
 
 ;;julii first mission should be to capture segesta
-;mission_queue romans_julii
-;{
-;	major_reward 10 Take_City Segesta
-	;;two_triarii 10 Take_City Mediolanum
-	;;major_reward 10 Take_City Caralis
-;}
+mission_queue romans_julii
+{
+	promise_of_appointment 16 Take_City Volsinii
+}
 ;;brutii first mission should be to capture Apollonia
-;mission_queue romans_brutii
-;{
-;	major_reward 10 Take_City Apollonia
-	;;senate_gratitude 10 Get_Map_Info macedon
-;}
+mission_queue romans_brutii
+{
+	promise_of_appointment 10 Take_City Tarentum
+}
 ;;scipii first mission should be to capture Syracuse
-;mission_queue romans_scipii
-;{
-;	major_reward 10 Take_City Syracuse
-	;;one_minor_exotic_unit 10 Declare_War carthage
-	;;two_triarii 10 Take_City Lilybaeum
-	;;senate_gratitude 10 Blockade_Port Carthage
-	;;two_minor_exotic_units 10 Take_City Byzacium
-	;;throw_games 10 Take_City Carthage
-;}
-
+mission_queue romans_scipii
+{
+	promise_of_appointment 18 Take_City Messana
+}
 
 ;------------------- #$ Campaign Script --------------------
 script

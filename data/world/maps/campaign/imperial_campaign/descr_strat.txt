@@ -8164,7 +8164,7 @@ settlement
 	region Fregellae_R
 
 	year_founded 0
-	population 700
+	population 600
 	plan_set default_set
 	faction_creator romans_senate
 	building
@@ -8194,9 +8194,6 @@ unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
 unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
 unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
 unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
-unit		roman princeps spear			exp 3 armour 1 weapon_lvl 0
-unit		roman leves						exp 3 armour 1 weapon_lvl 0
-unit		roman leves						exp 3 armour 1 weapon_lvl 0
 unit		roman leves						exp 3 armour 1 weapon_lvl 0
 unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 unit		roman triarii clipeus			exp 3 armour 1 weapon_lvl 0
@@ -8292,7 +8289,7 @@ relative 	Gaius FuriusPacilus, 	Statia,		Honoria FuriusPacilus,	Quintus FuriusPa
 
 ;-------------- 4$b - Macedonia ---------------
 faction	macedon, fortified_napoleon
-denari	1040
+denari	3745
 ;--------- 4$b.a - Greece ----------
 settlement
 {
@@ -8313,6 +8310,14 @@ settlement
 	}
 	building
 	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
 		type barracks militia_barracks
 	}
 	building
@@ -8321,11 +8326,15 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type hinterland_roads roads
 	}
 	building
 	{
-		type hinterland_roads roads
+		type hinterland_farms farms
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 settlement
@@ -8442,7 +8451,7 @@ settlement
 	region Demetrias_R
 
 	year_founded 0
-	population 1800
+	population 1820
 	plan_set default_set
 	faction_creator macedon
 	building
@@ -8472,6 +8481,10 @@ settlement
 	plan_set default_set
 	faction_creator macedon
 	garrisoned_army
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	building
@@ -20014,7 +20027,7 @@ relative 	Monounios Bardylides, 	Dita,		Mytilos Bardylides,	end
 relative 	Mytilos Bardylides, 	Telephassa,		BardylisB Bardylides,	Ino Bardylides,	Aegon Bardylides,	end
 
 faction	epirus, comfortable_napoleon
-denari	10050
+denari	9120
 ;--------- Greece ----------
 settlement
 {
@@ -20788,8 +20801,8 @@ unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek levy pikemen				exp 8 armour 2 weapon_lvl 3
 unit		greek levy pikemen				exp 8 armour 2 weapon_lvl 3
 unit		greek levy pikemen				exp 9 armour 2 weapon_lvl 3
-unit		greek levy pikemen				exp 7 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 7 armour 1 weapon_lvl 3
+unit		greek levy pikemen				exp 8 armour 1 weapon_lvl 3
+unit		greek levy pikemen				exp 8 armour 1 weapon_lvl 3
 unit		greek levy pikemen				exp 5 armour 2 weapon_lvl 3
 unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
 unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
@@ -20848,7 +20861,7 @@ relative 	Hyrtacus Aleuides, 	Canace,		Phrynikos Aleuides,	end
 relative 	Democritus Scopaides, 	Euphrosyne,		Ennomus Scopaides,	end
 
 faction	athens, athens_passive
-denari	2100
+denari	2310
 settlement
 {
 	level city

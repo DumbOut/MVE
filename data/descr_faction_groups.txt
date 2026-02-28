@@ -84,3 +84,10 @@ faction romans_brutii
 faction germans
 faction macedon
 faction pontus
+
+group fgroup_diadochi_states
+faction egypt
+faction macedon
+faction seleucid
+faction bactria
+faction pergamon

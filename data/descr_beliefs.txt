@@ -468,8 +468,8 @@
 		"trait": "IsDravidian",
 		
 		;;UI icons to use for this
-		"unrest icon": "data/ui/pips/pip_culture_penalty.tga",
-		"religion icon":  "data/ui/pips/pip_culture_penalty.tga",
+		"unrest icon": "data/ui/pips/pip_religion_dravidian_negative.tga",
+		"religion icon":  "data/ui/pips/pip_religion_dravidian.tga",
 		
 		;;info button button used for the settlement overview panel
 		"info button": "data/ui/buttons/settlementdetailschristianity.tga",
@@ -678,8 +678,8 @@
 		"trait": "IsIndian",
 		
 		;;UI icons to use for this
-		"unrest icon": "data/ui/pips/pip_culture_penalty.tga",
-		"religion icon":  "data/ui/pips/pip_culture_penalty.tga",
+		"unrest icon": "data/ui/pips/pip_religion_indian_negative.tga",
+		"religion icon":  "data/ui/pips/pip_religion_indian.tga",
 		
 		;;info button button used for the settlement overview panel
 		"info button": "data/ui/buttons/settlementdetailschristianity.tga",
@@ -853,8 +853,8 @@
 		"trait": "IsTibetan",
 		
 		;;UI icons to use for this
-		"unrest icon": "data/ui/pips/pip_culture_penalty.tga",
-		"religion icon":  "data/ui/pips/pip_culture_penalty.tga",
+		"unrest icon": "data/ui/pips/pip_religion_tibetan_negative.tga",
+		"religion icon":  "data/ui/pips/pip_religion_tibetan.tga",
 		
 		;;info button button used for the settlement overview panel
 		"info button": "data/ui/buttons/settlementdetailschristianity.tga",
@@ -888,8 +888,8 @@
 		"trait": "IsTocharian",
 		
 		;;UI icons to use for this
-		"unrest icon": "data/ui/pips/pip_religion_saka_negative.tga",
-		"religion icon":  "data/ui/pips/pip_religion_saka.tga",
+		"unrest icon": "data/ui/pips/pip_religion_tocharian_negative.tga",
+		"religion icon":  "data/ui/pips/pip_religion_tocharian.tga",
 		
 		;;info button button used for the settlement overview panel
 		"info button": "data/ui/buttons/settlementdetailschristianity.tga",
@@ -1098,8 +1098,8 @@
 		"trait": "IsRoman",
 		
 		;;UI icons to use for this
-		"unrest icon": "data/ui/pips/pip_religion_italic_negative.tga",
-		"religion icon":  "data/ui/pips/pip_religion_italic.tga",
+		"unrest icon": "data/ui/pips/pip_religion_roman_negative.tga",
+		"religion icon":  "data/ui/pips/pip_religion_roman.tga",
 		
 		;;info button button used for the settlement overview panel
 		"info button": "data/ui/buttons/settlementdetailschristianity.tga",
@@ -1147,41 +1147,6 @@
 		
 		;;what group is this religion a part of
 		"group": "saka",
-		
-		;;how much extra or less unrest and order should this religion create
-		"unrest multipliers":
-		{
-			;;how much unrest should we create against religions in the same group as us
-			"heretics": 0.1,
-			
-			;;how much unrest should we create against religions in other groups
-			"heathens": 1,
-		},
-		
-		;;should this religion be hidden at zero presense and influence
-		"hide at zero": true,
-	},
-	"chinese":
-	{
-		;;the name of the trait to be used to identify members of this religion
-		;;will be auto-generated if not defined
-		"trait": "IsChinese",
-		
-		;;UI icons to use for this
-		"unrest icon": "data/ui/pips/pip_religion_chinese_negative.tga",
-		"religion icon":  "data/ui/pips/pip_religion_chinese.tga",
-		
-		;;info button button used for the settlement overview panel
-		"info button": "data/ui/buttons/settlementdetailschristianity.tga",
-		
-		;;localised name for this religion
-		"name": "CHINESE_LABEL",
-		
-		;;tooltips for when a religion is creating unrest
-		"unrest tooltip": "CHINESE_UNREST",
-		
-		;;what group is this religion a part of
-		"group": "chinese",
 		
 		;;how much extra or less unrest and order should this religion create
 		"unrest multipliers":
@@ -1287,6 +1252,41 @@
 		
 		;;what group is this religion a part of
 		"group": "judaean",
+		
+		;;how much extra or less unrest and order should this religion create
+		"unrest multipliers":
+		{
+			;;how much unrest should we create against religions in the same group as us
+			"heretics": 0.1,
+			
+			;;how much unrest should we create against religions in other groups
+			"heathens": 1,
+		},
+		
+		;;should this religion be hidden at zero presense and influence
+		"hide at zero": true,
+	},
+	"chinese":
+	{
+		;;the name of the trait to be used to identify members of this religion
+		;;will be auto-generated if not defined
+		"trait": "IsChinese",
+		
+		;;UI icons to use for this
+		"unrest icon": "data/ui/pips/pip_religion_chinese_negative.tga",
+		"religion icon":  "data/ui/pips/pip_religion_chinese.tga",
+		
+		;;info button button used for the settlement overview panel
+		"info button": "data/ui/buttons/settlementdetailschristianity.tga",
+		
+		;;localised name for this religion
+		"name": "CHINESE_LABEL",
+		
+		;;tooltips for when a religion is creating unrest
+		"unrest tooltip": "CHINESE_UNREST",
+		
+		;;what group is this religion a part of
+		"group": "chinese",
 		
 		;;how much extra or less unrest and order should this religion create
 		"unrest multipliers":
