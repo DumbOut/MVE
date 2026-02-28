@@ -12,6 +12,7 @@ script
             ||  HasResource etruria
 			||  HasResource sicily
 			;;||  HasResource sicily_greek
+			||  HasResource apulia
                 &&	I_SettlementLevel local >= huge_city	;;is a huge city
 				&&	not HasResource rome					;;the settlement isn't rome
 				
@@ -26,6 +27,7 @@ script
             ||  HasResource etruria
 			||  HasResource sicily
 			;;||  HasResource sicily_greek
+			||  HasResource apulia
                 &&	I_SettlementLevel local >= huge_city
 				&&	not HasResource rome
 				
@@ -40,6 +42,7 @@ script
             ||  HasResource etruria
 			||  HasResource sicily
 			;;||  HasResource sicily_greek
+			||  HasResource apulia
                 &&	I_SettlementLevel local >= huge_city
 				&&	not HasResource rome
 				
@@ -54,6 +57,7 @@ script
             ||  HasResource etruria
 			||  HasResource sicily
 			;;||  HasResource sicily_greek
+			||  HasResource apulia
                 &&	I_SettlementLevel local >= huge_city
 				&&	not HasResource rome
 				

@@ -1,0 +1,64 @@
+		;;;;; Checker for full colony
+		
+		if SettlementBuildingExists = full_colony		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
+				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_full_colony
+			end_if
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
+				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_full_colony
+			end_if
+			
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
+				end_if
+				remove_hidden_resource local gov_early_colony
+				add_hidden_resource local gov_full_colony
+			end_if
+			
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
+				end_if
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_full_colony
+			end_if
+			
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_full_colony
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_full_colony
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_full_colony
+			end_if
+			
+			if not HasResource gov_full_colony
+				add_hidden_resource local gov_full_colony
+			end_if
+		end_if

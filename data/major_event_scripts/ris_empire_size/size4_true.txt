@@ -8,7 +8,7 @@ script
 	end_for
 	
 	if I_CompareCounter city_count > 8
-	&& I_CompareCounter city_count < 15
+	&& I_CompareCounter city_count < 16
 		return true
 	end_if
 	

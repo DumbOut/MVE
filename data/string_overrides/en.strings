@@ -72,3 +72,14 @@
    "Rome.Override.female_dies_body_roman"                                     = "This lady has died as she lived, as a shining example of virtue. Our family mourn her passing, and honour her memory.";
    "Rome.Override.IMPERIAL_CAMPAIGN_SENATE_DESCR"                             = "Warning!\n\nThis faction was never meant to be played and was only included due to popular demand. Play at your own risk...\n\nClicking on the Senate offices list button will crash the game. Clicking on the senate tab will also crash the game. Destroying the Senate is obviously impossible, so it might be impossible to win the game...";
    "Rome.Override.IMPERIAL_CAMPAIGN_SENATE_TITLE"                             = "The Roman Senate";
+   "Rome.Annotations.camp_button-settlement_religion"                         = "Settlement Culture";
+   "Rome.Annotations.sett_details-strip-bi"                                   = "This panel indicates if the settlement is rioting, under siege, or infected by plague. It also shows the settlement's official culture.";
+   "Rome.Annotations.sett_religion_details_toggle"                            = "Toggle between culture details and settlement/trade details.";
+   "Rome.InGame.Dominant_religion_filter"                                     = "Misc: Dominant culture";
+   "Rome.InGame.ReligionFrame_Title"                                          = "Settlement Culture";
+   "Rome.InGame.ReligionX"                                                    = "Culture (#{religion})";
+   "Rome.InGame.Religion_BreakdownOfBelief"                                   = "Breakdown of cultures";
+   "Rome.InGame.SettlementDominantReligion"                                   = "Dominant Culture";
+   "Rome.Override.SMT_STATE_ICON_FACTION_LEADER_WRONG_RELIGION"               = "Faction leader's culture differs from settlement's official culture";
+   "Rome.Override.SMT_STATE_ICON_GOVERNOR_WRONG_RELIGION"                     = "Governor's culture differs from settlement's official culture";
+   "Rome.Annotations.sett_details-factors_new"                                = "This panel details the factors affecting population growth, public order, income and cultural conversion in a settlement. Swipe left or right to view this settlement's Trade Summary or Building Browser.";

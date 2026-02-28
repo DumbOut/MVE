@@ -71,6 +71,7 @@ script
 				||  HasResource italy_north
 				||  HasResource etruria
 				||  HasResource sicily
+				||	HasResource apulia
 					&&	I_SettlementLevel local >= city			;;is a regular city or up
 					&&	not HasResource rome					;;the settlement isn't rome
 					
@@ -83,6 +84,7 @@ script
 				||  HasResource italy_north
 				||  HasResource etruria
 				||  HasResource sicily
+				||	HasResource apulia
 					&&	I_SettlementLevel local >= city
 					&&	not HasResource rome
 					
@@ -95,6 +97,7 @@ script
 				||  HasResource italy_north
 				||  HasResource etruria
 				||  HasResource sicily
+				||	HasResource apulia
 					&&	I_SettlementLevel local >= city
 					&&	not HasResource rome
 					
@@ -107,6 +110,7 @@ script
 				||  HasResource italy_north
 				||  HasResource etruria
 				||  HasResource sicily
+				||	HasResource apulia
 					&&	I_SettlementLevel local >= city
 					&&	not HasResource rome
 					

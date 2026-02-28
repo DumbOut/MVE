@@ -1,0 +1,52 @@
+monitor_event NewTurnStart
+
+	for_each faction in world
+	
+		if not FactionIsLocal
+			and not FactionType slave
+		
+			declare_counter num_units
+			set_counter num_units 0
+			for_each unit in faction
+				inc_counter num_units 1
+			end_for
+			
+			declare_counter num_regions
+			set_counter num_regions 0
+			for_each settlement in faction
+				inc_counter num_regions 1
+			end_for
+			
+			declare_counter units_per_region
+			set_counter units_per_region 0
+			if I_CompareCounter num_regions > 0
+				counter_operation units_per_region = num_units / num_regions
+			end_if
+			 
+			if I_CompareCounter units_per_region <= 12
+				holding_while Treasury < 10000
+					console_command add_money local, 10000
+				end_while
+				holding_while Treasury > 20000
+					console_command add_money local, -10000
+				end_while
+			end_if
+			
+			if I_CompareCounter units_per_region > 12
+				holding_while Treasury < 0
+					console_command add_money local, 10000
+				end_while
+				holding_while Treasury > 10000
+					console_command add_money local, -10000
+				end_while
+			end_if
+			
+			for_each settlement in faction
+				console_command add_money local, 300
+			end_for
+			
+		end_if
+		
+	end_for
+	
+end_monitor
